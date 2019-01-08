@@ -4606,7 +4606,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x60B0" flags="0x30">
-    <title>Rev limit, floor, MT)</title>
+    <title>Rev limit, floor, MT</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="12" />
     <CATEGORYMEM index="2" category="59" />
