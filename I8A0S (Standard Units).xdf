@@ -168,7 +168,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Request % for Exhaust Flap Actuation (MT) Y-axis</title>
+    <title>Torque Request % for Exhaust Flap Actuation, MT, Y-axis</title>
     <CATEGORYMEM index="0" category="43" />
     <CATEGORYMEM index="1" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -256,7 +256,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Request % for Exhaust Flap Actuation (MT - Convertible roof open) Y-axis</title>
+    <title>Torque Request % for Exhaust Flap Actuation, MT, roof open, Y-axis</title>
     <CATEGORYMEM index="0" category="43" />
     <CATEGORYMEM index="1" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -342,7 +342,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2B85" flags="0x0">
-    <title>Minimum Idle Speed (MT toil)</title>
+    <title>Idle RPM, minimum, MT toil</title>
     <description>(ip_n_sp_is_toil_mt)</description>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="59" />
@@ -625,7 +625,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Request % for Exhaust Flap Actuation (MT) X-axis</title>
+    <title>Torque Request % for Exhaust Flap Actuation, MT, X-axis</title>
     <CATEGORYMEM index="0" category="43" />
     <CATEGORYMEM index="1" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -711,7 +711,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Request % for Exhaust Flap Actuation (MT - Convertible roof open) X-axis</title>
+    <title>Torque Request % for Exhaust Flap Actuation, MT, roof open, X-axis</title>
     <CATEGORYMEM index="0" category="43" />
     <CATEGORYMEM index="1" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2053,7 +2053,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6C20" flags="0x0">
-    <title>Misfire Detection Max RPM, AT</title>
+    <title>Misfire detection RPM, maximum, AT</title>
     <description>(c_n_max_mis_at)</description>
     <CATEGORYMEM index="2" category="34" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2092,7 +2092,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2A79" flags="0x0">
-    <title>Misfire Detection Max RPM, MT</title>
+    <title>Misfire detection RPM, maximum, MT</title>
     <description>(c_n_max_mis_mt)</description>
     <CATEGORYMEM index="0" category="34" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2131,7 +2131,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x58E1" flags="0x0">
-    <title>Misfire Detection Min RPM</title>
+    <title>Misfire detection RPM, minimum</title>
     <description>(c_n_min_mis)</description>
     <CATEGORYMEM index="0" category="34" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -3491,7 +3491,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Rev limit, ceiling, AT, manual mode X-axis</title>
+    <title>Rev limit, ceiling, AT, manual mode, X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="12" />
     <CATEGORYMEM index="2" category="49" />
@@ -3585,7 +3585,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Rev limit, ceiling, MT) X-axis</title>
+    <title>Rev limit, ceiling, MT, X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="12" />
     <CATEGORYMEM index="2" category="49" />
@@ -3632,7 +3632,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Rev limit, floor, AT, manual mode X-axis</title>
+    <title>Rev limit, floor, AT, manual mode, X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="12" />
     <CATEGORYMEM index="2" category="49" />
@@ -3726,7 +3726,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Rev limit, floor, MT) X-axis</title>
+    <title>Rev limit, floor, MT, X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="12" />
     <CATEGORYMEM index="2" category="49" />
@@ -3773,7 +3773,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Rev match delay, AT, manual mode X-axis</title>
+    <title>Rev match delay, AT, manual mode, X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="12" />
     <CATEGORYMEM index="2" category="49" />
@@ -3867,7 +3867,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Rev match delay, (MT) X-axis</title>
+    <title>Rev match delay, MT, X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="12" />
     <CATEGORYMEM index="2" category="49" />
@@ -4433,7 +4433,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x19CF" flags="0x0">
-    <title>Torque Request % for Exhaust Flap Actuation (MT - Convertible roof open)</title>
+    <title>Torque Request % for Exhaust Flap Actuation, MT, roof open</title>
     <CATEGORYMEM index="0" category="43" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x41B95" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -4690,7 +4690,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x40B5" flags="0x30">
-    <title>Rev limit, ceiling, MT)</title>
+    <title>Rev limit, ceiling, MT</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="12" />
     <CATEGORYMEM index="2" category="59" />
@@ -4816,7 +4816,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x57A2" flags="0x30">
-    <title>Rev match delay,, AT</title>
+    <title>Rev match delay, AT</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="12" />
     <CATEGORYMEM index="2" category="58" />
@@ -4835,7 +4835,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>Time (s)</units>
+      <units>sec</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -4847,7 +4847,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x50A5C" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="9" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Time (s)</units>
+      <units>sec</units>
       <decimalpl>3</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
@@ -4877,7 +4877,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>Time (s)</units>
+      <units>sec</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -4889,7 +4889,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x50A70" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="9" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Time (s)</units>
+      <units>sec</units>
       <decimalpl>3</decimalpl>
       <min>0.000000</min>
       <max>2.000000</max>
@@ -4900,7 +4900,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x12A2" flags="0x30">
-    <title>Rev match delay,, MT</title>
+    <title>Rev match delay, MT</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="12" />
     <CATEGORYMEM index="2" category="59" />
@@ -4919,7 +4919,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>Time (s)</units>
+      <units>sec</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -4931,7 +4931,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x50A84" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="9" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Time (s)</units>
+      <units>sec</units>
       <decimalpl>3</decimalpl>
       <min>0.000000</min>
       <max>2.000000</max>
@@ -4994,7 +4994,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1F25" flags="0x0">
-    <title>Max Torque per Gear, MT</title>
+    <title>Max torque per gear, MT</title>
     <description>(id_tq_p_max_mt)</description>
     <CATEGORYMEM index="0" category="34" />
     <XDFAXIS id="x" uniqueid="0x0">
