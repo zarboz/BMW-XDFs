@@ -1,4 +1,4 @@
-<!-- Written 01/08/2019 01:40:10 -->
+<!-- Written 01/08/2019 02:07:59 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -796,7 +796,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Idle Speed (power steering) X-axis</title>
+    <title>Idle RPM (power steering) X-axis</title>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="51" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -839,7 +839,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Idle Speed (power steering &gt; X mph) X-axis</title>
+    <title>Idle RPM (power steering &gt; X mph) X-axis</title>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="51" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -3293,7 +3293,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Idle Speed (MT drive-off support 1) X-axis</title>
+    <title>Idle RPM, MT, drive-off support #1, X-axis</title>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="51" />
     <CATEGORYMEM index="2" category="59" />
@@ -3339,7 +3339,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Idle Speed (MT drive-off support 2) X-axis</title>
+    <title>Idle RPM, MT, drive-off support #2, X-axis</title>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="51" />
     <CATEGORYMEM index="2" category="59" />
@@ -4178,7 +4178,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Idle Speed (limp mode) X-axis</title>
+    <title>Idle RPM (limp mode) X-axis</title>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="51" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -4223,7 +4223,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Idle Speed (limp mode in drive) X-axis</title>
+    <title>Idle RPM (limp mode in drive) X-axis</title>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="51" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -5046,7 +5046,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6DE9" flags="0x0">
-    <title>Idle Speed (limp mode in drive)</title>
+    <title>Idle RPM, in gear, limp mode</title>
     <CATEGORYMEM index="0" category="25" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4F939" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -5489,7 +5489,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x75A0" flags="0x0">
-    <title>Idle Speed (MT drive-off support 1)</title>
+    <title>Idle RPM, MT, drive-off support #1</title>
     <description>(ip_n_sp_is_cs_opm_1)</description>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="59" />
@@ -5529,7 +5529,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7EB7" flags="0x0">
-    <title>Idle Speed (MT drive-off support 2)</title>
+    <title>Idle RPM, MT, drive-off support #2</title>
     <description>(ip_n_sp_is_cs_opm_2)</description>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="59" />
@@ -5611,7 +5611,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5556" flags="0x0">
-    <title>Idle Speed (limp mode)</title>
+    <title>Idle RPM (limp mode)</title>
     <description>(ip_n_sp_is_lih)</description>
     <CATEGORYMEM index="0" category="25" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -5650,7 +5650,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x696C" flags="0x0">
-    <title>Idle Speed (power steering)</title>
+    <title>Idle RPM (power steering)</title>
     <description>(ip_n_sp_is_pste)</description>
     <CATEGORYMEM index="0" category="25" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -5689,7 +5689,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1E76" flags="0x0">
-    <title>Idle Speed (power steering &gt; X mph)</title>
+    <title>Idle RPM (power steering &gt; X mph)</title>
     <description>(ip_n_sp_is_pste_2)</description>
     <CATEGORYMEM index="0" category="25" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7733,7 +7733,7 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x3153" flags="0x0">
+  <XDFTABLE uniqueid="0x3153" flags="0x30">
     <title>Cold Start Duration</title>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7770,10 +7770,10 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x06" mmedaddress="0x5B56C" mmedelementsizebits="16" mmedrowcount="4" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>s</units>
+      <units>sec</units>
       <decimalpl>0</decimalpl>
       <min>0.000000</min>
-      <max>255.000000</max>
+      <max>120.000000</max>
       <outputtype>1</outputtype>
       <MATH equation="X/10">
         <VAR id="X" />
@@ -12344,7 +12344,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x706A" flags="0x30">
-    <title>MAF (Nanny) RPM</title>
+    <title>MAF Maximum (Nanny), X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12385,7 +12385,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5597" flags="0x30">
-    <title>MAF Max (Nanny)</title>
+    <title>MAF Maximum (Nanny)</title>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6C42E" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -12414,12 +12414,12 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6C43E" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>MAF (gs)</units>
+      <units>kg/h</units>
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
-      <max>569.000000</max>
+      <max>2048.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/32)*.277778">
+      <MATH equation="x/32">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -18416,6 +18416,7 @@
     <title>Idle RPM, nominal, AC off, in neutral</title>
     <description>(ip_n_sp_is)</description>
     <CATEGORYMEM index="0" category="25" />
+    <CATEGORYMEM index="1" category="65" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4F939" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>Oil &#176;C</units>
@@ -18796,6 +18797,7 @@
   <XDFTABLE uniqueid="0xDA4" flags="0x0">
     <title>Idle RPM, nominal, part load #2</title>
     <CATEGORYMEM index="0" category="25" />
+    <CATEGORYMEM index="1" category="65" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4E6AE" mmedelementsizebits="16" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>RPM</units>
@@ -18920,6 +18922,7 @@
   <XDFTABLE uniqueid="0x6CF1" flags="0x0">
     <title>Idle RPM, nominal, part load #3</title>
     <CATEGORYMEM index="0" category="25" />
+    <CATEGORYMEM index="1" category="65" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4E69E" mmedelementsizebits="16" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>RPM</units>
@@ -19044,6 +19047,7 @@
   <XDFTABLE uniqueid="0x6CF6" flags="0x0">
     <title>Idle RPM, nominal, part load #4</title>
     <CATEGORYMEM index="0" category="25" />
+    <CATEGORYMEM index="1" category="65" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4E69E" mmedelementsizebits="16" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>RPM</units>
