@@ -3538,7 +3538,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Rev limit, ceiling, AT) X-axis</title>
+    <title>Rev limit, ceiling, AT, X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="12" />
     <CATEGORYMEM index="2" category="49" />
@@ -3679,7 +3679,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Rev limit, floor, AT) X-axis</title>
+    <title>Rev limit, floor, AT, X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="12" />
     <CATEGORYMEM index="2" category="49" />
@@ -4564,7 +4564,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x676D" flags="0x30">
-    <title>Rev limit, floor, AT)</title>
+    <title>Rev limit, floor, AT</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="12" />
     <CATEGORYMEM index="2" category="58" />
@@ -4648,7 +4648,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6C9" flags="0x30">
-    <title>Rev limit, ceiling, AT)</title>
+    <title>Rev limit, ceiling, AT</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="12" />
     <CATEGORYMEM index="2" category="58" />
