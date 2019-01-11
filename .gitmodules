@@ -4,3 +4,9 @@
 [submodule "BMW-6HPxx-XDF"]
 	path = BMW-6HPxx-XDF
 	url = https://github.com/bellium/BMW-6HPxx-XDF.git
+[submodule "agatha"]
+	path = agatha
+	url = https://github.com/dbkaplun/agatha.git
+[submodule "bmw-coding"]
+	path = bmw-coding
+	url = https://github.com/gigijoe/bmw-coding.git
