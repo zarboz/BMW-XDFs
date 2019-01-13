@@ -1,4 +1,4 @@
-<!-- Written 01/08/2019 02:21:36 -->
+<!-- Written 01/13/2019 00:29:26 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -30,16 +30,16 @@
     <CATEGORY index="0x12" name="Tuning Wizard" />
     <CATEGORY index="0x13" name="Functions" />
     <CATEGORY index="0x14" name="DTCs" />
-    <CATEGORY index="0x15" name="Torque Request axes" />
+    <CATEGORY index="0x15" name="Torque request axes" />
     <CATEGORY index="0x16" name="Torque limit" />
     <CATEGORY index="0x17" name="Knock" />
     <CATEGORY index="0x18" name="Idle" />
     <CATEGORY index="0x19" name="Thermal" />
-    <CATEGORY index="0x1A" name="Private - Lambda Sensor" />
-    <CATEGORY index="0x1B" name="Lambda Sensor axes" />
+    <CATEGORY index="0x1A" name="Private - Lambda sensor" />
+    <CATEGORY index="0x1B" name="Lambda sensor axes" />
     <CATEGORY index="0x1C" name="Overboost" />
     <CATEGORY index="0x1D" name="Trans" />
-    <CATEGORY index="0x1E" name="Single Bank O2" />
+    <CATEGORY index="0x1E" name="Single bank O2" />
     <CATEGORY index="0x1F" name="Spark dwell" />
     <CATEGORY index="0x20" name="Shift bog" />
     <CATEGORY index="0x21" name="WIP - Testing" />
@@ -49,8 +49,8 @@
     <CATEGORY index="0x25" name="Single turbo boost control" />
     <CATEGORY index="0x26" name="ST boost control axes" />
     <CATEGORY index="0x27" name="Private - Direct Injection" />
-    <CATEGORY index="0x28" name="Private - Fuel Cut" />
-    <CATEGORY index="0x29" name="Private - Exhaust flap" />
+    <CATEGORY index="0x28" name="Private - fuel Cut" />
+    <CATEGORY index="0x29" name="Private - exhaust flap" />
     <CATEGORY index="0x2A" name="Exhaust flap" />
     <CATEGORY index="0x2B" name="Exhaust flap axes" />
     <CATEGORY index="0x2C" name="Torque limit axes" />
@@ -85,7 +85,7 @@
     <CATEGORY index="0xA6" name="BLSATL" />
   </XDFHEADER>
   <XDFTABLE uniqueid="0x7DCE" flags="0x30">
-    <title>Enable Single Rear O2</title>
+    <title>Enable single rear O2 sensor</title>
     <description>To use both rear sensors, set to 02&#010;To enable and use just bank 1 rear, set to 04&#010;&#010;(c_nr_conf_cbk_ex)</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="20" />
@@ -124,7 +124,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Request % for Exhaust Flap Actuation, AT, Y-axis</title>
+    <title>Torque request % for exhaust flap actuation, AT, Y-axis</title>
     <CATEGORYMEM index="0" category="43" />
     <CATEGORYMEM index="1" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -168,7 +168,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Request % for Exhaust Flap Actuation, MT, Y-axis</title>
+    <title>Torque request % for exhaust flap actuation, MT, Y-axis</title>
     <CATEGORYMEM index="0" category="43" />
     <CATEGORYMEM index="1" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -212,7 +212,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Request % for Exhaust Flap Actuation, AT, roof open, Y-axis</title>
+    <title>Torque request % for exhaust flap actuation, AT, roof open, Y-axis</title>
     <CATEGORYMEM index="0" category="43" />
     <CATEGORYMEM index="1" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -256,7 +256,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Request % for Exhaust Flap Actuation, MT, roof open, Y-axis</title>
+    <title>Torque request % for exhaust flap actuation, MT, roof open, Y-axis</title>
     <CATEGORYMEM index="0" category="43" />
     <CATEGORYMEM index="1" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -384,7 +384,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x362E" flags="0x0">
-    <title>Torque Limit Offset A RPM</title>
+    <title>Torque limit offset A RPM</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -423,7 +423,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x222A" flags="0x0">
-    <title>Torque Limit Offset A - Torque output req</title>
+    <title>Torque limit offset A - torque output req</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -582,7 +582,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Request % for Exhaust Flap Actuation, AT, X-axis</title>
+    <title>Torque request % for exhaust flap actuation, AT, X-axis</title>
     <CATEGORYMEM index="0" category="43" />
     <CATEGORYMEM index="1" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -625,7 +625,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Request % for Exhaust Flap Actuation, MT, X-axis</title>
+    <title>Torque request % for exhaust flap actuation, MT, X-axis</title>
     <CATEGORYMEM index="0" category="43" />
     <CATEGORYMEM index="1" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -668,7 +668,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Request % for Exhaust Flap Actuation, AT, roof open, X-axis</title>
+    <title>Torque request % for exhaust flap actuation, AT, roof open, X-axis</title>
     <CATEGORYMEM index="0" category="43" />
     <CATEGORYMEM index="1" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -711,7 +711,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Request % for Exhaust Flap Actuation, MT, roof open, X-axis</title>
+    <title>Torque request % for exhaust flap actuation, MT, roof open, X-axis</title>
     <CATEGORYMEM index="0" category="43" />
     <CATEGORYMEM index="1" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -754,7 +754,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Maximum Knock Threshold (pre-window) X-axis</title>
+    <title>Maximum knock threshold (pre-window) X-axis</title>
     <CATEGORYMEM index="0" category="24" />
     <CATEGORYMEM index="1" category="50" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -960,7 +960,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2148" flags="0x0">
-    <title>Maximum Knock Threshold (pre-window)</title>
+    <title>Maximum knock threshold (pre-window)</title>
     <description>(id_knk_thd_max_pre)</description>
     <CATEGORYMEM index="0" category="24" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -999,7 +999,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6911" flags="0x30">
-    <title>MAP Conversion</title>
+    <title>MAP conversion</title>
     <CATEGORYMEM index="0" category="1" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x41AF2" mmedelementsizebits="16" mmedcolcount="2" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -1076,7 +1076,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45C0" flags="0x0">
-    <title>Min Load Decrease Fast Fuel Cut-off</title>
+    <title>Min load Decrease fast fuel cutoff</title>
     <description>(c_maf_dif_min_fcut_fast)</description>
     <CATEGORYMEM index="0" category="33" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1115,7 +1115,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x44A5" flags="0x0">
-    <title>Max Duration of Torque Reduction During Gear Shift</title>
+    <title>Max duration of torque reduction during gear shift</title>
     <description>(c_t_max_tqr_gs_intv)</description>
     <CATEGORYMEM index="0" category="33" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1154,7 +1154,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5645" flags="0x30">
-    <title>Max Throttle Angle</title>
+    <title>Max throttle angle</title>
     <CATEGORYMEM index="0" category="6" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1193,7 +1193,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6F87" flags="0x30">
-    <title>MAP Max Voltage</title>
+    <title>MAP maximum Voltage</title>
     <CATEGORYMEM index="0" category="1" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1232,7 +1232,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x56FB" flags="0x0">
-    <title>Max IAT Sensor Voltage 1</title>
+    <title>Max IAT sensor Voltage 1</title>
     <description>(c_vp_tia_max_diag)</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1271,7 +1271,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x56FB" flags="0x0">
-    <title>Min IAT Sensor Voltage 1</title>
+    <title>Min IAT sensor Voltage 1</title>
     <description>(c_vp_tia_min_diag)</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1310,7 +1310,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x56FB" flags="0x0">
-    <title>Max IAT Sensor Voltage 2</title>
+    <title>Max IAT sensor Voltage 2</title>
     <description>(c_vp_tia_tcha_up_max_diag)</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1349,7 +1349,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x56FB" flags="0x0">
-    <title>Min IAT Sensor Voltage 2</title>
+    <title>Min IAT sensor Voltage 2</title>
     <description>(c_vp_tia_tcha_up_min_diag)</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1388,7 +1388,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45C0" flags="0x0">
-    <title>Max Time Clutch Switch Observation Fast Fuel Cut-off</title>
+    <title>Max time clutch switch observation fast fuel cutoff</title>
     <description>(c_t_max_fcut_fast)</description>
     <CATEGORYMEM index="0" category="33" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1427,7 +1427,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45C0" flags="0x0">
-    <title>Max Time Gear Shift Observation Fast Fuel Cut-off</title>
+    <title>Max time gear shift observation fast fuel cutoff</title>
     <description>(c_t_max_fcut_fast_tcha)</description>
     <CATEGORYMEM index="0" category="33" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1466,7 +1466,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45C0" flags="0x0">
-    <title>Min Coolant Temperature Fast Fuel Cut-off</title>
+    <title>Min Coolant temperature fast fuel cutoff</title>
     <description>(c_tco_min_fcut_fast)</description>
     <CATEGORYMEM index="0" category="33" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1505,7 +1505,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x23C0" flags="0x30">
-    <title>Max Permissible IAT Gradient</title>
+    <title>Max permissible IAT Gradient</title>
     <description>(c_tia_grd_max_diag)</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1544,8 +1544,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x66C1" flags="0x0">
-    <title>Disable Tq Reduction by Ign</title>
-    <description>To disable, set to 02&#010;To enable, set to 00&#010;Check your stock rom for the enable value.</description>
+    <title>Disable torque reduction by ignition</title>
+    <description>To disable, set to 02&#010;To enable, set to 00&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="20" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1582,7 +1582,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3CB3" flags="0x0">
-    <title>Kickdown Pedal Recognition Voltage</title>
+    <title>Kickdown pedal Recognition Voltage</title>
     <description>(c_v_pvs_thd_kd)</description>
     <CATEGORYMEM index="0" category="30" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1620,7 +1620,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2DCB" flags="0x0">
-    <title>Kickdown Pedal Recognition Hysteresis</title>
+    <title>Kickdown pedal Recognition Hysteresis</title>
     <description>(c_v_pvs_thd_kd_hys)</description>
     <CATEGORYMEM index="0" category="30" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1658,7 +1658,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6C55" flags="0x0">
-    <title>Maximum Speed for Static Exhaust Flap</title>
+    <title>Maximum speed for Static exhaust flap</title>
     <CATEGORYMEM index="0" category="43" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1697,7 +1697,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45C0" flags="0x0">
-    <title>Min Speed Fuel Cut-off 1</title>
+    <title>Min speed fuel cutoff 1</title>
     <description>(c_vs_min_fcut_fast)</description>
     <CATEGORYMEM index="0" category="33" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1736,7 +1736,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45C0" flags="0x0">
-    <title>Min Speed Fuel Cut-off 2</title>
+    <title>Min speed fuel cutoff 2</title>
     <description>(c_vs_min_fcut_fast_tcha)</description>
     <CATEGORYMEM index="2" category="33" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1775,7 +1775,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x166D" flags="0x0">
-    <title>Static Exhaust Flap Position</title>
+    <title>Static exhaust flap position</title>
     <description>0 open&#010;1 closed</description>
     <CATEGORYMEM index="0" category="43" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1814,8 +1814,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x78D5" flags="0x0">
-    <title>Disable Tq Safety Path</title>
-    <description>To disable, set to 02&#010;To enable, set to 00&#010;Check your stock rom for the enable value.</description>
+    <title>Disable torque safety path</title>
+    <description>To disable, set to 02&#010;To enable, set to 00&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="20" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1852,8 +1852,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x56E9" flags="0x0">
-    <title>Disable Tq Safety Path (Hard)</title>
-    <description>To disable, set to 02&#010;To enable, set to 00&#010;Check your stock rom for the enable value.</description>
+    <title>Disable torque safety path (hard)</title>
+    <description>To disable, set to 02&#010;To enable, set to 00&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="20" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1890,8 +1890,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x10AE" flags="0x0">
-    <title>Disable Tq Safety Path (Soft)</title>
-    <description>To disable, set to 02&#010;To enable, set to 00&#010;Check your stock rom for the enable value.</description>
+    <title>Disable torque safety path (soft)</title>
+    <description>To disable, set to 02&#010;To enable, set to 00&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="20" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1928,7 +1928,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6D19" flags="0x0">
-    <title>Speed Limiter (Master)</title>
+    <title>Speed limiter (Master)</title>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1967,7 +1967,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x159D" flags="0x30">
-    <title>Speed Limiter</title>
+    <title>Speed limiter</title>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -2008,8 +2008,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6DA8" flags="0x30">
-    <title>Disable Speed Limiter</title>
-    <description>To disable, set to 01&#010;To enable, set to 00&#010;Check your stock rom for the enable value.</description>
+    <title>Disable speed limiter</title>
+    <description>To disable, set to 01&#010;To enable, set to 00&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="20" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2170,8 +2170,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x70A5" flags="0x0">
-    <title>Misfire Bank1</title>
-    <description>To disable, set to 01&#010;To enable, set to 00&#010;Check your stock rom for the enable value.</description>
+    <title>Misfire bank 1</title>
+    <description>To disable, set to 01&#010;To enable, set to 00&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="20" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2208,8 +2208,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x968" flags="0x0">
-    <title>Misfire Bank2</title>
-    <description>To disable, set to 01&#010;To enable, set to 00&#010;Check your stock rom for the enable value.</description>
+    <title>Misfire bank 2</title>
+    <description>To disable, set to 01&#010;To enable, set to 00&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="20" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2286,7 +2286,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x572F" flags="0x0">
-    <title>Torque Monitor Max Difference RPM</title>
+    <title>Torque monitor maximum difference RPM</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2325,7 +2325,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Monitor (Customer Specific) X-axis</title>
+    <title>Torque monitor (customer-specific) X-axis</title>
     <CATEGORYMEM index="0" category="34" />
     <CATEGORYMEM index="1" category="55" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2368,7 +2368,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1DC8" flags="0x0">
-    <title>Torque Monitor Max Difference - Torque output req</title>
+    <title>Torque monitor maximum difference - torque output req</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2407,7 +2407,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3CBF" flags="0x30">
-    <title>Torque Limit Offset</title>
+    <title>Torque limit offset</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2449,7 +2449,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Monitor (Customer Specific) Y-axis</title>
+    <title>Torque monitor (customer-specific) Y-axis</title>
     <CATEGORYMEM index="0" category="34" />
     <CATEGORYMEM index="1" category="55" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2534,7 +2534,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Requested Torque Mon. Factor A Y-axis</title>
+    <title>Requested torque Mon. factor A Y-axis</title>
     <CATEGORYMEM index="0" category="7" />
     <CATEGORYMEM index="1" category="22" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2579,7 +2579,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Requested Torque Mon. Factor B Y-axis</title>
+    <title>Requested torque Mon. factor B Y-axis</title>
     <CATEGORYMEM index="0" category="7" />
     <CATEGORYMEM index="1" category="22" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2624,7 +2624,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x174A" flags="0x30">
-    <title>Requested Torque Mon. Factor A/B Pedal %</title>
+    <title>Requested torque Mon. factor A/B pedal %</title>
     <CATEGORYMEM index="0" category="7" />
     <CATEGORYMEM index="1" category="22" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2712,7 +2712,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1E00" flags="0x30">
-    <title>Requested Torque Mon. Factor B</title>
+    <title>Requested torque Mon. factor B</title>
     <description>ip_fac_tq_req_driv_1_mon</description>
     <CATEGORYMEM index="0" category="7" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2755,7 +2755,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0xB2A" flags="0x30">
-    <title>Requested Torque Mon. Factor A</title>
+    <title>Requested torque Mon. factor A</title>
     <description>(ip_fac_tq_req_driv_mon)</description>
     <CATEGORYMEM index="0" category="7" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2797,7 +2797,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1CBF" flags="0x0">
-    <title>Torque Monitor (Customer Specific)</title>
+    <title>Torque monitor (customer-specific)</title>
     <description>(ip_tqi_cus_mon)</description>
     <CATEGORYMEM index="0" category="34" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2837,7 +2837,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1924" flags="0x30">
-    <title>Torque monitor max difference, output request vs. RPM</title>
+    <title>Torque monitor maximum difference, output request vs. RPM</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2879,7 +2879,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x909" flags="0x30">
-    <title>Torque Monitor Ceiling</title>
+    <title>Torque monitor ceiling</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2920,7 +2920,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Dwell Time Y-axis</title>
+    <title>Dwell time Y-axis</title>
     <CATEGORYMEM index="0" category="32" />
     <CATEGORYMEM index="1" category="53" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2965,7 +2965,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Dwell Time X-axis</title>
+    <title>Dwell time X-axis</title>
     <CATEGORYMEM index="0" category="32" />
     <CATEGORYMEM index="1" category="53" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -3010,7 +3010,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7BBF" flags="0x0">
-    <title>Dwell Time</title>
+    <title>Dwell time</title>
     <CATEGORYMEM index="0" category="32" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x46CFD" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -3050,7 +3050,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x12E3" flags="0x0">
-    <title>Exh Gas Pressure Correction (psi)</title>
+    <title>Exhaust gas pressure correction (psi)</title>
     <CATEGORYMEM index="0" category="2" />
     <CATEGORYMEM index="1" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -3095,12 +3095,12 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x16F6" flags="0x0">
-    <title>Exh Gas Pressure Correction (Rich AFR)</title>
+    <title>Exhaust gas pressure correction (Rich AFR)</title>
     <description>ip_fac_cor_iplsl_afr_prs_ex</description>
     <CATEGORYMEM index="0" category="2" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x48F3A" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>psi</units>
+      <units>PSI</units>
       <indexcount>8</indexcount>
       <embedinfo type="1" />
       <datatype>0</datatype>
@@ -3133,12 +3133,12 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x16F6" flags="0x0">
-    <title>Exh Gas Pressure Correction (Lean AFR)</title>
+    <title>Exhaust gas pressure correction (Lean AFR)</title>
     <description>ip_fac_cor_iplsl_prs_ex</description>
     <CATEGORYMEM index="0" category="2" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x48F3A" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>psi</units>
+      <units>PSI</units>
       <indexcount>8</indexcount>
       <embedinfo type="1" />
       <datatype>0</datatype>
@@ -3171,7 +3171,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Engine Speed - Load Threshold for Fast Fuel Cut-off X-axis</title>
+    <title>Engine speed - load threshold for fast fuel cutoff X-axis</title>
     <CATEGORYMEM index="0" category="33" />
     <CATEGORYMEM index="1" category="54" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -3212,7 +3212,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Engine Speed - Load Threshold for Fast Fuel Cut-off Y-axis</title>
+    <title>Engine speed - load threshold for fast fuel cutoff Y-axis</title>
     <CATEGORYMEM index="0" category="33" />
     <CATEGORYMEM index="1" category="54" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -3385,7 +3385,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>IAT Conversion 2 X-axis</title>
+    <title>IAT conversion 2 X-axis</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="56" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -3438,7 +3438,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>IAT Conversion 1 X-axis</title>
+    <title>IAT conversion 1 X-axis</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="56" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -3958,7 +3958,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x37DC" flags="0x0">
-    <title>Knock Factor Table (RPM)</title>
+    <title>Knock factor table (RPM)</title>
     <description>Engine speed with hysteresis</description>
     <CATEGORYMEM index="0" category="24" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -3996,7 +3996,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Request % (High) Y-axis</title>
+    <title>Torque request % (high) Y-axis</title>
     <CATEGORYMEM index="0" category="7" />
     <CATEGORYMEM index="1" category="22" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -4045,7 +4045,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Request % (Low) Y-axis</title>
+    <title>Torque request % (low) Y-axis</title>
     <CATEGORYMEM index="0" category="7" />
     <CATEGORYMEM index="1" category="22" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -4138,7 +4138,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4ED8" flags="0x30">
-    <title>Torque Request % (High) Pedal %</title>
+    <title>Torque request % (high) pedal %</title>
     <CATEGORYMEM index="0" category="7" />
     <CATEGORYMEM index="1" category="22" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -4313,7 +4313,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x19CF" flags="0x0">
-    <title>Torque Request % for Exhaust Flap Actuation, AT</title>
+    <title>Torque request % for exhaust flap actuation, AT</title>
     <CATEGORYMEM index="0" category="43" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x41B95" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -4353,7 +4353,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x19CF" flags="0x0">
-    <title>Torque Request % for Exhaust Flap Actuation, MT</title>
+    <title>Torque request % for exhaust flap actuation, MT</title>
     <CATEGORYMEM index="0" category="43" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x41B95" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -4393,7 +4393,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x19CF" flags="0x0">
-    <title>Torque Request % for Exhaust Flap Actuation, AT, roof open</title>
+    <title>Torque request % for exhaust flap actuation, AT, roof open</title>
     <CATEGORYMEM index="0" category="43" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x41B95" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -4433,7 +4433,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x19CF" flags="0x0">
-    <title>Torque Request % for Exhaust Flap Actuation, MT, roof open</title>
+    <title>Torque request % for exhaust flap actuation, MT, roof open</title>
     <CATEGORYMEM index="0" category="43" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x41B95" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -4523,7 +4523,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5F24" flags="0x0">
-    <title>Engine Speed - Load Threshold for Fast Fuel Cut-off</title>
+    <title>Engine speed - load threshold for fast fuel cutoff</title>
     <description>(id_maf_n_min_fcut_fast)</description>
     <CATEGORYMEM index="0" category="33" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -4942,7 +4942,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x10B3" flags="0x0">
-    <title>Max Torque per Gear, AT</title>
+    <title>Max torque per gear, AT</title>
     <description>(id_tq_p_max_at)</description>
     <CATEGORYMEM index="0" category="34" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -5084,7 +5084,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45C7" flags="0x0">
-    <title>Max Knock Correction Factor vs. ECT &amp; CAT</title>
+    <title>Max Knock correction factor vs. ECT &amp; CAT</title>
     <description>ip_fac_iga_max_knk__tco__tia</description>
     <CATEGORYMEM index="0" category="24" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -5127,7 +5127,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2DF4" flags="0x0">
-    <title>Knock Factor Table Cyl. 1</title>
+    <title>Knock factor table Cyl. 1</title>
     <description>(ip_fac_thd_knk_0__n__maf)</description>
     <CATEGORYMEM index="0" category="24" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -5169,7 +5169,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7938" flags="0x0">
-    <title>Knock Factor Table Cyl. 2</title>
+    <title>Knock factor table Cyl. 2</title>
     <CATEGORYMEM index="0" category="24" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x4F495" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -5209,7 +5209,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x10AF" flags="0x0">
-    <title>Knock Factor Table Cyl. 3</title>
+    <title>Knock factor table Cyl. 3</title>
     <CATEGORYMEM index="0" category="24" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x4F495" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -5249,7 +5249,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x22A" flags="0x0">
-    <title>Knock Factor Table Cyl. 4</title>
+    <title>Knock factor table Cyl. 4</title>
     <CATEGORYMEM index="0" category="24" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x4F495" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -5289,7 +5289,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x20A7" flags="0x0">
-    <title>Knock Factor Table Cyl. 5</title>
+    <title>Knock factor table Cyl. 5</title>
     <CATEGORYMEM index="0" category="24" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x4F495" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -5329,7 +5329,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x580F" flags="0x0">
-    <title>Knock Factor Table Cyl. 6</title>
+    <title>Knock factor table Cyl. 6</title>
     <CATEGORYMEM index="0" category="24" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x4F495" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -5369,7 +5369,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x733F" flags="0x30">
-    <title>Torque Request % (High)</title>
+    <title>Torque request % (high)</title>
     <CATEGORYMEM index="0" category="7" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4F85E" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -5409,7 +5409,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x12A1" flags="0x30">
-    <title>Torque Request % (Low)</title>
+    <title>Torque request % (low)</title>
     <CATEGORYMEM index="0" category="7" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4F85E" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -5569,7 +5569,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7727" flags="0x0">
-    <title>Unknown Idle #1</title>
+    <title>Idle RPM, unknown #1</title>
     <CATEGORYMEM index="0" category="25" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -5728,7 +5728,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x54DF" flags="0x0">
-    <title>IAT Conversion 1</title>
+    <title>IAT conversion 1</title>
     <description>(ip_tia__vp_tia)</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -5768,7 +5768,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x54DF" flags="0x0">
-    <title>IAT Conversion 2</title>
+    <title>IAT conversion 2</title>
     <description>(ip_tia_tcha__vp_tia_tcha)</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -5855,7 +5855,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x400F" flags="0x30">
-    <title>Torque Limit Offset A</title>
+    <title>Torque limit offset A</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -5897,7 +5897,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4EC3" flags="0x0">
-    <title>DTC (ful section, for diffs)</title>
+    <title>DTC (full section, for diffs)</title>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6365,7 +6365,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x449F" flags="0x0">
-    <title>DTC Master</title>
+    <title>DTC master</title>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6404,8 +6404,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x13AC" flags="0x0">
-    <title>29F4 (Cat Conversion Bank 1)</title>
-    <description>To disable, set to 00&#010;To enable, set to 56&#010;Check your stock rom for the enable value.</description>
+    <title>29F4 (Cat conversion bank 1)</title>
+    <description>To disable, set to 00&#010;To enable, set to 56&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6442,8 +6442,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6E5B" flags="0x0">
-    <title>29F5 (Cat Conversion Bank 2)</title>
-    <description>To disable, set to 00&#010;To enable, set to 56&#010;Check your stock rom for the enable value.</description>
+    <title>29F5 (Cat conversion bank 2)</title>
+    <description>To disable, set to 00&#010;To enable, set to 56&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6481,7 +6481,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6655" flags="0x0">
     <title>2A13 (DTML diagnosis module tank leakage, leakage diagnose; input signal)</title>
-    <description>To disable, set to 00&#010;To enable, set to 56&#010;Check your stock rom for the enable value.</description>
+    <description>To disable, set to 00&#010;To enable, set to 56&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6519,7 +6519,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6655" flags="0x0">
     <title>2A18 (DTML diagnosis module tank leakage, heating; input signal)</title>
-    <description>To disable, set to 00&#010;To enable, set to 56&#010;Check your stock rom for the enable value.</description>
+    <description>To disable, set to 00&#010;To enable, set to 56&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6557,7 +6557,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3FEF" flags="0x0">
     <title>2E77 (Ignition, Voltage Supply)</title>
-    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value.</description>
+    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6594,8 +6594,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2E8B" flags="0x0">
-    <title>2F6C (Exhaust Fume Flap)</title>
-    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value.</description>
+    <title>2F6C (Exhaust Fume flap)</title>
+    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6633,7 +6633,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x50FE" flags="0x0">
     <title>2AAE (Fuel Pump)</title>
-    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value.</description>
+    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6671,7 +6671,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x274A" flags="0x0">
     <title>2AAF (Fuel Pump Plausibility)</title>
-    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value.</description>
+    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6708,8 +6708,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2F3" flags="0x0">
-    <title>29E0 (Fuel Mixture Bank 1)</title>
-    <description>To disable, set to 00&#010;To enable, set to 76&#010;Check your stock rom for the enable value.</description>
+    <title>29E0 (Fuel Mixture bank 1)</title>
+    <description>To disable, set to 00&#010;To enable, set to 76&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6746,8 +6746,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1F9A" flags="0x0">
-    <title>29E1 (Fuel Mixture Bank 2)</title>
-    <description>To disable, set to 00&#010;To enable, set to 76&#010;Check your stock rom for the enable value.</description>
+    <title>29E1 (Fuel Mixture bank 2)</title>
+    <description>To disable, set to 00&#010;To enable, set to 76&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6784,8 +6784,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x231F" flags="0x0">
-    <title>29E2 (Fuel Injection Rail, Pressure Sensor Signal)</title>
-    <description>To disable, set to 00&#010;To enable, set to 58&#010;Check your stock rom for the enable value.</description>
+    <title>29E2 (Fuel Injection Rail, pressure sensor Signal)</title>
+    <description>To disable, set to 00&#010;To enable, set to 58&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6822,8 +6822,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4415" flags="0x0">
-    <title>29F1 (Fuel Pressure)</title>
-    <description>To disable, set to 00&#010;To enable, set to 58&#010;Check your stock rom for the enable value.</description>
+    <title>29F1 (Fuel pressure)</title>
+    <description>To disable, set to 00&#010;To enable, set to 58&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6860,8 +6860,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5E68" flags="0x0">
-    <title>29F2 (Fuel Pressure)</title>
-    <description>To disable, set to 00&#010;To enable, set to 58&#010;Check your stock rom for the enable value.</description>
+    <title>29F2 (Fuel pressure)</title>
+    <description>To disable, set to 00&#010;To enable, set to 58&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6899,7 +6899,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6576" flags="0x0">
     <title>2E18 (Ignition, Cyl. 1)</title>
-    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value.</description>
+    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6937,7 +6937,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5E0A" flags="0x0">
     <title>2E1C (Ignition, Cyl. 5)</title>
-    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value.</description>
+    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6975,7 +6975,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x40ED" flags="0x0">
     <title>2E1A (Ignition, Cyl. 3)</title>
-    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value.</description>
+    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7013,7 +7013,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0xFA2" flags="0x0">
     <title>2E1D (Ignition, Cyl. 6)</title>
-    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value.</description>
+    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7051,7 +7051,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5F7A" flags="0x0">
     <title>2E19 (Ignition, Cyl. 2)</title>
-    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value.</description>
+    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7089,7 +7089,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x47AA" flags="0x0">
     <title>2E1B (Ignition, Cyl. 4)</title>
-    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value.</description>
+    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7127,7 +7127,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3884" flags="0x0">
     <title>2D25 (External Tuning Box Detected)</title>
-    <description>To disable, set to 00&#010;&#013;&#010;To enable, set to 11&#013;&#010;Check your stock rom for the enable value.</description>
+    <description>To disable, set to 00&#010;&#013;&#010;To enable, set to 11&#013;&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7164,8 +7164,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4A49" flags="0x0">
-    <title>2D67 (DME Motor Electronics, Internal Failure)</title>
-    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value.</description>
+    <title>2D67 (DME Motor Electronics, internal Failure)</title>
+    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7202,8 +7202,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5746" flags="0x0">
-    <title>2C77 (AfterCat 02 sensor signal Bank 1)</title>
-    <description>To disable, set to 00&#010;To enable, set to 56&#010;Check your stock rom for the enable value.</description>
+    <title>2C77 (AfterCat 02 sensor signal bank 1)</title>
+    <description>To disable, set to 00&#010;To enable, set to 56&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7240,8 +7240,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x313C" flags="0x0">
-    <title>2C78 (AfterCat 02 sensor signal Bank 2)</title>
-    <description>To disable, set to 00&#010;To enable, set to 56&#010;Check your stock rom for the enable value.</description>
+    <title>2C78 (AfterCat 02 sensor signal bank 2)</title>
+    <description>To disable, set to 00&#010;To enable, set to 56&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7278,8 +7278,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2978" flags="0x0">
-    <title>30BA (Injector Bank 1 or ECU, Internal Error)</title>
-    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value.</description>
+    <title>30BA (Injector bank 1 or ECU, internal error)</title>
+    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7316,8 +7316,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x711A" flags="0x0">
-    <title>30BB (Injector Bank 2 or ECU, Internal Error)</title>
-    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value.</description>
+    <title>30BB (Injector bank 2 or ECU, internal error)</title>
+    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7354,8 +7354,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x17C2" flags="0x0">
-    <title>2C7B (AfterCat 02 sensor signal Bank 1)</title>
-    <description>To disable, set to 00&#010;To enable, set to 56&#010;Check your stock rom for the enable value.</description>
+    <title>2C7B (AfterCat 02 sensor signal bank 1)</title>
+    <description>To disable, set to 00&#010;To enable, set to 56&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7392,8 +7392,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2611" flags="0x0">
-    <title>2C7C (AfterCat 02 sensor signal Bank 2)</title>
-    <description>To disable, set to 00&#010;To enable, set to 56&#010;Check your stock rom for the enable value.</description>
+    <title>2C7C (AfterCat 02 sensor signal bank 2)</title>
+    <description>To disable, set to 00&#010;To enable, set to 56&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7430,8 +7430,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7407" flags="0x0">
-    <title>2F8F (Accelerator Pedal Module and Brake Pedal (Plausibility))</title>
-    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value.</description>
+    <title>2F8F (Accelerator pedal Module and Brake pedal (Plausibility))</title>
+    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7469,7 +7469,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x52E5" flags="0x0">
     <title>3100 (Boost Deactivation)</title>
-    <description>To disable, set to 00&#010;To enable, set to 22&#010;Check your stock rom for the enable value.</description>
+    <description>To disable, set to 00&#010;To enable, set to 22&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7507,7 +7507,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x41E0" flags="0x0">
     <title>30FE (Overboost Code)</title>
-    <description>To disable, set to 00&#010;To enable, set to 22&#010;Check your stock rom for the enable value.</description>
+    <description>To disable, set to 00&#010;To enable, set to 22&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7545,7 +7545,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x690F" flags="0x0">
     <title>30FF (Underboost Code)</title>
-    <description>To disable, set to 00&#010;To enable, set to 22&#010;Check your stock rom for the enable value.</description>
+    <description>To disable, set to 00&#010;To enable, set to 22&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7582,8 +7582,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1AA9" flags="0x0">
-    <title>2F0C (Intake Temp Gradient)</title>
-    <description>To disable, set to 00&#010;To enable, set to 58&#010;Check your stock rom for the enable value.</description>
+    <title>2F0C (Intake temp Gradient)</title>
+    <description>To disable, set to 00&#010;To enable, set to 58&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7620,8 +7620,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3A74" flags="0x0">
-    <title>2D58 (DME Control Nominal Torque)</title>
-    <description>To disable, set to 00&#010;&#013;&#010;To enable, set to 88&#013;&#010;&#010;Check your stock rom for the enable value.</description>
+    <title>2D58 (DME control Nominal torque)</title>
+    <description>To disable, set to 00&#010;&#013;&#010;To enable, set to 88&#013;&#010;&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7658,8 +7658,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x732" flags="0x0">
-    <title>2D59 (DME Internal Failure: Control Actual Torque)</title>
-    <description>To disable, set to 00&#010;To enable, set to 58&#010;Check your stock rom for the enable value.</description>
+    <title>2D59 (DME internal Failure: control Actual torque)</title>
+    <description>To disable, set to 00&#010;To enable, set to 58&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7697,7 +7697,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x50A" flags="0x0">
     <title>2FA3 (Coding Missing)</title>
-    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value.</description>
+    <description>To disable, set to 00&#010;To enable, set to 11&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="21" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7734,7 +7734,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3153" flags="0x30">
-    <title>Cold Start Duration</title>
+    <title>Cold start duration</title>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -7781,7 +7781,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2BD2" flags="0x30">
-    <title>Load Target 1 RPM</title>
+    <title>Load target 1 RPM</title>
     <CATEGORYMEM index="0" category="5" />
     <CATEGORYMEM index="1" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7821,7 +7821,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5CE0" flags="0x30">
-    <title>Load Target</title>
+    <title>Load target</title>
     <CATEGORYMEM index="0" category="5" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5F21E" mmedelementsizebits="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -7862,7 +7862,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Load Limit Factor X-axis</title>
+    <title>Load limit factor X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="46" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7911,7 +7911,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x306A" flags="0x30">
-    <title>Load Limit Factor</title>
+    <title>Load limit factor</title>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5F262" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -7951,7 +7951,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x217A" flags="0x30">
-    <title>Boost Limit Multiplier X axis</title>
+    <title>Boost limit multiplier X axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7992,7 +7992,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6587" flags="0x30">
-    <title>Boost Limit Multiplier</title>
+    <title>Boost limit multiplier</title>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5F302" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -8032,7 +8032,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1FBE" flags="0x30">
-    <title>Load Target, AT, RPM</title>
+    <title>Load target, AT, RPM</title>
     <CATEGORYMEM index="0" category="5" />
     <CATEGORYMEM index="1" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -8113,7 +8113,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Load Target Limit Factor (ECT) X-axis</title>
+    <title>Load target limit factor (ECT) X-axis</title>
     <CATEGORYMEM index="0" category="5" />
     <CATEGORYMEM index="1" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -8156,7 +8156,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3A4B" flags="0x30">
-    <title>Load Target Limit Factor (ECT)</title>
+    <title>Load target limit factor (ECT)</title>
     <CATEGORYMEM index="0" category="5" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5F386" mmedelementsizebits="16" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -8196,7 +8196,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Load Target Limit Factor (Charge Air Temp) Y-axis</title>
+    <title>Load target limit factor (charge air temp) Y-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="46" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -8239,7 +8239,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Load Target Limit Factor (Charge Air Temp) X-axis</title>
+    <title>Load target limit factor (charge air temp) X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="46" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -8282,7 +8282,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x276F" flags="0x30">
-    <title>Load Target Limit Factor (Charge Air Temp)</title>
+    <title>Load target limit factor (charge air temp)</title>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5F3AE" mmedelementsizebits="16" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -8323,7 +8323,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Load Limit Factor (Knock) Y-axis</title>
+    <title>Load limit factor (Knock) Y-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="46" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -8368,7 +8368,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Load Limit Factor (Knock) X-axis</title>
+    <title>Load limit factor (Knock) X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="46" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -8413,7 +8413,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5C15" flags="0x30">
-    <title>Load Limit Factor (Knock)</title>
+    <title>Load limit factor (Knock)</title>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x5F416" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -8454,7 +8454,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4DE7" flags="0x0">
-    <title>Boost Limit Multiplier Ceiling</title>
+    <title>Boost limit multiplier ceiling</title>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -8490,7 +8490,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1031" flags="0x30">
-    <title>WGDC Postion Back to WGDC X</title>
+    <title>WGDC position Back to WGDC X</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -8532,7 +8532,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3502" flags="0x30">
-    <title>WGDC Position back to WGDC</title>
+    <title>WGDC position back to WGDC</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -8571,7 +8571,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>WGDC to WGDC Position Y-axis</title>
+    <title>WGDC to WGDC position Y-axis</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -8623,7 +8623,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>WGDC to WGDC Position X-axis</title>
+    <title>WGDC to WGDC position X-axis</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -8671,7 +8671,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x68EE" flags="0x30">
-    <title>WGDC to WGDC Position</title>
+    <title>WGDC to WGDC position</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -8712,7 +8712,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>WGDC Dynamic X-axis</title>
+    <title>WGDC dynamic X-axis</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -8745,7 +8745,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5F66A" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>RPM Dynamic</units>
+      <units>RPM dynamic</units>
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
@@ -8756,12 +8756,12 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2DCA" flags="0x30">
-    <title>WGDC Dynamic</title>
+    <title>WGDC dynamic</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5F66A" mmedelementsizebits="16" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>RPM Dynamic</units>
+      <units>RPM dynamic</units>
       <indexcount>6</indexcount>
       <outputtype>2</outputtype>
       <embedinfo type="1" />
@@ -8796,7 +8796,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5023" flags="0x30">
-    <title>WGDC D-Factor Multiplier RPM</title>
+    <title>WGDC D-Factor multiplier RPM</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -8838,7 +8838,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x73F5" flags="0x30">
-    <title>WGDC D-Factor Multiplier</title>
+    <title>WGDC D-Factor multiplier</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -8878,7 +8878,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7FA9" flags="0x30">
-    <title>WGDC Adder(AirFlow) X</title>
+    <title>WGDC adder (airflow) X</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -8921,7 +8921,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x52A6" flags="0x30">
-    <title>WGDC Adder (Airflow)</title>
+    <title>WGDC adder (airflow)</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -8960,7 +8960,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x20" flags="0x30">
-    <title>WGDC Ceiling (Adder) X</title>
+    <title>WGDC ceiling (adder) X</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -9003,7 +9003,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5F6B" flags="0x30">
-    <title>WGDC Ceiling (Adder)</title>
+    <title>WGDC ceiling (adder)</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -9082,7 +9082,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x178F" flags="0x0">
-    <title>WGDC (Pre-Control A) Load</title>
+    <title>WGDC (Pre-Control A) load</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -9161,7 +9161,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5ED6" flags="0x30">
-    <title>WGDC (Base) Y</title>
+    <title>WGDC (base) Y</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -9204,7 +9204,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x741E" flags="0x30">
-    <title>WGDC (Base) X</title>
+    <title>WGDC (base) X</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -9247,7 +9247,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6ABB" flags="0x30">
-    <title>WGDC (Base)</title>
+    <title>WGDC (base)</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -9289,7 +9289,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>WGDC (Spool) Y-axis</title>
+    <title>WGDC (spool) Y-axis</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -9343,7 +9343,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>WGDC (Spool) X-axis</title>
+    <title>WGDC (spool) X-axis</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -9393,7 +9393,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6185" flags="0x30">
-    <title>WGDC (Spool)</title>
+    <title>WGDC (spool)</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -9435,8 +9435,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4521" flags="0x0">
-    <title>WGDC (Boost Setpoint)</title>
-    <description>Axis_Feedforward w/o Height Boost Factor</description>
+    <title>WGDC (Boost setpoint)</title>
+    <description>Axis_Feedforward w/o Height boost factor</description>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -9543,13 +9543,13 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7C3" flags="0x30">
-    <title>WGDC (RPM x Boost Setpoint)</title>
+    <title>WGDC (RPM x boost setpoint)</title>
     <description>atl-Rules - Feedforward without Height influence (kf_atlvst_nkw)</description>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5FC36" mmedelementsizebits="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Boost Setpoint</units>
+      <units>Boost setpoint</units>
       <indexcount>16</indexcount>
       <decimalpl>3</decimalpl>
       <embedinfo type="1" />
@@ -9586,7 +9586,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7244" flags="0x30">
-    <title>WGDC P-Factor - RPM</title>
+    <title>WGDC P-Factor RPM</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -9629,7 +9629,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x704A" flags="0x30">
-    <title>WGDC P-Factor - Boost Error P-Factbar</title>
+    <title>WGDC P-Factor boost error P-Factor bar</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -9675,7 +9675,7 @@
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x5FF12" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Boost Error P Factor bar</units>
+      <units>Boost error P factor bar</units>
       <indexcount>12</indexcount>
       <decimalpl>3</decimalpl>
       <embedinfo type="1" />
@@ -9755,7 +9755,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4DDB" flags="0x30">
-    <title>WGDC I-Factor - Boost Error I-Factbar</title>
+    <title>WGDC I-Factor boost error I-Factor bar</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -9800,7 +9800,7 @@
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x60066" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Boost Error I-factor bar</units>
+      <units>Boost error I-factor bar</units>
       <indexcount>12</indexcount>
       <embedinfo type="1" />
       <datatype>0</datatype>
@@ -9835,7 +9835,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4014" flags="0x30">
-    <title>WGDC D-Factor - Boost Error bar</title>
+    <title>WGDC D-Factor boost error bar</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -9875,7 +9875,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2B4A" flags="0x30">
-    <title>WGDC D-Factor - Boost Error D-Factbar</title>
+    <title>WGDC D-Factor boost error D-Factor bar</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -9921,7 +9921,7 @@
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x601BE" mmedelementsizebits="16" mmedcolcount="14" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Boost Error D-Fact bar</units>
+      <units>Boost error D-Factor bar</units>
       <indexcount>14</indexcount>
       <decimalpl>3</decimalpl>
       <embedinfo type="1" />
@@ -9934,7 +9934,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x601A2" mmedelementsizebits="16" mmedcolcount="14" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Boost Error bar</units>
+      <units>Boost error bar</units>
       <indexcount>14</indexcount>
       <embedinfo type="1" />
       <datatype>0</datatype>
@@ -9956,7 +9956,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2DCD" flags="0x30">
-    <title>WGDC Limit</title>
+    <title>WGDC limit</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -9995,7 +9995,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4B4E" flags="0x30">
-    <title>Enable WGDC (RPM x Boost Setpoint)</title>
+    <title>Enable WGDC (RPM x boost setpoint)</title>
     <description>To enable, set to 01&#010;To disable, set to 00&#010;&#010;Boost Feedforward without Height influence (s_atlvst_nkw)</description>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
@@ -10034,7 +10034,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2B9" flags="0x30">
-    <title>Fuel Pressure Target (Homo) RPM</title>
+    <title>Fuel pressure target (Homo) RPM</title>
     <CATEGORYMEM index="0" category="2" />
     <CATEGORYMEM index="1" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -10074,7 +10074,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4207" flags="0x30">
-    <title>Fuel Pressure Target (Homo) Load</title>
+    <title>Fuel pressure target (Homo) load</title>
     <CATEGORYMEM index="0" category="2" />
     <CATEGORYMEM index="1" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -10114,7 +10114,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x400E" flags="0x30">
-    <title>Fuel Pressure Target (Homo)</title>
+    <title>Fuel pressure target (Homo)</title>
     <CATEGORYMEM index="0" category="2" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x60A2A" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -10144,7 +10144,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x06" mmedaddress="0x60A4A" mmedelementsizebits="16" mmedrowcount="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Fuel Pressure (MPa)</units>
+      <units>Fuel pressure (MPa)</units>
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>20.000000</max>
@@ -10155,7 +10155,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4475" flags="0x30">
-    <title>Specified Load RPM</title>
+    <title>Specified load RPM</title>
     <CATEGORYMEM index="0" category="5" />
     <CATEGORYMEM index="1" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -10195,7 +10195,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Specified Load (Unk Load) X-axis</title>
+    <title>Specified load (unknown load) X-axis</title>
     <CATEGORYMEM index="0" category="5" />
     <CATEGORYMEM index="1" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -10248,7 +10248,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x442" flags="0x30">
-    <title>Specified Load (Unk Load)</title>
+    <title>Specified load (unknown load)</title>
     <CATEGORYMEM index="0" category="5" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x62E8E" mmedelementsizebits="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -10289,7 +10289,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45" flags="0x0">
-    <title>Temp Threshold for End of Warm-up</title>
+    <title>Temperature threshold for end of warm-up</title>
     <description>(k_ewptwalmx)</description>
     <CATEGORYMEM index="0" category="26" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -10328,7 +10328,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3ACE" flags="0x0">
-    <title>Coolant Temp Threshold (Enable Warning)</title>
+    <title>Coolant temp threshold (Enable warning)</title>
     <description>(k_tmbsmx)</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="60" />
@@ -10369,7 +10369,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3ACE" flags="0x0">
-    <title>Oil Temp Threshold (Enable Warning)</title>
+    <title>Oil temp threshold (Enable warning)</title>
     <description>(k_tobsmx)</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="61" />
@@ -10410,7 +10410,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45" flags="0x0">
-    <title>Ambient Temp Threshold for High Mode</title>
+    <title>Ambient temp threshold for High mode</title>
     <description>(k_wmtu_1)</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="63" />
@@ -10450,7 +10450,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45" flags="0x0">
-    <title>Ambient Temp Threshold for High+KFT Mode</title>
+    <title>Ambient temp threshold for High+KFT mode</title>
     <description>(k_wmtu_2)</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="63" />
@@ -10490,7 +10490,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2AF0" flags="0x0">
-    <title>Torque Eff Divisor (Fuel) - Lamba</title>
+    <title>Torque eff divisor (Fuel) - Lamba</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -10529,7 +10529,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4960" flags="0x30">
-    <title>Torque Eff Divisor (Fuel)</title>
+    <title>Torque eff divisor (Fuel)</title>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x65A22" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -10569,7 +10569,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1AE" flags="0x30">
-    <title>Fuel (Spool) RPM</title>
+    <title>Fuel (spool) RPM</title>
     <CATEGORYMEM index="0" category="2" />
     <CATEGORYMEM index="1" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -10609,7 +10609,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x59B0" flags="0x30">
-    <title>Fuel (Spool) Load</title>
+    <title>Fuel (spool) load</title>
     <CATEGORYMEM index="0" category="2" />
     <CATEGORYMEM index="1" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -10648,7 +10648,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4258" flags="0x30">
-    <title>Fuel (Spool)</title>
+    <title>Fuel (spool)</title>
     <CATEGORYMEM index="0" category="2" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x65CA6" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -10729,7 +10729,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4832" flags="0x30">
-    <title>Fuel (Bank 1) Load</title>
+    <title>Fuel (Bank 1) load</title>
     <CATEGORYMEM index="0" category="2" />
     <CATEGORYMEM index="1" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -10850,7 +10850,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5CCA" flags="0x30">
-    <title>Fuel (Bank 2) Load</title>
+    <title>Fuel (Bank 2) load</title>
     <CATEGORYMEM index="0" category="2" />
     <CATEGORYMEM index="1" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -10931,7 +10931,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4471" flags="0x30">
-    <title>Torque Eff Lower Limit</title>
+    <title>Torque eff Lower limit</title>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -10971,7 +10971,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Max Intervention Mode X-axis</title>
+    <title>Torque maximum intervention mode X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <CATEGORYMEM index="2" category="45" />
@@ -11013,7 +11013,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x338A" flags="0x30">
-    <title>Torque Max Intervention Mode</title>
+    <title>Torque maximum intervention mode</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -11054,7 +11054,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>VANOS Exhaust (Idle) Warm Y-axis</title>
+    <title>VANOS exhaust (idle) warm Y-axis</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -11103,7 +11103,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>VANOS Exhaust (Idle) Warm X-axis</title>
+    <title>VANOS exhaust (idle) warm X-axis</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -11152,7 +11152,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3638" flags="0x30">
-    <title>VANOS Exhaust (Idle) Warm</title>
+    <title>VANOS exhaust (idle) warm</title>
     <CATEGORYMEM index="0" category="8" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x69C0A" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -11192,7 +11192,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>VANOS Intake (Idle) Warm Y-axis</title>
+    <title>VANOS intake (idle) warm Y-axis</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -11241,7 +11241,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>VANOS Intake (Idle) Warm X-axis</title>
+    <title>VANOS intake (idle) warm X-axis</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -11290,7 +11290,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3443" flags="0x30">
-    <title>VANOS Intake (Idle) Warm</title>
+    <title>VANOS intake (idle) warm</title>
     <CATEGORYMEM index="0" category="8" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x69CCE" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -11330,7 +11330,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>VANOS Intake (Idle) Cold Y-axis</title>
+    <title>VANOS intake (idle) cold Y-axis</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -11379,7 +11379,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>VANOS Intake (Idle) Cold X-axis</title>
+    <title>VANOS intake (idle) cold X-axis</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -11428,7 +11428,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6D1B" flags="0x30">
-    <title>VANOS Intake (Idle) Cold</title>
+    <title>VANOS intake (idle) cold</title>
     <CATEGORYMEM index="0" category="8" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x69D92" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -11468,7 +11468,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>VANOS Exhaust (Idle) Cold Y-axis</title>
+    <title>VANOS exhaust (idle) cold Y-axis</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -11517,7 +11517,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>VANOS Exhaust (Idle) Cold X-axis</title>
+    <title>VANOS exhaust (idle) cold X-axis</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -11566,7 +11566,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x9B" flags="0x30">
-    <title>VANOS Exhaust (Idle) Cold</title>
+    <title>VANOS exhaust (idle) cold</title>
     <CATEGORYMEM index="0" category="8" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x69E56" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -11606,7 +11606,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x65CB" flags="0x30">
-    <title>VANOS Intake (Moving) Warm RPM</title>
+    <title>VANOS intake (moving) warm RPM</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -11646,7 +11646,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5C94" flags="0x30">
-    <title>VANOS Intake (Moving) Warm Load</title>
+    <title>VANOS intake (moving) warm load</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -11685,7 +11685,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4599" flags="0x30">
-    <title>VANOS Intake (Moving) Warm</title>
+    <title>VANOS intake (moving) warm</title>
     <CATEGORYMEM index="0" category="8" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6A92A" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -11725,7 +11725,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5B0E" flags="0x30">
-    <title>VANOS Exhaust (Moving) Warm RPM</title>
+    <title>VANOS exhaust (moving) warm RPM</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -11765,7 +11765,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x392E" flags="0x30">
-    <title>VANOS Exhaust (Moving) Warm Load</title>
+    <title>VANOS exhaust (moving) warm load</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -11804,7 +11804,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x66E2" flags="0x30">
-    <title>VANOS Exhaust (Moving) Warm</title>
+    <title>VANOS exhaust (moving) warm</title>
     <CATEGORYMEM index="0" category="8" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6AA26" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -11844,7 +11844,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>VANOS Intake (Spool) Y-axis</title>
+    <title>VANOS intake (spool) Y-axis</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -11889,7 +11889,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>VANOS Intake (Spool) X-axis</title>
+    <title>VANOS intake (spool) X-axis</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -11934,7 +11934,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x58A0" flags="0x30">
-    <title>VANOS Intake (Spool)</title>
+    <title>VANOS intake (spool)</title>
     <CATEGORYMEM index="0" category="8" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6AB12" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -11974,7 +11974,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>VANOS Exhaust (Spool) Y-axis</title>
+    <title>VANOS exhaust (spool) Y-axis</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12019,7 +12019,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>VANOS Exhaust (Spool) X-axis</title>
+    <title>VANOS exhaust (spool) X-axis</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12064,7 +12064,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1ACA" flags="0x30">
-    <title>VANOS Exhaust (Spool)</title>
+    <title>VANOS exhaust (spool)</title>
     <CATEGORYMEM index="0" category="8" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6AB76" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -12104,7 +12104,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2532" flags="0x30">
-    <title>VANOS Intake (Moving) Cold RPM</title>
+    <title>VANOS intake (moving) cold RPM</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12144,7 +12144,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0xF79" flags="0x30">
-    <title>VANOS Intake (Moving) Cold Load</title>
+    <title>VANOS intake (moving) cold load</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12183,7 +12183,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x590D" flags="0x30">
-    <title>VANOS Intake (Moving) Cold</title>
+    <title>VANOS intake (moving) cold</title>
     <CATEGORYMEM index="0" category="8" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6ABEA" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -12224,7 +12224,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x25C2" flags="0x30">
-    <title>VANOS Exhaust (Moving) Cold RPM</title>
+    <title>VANOS exhaust (moving) cold RPM</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12264,7 +12264,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3459" flags="0x30">
-    <title>VANOS Exhaust (Moving) Cold Load</title>
+    <title>VANOS exhaust (moving) cold load</title>
     <CATEGORYMEM index="0" category="8" />
     <CATEGORYMEM index="1" category="14" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12303,7 +12303,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3234" flags="0x30">
-    <title>VANOS Exhaust (Moving) Cold</title>
+    <title>VANOS exhaust (moving) cold</title>
     <CATEGORYMEM index="0" category="8" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6ACE6" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -12344,7 +12344,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x706A" flags="0x30">
-    <title>MAF Maximum (Nanny), X-axis</title>
+    <title>MAF maximum (Nanny), X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12385,7 +12385,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5597" flags="0x30">
-    <title>MAF Maximum (Nanny)</title>
+    <title>MAF maximum (Nanny)</title>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6C42E" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -12425,7 +12425,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Max Mass Flow Mon (Bank 1) X-axis</title>
+    <title>Max Mass flow Mon (Bank 1) X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="46" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12466,7 +12466,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Max Mass Flow Mon (Bank 1) Y-axis</title>
+    <title>Max Mass flow Mon (Bank 1) Y-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="46" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12507,7 +12507,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2CB4" flags="0x30">
-    <title>Max Mass Flow Mon (Bank 1)</title>
+    <title>Max Mass flow Mon (Bank 1)</title>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6C4BE" mmedelementsizebits="16" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -12547,7 +12547,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Max Mass Flow Mon (Bank 2) X-axis</title>
+    <title>Max Mass flow Mon (Bank 2) X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="46" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12588,7 +12588,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Max Mass Flow Mon (Bank 2) Y-axis</title>
+    <title>Max Mass flow Mon (Bank 2) Y-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="46" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12629,7 +12629,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3A4A" flags="0x30">
-    <title>Max Mass Flow Mon (Bank 2)</title>
+    <title>Max Mass flow Mon (Bank 2)</title>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6C526" mmedelementsizebits="16" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -12669,7 +12669,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x38AA" flags="0x30">
-    <title>Load to Torque Limit 1 Load</title>
+    <title>Load to torque limit 1 load</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12708,7 +12708,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7818" flags="0x30">
-    <title>Load to Torque Limit 1 RPM</title>
+    <title>Load to torque limit 1 RPM</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12748,7 +12748,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x353" flags="0x30">
-    <title>Load to Torque Limit 1</title>
+    <title>Load to torque limit 1</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12789,7 +12789,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x48D0" flags="0x30">
-    <title>Load to Torque Limit 2 Load</title>
+    <title>Load to torque limit 2 load</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12828,7 +12828,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5232" flags="0x30">
-    <title>Load to Torque Limit 2 RPM</title>
+    <title>Load to torque limit 2 RPM</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12868,7 +12868,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3D32" flags="0x30">
-    <title>Load to Torque Limit 2</title>
+    <title>Load to torque limit 2</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12909,7 +12909,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5192" flags="0x30">
-    <title>Load to Torque Limit 3 Load</title>
+    <title>Load to torque limit 3 load</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12948,7 +12948,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4ED9" flags="0x30">
-    <title>Load to Torque Limit 3 RPM</title>
+    <title>Load to torque limit 3 RPM</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12987,7 +12987,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x48E7" flags="0x30">
-    <title>Load to Torque Limit 3</title>
+    <title>Load to torque limit 3</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13028,7 +13028,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3063" flags="0x30">
-    <title>Torque Max (Index Array) RPM</title>
+    <title>Torque maximum (index array) RPM</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13068,7 +13068,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3864" flags="0x30">
-    <title>Torque Max (Index Array)</title>
+    <title>Torque maximum (index array)</title>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6DB22" mmedelementsizebits="16" mmedcolcount="18" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -13110,7 +13110,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2307" flags="0x30">
-    <title>Torque Limiter 3 (Unk Limits) RPM</title>
+    <title>Torque limiter 3 (unknown limits) RPM</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13150,7 +13150,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x43AC" flags="0x30">
-    <title>Torque Limiter 3 (Unk Limits)</title>
+    <title>Torque limiter 3 (unknown limits)</title>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6DB6E" mmedelementsizebits="16" mmedcolcount="18" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -13191,7 +13191,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>EGT NOx Set Point (CAT Protection Mode) Y-axis</title>
+    <title>EGT NOx Set Point (CAT protection mode) Y-axis</title>
     <CATEGORYMEM index="0" category="2" />
     <CATEGORYMEM index="1" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13271,7 +13271,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x70D1" flags="0x30">
-    <title>EGT NOx Set Point (CAT Protection Mode)</title>
+    <title>EGT NOx Set Point (CAT protection mode)</title>
     <CATEGORYMEM index="0" category="2" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6E47E" mmedelementsizebits="16" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -13311,7 +13311,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1EC5" flags="0x30">
-    <title>Fuel (Min Cat Protection Mode) RPM</title>
+    <title>Fuel (Min Cat protection mode) RPM</title>
     <CATEGORYMEM index="0" category="2" />
     <CATEGORYMEM index="1" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13351,7 +13351,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x33D2" flags="0x30">
-    <title>Fuel (Min Cat Protection Mode) Load</title>
+    <title>Fuel (Min Cat protection mode) load</title>
     <CATEGORYMEM index="0" category="2" />
     <CATEGORYMEM index="1" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13391,7 +13391,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0xB43" flags="0x30">
-    <title>Fuel (Min Cat Protection Mode)</title>
+    <title>Fuel (Min Cat protection mode)</title>
     <CATEGORYMEM index="0" category="2" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6E572" mmedelementsizebits="16" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -13431,7 +13431,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1DD" flags="0x30">
-    <title>Fuel Floor (Min Cat Protection Mode)</title>
+    <title>Fuel floor (Min Cat protection mode)</title>
     <CATEGORYMEM index="0" category="2" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -13471,7 +13471,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2A61" flags="0x30">
-    <title>Requested Torque Limit RPM</title>
+    <title>Requested torque limit RPM</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13512,7 +13512,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2D71" flags="0x30">
-    <title>Requested Torque Limit (Driver)</title>
+    <title>Requested torque limit (Driver)</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13554,7 +13554,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Requested Torque (Driver) Y-axis</title>
+    <title>Requested torque (Driver) Y-axis</title>
     <CATEGORYMEM index="0" category="7" />
     <CATEGORYMEM index="1" category="22" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13599,7 +13599,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Requested Torque (Driver) X-axis</title>
+    <title>Requested torque (Driver) X-axis</title>
     <CATEGORYMEM index="0" category="7" />
     <CATEGORYMEM index="1" category="22" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13644,7 +13644,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0xED2" flags="0x30">
-    <title>Requested Torque (Driver)</title>
+    <title>Requested torque (Driver)</title>
     <CATEGORYMEM index="0" category="7" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6E652" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -13684,7 +13684,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5FA" flags="0x0">
-    <title>Torque Reduction Factor (RPM) X axis</title>
+    <title>Torque reduction factor (RPM) X axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13723,7 +13723,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2EC3" flags="0x30">
-    <title>Torque Reduction Factor (RPM)</title>
+    <title>Torque reduction factor (RPM)</title>
     <description>(kl_kuehln)</description>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
@@ -13765,7 +13765,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Coolant Setpoint (High+KFT Mode) X-axis</title>
+    <title>Coolant setpoint (High+KFT mode) X-axis</title>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="57" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13806,7 +13806,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x25EB" flags="0x0">
-    <title>Coolant Setpoint (High+KFT Mode)</title>
+    <title>Coolant setpoint (High+KFT mode)</title>
     <description>(kl_kft_hk)</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="60" />
@@ -13848,7 +13848,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Radiator Fan Duty Cycle (ECT Target Diff) X-axis</title>
+    <title>Radiator Fan Duty Cycle (ECT target diff) X-axis</title>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="57" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13897,7 +13897,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2CE4" flags="0x0">
-    <title>Radiator Fan Duty Cycle (ECT Target Diff)</title>
+    <title>Radiator Fan Duty Cycle (ECT target diff)</title>
     <description>(kl_el_tmot)</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="62" />
@@ -13939,7 +13939,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Coolant Setpoint (High Mode) X-axis</title>
+    <title>Coolant setpoint (High mode) X-axis</title>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="57" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13980,7 +13980,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x25EB" flags="0x0">
-    <title>Coolant Setpoint (High Mode)</title>
+    <title>Coolant setpoint (High mode)</title>
     <description>(kl_kft_hi)</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="60" />
@@ -14022,7 +14022,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Reduction Factor (Temp) Y-axis</title>
+    <title>Torque reduction factor (Temp) Y-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <CATEGORYMEM index="2" category="45" />
@@ -14068,7 +14068,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Reduction Factor (Temp) X-axis</title>
+    <title>Torque reduction factor (Temp) X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <CATEGORYMEM index="2" category="45" />
@@ -14114,7 +14114,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x496E" flags="0x30">
-    <title>Torque Reduction Factor (Temp)</title>
+    <title>Torque reduction factor (Temp)</title>
     <description>(kf_kuehlpimx)</description>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
@@ -14157,7 +14157,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45" flags="0x0">
-    <title>Coolant Setpoint (Normal Mode)</title>
+    <title>Coolant setpoint (Normal mode)</title>
     <description>(k_kft_no)</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="60" />
@@ -14197,7 +14197,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3ACE" flags="0x0">
-    <title>Coolant Temp Threshold (Yellow Warning)</title>
+    <title>Coolant temp threshold (Yellow warning)</title>
     <description>(k_tmwarn_1)</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="60" />
@@ -14238,7 +14238,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3ACE" flags="0x0">
-    <title>Coolant Temp Threshold (Red Warning)</title>
+    <title>Coolant temp threshold (Red warning)</title>
     <description>(k_tmwarn_2)</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="60" />
@@ -14279,7 +14279,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3ACE" flags="0x0">
-    <title>Oil Temp Threshold (Yellow Warning)</title>
+    <title>Oil temp threshold (Yellow warning)</title>
     <description>(k_towarn_1)</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="61" />
@@ -14320,7 +14320,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3ACE" flags="0x0">
-    <title>Oil Temp Threshold (Red Warning)</title>
+    <title>Oil temp threshold (Red warning)</title>
     <description>(k_towarn_2)</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="61" />
@@ -14361,7 +14361,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3ACE" flags="0x0">
-    <title>Oil Temp Threshold (Upshift Warning)</title>
+    <title>Oil temp threshold (Upshift warning)</title>
     <description>(k_towarn_3)</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="61" />
@@ -14402,7 +14402,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6C98" flags="0x30">
-    <title>Torque Limit Cap</title>
+    <title>Torque limit cap</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -14444,7 +14444,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>WGDC Correction (ECT) X-axis</title>
+    <title>WGDC correction (ECT) X-axis</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -14490,7 +14490,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7F3" flags="0x30">
-    <title>WGDC Correction (ECT)</title>
+    <title>WGDC correction (ECT)</title>
     <description>(kl_tvwgkort)</description>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
@@ -14530,8 +14530,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x569B" flags="0x30">
-    <title>WGDC Floor</title>
-    <description>minimum Sampling f. Control - component-conditional Behavior d. unterdruckdose (k_tvwgmin)</description>
+    <title>WGDC floor</title>
+    <description>minimum sampling f. control - component-conditional behavior d. unterdruckdose (k_tvwgmin)</description>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -14569,7 +14569,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Cylinder Temp Comp (ECT) X-axis</title>
+    <title>Cylinder temp compensation (ECT) X-axis</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="47" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -14614,7 +14614,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x18C4" flags="0x30">
-    <title>Cylinder Temp Comp (ECT)</title>
+    <title>Cylinder temp compensation (ECT)</title>
     <CATEGORYMEM index="0" category="1" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x73132" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -14653,7 +14653,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Cylinder Temp Comp (catalyst), X-axis</title>
+    <title>Cylinder temp compensation (catalyst), X-axis</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="47" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -14698,7 +14698,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6D5A" flags="0x30">
-    <title>Cylinder Temp Comp (catalyst)</title>
+    <title>Cylinder temp compensation (catalyst)</title>
     <CATEGORYMEM index="0" category="1" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x73156" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -14737,7 +14737,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Cylinder Temp Comp Weight Factor (ECT) Y-axis</title>
+    <title>Cylinder temp compensation weight factor (ECT) Y-axis</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="47" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -14782,7 +14782,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Cylinder Temp Comp Weight Factor (ECT) X-axis</title>
+    <title>Cylinder temp compensation weight factor (ECT) X-axis</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="47" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -14827,7 +14827,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x16F" flags="0x30">
-    <title>Cylinder Temp Comp Weight Factor (ECT)</title>
+    <title>Cylinder temp compensation weight factor (ECT)</title>
     <CATEGORYMEM index="0" category="1" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x732FA" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -14867,7 +14867,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Cylinder Temp Comp Weight Factor (catalyst), Y-axis</title>
+    <title>Cylinder temp compensation weight factor (catalyst), Y-axis</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="47" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -14912,7 +14912,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Cylinder Temp Comp Weight Factor (catalyst) X-axis</title>
+    <title>Cylinder temp compensation weight factor (catalyst) X-axis</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="47" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -14957,7 +14957,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x11ED" flags="0x30">
-    <title>Cylinder Temp Comp Weight Factor (catalyst)</title>
+    <title>Cylinder temp compensation weight factor (catalyst)</title>
     <CATEGORYMEM index="0" category="1" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x7339E" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -14997,7 +14997,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4E26" flags="0x30">
-    <title>Throttle Angle (WOT) RPM</title>
+    <title>Throttle angle (WOT) RPM</title>
     <CATEGORYMEM index="0" category="6" />
     <CATEGORYMEM index="1" category="18" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15038,7 +15038,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2DC4" flags="0x30">
-    <title>Throttle Angle (WOT)</title>
+    <title>Throttle angle (WOT)</title>
     <CATEGORYMEM index="0" category="6" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x7370A" mmedelementsizebits="16" mmedcolcount="18" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -15077,7 +15077,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0xDDC" flags="0x30">
-    <title>Throttle Angle Aggression in Overload RPM</title>
+    <title>Throttle angle aggression in overload RPM</title>
     <CATEGORYMEM index="0" category="6" />
     <CATEGORYMEM index="1" category="18" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15118,7 +15118,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Throttle Angle Aggression in Overload X-axis</title>
+    <title>Throttle angle aggression in overload X-axis</title>
     <CATEGORYMEM index="0" category="6" />
     <CATEGORYMEM index="1" category="18" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15152,7 +15152,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x73BAE" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Overboost Factor</units>
+      <units>Overboost factor</units>
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
@@ -15163,11 +15163,11 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5579" flags="0x30">
-    <title>Throttle Angle Aggression in Overload</title>
+    <title>Throttle angle aggression in overload</title>
     <CATEGORYMEM index="0" category="6" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x73BAE" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Overboost Factor</units>
+      <units>Overboost factor</units>
       <indexcount>8</indexcount>
       <embedinfo type="1" />
       <datatype>0</datatype>
@@ -15203,7 +15203,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x419E" flags="0x30">
-    <title>Threshold (Major Throttle Closure)</title>
+    <title>Threshold (Major throttle closure)</title>
     <CATEGORYMEM index="0" category="6" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -15243,7 +15243,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Pressure Decay Duration (after target reached) X-axis</title>
+    <title>Pressure Decay duration (after target reached) X-axis</title>
     <CATEGORYMEM index="0" category="29" />
     <CATEGORYMEM index="1" category="52" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15285,7 +15285,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2739" flags="0x0">
-    <title>Pressure Decay Duration (after target reached)</title>
+    <title>Pressure Decay duration (after target reached)</title>
     <description>Time f overboost speed regulation</description>
     <CATEGORYMEM index="0" category="29" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15323,7 +15323,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Overboost Duration (after target reached) X-axis</title>
+    <title>Overboost duration (after target reached) X-axis</title>
     <CATEGORYMEM index="0" category="29" />
     <CATEGORYMEM index="1" category="52" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15363,7 +15363,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5415" flags="0x0">
-    <title>Overboost Duration (after target reached)</title>
+    <title>Overboost duration (after target reached)</title>
     <description>&quot;Delay End overboost State&quot;</description>
     <CATEGORYMEM index="0" category="29" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15401,7 +15401,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Time Delay at Overboost Start X-axis</title>
+    <title>Time Delay at overboost start X-axis</title>
     <CATEGORYMEM index="0" category="29" />
     <CATEGORYMEM index="1" category="52" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15443,7 +15443,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x47DF" flags="0x0">
-    <title>Time Delay at Overboost Start</title>
+    <title>Time Delay at overboost start</title>
     <description>Time for Barrier overboost After Release</description>
     <CATEGORYMEM index="0" category="29" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15481,7 +15481,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Overboost Duration (total) X-axis</title>
+    <title>Overboost duration (total) X-axis</title>
     <CATEGORYMEM index="0" category="29" />
     <CATEGORYMEM index="1" category="52" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15523,7 +15523,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x767B" flags="0x0">
-    <title>Overboost Duration (total)</title>
+    <title>Overboost duration (total)</title>
     <description>Active-Time overboost engine speed-dependent</description>
     <CATEGORYMEM index="0" category="29" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15561,7 +15561,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1295" flags="0x30">
-    <title>Load Target Offset (Overboost) RPM</title>
+    <title>Load target offset (Overboost) RPM</title>
     <CATEGORYMEM index="0" category="5" />
     <CATEGORYMEM index="1" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15602,7 +15602,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Load Target Offset (Overboost) X-axis</title>
+    <title>Load target offset (Overboost) X-axis</title>
     <CATEGORYMEM index="0" category="5" />
     <CATEGORYMEM index="1" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15647,7 +15647,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0xFB0" flags="0x30">
-    <title>Load Target Offset (Overboost)</title>
+    <title>Load target offset (Overboost)</title>
     <CATEGORYMEM index="0" category="5" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x74326" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -15688,7 +15688,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x38A0" flags="0x0">
-    <title>Pressure Deviation for Overboost End</title>
+    <title>Pressure deviation for overboost End</title>
     <description>(k_pldd_ob)</description>
     <CATEGORYMEM index="0" category="29" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15716,7 +15716,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x7438E" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>psi</units>
+      <units>PSI</units>
       <decimalpl>3</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
@@ -15755,7 +15755,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x74392" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>psi</units>
+      <units>PSI</units>
       <decimalpl>3</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
@@ -15766,7 +15766,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x28D" flags="0x0">
-    <title>Pressure Increment Amount at Overboost Start</title>
+    <title>Pressure Increment Amount at overboost start</title>
     <description>(k_plddiffgrd_ob)</description>
     <CATEGORYMEM index="0" category="29" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15794,7 +15794,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x74394" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>psi</units>
+      <units>PSI</units>
       <decimalpl>3</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
@@ -15805,7 +15805,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x43E2" flags="0x0">
-    <title>Pressure Deviation to Trigger Overboost</title>
+    <title>Pressure deviation to trigger overboost</title>
     <description>(k_plddiff_ob)</description>
     <CATEGORYMEM index="0" category="29" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15833,7 +15833,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x74396" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>psi</units>
+      <units>PSI</units>
       <decimalpl>3</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
@@ -15883,7 +15883,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Pressure Drop Over IC X-axis</title>
+    <title>Pressure drop over IC X-axis</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="47" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15928,7 +15928,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3D8D" flags="0x30">
-    <title>Pressure Drop Over IC</title>
+    <title>Pressure drop over IC</title>
     <CATEGORYMEM index="0" category="1" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x749DA" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -15968,7 +15968,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5CB1" flags="0x30">
-    <title>Spool Mode Maximum RPM</title>
+    <title>Spool mode maximum RPM</title>
     <CATEGORYMEM index="0" category="1" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -16008,7 +16008,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Boost Request Offset % Y-axis</title>
+    <title>Boost request offset % Y-axis</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="47" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -16057,7 +16057,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Boost Request Offset % X-axis</title>
+    <title>Boost request offset % X-axis</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="47" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -16106,7 +16106,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x55B9" flags="0x30">
-    <title>Boost Request Offset %</title>
+    <title>Boost request offset %</title>
     <CATEGORYMEM index="0" category="1" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x75FBA" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -16186,7 +16186,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7F30" flags="0x30">
-    <title>Timing (Main) Load</title>
+    <title>Timing (Main) load</title>
     <CATEGORYMEM index="0" category="3" />
     <CATEGORYMEM index="1" category="11" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -16268,7 +16268,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6303" flags="0x30">
-    <title>Timing (Spool) RPM</title>
+    <title>Timing (spool) RPM</title>
     <CATEGORYMEM index="0" category="3" />
     <CATEGORYMEM index="1" category="11" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -16308,7 +16308,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x602D" flags="0x30">
-    <title>Timing (Spool) Load</title>
+    <title>Timing (spool) load</title>
     <CATEGORYMEM index="0" category="3" />
     <CATEGORYMEM index="1" category="11" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -16348,7 +16348,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x55E6" flags="0x30">
-    <title>Timing (Spool)</title>
+    <title>Timing (spool)</title>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x768BE" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -16429,7 +16429,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6957" flags="0x30">
-    <title>Timing (Fail Safe) Load</title>
+    <title>Timing (Fail Safe) load</title>
     <CATEGORYMEM index="0" category="3" />
     <CATEGORYMEM index="1" category="11" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -16509,7 +16509,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2186" flags="0x30">
-    <title>Timing (Unk Throttled) RPM</title>
+    <title>Timing (unknown throttled) RPM</title>
     <CATEGORYMEM index="0" category="3" />
     <CATEGORYMEM index="1" category="11" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -16549,7 +16549,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3438" flags="0x30">
-    <title>Timing (Unk Throttled) Load</title>
+    <title>Timing (unknown throttled) load</title>
     <CATEGORYMEM index="0" category="3" />
     <CATEGORYMEM index="1" category="11" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -16589,7 +16589,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6B4F" flags="0x30">
-    <title>Timing (Unk Throttled)</title>
+    <title>Timing (unknown throttled)</title>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x76B2A" mmedelementsizebits="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -16631,7 +16631,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7FEC" flags="0x30">
-    <title>Timing (Unk Emergency Limp) RPM</title>
+    <title>Timing (unknown emergency limp) RPM</title>
     <CATEGORYMEM index="0" category="3" />
     <CATEGORYMEM index="1" category="11" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -16671,7 +16671,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x411" flags="0x30">
-    <title>Timing (Unk Emergency Limp) Load</title>
+    <title>Timing (unknown emergency limp) load</title>
     <CATEGORYMEM index="0" category="3" />
     <CATEGORYMEM index="1" category="11" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -16711,7 +16711,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7C5D" flags="0x30">
-    <title>Timing (Unk Emergency Limp)</title>
+    <title>Timing (unknown emergency limp)</title>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x76E42" mmedelementsizebits="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -16793,7 +16793,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0xFA6" flags="0x30">
-    <title>Timing (Open Loop) Load</title>
+    <title>Timing (Open Loop) load</title>
     <CATEGORYMEM index="0" category="3" />
     <CATEGORYMEM index="1" category="11" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -16874,7 +16874,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x65EC" flags="0x30">
-    <title>Timing Cor. Factor (Charge Air Temp) Y Axis</title>
+    <title>Timing correction factor (charge air temp) Y Axis</title>
     <CATEGORYMEM index="0" category="3" />
     <CATEGORYMEM index="1" category="11" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -16914,7 +16914,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3045" flags="0x30">
-    <title>Timing Cor. Factor (Charge Air Temp) X Axis</title>
+    <title>Timing correction factor (charge air temp) X Axis</title>
     <CATEGORYMEM index="0" category="3" />
     <CATEGORYMEM index="1" category="11" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -16954,7 +16954,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x577" flags="0x30">
-    <title>Timing Cor. Factor (Charge Air Temp)</title>
+    <title>Timing correction factor (charge air temp)</title>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x770BA" mmedelementsizebits="16" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -16995,7 +16995,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3C3D" flags="0x30">
-    <title>Timing Total Cor. (Charge Air Temp) RPM</title>
+    <title>Timing total correction (charge air temp) RPM</title>
     <CATEGORYMEM index="0" category="3" />
     <CATEGORYMEM index="1" category="11" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -17035,7 +17035,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7698" flags="0x30">
-    <title>Timing Total Cor. (Charge Air Temp) Load</title>
+    <title>Timing total correction (charge air temp) load</title>
     <CATEGORYMEM index="0" category="3" />
     <CATEGORYMEM index="1" category="11" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -17075,7 +17075,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3BFD" flags="0x30">
-    <title>Timing Total Cor. (Charge Air Temp)</title>
+    <title>Timing total correction (charge air temp)</title>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x7734A" mmedelementsizebits="16" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -17115,7 +17115,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1983" flags="0x30">
-    <title>Boost Ceiling</title>
+    <title>Boost ceiling</title>
     <CATEGORYMEM index="0" category="1" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -17154,7 +17154,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Fuel (Start) X-axis</title>
+    <title>Fuel (start) X-axis</title>
     <CATEGORYMEM index="0" category="2" />
     <CATEGORYMEM index="1" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -17203,7 +17203,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Fuel (Start) Y-axis</title>
+    <title>Fuel (start) Y-axis</title>
     <CATEGORYMEM index="0" category="2" />
     <CATEGORYMEM index="1" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -17252,7 +17252,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Fuel (Start)</title>
+    <title>Fuel (start)</title>
     <description>(kf_rkstart)</description>
     <CATEGORYMEM index="0" category="2" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -17334,7 +17334,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2447" flags="0x30">
-    <title>Fuel Scalar (Bank 1) Load</title>
+    <title>Fuel Scalar (Bank 1) load</title>
     <CATEGORYMEM index="0" category="2" />
     <CATEGORYMEM index="1" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -17457,7 +17457,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x74A0" flags="0x30">
-    <title>Fuel Scalar (Bank 2) Load</title>
+    <title>Fuel Scalar (Bank 2) load</title>
     <CATEGORYMEM index="0" category="2" />
     <CATEGORYMEM index="1" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -17541,8 +17541,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6E2F" flags="0x0">
-    <title>Disable Lean Spool</title>
-    <description>To disable, set to 00&#010;To enable, set to 01&#010;Check your stock rom for the enable value.</description>
+    <title>Disable lean spool</title>
+    <description>To disable, set to 00&#010;To enable, set to 01&#010;Check your stock rom for the enable value</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="20" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -17579,7 +17579,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Loss (Strat) Y-axis</title>
+    <title>Torque loss (Strat) Y-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="46" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -17628,7 +17628,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Loss (Strat) X-axis</title>
+    <title>Torque loss (Strat) X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="46" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -17675,7 +17675,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3A1B" flags="0x0">
-    <title>Torque Loss (Strat)</title>
+    <title>Torque loss (Strat)</title>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x7A05E" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -17715,7 +17715,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Loss (Homo) Y-axis</title>
+    <title>Torque loss (Homo) Y-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="46" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -17764,7 +17764,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Torque Loss (Homo) X-axis</title>
+    <title>Torque loss (Homo) X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="46" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -17811,7 +17811,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6F9B" flags="0x0">
-    <title>Torque Loss (Homo)</title>
+    <title>Torque loss (Homo)</title>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x7A17E" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -17851,7 +17851,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x589F" flags="0x0">
-    <title>MAP Conversion (Custom) - Voltage</title>
+    <title>MAP conversion (Custom) - Voltage</title>
     <CATEGORYMEM index="0" category="36" />
     <CATEGORYMEM index="1" category="37" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -17889,7 +17889,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x47F0" flags="0x0">
-    <title>MAP Conversion (Custom)</title>
+    <title>MAP conversion (Custom)</title>
     <CATEGORYMEM index="0" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x7F702" mmedelementsizebits="16" mmedcolcount="3" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -17927,7 +17927,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x259F" flags="0x30">
-    <title>Load Target per Gear RPM</title>
+    <title>Load target per gear RPM</title>
     <CATEGORYMEM index="0" category="36" />
     <CATEGORYMEM index="1" category="37" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -17967,7 +17967,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0xFB0" flags="0x30">
-    <title>Load Target per Gear</title>
+    <title>Load target per gear</title>
     <CATEGORYMEM index="0" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x7F710" mmedelementsizebits="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -18014,7 +18014,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x703" flags="0x30">
-    <title>Boost Limit Multiplier Per Gear MAF</title>
+    <title>Boost limit multiplier per gear MAF</title>
     <CATEGORYMEM index="0" category="36" />
     <CATEGORYMEM index="1" category="37" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -18055,7 +18055,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0xA15" flags="0x30">
-    <title>Boost Limit Multiplier Per Gear</title>
+    <title>Boost limit multiplier per gear</title>
     <CATEGORYMEM index="0" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x7F7F8" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -18101,7 +18101,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2983" flags="0x0">
-    <title>Multispark (idle) max ECT temp</title>
+    <title>Multispark (idle) maximum ECT temp</title>
     <CATEGORYMEM index="0" category="32" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -18139,7 +18139,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x44F0" flags="0x0">
-    <title>Multispark (run) max ECT temp</title>
+    <title>Multispark (run) maximum ECT temp</title>
     <CATEGORYMEM index="0" category="32" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -18177,7 +18177,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4E08" flags="0x0">
-    <title>Multispark (fuel cut) max ECT temp</title>
+    <title>Multispark (fuel cut) maximum ECT temp</title>
     <CATEGORYMEM index="0" category="32" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -18215,7 +18215,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6498" flags="0x0">
-    <title>Multispark (start) max ECT temp</title>
+    <title>Multispark (start) maximum ECT temp</title>
     <CATEGORYMEM index="0" category="32" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -18253,7 +18253,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x68F4" flags="0x0">
-    <title>Dwell Max Adaptation</title>
+    <title>Dwell maximum adaptation</title>
     <CATEGORYMEM index="0" category="32" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -18290,7 +18290,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x334C" flags="0x0">
-    <title>Dwell Min Adaptation</title>
+    <title>Dwell minimum adaptation</title>
     <CATEGORYMEM index="0" category="32" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
