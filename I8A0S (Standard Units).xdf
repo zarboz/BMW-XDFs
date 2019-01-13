@@ -796,7 +796,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Idle RPM (power steering) X-axis</title>
+    <title>Idle RPM, power steering X-axis</title>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="51" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -839,7 +839,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Idle RPM (power steering &gt; X mph) X-axis</title>
+    <title>Idle RPM, power steering &gt; n MPH X-axis</title>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="51" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1658,7 +1658,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6C55" flags="0x0">
-    <title>Maximum speed for Static exhaust flap</title>
+    <title>Maximum speed for static exhaust flap</title>
     <CATEGORYMEM index="0" category="43" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -5650,7 +5650,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x696C" flags="0x0">
-    <title>Idle RPM (power steering)</title>
+    <title>Idle RPM, power steering</title>
     <description>(ip_n_sp_is_pste)</description>
     <CATEGORYMEM index="0" category="25" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -5689,7 +5689,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1E76" flags="0x0">
-    <title>Idle RPM (power steering &gt; X mph)</title>
+    <title>Idle RPM, power steering &gt; n MPH</title>
     <description>(ip_n_sp_is_pste_2)</description>
     <CATEGORYMEM index="0" category="25" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13765,7 +13765,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Coolant setpoint (High+KFT mode) X-axis</title>
+    <title>Coolant setpoint (high+KFT mode) X-axis</title>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="57" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13806,7 +13806,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x25EB" flags="0x0">
-    <title>Coolant setpoint (High+KFT mode)</title>
+    <title>Coolant setpoint (high+KFT mode)</title>
     <description>(kl_kft_hk)</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="60" />
@@ -13939,7 +13939,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Coolant setpoint (High mode) X-axis</title>
+    <title>Coolant setpoint (high mode) X-axis</title>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="57" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13980,7 +13980,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x25EB" flags="0x0">
-    <title>Coolant setpoint (High mode)</title>
+    <title>Coolant setpoint (high mode)</title>
     <description>(kl_kft_hi)</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="60" />
@@ -15364,7 +15364,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5415" flags="0x0">
     <title>Overboost duration (after target reached)</title>
-    <description>&quot;Delay End overboost State&quot;</description>
+    <description>&quot;Delay end overboost state&quot;</description>
     <CATEGORYMEM index="0" category="29" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x742CE" mmedelementsizebits="16" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
