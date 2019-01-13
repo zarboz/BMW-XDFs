@@ -1,4 +1,4 @@
-<!-- Written 01/13/2019 15:27:15 -->
+<!-- Written 01/13/2019 16:09:18 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2246,7 +2246,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3B1F" flags="0x0">
-    <title>Torque monitor ceiling RPM</title>
+    <title>Torque monitor ceiling, Y-axis (RPM)</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7951,7 +7951,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x217A" flags="0x30">
-    <title>Boost limit multiplier X axis</title>
+    <title>Boost limit multiplier X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12669,7 +12669,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x38AA" flags="0x30">
-    <title>Load to torque limit 1 load</title>
+    <title>Load to torque limit 1, Y-axis (load)</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12708,7 +12708,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7818" flags="0x30">
-    <title>Load to torque limit 1 RPM</title>
+    <title>Load to torque limit 1, X-axis (RPM)</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12789,7 +12789,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x48D0" flags="0x30">
-    <title>Load to torque limit 2 load</title>
+    <title>Load to torque limit 2, Y-axis (load)</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12828,7 +12828,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5232" flags="0x30">
-    <title>Load to torque limit 2 RPM</title>
+    <title>Load to torque limit 2, X-axis (RPM)</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12909,7 +12909,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5192" flags="0x30">
-    <title>Load to torque limit 3 load</title>
+    <title>Load to torque limit 3, Y-axis (load)</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -12948,7 +12948,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4ED9" flags="0x30">
-    <title>Load to torque limit 3 RPM</title>
+    <title>Load to torque limit 3, X-axis (RPM)</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13684,7 +13684,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5FA" flags="0x0">
-    <title>Torque reduction factor (RPM) X axis</title>
+    <title>Torque reduction factor (RPM) X-axis</title>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15077,7 +15077,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0xDDC" flags="0x30">
-    <title>Throttle angle aggression in overload RPM</title>
+    <title>Throttle angle aggression in overload, Y-axis (RPM)</title>
     <CATEGORYMEM index="0" category="6" />
     <CATEGORYMEM index="1" category="18" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15118,7 +15118,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Throttle angle aggression in overload X-axis</title>
+    <title>Throttle angle aggression in overload, X-axis</title>
     <CATEGORYMEM index="0" category="6" />
     <CATEGORYMEM index="1" category="18" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -16874,7 +16874,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x65EC" flags="0x30">
-    <title>Timing correction factor (charge air temp) Y axis</title>
+    <title>Timing correction factor (charge air temp) Y-axis</title>
     <CATEGORYMEM index="0" category="3" />
     <CATEGORYMEM index="1" category="11" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -16914,7 +16914,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3045" flags="0x30">
-    <title>Timing correction factor (charge air temp) X axis</title>
+    <title>Timing correction factor (charge air temp) X-axis</title>
     <CATEGORYMEM index="0" category="3" />
     <CATEGORYMEM index="1" category="11" />
     <XDFAXIS id="x" uniqueid="0x0">
