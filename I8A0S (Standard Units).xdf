@@ -1,4 +1,4 @@
-<!-- Written 01/13/2019 16:09:18 -->
+<!-- Written 01/14/2019 20:12:45 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -7,7 +7,7 @@
     <description></description>
     <author>JYamona, MHD, WedgePerformance</author>
     <BASEOFFSET offset="0" subtract="0" />
-    <DEFAULTS datasizeinbits="16" sigdigits="2" outputtype="1" signed="0" lsbfirst="0" float="0" />
+    <DEFAULTS datasizeinbits="16" sigdigits="2" outputtype="1" signed="0" lsbfirst="1" float="0" />
     <REGION type="0xFFFFFFFF" startaddress="0x0" size="0x1FFFFF" regionflags="0x0" name="Binary File" desc="This region describes the bin file edited by this XDF" />
     <CATEGORY index="0x0" name="Boost" />
     <CATEGORY index="0x1" name="Fuel" />
@@ -75,6 +75,7 @@
     <CATEGORY index="0x3F" name="Warning" />
     <CATEGORY index="0x40" name="Nominal" />
     <CATEGORY index="0x41" name="AT, manual mode" />
+    <CATEGORY index="0x42" name="Setpoint" />
     <CATEGORY index="0x99" name="Private - Testing" />
     <CATEGORY index="0xA0" name="DAMOS" />
     <CATEGORY index="0xA1" name="MDDMK" />
@@ -86,7 +87,7 @@
   </XDFHEADER>
   <XDFTABLE uniqueid="0x7DCE" flags="0x30">
     <title>Enable single rear O2 sensor</title>
-    <description>To use both rear sensors, set to 02&#010;To enable and use just bank 1 rear, set to 04&#010;&#010;(c_nr_conf_cbk_ex)</description>
+    <description>To use both rear sensors, set to 02&#010;To enable and use just bank 1 rear, set to 04&#010;&#010;(c_nr_conf_cbk_ex</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="20" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -301,7 +302,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x54D2" flags="0x0">
     <title>Idle RPM, minimum, AT toil</title>
-    <description>(ip_n_sp_is_toil_at)</description>
+    <description>ip_n_sp_is_toil_at</description>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="58" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -343,7 +344,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2B85" flags="0x0">
     <title>Idle RPM, minimum, MT toil</title>
-    <description>(ip_n_sp_is_toil_mt)</description>
+    <description>ip_n_sp_is_toil_mt</description>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="59" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -961,7 +962,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2148" flags="0x0">
     <title>Maximum knock threshold (pre-window)</title>
-    <description>(id_knk_thd_max_pre)</description>
+    <description>id_knk_thd_max_pre</description>
     <CATEGORYMEM index="0" category="24" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x41BAF" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -1039,7 +1040,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4577" flags="0x0">
     <title>Rear axle ratio</title>
-    <description>(c_gr_rax_sp)</description>
+    <description>c_gr_rax_sp</description>
     <CATEGORYMEM index="0" category="30" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1077,7 +1078,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45C0" flags="0x0">
     <title>Min load decrease fast fuel cutoff</title>
-    <description>(c_maf_dif_min_fcut_fast)</description>
+    <description>c_maf_dif_min_fcut_fast</description>
     <CATEGORYMEM index="0" category="33" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1116,7 +1117,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x44A5" flags="0x0">
     <title>Max duration of torque reduction during gear shift</title>
-    <description>(c_t_max_tqr_gs_intv)</description>
+    <description>c_t_max_tqr_gs_intv</description>
     <CATEGORYMEM index="0" category="33" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1233,7 +1234,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x56FB" flags="0x0">
     <title>Max IAT sensor voltage 1</title>
-    <description>(c_vp_tia_max_diag)</description>
+    <description>c_vp_tia_max_diag</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1272,7 +1273,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x56FB" flags="0x0">
     <title>Min IAT sensor voltage 1</title>
-    <description>(c_vp_tia_min_diag)</description>
+    <description>c_vp_tia_min_diag</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1311,7 +1312,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x56FB" flags="0x0">
     <title>Max IAT sensor voltage 2</title>
-    <description>(c_vp_tia_tcha_up_max_diag)</description>
+    <description>c_vp_tia_tcha_up_max_diag</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1350,7 +1351,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x56FB" flags="0x0">
     <title>Min IAT sensor voltage 2</title>
-    <description>(c_vp_tia_tcha_up_min_diag)</description>
+    <description>c_vp_tia_tcha_up_min_diag</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1389,7 +1390,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45C0" flags="0x0">
     <title>Max time clutch switch observation fast fuel cutoff</title>
-    <description>(c_t_max_fcut_fast)</description>
+    <description>c_t_max_fcut_fast</description>
     <CATEGORYMEM index="0" category="33" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1428,7 +1429,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45C0" flags="0x0">
     <title>Max time gear shift observation fast fuel cutoff</title>
-    <description>(c_t_max_fcut_fast_tcha)</description>
+    <description>c_t_max_fcut_fast_tcha</description>
     <CATEGORYMEM index="0" category="33" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1467,7 +1468,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45C0" flags="0x0">
     <title>Minimum coolant temperature fast fuel cutoff</title>
-    <description>(c_tco_min_fcut_fast)</description>
+    <description>c_tco_min_fcut_fast</description>
     <CATEGORYMEM index="0" category="33" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1506,7 +1507,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x23C0" flags="0x30">
     <title>Max permissible IAT gradient</title>
-    <description>(c_tia_grd_max_diag)</description>
+    <description>c_tia_grd_max_diag</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1583,7 +1584,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3CB3" flags="0x0">
     <title>Kickdown pedal recognition voltage</title>
-    <description>(c_v_pvs_thd_kd)</description>
+    <description>c_v_pvs_thd_kd</description>
     <CATEGORYMEM index="0" category="30" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1621,7 +1622,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2DCB" flags="0x0">
     <title>Kickdown pedal recognition hysteresis</title>
-    <description>(c_v_pvs_thd_kd_hys)</description>
+    <description>c_v_pvs_thd_kd_hys</description>
     <CATEGORYMEM index="0" category="30" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1698,7 +1699,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45C0" flags="0x0">
     <title>Min speed fuel cutoff 1</title>
-    <description>(c_vs_min_fcut_fast)</description>
+    <description>c_vs_min_fcut_fast</description>
     <CATEGORYMEM index="0" category="33" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1737,7 +1738,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45C0" flags="0x0">
     <title>Min speed fuel cutoff 2</title>
-    <description>(c_vs_min_fcut_fast_tcha)</description>
+    <description>c_vs_min_fcut_fast_tcha</description>
     <CATEGORYMEM index="2" category="33" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -2054,7 +2055,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6C20" flags="0x0">
     <title>Misfire detection RPM, maximum, AT</title>
-    <description>(c_n_max_mis_at)</description>
+    <description>c_n_max_mis_at</description>
     <CATEGORYMEM index="2" category="34" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -2093,7 +2094,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2A79" flags="0x0">
     <title>Misfire detection RPM, maximum, MT</title>
-    <description>(c_n_max_mis_mt)</description>
+    <description>c_n_max_mis_mt</description>
     <CATEGORYMEM index="0" category="34" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -2132,7 +2133,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x58E1" flags="0x0">
     <title>Misfire detection RPM, minimum</title>
-    <description>(c_n_min_mis)</description>
+    <description>c_n_min_mis</description>
     <CATEGORYMEM index="0" category="34" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -2495,7 +2496,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3C48" flags="0x0">
     <title>Gear ratio calculation (monitor)</title>
-    <description>(id_gr_mt_mon)</description>
+    <description>id_gr_mt_mon</description>
     <CATEGORYMEM index="0" category="30" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x440C8" mmedelementsizebits="8" mmedcolcount="13" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -2756,7 +2757,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0xB2A" flags="0x30">
     <title>Requested torque monitor factor A</title>
-    <description>(ip_fac_tq_req_driv_mon)</description>
+    <description>ip_fac_tq_req_driv_mon</description>
     <CATEGORYMEM index="0" category="7" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x440A9" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
@@ -2798,7 +2799,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1CBF" flags="0x0">
     <title>Torque monitor (customer-specific)</title>
-    <description>(ip_tqi_cus_mon)</description>
+    <description>ip_tqi_cus_mon</description>
     <CATEGORYMEM index="0" category="34" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x43C79" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -3254,7 +3255,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3C48" flags="0x0">
     <title>Gear ratio calculation</title>
-    <description>(id_gr_mt__n_vs_ratio)</description>
+    <description>id_gr_mt__n_vs_ratio</description>
     <CATEGORYMEM index="0" category="30" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4FD74" mmedelementsizebits="8" mmedcolcount="13" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -4524,7 +4525,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5F24" flags="0x0">
     <title>Engine speed - load threshold for fast fuel cutoff</title>
-    <description>(id_maf_n_min_fcut_fast)</description>
+    <description>id_maf_n_min_fcut_fast</description>
     <CATEGORYMEM index="0" category="33" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4E272" mmedelementsizebits="16" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -4943,7 +4944,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x10B3" flags="0x0">
     <title>Max torque per gear, AT</title>
-    <description>(id_tq_p_max_at)</description>
+    <description>id_tq_p_max_at</description>
     <CATEGORYMEM index="0" category="34" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -4995,7 +4996,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1F25" flags="0x0">
     <title>Max torque per gear, MT</title>
-    <description>(id_tq_p_max_mt)</description>
+    <description>id_tq_p_max_mt</description>
     <CATEGORYMEM index="0" category="34" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -5128,7 +5129,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2DF4" flags="0x0">
     <title>Knock factor table cyl. 1</title>
-    <description>(ip_fac_thd_knk_0__n__maf)</description>
+    <description>ip_fac_thd_knk_0__n__maf</description>
     <CATEGORYMEM index="0" category="24" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x4F495" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -5451,7 +5452,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4729" flags="0x0">
     <title>Maximum spark retard</title>
-    <description>(ip_iga_ofs_max_knk__n__maf)</description>
+    <description>ip_iga_ofs_max_knk__n__maf</description>
     <CATEGORYMEM index="0" category="24" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4F7F9" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -5490,7 +5491,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x75A0" flags="0x0">
     <title>Idle RPM, MT, drive-off support #1</title>
-    <description>(ip_n_sp_is_cs_opm_1)</description>
+    <description>ip_n_sp_is_cs_opm_1</description>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="59" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -5530,7 +5531,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7EB7" flags="0x0">
     <title>Idle RPM, MT, drive-off support #2</title>
-    <description>(ip_n_sp_is_cs_opm_2)</description>
+    <description>ip_n_sp_is_cs_opm_2</description>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="59" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -5612,7 +5613,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5556" flags="0x0">
     <title>Idle RPM (limp mode)</title>
-    <description>(ip_n_sp_is_lih)</description>
+    <description>ip_n_sp_is_lih</description>
     <CATEGORYMEM index="0" category="25" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4F939" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -5651,7 +5652,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x696C" flags="0x0">
     <title>Idle RPM, power steering</title>
-    <description>(ip_n_sp_is_pste)</description>
+    <description>ip_n_sp_is_pste</description>
     <CATEGORYMEM index="0" category="25" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x41BF7" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -5690,7 +5691,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1E76" flags="0x0">
     <title>Idle RPM, power steering &gt; n MPH</title>
-    <description>(ip_n_sp_is_pste_2)</description>
+    <description>ip_n_sp_is_pste_2</description>
     <CATEGORYMEM index="0" category="25" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x41BF7" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -5729,7 +5730,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x54DF" flags="0x0">
     <title>IAT conversion 1</title>
-    <description>(ip_tia__vp_tia)</description>
+    <description>ip_tia__vp_tia</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4EF76" mmedelementsizebits="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -5769,7 +5770,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x54DF" flags="0x0">
     <title>IAT conversion 2</title>
-    <description>(ip_tia_tcha__vp_tia_tcha)</description>
+    <description>ip_tia_tcha__vp_tia_tcha</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4EF52" mmedelementsizebits="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -5809,7 +5810,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3226" flags="0x0">
     <title>Max torque at clutch, AT</title>
-    <description>(ip_tq_lim_tout_at)</description>
+    <description>ip_tq_lim_tout_at</description>
     <CATEGORYMEM index="0" category="34" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4FA06" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -9544,7 +9545,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7C3" flags="0x30">
     <title>WGDC (RPM x boost setpoint)</title>
-    <description>atl-Rules - Feedforward without Height influence (kf_atlvst_nkw)</description>
+    <description>atl-Rules - Feedforward without Height influence (kf_atlvst_nkw</description>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -9996,7 +9997,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4B4E" flags="0x30">
     <title>Enable WGDC (RPM x boost setpoint)</title>
-    <description>To enable, set to 01&#010;To disable, set to 00&#010;&#010;Boost Feedforward without Height influence (s_atlvst_nkw)</description>
+    <description>To enable, set to 01&#010;To disable, set to 00&#010;&#010;Boost Feedforward without Height influence (s_atlvst_nkw</description>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -10290,7 +10291,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x45" flags="0x0">
     <title>Temperature threshold for end of warm-up</title>
-    <description>(k_ewptwalmx)</description>
+    <description>k_ewptwalmx</description>
     <CATEGORYMEM index="0" category="26" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -10327,50 +10328,51 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x3ACE" flags="0x0">
-    <title>Coolant temp warning threshold, enable</title>
-    <description>(k_tmbsmx)</description>
+  <XDFCONSTANT uniqueid="0x5EDF">
+    <title>Threshold, warning, coolant temp, enable</title>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="60" />
     <CATEGORYMEM index="2" category="64" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <outputtype>4</outputtype>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="&#176;C" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x64336" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>&#176;C</units>
-      <decimalpl>0</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="X/100">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
+    <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x64336" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>&#176;C</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="x/100">
+      <VAR id="x" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x4317">
+    <title>Threshold, warning, coolant temp, yellow</title>
+    <CATEGORYMEM index="0" category="26" />
+    <CATEGORYMEM index="1" category="60" />
+    <CATEGORYMEM index="2" category="64" />
+    <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x71AC8" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>&#176;C</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="x/100">
+      <VAR id="x" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x3F43">
+    <title>Threshold, warning, coolant temp, red</title>
+    <CATEGORYMEM index="0" category="26" />
+    <CATEGORYMEM index="1" category="60" />
+    <CATEGORYMEM index="2" category="64" />
+    <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x71ACA" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>&#176;C</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="x/100">
+      <VAR id="x" />
+    </MATH>
+  </XDFCONSTANT>
   <XDFTABLE uniqueid="0x3ACE" flags="0x0">
-    <title>Oil temp warning threshold, enable</title>
-    <description>(k_tobsmx)</description>
+    <title>Threshold, warning, oil temp, enable</title>
+    <description>k_tobsmx</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="61" />
     <CATEGORYMEM index="2" category="64" />
@@ -10409,11 +10411,12 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x45" flags="0x0">
-    <title>Ambient temp threshold for high mode</title>
-    <description>(k_wmtu_1)</description>
+  <XDFTABLE uniqueid="0x3ACE" flags="0x0">
+    <title>Threshold, warning, oil temp, yellow</title>
+    <description>k_towarn_1</description>
     <CATEGORYMEM index="0" category="26" />
-    <CATEGORYMEM index="1" category="63" />
+    <CATEGORYMEM index="1" category="61" />
+    <CATEGORYMEM index="2" category="64" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>1</indexcount>
@@ -10438,7 +10441,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x6434C" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x71ACE" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>&#176;C</units>
       <decimalpl>0</decimalpl>
       <min>0.000000</min>
@@ -10449,11 +10452,12 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x45" flags="0x0">
-    <title>Ambient temp threshold for high+KFT mode</title>
-    <description>(k_wmtu_2)</description>
+  <XDFTABLE uniqueid="0x3ACE" flags="0x0">
+    <title>Threshold, warning, oil temp, red</title>
+    <description>k_towarn_2</description>
     <CATEGORYMEM index="0" category="26" />
-    <CATEGORYMEM index="1" category="63" />
+    <CATEGORYMEM index="1" category="61" />
+    <CATEGORYMEM index="2" category="64" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>1</indexcount>
@@ -10478,7 +10482,48 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x6434E" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x71AD0" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>&#176;C</units>
+      <decimalpl>0</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="X/10">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x3ACE" flags="0x0">
+    <title>Threshold, warning, oil temp, upshift</title>
+    <description>k_towarn_3</description>
+    <CATEGORYMEM index="0" category="26" />
+    <CATEGORYMEM index="1" category="61" />
+    <CATEGORYMEM index="2" category="64" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>1</indexcount>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>1</indexcount>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="&#176;C" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x71AD2" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>&#176;C</units>
       <decimalpl>0</decimalpl>
       <min>0.000000</min>
@@ -12781,7 +12826,7 @@
       <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>0.000000</min>
-      <max>2416.800049</max>
+      <max>737.599976</max>
       <outputtype>1</outputtype>
       <MATH equation="X/13.5582">
         <VAR id="X" />
@@ -12901,7 +12946,7 @@
       <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>0.000000</min>
-      <max>2416.800049</max>
+      <max>737.599976</max>
       <outputtype>1</outputtype>
       <MATH equation="X/13.5582">
         <VAR id="X" />
@@ -13020,7 +13065,7 @@
       <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>0.000000</min>
-      <max>2416.800049</max>
+      <max>737.599976</max>
       <outputtype>1</outputtype>
       <MATH equation="X/13.5582">
         <VAR id="X" />
@@ -13724,7 +13769,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2EC3" flags="0x30">
     <title>Torque reduction factor (RPM)</title>
-    <description>(kl_kuehln)</description>
+    <description>kl_kuehln</description>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13764,52 +13809,12 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Coolant setpoint (high+KFT mode) X-axis</title>
-    <CATEGORYMEM index="0" category="26" />
-    <CATEGORYMEM index="1" category="57" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>4</indexcount>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="0.00" />
-      <LABEL index="1" value="0.00" />
-      <LABEL index="2" value="0.00" />
-      <LABEL index="3" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x7185E" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>AMB &#176;C</units>
-      <decimalpl>0</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="X/10">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
   <XDFTABLE uniqueid="0x25EB" flags="0x0">
-    <title>Coolant setpoint (high+KFT mode)</title>
-    <description>(kl_kft_hk)</description>
+    <title>Setpoint, coolant, KFT</title>
+    <description>kl_kft_hk</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="60" />
+    <CATEGORYMEM index="2" category="67" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x7185E" mmedelementsizebits="16" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>AMB &#176;C</units>
@@ -13838,152 +13843,21 @@
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x71866" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>&#176;C</units>
-      <decimalpl>0</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="X/100">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
-  <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Radiator fan duty cycle (ECT target diff) X-axis</title>
-    <CATEGORYMEM index="0" category="26" />
-    <CATEGORYMEM index="1" category="57" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>12</indexcount>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="0.00" />
-      <LABEL index="1" value="0.00" />
-      <LABEL index="2" value="0.00" />
-      <LABEL index="3" value="0.00" />
-      <LABEL index="4" value="0.00" />
-      <LABEL index="5" value="0.00" />
-      <LABEL index="6" value="0.00" />
-      <LABEL index="7" value="0.00" />
-      <LABEL index="8" value="0.00" />
-      <LABEL index="9" value="0.00" />
-      <LABEL index="10" value="0.00" />
-      <LABEL index="11" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x71872" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>&#176;C</units>
-      <decimalpl>0</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="X/100">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
-  <XDFTABLE uniqueid="0x2CE4" flags="0x0">
-    <title>Radiator fan duty cycle (ECT target diff)</title>
-    <description>(kl_el_tmot)</description>
-    <CATEGORYMEM index="0" category="26" />
-    <CATEGORYMEM index="1" category="62" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x71872" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>&#176;C</units>
-      <indexcount>12</indexcount>
-      <decimalpl>0</decimalpl>
-      <embedinfo type="1" />
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <MATH equation="X/100">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <outputtype>4</outputtype>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="%" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x7188A" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>%</units>
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X/2.56">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
-  <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Coolant setpoint (high mode) X-axis</title>
-    <CATEGORYMEM index="0" category="26" />
-    <CATEGORYMEM index="1" category="57" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>4</indexcount>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="0.00" />
-      <LABEL index="1" value="0.00" />
-      <LABEL index="2" value="0.00" />
-      <LABEL index="3" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x718AA" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>AMB &#176;C</units>
-      <decimalpl>0</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="X/10">
+      <MATH equation="X/100">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x25EB" flags="0x0">
-    <title>Coolant setpoint (high mode)</title>
-    <description>(kl_kft_hi)</description>
+    <title>Setpoint, coolant, high</title>
+    <description>kl_kft_hi</description>
     <CATEGORYMEM index="0" category="26" />
     <CATEGORYMEM index="1" category="60" />
+    <CATEGORYMEM index="2" category="67" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x718AA" mmedelementsizebits="16" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>AMB &#176;C</units>
@@ -14012,7 +13886,7 @@
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x718B2" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>&#176;C</units>
-      <decimalpl>0</decimalpl>
+      <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>1</outputtype>
@@ -14115,7 +13989,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x496E" flags="0x30">
     <title>Torque reduction factor (Temp)</title>
-    <description>(kf_kuehlpimx)</description>
+    <description>kf_kuehlpimx</description>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -14152,251 +14026,6 @@
       <max>0.996000</max>
       <outputtype>1</outputtype>
       <MATH equation="X/256">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
-  <XDFTABLE uniqueid="0x45" flags="0x0">
-    <title>Coolant setpoint (Normal mode)</title>
-    <description>(k_kft_no)</description>
-    <CATEGORYMEM index="0" category="26" />
-    <CATEGORYMEM index="1" category="60" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <outputtype>4</outputtype>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="&#176;C" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x71ABC" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>&#176;C</units>
-      <decimalpl>0</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="X/100">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
-  <XDFTABLE uniqueid="0x3ACE" flags="0x0">
-    <title>Coolant temp warning, threshold, yellow</title>
-    <description>(k_tmwarn_1)</description>
-    <CATEGORYMEM index="0" category="26" />
-    <CATEGORYMEM index="1" category="60" />
-    <CATEGORYMEM index="2" category="64" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <outputtype>4</outputtype>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="&#176;C" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x71AC8" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>&#176;C</units>
-      <decimalpl>0</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="X/100">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
-  <XDFTABLE uniqueid="0x3ACE" flags="0x0">
-    <title>Coolant temp warning threshold, red</title>
-    <description>(k_tmwarn_2)</description>
-    <CATEGORYMEM index="0" category="26" />
-    <CATEGORYMEM index="1" category="60" />
-    <CATEGORYMEM index="2" category="64" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <outputtype>4</outputtype>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="&#176;C" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x71ACA" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>&#176;C</units>
-      <decimalpl>0</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="X/100">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
-  <XDFTABLE uniqueid="0x3ACE" flags="0x0">
-    <title>Oil temp warning threshold, yellow</title>
-    <description>(k_towarn_1)</description>
-    <CATEGORYMEM index="0" category="26" />
-    <CATEGORYMEM index="1" category="61" />
-    <CATEGORYMEM index="2" category="64" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <outputtype>4</outputtype>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="&#176;C" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x71ACE" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>&#176;C</units>
-      <decimalpl>0</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="X/10">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
-  <XDFTABLE uniqueid="0x3ACE" flags="0x0">
-    <title>Oil temp warning threshold, red</title>
-    <description>(k_towarn_2)</description>
-    <CATEGORYMEM index="0" category="26" />
-    <CATEGORYMEM index="1" category="61" />
-    <CATEGORYMEM index="2" category="64" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <outputtype>4</outputtype>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="&#176;C" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x71AD0" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>&#176;C</units>
-      <decimalpl>0</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="X/10">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
-  <XDFTABLE uniqueid="0x3ACE" flags="0x0">
-    <title>Oil temp warning threshold, Upshift</title>
-    <description>(k_towarn_3)</description>
-    <CATEGORYMEM index="0" category="26" />
-    <CATEGORYMEM index="1" category="61" />
-    <CATEGORYMEM index="2" category="64" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <outputtype>4</outputtype>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="&#176;C" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x71AD2" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>&#176;C</units>
-      <decimalpl>0</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="X/10">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -14491,7 +14120,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7F3" flags="0x30">
     <title>WGDC correction (ECT)</title>
-    <description>(kl_tvwgkort)</description>
+    <description>kl_tvwgkort</description>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -14531,7 +14160,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x569B" flags="0x30">
     <title>WGDC floor</title>
-    <description>minimum sampling f. control - component-conditional behavior d. unterdruckdose (k_tvwgmin)</description>
+    <description>minimum sampling f. control - component-conditional behavior d. unterdruckdose (k_tvwgmin</description>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15688,8 +15317,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x38A0" flags="0x0">
-    <title>Pressure deviation for overboost End</title>
-    <description>(k_pldd_ob)</description>
+    <title>Pressure deviation for overboost end</title>
+    <description>k_pldd_ob</description>
     <CATEGORYMEM index="0" category="29" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -15728,7 +15357,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x69C8" flags="0x0">
     <title>Pressure decay amount (after target reached)</title>
-    <description>&quot;gradient the p-band for overboost end&quot; - (k_plddgrd_ob)</description>
+    <description>&quot;gradient the p-band for overboost end&quot; - (k_plddgrd_ob</description>
     <CATEGORYMEM index="0" category="29" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -15767,7 +15396,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x28D" flags="0x0">
     <title>Pressure increment amount at overboost start</title>
-    <description>(k_plddiffgrd_ob)</description>
+    <description>k_plddiffgrd_ob</description>
     <CATEGORYMEM index="0" category="29" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -15806,7 +15435,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x43E2" flags="0x0">
     <title>Pressure deviation to trigger overboost</title>
-    <description>(k_plddiff_ob)</description>
+    <description>k_plddiff_ob</description>
     <CATEGORYMEM index="0" category="29" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -17253,7 +16882,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>Fuel (start)</title>
-    <description>(kf_rkstart)</description>
+    <description>kf_rkstart</description>
     <CATEGORYMEM index="0" category="2" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x7884A" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -18328,7 +17957,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5146" flags="0x0">
     <title>Idle RPM, nominal, AC off, in gear</title>
-    <description>(ip_dri_n_sp_is)</description>
+    <description>ip_dri_n_sp_is</description>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="2" category="58" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -18414,7 +18043,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7E14" flags="0x0">
     <title>Idle RPM, nominal, AC off, in neutral</title>
-    <description>(ip_n_sp_is)</description>
+    <description>ip_n_sp_is</description>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="65" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -18499,7 +18128,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7E8E" flags="0x0">
     <title>Idle RPM, nominal, AC on, in gear</title>
-    <description>(ip_dri_acin_n_sp_is)</description>
+    <description>ip_dri_acin_n_sp_is</description>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="58" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -18585,7 +18214,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0xCC5" flags="0x0">
     <title>Idle RPM, nominal, AC on, in neutral</title>
-    <description>(ip_acin_n_sp_is)</description>
+    <description>ip_acin_n_sp_is</description>
     <CATEGORYMEM index="0" category="25" />
     <CATEGORYMEM index="1" category="59" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -19169,4 +18798,84 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
+  <XDFFUNCTION uniqueid="0x4EDA" flags="0x0">
+    <title>Electric fan PWM vs. coolant target diff</title>
+    <description>kl_el_tmot</description>
+    <CATEGORYMEM index="0" category="26" />
+    <CATEGORYMEM index="1" category="62" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x71872" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>&#176;C</units>
+      <indexcount>12</indexcount>
+      <min>-20.000000</min>
+      <max>30.000000</max>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/100">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x7188A" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>%</units>
+      <indexcount>12</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="(x/255)*100">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFFUNCTION>
+  <XDFCONSTANT uniqueid="0x3CBB" flags="0xC">
+    <title>Threshold, thermal mode, high, ambient</title>
+    <description>k_wmtu_1</description>
+    <CATEGORYMEM index="0" category="26" />
+    <CATEGORYMEM index="1" category="63" />
+    <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x6434C" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>&#176;C</units>
+    <decimalpl>1</decimalpl>
+    <rangehigh>48.000000</rangehigh>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="x/10">
+      <VAR id="x" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x10E2" flags="0xC">
+    <title>Threshold, thermal mode, KFT, ambient</title>
+    <description>k_wmtu_2</description>
+    <CATEGORYMEM index="0" category="26" />
+    <CATEGORYMEM index="1" category="63" />
+    <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x6434E" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>&#176;C</units>
+    <decimalpl>1</decimalpl>
+    <rangehigh>40.000000</rangehigh>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="x/10">
+      <VAR id="x" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0xA45" flags="0xC">
+    <title>Setpoint, coolant, normal</title>
+    <CATEGORYMEM index="0" category="26" />
+    <CATEGORYMEM index="1" category="60" />
+    <CATEGORYMEM index="2" category="67" />
+    <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x71ABC" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>&#176;C</units>
+    <rangehigh>110.000000</rangehigh>
+    <rangelow>60.000000</rangelow>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="x/100">
+      <VAR id="x" />
+    </MATH>
+  </XDFCONSTANT>
 </XDFFORMAT>
