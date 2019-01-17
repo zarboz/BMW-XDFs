@@ -1,0 +1,28 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Checksum]
+"Client Name"="AGOSTINELLI DONATELLO"
+"MainPath"="C:\\Checksum\\CheckData.exe"
+"DataPath"="C:\\Checksum\\CheckData\\"
+"DataKey"=hex:bc,c6,01,ea,ff,ff,ff,ff,a5,b6,cd,b0,cf,ff,ce,a5,a8,b8,c7,ff,a9,\
+  b1,ae,c7,ce,ff,b1,a6,b7,b7,a9,ff,cd,c9,cd,c6,c9,d2,b0,ba,b2,d2,cf,cf,ce,ca,\
+  ce,cb,cc,d2,c8,ca,cb,ca,cc,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,59,a8,81,d8,c0,59,c9,76,59,88,5d,d8,62,be,\
+  67,5c,0c,4e,34,6b,b2,66,28,d8,f4,c2,94,72,19,e7,ac,20,b2,2d,d7,f2,83,bc,52,\
+  fc,b9,35,3f,c5,8f,62,c7,c8,1d,c9,75,8b,0a,6e,15,db,1a,ce,62,96,9d,00,87,05,\
+  67,e3,f0,6e,2d,f1,44,87,51,41,23,25,3f,97,8a,ac,59,b4,a5,9a,82,e2,ec,fb,b7,\
+  2b,ab,5b,41,59,df,9b,fe,3e,d3,ca,53,20,a0,60,d4,d7,59,bc,e2,04,2c,a1,65,b7,\
+  d2,a2,10,53,c9,cd,11,97,3c,0d,56,e9,6d,5c,84,17,16,0f,2a,bd,ff,8c,19,bd,dc,\
+  be,3c,d6,31,19,58,bc,ff,f4,63,74,79,cf,e4,31,51,06,01,da,6d,aa,23,2d,6f,03,\
+  80,f4,7d,e9,77,9e,a0,c6,27,e2,d7,3d,dd,fb,36,df,6c,08,e7,02,40,42,6b,22,81,\
+  37,ce,2a,ce,b5,42,6b,c5,17,b2,44,2e,52,e7,d3,55,d3,cb,c4,56,04,9c,69,da,c7,\
+  93,86,6b,04,22,3e,6b,97,66,1e,df,de,37,40,0a,01,9f,75,c4,29,93,3e,0f,55,db,\
+  d1,fc,cd,81,0e,9e,4c,fd,33,c2,6f,f6,b0,f1,c2,25,bd,ff,ff,ff,00,00,00,00
+"LastDir"="C:\\EP\\EPROM\\VOLVO\\V70tdi\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Checksum\Settings]
+"Last Path"="C:\\WINDOWS\\Desktop\\diesel2\\"
+

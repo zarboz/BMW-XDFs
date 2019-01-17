@@ -1,0 +1,98 @@
+; Installation inf for Cartech Hardware Key Direct Driver
+;
+; Copyright (c) 2003 Cartech s.n.c.
+;
+
+[Version]
+Signature="$CHICAGO$"
+Class=USB
+ClassGUID={36fc9e60-c465-11cf-8056-444553540000}
+Provider=%Cartech%
+
+DriverVer=07/29/2002,1.03.20
+
+[SourceDisksNames]
+1=%DriversDisk%,,,
+
+[SourceDisksFiles]
+CTHWK.sys = 1
+CTHWK.inf = 1
+CTHWK.dll = 1
+CTHWKUN.exe = 1
+
+[Manufacturer]
+%Cartech%=CartechHw
+
+[CartechHw]
+%USB\VID_0403&PID_FADA.DeviceDesc%=CTHWK, USB\VID_0403&PID_FADA
+
+[ControlFlags]
+ExcludeFromSelect=USB\VID_0403&PID_FADA
+
+;[PreCopySection]
+;HKR,,NoSetupUI,,1
+
+[DestinationDirs]
+DefaultDestDir   = 11
+CTHWK.Files.Ext = 10,System32\Drivers
+CTHWK.Files.Dll = 11
+CTHWK.Files.Exe = 11
+
+;---------------------------------------------------------------;
+; For Win98 ...
+;
+
+[CTHWK]
+CopyFiles=CTHWK.Files.Ext, CTHWK.Files.Dll, CTHWK.Files.Exe
+AddReg=CTHWK.AddReg, CTHWK.UnInst
+
+[CTHWK.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,CTHWK.sys
+HKLM,"System\Currentcontrolset\Services\CTHWK\Parameters","MaximumTransferSize",0x10001,4096
+HKLM,"System\Currentcontrolset\Services\CTHWK\Parameters","DebugLevel",0x10001,2
+
+[CTHWK.Files.Ext]
+CTHWK.sys
+
+[CTHWK.Files.Dll]
+CTHWK.dll
+
+[CTHWK.Files.Exe]
+CTHWKUN.exe
+
+[CTHWK.UnInst]
+HKLM,%WINUN%,"CTHWK"
+HKLM,%WINUN%\CTHWK , "UninstallString",,"%11%\CTHWKUN.exe"
+HKLM,%WINUN%\CTHWK , "DisplayName",,"Uninstall Hardware Key"
+
+
+;---------------------------------------------------------------;
+; For Win2000 ...
+;
+
+[CTHWK.NT]
+CopyFiles=CTHWK.Files.Ext, CTHWK.Files.Dll, CTHWK.Files.Exe
+AddReg=CTHWK.AddReg, CTHWK.UnInst
+
+[CTHWK.NT.Services]
+Addservice = CTHWK, 0x00000002, CTHWK.AddService
+
+[CTHWK.AddService]
+DisplayName    = %CTHWK.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\CTHWK.sys
+LoadOrderGroup = Base
+
+
+;---------------------------------------------------------------;
+
+[Strings]
+Cartech="Cartech sas"
+USB\VID_0403&PID_FADA.DeviceDesc="Hardware Key"
+CTHWK.SvcDesc="CTHWK.SYS CTHWK device driver"
+WINUN="Software\Microsoft\Windows\CurrentVersion\Uninstall"
+DriversDisk="Hardware Key Drivers Disk"
+
