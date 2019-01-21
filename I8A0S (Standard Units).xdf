@@ -1,4 +1,4 @@
-<!-- Written 01/14/2019 20:12:45 -->
+<!-- Written 01/21/2019 17:03:59 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -14250,7 +14250,7 @@
       <units>Coolant &#176;C</units>
       <indexcount>8</indexcount>
       <decimalpl>0</decimalpl>
-      <embedinfo type="1" />
+      <embedinfo type="3" linkobjid="0x0" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
