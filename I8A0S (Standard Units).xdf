@@ -1,4 +1,4 @@
-<!-- Written 01/21/2019 17:03:59 -->
+<!-- Written 01/21/2019 17:25:45 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -5612,7 +5612,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5556" flags="0x0">
-    <title>Idle RPM (limp mode)</title>
+    <title>Idle RPM, neutral, limp mode</title>
     <description>ip_n_sp_is_lih</description>
     <CATEGORYMEM index="0" category="25" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -9630,21 +9630,21 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x704A" flags="0x30">
-    <title>WGDC P-Factor boost error P-Factor bar</title>
+    <title>WGDC P-Factor boost error P-Factor psi</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x5FF12" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>D-Fact</units>
+      <units>psi D-Factor</units>
       <indexcount>12</indexcount>
       <decimalpl>3</decimalpl>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X/12800">
-        <VAR id="X" />
+      <MATH equation="(x/12800)*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
@@ -9655,8 +9655,8 @@
       <unittype>0</unittype>
       <DALINK index="0" />
       <LABEL index="0" value="0.00" />
-      <MATH equation="X/12800">
-        <VAR id="X" />
+      <MATH equation="(x/12800)*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
@@ -9665,8 +9665,8 @@
       <min>-0.600000</min>
       <max>0.500000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X/12800">
-        <VAR id="X" />
+      <MATH equation="(x/12800)*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
@@ -9676,15 +9676,15 @@
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x5FF12" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Boost error P factor bar</units>
+      <units>Boost error P-factor psi</units>
       <indexcount>12</indexcount>
       <decimalpl>3</decimalpl>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X/12800">
-        <VAR id="X" />
+      <MATH equation="(x/12800)*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
@@ -9756,32 +9756,32 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4DDB" flags="0x30">
-    <title>WGDC I-Factor boost error I-Factor bar</title>
+    <title>WGDC I-Factor boost error I-Factor psi</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x60066" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>bar</units>
+      <units>psi</units>
       <indexcount>12</indexcount>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X/12800">
-        <VAR id="X" />
+      <MATH equation="(x/12800)*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x601A2" mmedelementsizebits="16" mmedcolcount="14" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>bar</units>
+      <units>psi</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
       <LABEL index="0" value="0.00" />
-      <MATH equation="X/12800">
-        <VAR id="X" />
+      <MATH equation="(x/12800)*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
@@ -9790,8 +9790,8 @@
       <min>-2.000000</min>
       <max>2.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X/12800">
-        <VAR id="X" />
+      <MATH equation="(x/12800)*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
@@ -9801,14 +9801,14 @@
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x60066" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Boost error I-factor bar</units>
+      <units>Boost error I-factor psi</units>
       <indexcount>12</indexcount>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X/12800">
-        <VAR id="X" />
+      <MATH equation="(x/12800)*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
@@ -9836,32 +9836,32 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x4014" flags="0x30">
-    <title>WGDC D-Factor boost error bar</title>
+    <title>WGDC D-Factor boost error psi</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>bar</units>
+      <units>psi</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
       <LABEL index="0" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
+      <MATH equation="x*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x601A2" mmedelementsizebits="16" mmedcolcount="14" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>bar</units>
+      <units>psi</units>
       <indexcount>14</indexcount>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X/12800">
-        <VAR id="X" />
+      <MATH equation="(x/12800)*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
@@ -9870,13 +9870,13 @@
       <min>-0.600000</min>
       <max>0.500000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X/12800">
-        <VAR id="X" />
+      <MATH equation="(x/12800)*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2B4A" flags="0x30">
-    <title>WGDC D-Factor boost error D-Factor bar</title>
+    <title>WGDC D-Factor boost error D-Factor psi</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <CATEGORYMEM index="2" category="17" />
@@ -9889,8 +9889,8 @@
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X/12800">
-        <VAR id="X" />
+      <MATH equation="(x/12800)*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
@@ -9901,8 +9901,8 @@
       <unittype>0</unittype>
       <DALINK index="0" />
       <LABEL index="0" value="0.00" />
-      <MATH equation="X/12800">
-        <VAR id="X" />
+      <MATH equation="(x/12800)*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
@@ -9911,8 +9911,8 @@
       <min>-0.600000</min>
       <max>0.500000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X/12800">
-        <VAR id="X" />
+      <MATH equation="(x/12800)*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
@@ -9922,27 +9922,27 @@
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x601BE" mmedelementsizebits="16" mmedcolcount="14" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Boost error D-Factor bar</units>
+      <units>Boost error D-Factor psi</units>
       <indexcount>14</indexcount>
       <decimalpl>3</decimalpl>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X/12800">
-        <VAR id="X" />
+      <MATH equation="(x/12800)*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x601A2" mmedelementsizebits="16" mmedcolcount="14" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Boost error bar</units>
+      <units>Boost error psi</units>
       <indexcount>14</indexcount>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X/12800">
-        <VAR id="X" />
+      <MATH equation="(x/12800)*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
@@ -14250,7 +14250,7 @@
       <units>Coolant &#176;C</units>
       <indexcount>8</indexcount>
       <decimalpl>0</decimalpl>
-      <embedinfo type="3" linkobjid="0x0" />
+      <embedinfo type="3" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
@@ -15574,19 +15574,19 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>Bar</units>
+      <units>psi</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
       <LABEL index="0" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
+      <MATH equation="x*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x749EA" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Boost bar</units>
+      <units>Boost psi</units>
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>2.560000</max>
@@ -16748,37 +16748,37 @@
     <CATEGORYMEM index="0" category="1" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>Bar</units>
+      <units>psi</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
       <LABEL index="0" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
+      <MATH equation="x*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x77BC4" mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>Bar</units>
+      <units>psi</units>
       <indexcount>1</indexcount>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X/25598.4375">
-        <VAR id="X" />
+      <MATH equation="(x/25598.4375)*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x77BC4" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>bar</units>
+      <units>psi</units>
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X/25598.4375">
-        <VAR id="X" />
+      <MATH equation="(x/25598.4375)*14.503773773">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
