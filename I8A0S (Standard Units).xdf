@@ -1,4 +1,4 @@
-<!-- Written 01/21/2019 17:25:45 -->
+<!-- Written 01/22/2019 13:40:01 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -87,7 +87,7 @@
   </XDFHEADER>
   <XDFTABLE uniqueid="0x7DCE" flags="0x30">
     <title>Enable single rear O2 sensor</title>
-    <description>To use both rear sensors, set to 02&#010;To enable and use just bank 1 rear, set to 04&#010;&#010;(c_nr_conf_cbk_ex</description>
+    <description>c_nr_conf_cbk_ex&#013;&#010;&#013;&#010;To use both rear sensors, set to 02&#013;&#010;To use just bank 1 rear, set to 04&#010;&#010;</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="20" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7855,7 +7855,7 @@
       <units>Load activation</units>
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
-      <max>300.000000</max>
+      <max>400.000000</max>
       <outputtype>1</outputtype>
       <MATH equation="X/100">
         <VAR id="X" />
@@ -10282,7 +10282,7 @@
       <units>%</units>
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
-      <max>100.000000</max>
+      <max>400.000000</max>
       <outputtype>1</outputtype>
       <MATH equation="X*.01">
         <VAR id="X" />
