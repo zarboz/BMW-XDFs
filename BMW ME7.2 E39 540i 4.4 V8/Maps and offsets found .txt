@@ -1,0 +1,5 @@
+Map 1x1=Codeword in the diagnosis secondary air system
+Preceeding hex = 88 60 (found in my bin at offset 8614)
+					|
+					v
+
