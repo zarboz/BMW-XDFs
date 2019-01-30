@@ -1,0 +1,7 @@
+DMTL Euro - 11F19  (preceeding hex 1F 20 B6 61 45 38) (following hex 2C 28 28 BF 6E 53)
+Map - KFFWNW (Correction factor for camshaft control) - 10b37-10b5a 
+	My map - 8A 96 0D 14 1B 28 35 43 50 5D 6B 78 85 A0 00 03 05 08 0B 10 15 26 26 26 26 26 00 02 05 0B 0F 13 19 2E 2E 2E
+	Example from a2l - 8A 96 3E 3E 3E 6C 4D 6C 5D 6C 08 38 4B 58 64 71 7D 8A 96 8A 8A 8A 9A 8A 8A 5D 5D AB 80 80 80 80 80 80 80 80
+Value: TWNWS: Location 14258
+	preceeding hex: 66 26 00 02 00 27 00 02
+	following hex: 00 D0 07 64 00 00 40
