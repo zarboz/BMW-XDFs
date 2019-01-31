@@ -1,7 +1,35 @@
 DMTL Euro - 11F19  (preceeding hex 1F 20 B6 61 45 38) (following hex 2C 28 28 BF 6E 53)
-Map - KFFWNW (Correction factor for camshaft control) - 10b37-10b5a 
-	My map - 8A 96 0D 14 1B 28 35 43 50 5D 6B 78 85 A0 00 03 05 08 0B 10 15 26 26 26 26 26 00 02 05 0B 0F 13 19 2E 2E 2E
-	Example from a2l - 8A 96 3E 3E 3E 6C 4D 6C 5D 6C 08 38 4B 58 64 71 7D 8A 96 8A 8A 8A 9A 8A 8A 5D 5D AB 80 80 80 80 80 80 80 80
 Value: TWNWS: Location 14258
 	preceeding hex: 66 26 00 02 00 27 00 02
 	following hex: 00 D0 07 64 00 00 40
+	
+	
+	
+	Notes:
+	NMXDAEF (Maximum speed at throttle actuator replacement operation) Curve 
+	A2l declares at 810427 bin shows at 10428 (starting)
+	Identifying hex: 00 33 66 99 CC FF 
+					 1E 1E 2D 3C 4B 5A
+				
+	NNSTA (Speed transition Normal -> Start)  Curve
+	A2l declares at 81a4cf bin shows at 1a366 1a3b8 
+	Identifying hex: 80 80 80
+					 80 08 08
+								Hex following marker: 14 19 1F 27 2C 32 3F 4B 04 0D 1B
+								
+	NSTNM (Transition start -> normal) Curve
+	A2l declares at 81a4d6 bin shows at 1A36d and 1A3bf
+	Identifying hex: 19 1F 27 
+					 2C 32 3F
+					 
+	KFFWNW (Correction factor for camshaft control) Map
+	a2l declares at 811B74 bin shows at 11B40
+	Identifying Hex:
+			 Axis 1: 3A 44 50 5D 69
+			 Axis 0: 78 87 D1 E4 C5 D8
+			    Map: AD C5 AD BF 08 19 26 35 3C 50 5D 73 85 3E 4A 94 75 A0 7B 6F 50 AB 80 80 80 80 80 80 80 80 
+	hex preceeding marker 03 03 08 19 02 05 A5 40 08 XX
+	
+	DMTL Euro flag Located at offset - 11F19, in euro cars this is 0x00 instead of 0x32 or whatever your ROM has
+	Identifying Hex: 1F 20 B6 61 45 38
+	  Following Hex: 2C 28 28 BF 6E 53
