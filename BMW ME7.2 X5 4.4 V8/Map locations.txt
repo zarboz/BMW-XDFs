@@ -119,10 +119,23 @@
 			Following hex: F6 28 19 9C 0D 29
 		A2 (Transfer function coefficient_
 			a2l declares at 81428c bin shows at 1428C. A2L shows as 28 F6 bin shows as F6 28
-		B1
-		B2
-		DMDAROG
-		DMDARUG
+			Following hex: 19 9C 0D 29 00 7D
+		B1 (Transfer function coefficient)
+			A2L declares at 81428E bin shows at 1428E. A2L shows as 9C 19 bin shows as 19 9C
+			Following hex: 0D 29 00 7D 54 02 
+		B2 (Transfer function coefficient)
+			A2L declares at 814290 bin shows at 14290. A2L shows as 29 0D bin shows as 0D 29
+			Following hex: 00 7D 54 02 FC 02
+		DMDAROG (upper threshold for moment intervention gear-dependent)
+			A2L declares at 81AA36 bin shows at 1A8D7:
+			Column0: 00 80 
+			Column1: 00 80 
+			Column2: 00 80 
+			Column3: 00 80 
+			Column4: 00 80 
+			Column5: 00 80 
+			Column6: 00 80
+		DMDARUG (lower threshold for torque intervention gear-dependent)
 		DNARAO
 		DNFILO
 		NARA
