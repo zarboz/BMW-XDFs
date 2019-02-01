@@ -1,25 +1,26 @@
-DMTL Euro - 11F19  (preceeding hex 1F 20 B6 61 45 38) (following hex 2C 28 28 BF 6E 53)
-Value: TWNWS: Location 14258
+	Notes:
+
+    TWNWS: (Time for camshaft target angle retard) Location 14258
 	preceeding hex: 66 26 00 02 00 27 00 02
 	following hex: 00 D0 07 64 00 00 40
-	
-	
-	
-	Notes:
+
 	NMXDAEF (Maximum speed at throttle actuator replacement operation) Curve 
 	A2l declares at 810427 bin shows at 10428 (starting)
-	Identifying hex: 00 33 66 99 CC FF 
+	Identifying hex: 
+			Axis 1:  00 33 66 99 CC FF 
 					 1E 1E 2D 3C 4B 5A
 				
 	NNSTA (Speed transition Normal -> Start)  Curve
 	A2l declares at 81a4cf bin shows at 1a366 1a3b8 
-	Identifying hex: 80 80 80
+	Identifying hex: 
+			 Axis 1: 80 80 80
 					 80 08 08
 								Hex following marker: 14 19 1F 27 2C 32 3F 4B 04 0D 1B
 								
 	NSTNM (Transition start -> normal) Curve
 	A2l declares at 81a4d6 bin shows at 1A36d and 1A3bf
-	Identifying hex: 19 1F 27 
+	Identifying hex:
+			 Axis 1: 19 1F 27 
 					 2C 32 3F
 					 
 	KFFWNW (Correction factor for camshaft control) Map
@@ -30,6 +31,77 @@ Value: TWNWS: Location 14258
 			    Map: AD C5 AD BF 08 19 26 35 3C 50 5D 73 85 3E 4A 94 75 A0 7B 6F 50 AB 80 80 80 80 80 80 80 80 
 	hex preceeding marker 03 03 08 19 02 05 A5 40 08 XX
 	
-	DMTL Euro flag Located at offset - 11F19, in euro cars this is 0x00 instead of 0x32 or whatever your ROM has
+	DMTL Euro flag Located at offset - 11F19, in euro cars this is 0x00 instead of 0x32 or whatever your ROM has (Value)
 	Identifying Hex: 1F 20 B6 61 45 38
 	  Following Hex: 2C 28 28 BF 6E 53
+	  
+	  
+	DTWNWS (Time for camshaft target angle retard) Value
+	A2l declares at 814008 bin shows 14008
+	hex following: XX 00 40 00 00 12 00
+	
+	NMXDKPU (Maximum speed for safety fuel cut-off (SKA))
+	A2l declares at 814304 bin shows at 
+	
+	DNSAH (Delta n SA high related to nWE) Value
+	A2l declares at 810016 bin shows at 10016
+	Following hex: 09 19 05 03 04 FF 10 5A
+	
+	DNSAL (Delta n SA low related to nWE) Value
+	A2l declares at 810017 bin shows at 10017
+	Hex Following: 19 05 03 04 FF 10 5A 4D
+	
+	KRKTE (Conversion of relative fuel mass rk into effective injection time te) Value
+	A2l Declares at 819bc4 bin shows at 19d41
+	Hex preceeding:8E 92 74 7C 83 88 8C 8F
+	Hex following: 64 80 80 7F 7F 04 00 50 28 FF 28
+	
+	PSAPES (Intake manifold pressure for application injection) Value
+	A2l declares at 81b098 Shows as EE D2 but a2l shows D2EE as measurement. Bin shows at ??????
+	
+	AEVAB (Output injection valve cut off)Contains:
+	
+		EVMB () Value
+		a2l declares at 813f05 bin shows at 13f05
+		hex following: 5A 04 25 0A 01 32
+	
+		EVMB2 () value
+		a2l declares at 813f06 bin shows at 13f06
+		hex following 04 25 0A 01 32 08 01
+		
+		EVOFS () value
+		a2l declares at 813f07 bin shows at 13f07
+		hex following 25 0A 01 32 08 01 01
+		
+		REDMX () value
+		a2l declares at 813f0c bin shows at 13f0c
+		hex preceeding: 5A 04 25 0A 01 32
+		
+		TWO_ZYLZA () value
+		a2l declares 813f14 bin shows at 13f14
+		hex following 78 48 F0 FF 08 5A
+		
+		ZYLMASK () value
+		a2l declares at 813f18 bin shows at 13f18
+		hex preceeding: 01 00 10 78 48 FF
+		
+		ZYLA () value
+		a2l declares at 813f19 bin shows at 13f19
+		hex preceeding: 01 00 10 78 48 F0 FF
+		
+		NMXSKA (Maximum speed at unknown throttle position -> Ev shutdown) Value
+		a2l declares at 810060 bin shows at 10060
+		hex following: 01 06 08 00 20 01 BE 07 80 00 00
+		
+		REDABM (Ev deactivation pattern for torque reduction) Map
+		a2l declares at 8109f2 bin shows at 109f2
+		Hex preceeding: 64 7D AB AB AB AB
+		Hex Following: 0A 18 03 06 05
+			Column0: 01 11 15 55 57 77 7F FF
+			Column1: 02 22 2A AA AB BB BF FF
+			Column2: 04 44 54 55 57 77 7F FF
+			Column3: 08 88 A8 AA BA BB FB FF
+			Column4: 10 11 51 55 75 77 F7 FF
+			Column5: 20 22 A2 AA EA EE EF FF
+			Column6: 40 44 45 55 D5 DD BF FF
+			Column7: 80 88 8A AA AB BB BF FF
