@@ -105,3 +105,32 @@
 			Column5: 20 22 A2 AA EA EE EF FF
 			Column6: 40 44 45 55 D5 DD BF FF
 			Column7: 80 88 8A AA AB BB BF FF
+			
+			
+	NUEMAX (Engine overspeed limit) Value
+	a2l declares at 813ff6 bin shows at 
+	
+	ARMD Torque Baed anti-jerk contains:
+		A0 (Transfer function coefficient)
+			a2l declares at 814288 bin shows at 14288. A2L shows as 28 f6 hex shows as f6 28
+			Following hex: EC 51 F6 28 19 9C
+		A1 (Transfer function coefficient)
+			a2l declares at 81428a bin shows at 1428a. A2L shows as 51 EC hex shows as EC 51
+			Following hex: F6 28 19 9C 0D 29
+		A2 (Transfer function coefficient_
+			a2l declares at 81428c bin shows at 1428C. A2L shows as 28 F6 bin shows as F6 28
+		B1
+		B2
+		DMDAROG
+		DMDARUG
+		DNARAO
+		DNFILO
+		NARA
+		NARLL
+		TAREIN
+		TMAR
+		TMARSTM
+		TZSPINI
+		VARAU
+		ZNGAR
+		
