@@ -7,15 +7,15 @@
 	NMXDAEF (Maximum speed at throttle actuator replacement operation) Curve 
 	A2l declares at 810427 bin shows at 10428 (starting)
 	Identifying hex: 
-			Axis 1:  00 33 66 99 CC FF 
-					 1E 1E 2D 3C 4B 5A
+			Axis 1: 00 33 66 99 CC FF 
+					1E 1E 2D 3C 4B 5A
 				
 	NNSTA (Speed transition Normal -> Start)  Curve
 	A2l declares at 81a4cf bin shows at 1a366 1a3b8 
 	Identifying hex: 
-			 Axis 1: 80 80 80
-					 80 08 08
-								Hex following marker: 14 19 1F 27 2C 32 3F 4B 04 0D 1B
+			Axis 1: 80 80 80
+					80 08 08
+			Hex following marker: 14 19 1F 27 2C 32 3F 4B 04 0D 1B
 								
 	NSTNM (Transition start -> normal) Curve
 	A2l declares at 81a4d6 bin shows at 1A36d and 1A3bf
@@ -147,3 +147,6 @@
 		VARAU
 		ZNGAR
 		
+		
+	TWDSTS (Waiting time for diagnosis start signal) I think this has something to do with EWS defeat because my EWS off dump has NO data here and the a2l hex has lots 
+	a2l declares at 815fca bin shows this would exist at 15F28 
