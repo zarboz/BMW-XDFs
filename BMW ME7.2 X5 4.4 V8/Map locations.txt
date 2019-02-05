@@ -204,5 +204,14 @@
 	A2l Map: 1E 00 00 78 CD 0C 48 01 DA 00 66 44 9C 44 A8 45 B6 46 80 47 F6 47 CA 48
 	Bin Map: 1F 05 AE 07 40 06 F0 D8 3C 00 2C 01 00 00 64 00 CD 0C 11 11 1A 00 00 73
 	
-	a2l Map: 1E 00 00 78 CD 0C 48 01 DA 00 66 44 9C 44 A8 45 B6 46 80 47 F6 47 CA 48
-	Bin Map: 
+	WNWVLN (Target angle for camshaft in full load) Curve
+	a2l declares at 8127a3 bin declares at 1274D
+	Columns: 69 7F 8C 8F 8E 87 80 78 73 70 6B 6A 00 14 2B 45
+	Map: 63 7B 89 91 96 8C 80 73 6A 64 5C 5A 00 14 32 50
+	
+	WNWV (Target angle for camshaft dependent on vehicle speed) curve
+	A2l declares at 81278A Bin shows at:12734
+	Columns: 8C 8C 8C 8C 8C 00 14 3A 55 6E 82 8E
+	Map: 8D 86 82 78 78 78 78 78 78 00 14 32
+	
+	
