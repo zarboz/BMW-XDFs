@@ -1,4 +1,4 @@
-<!-- Written 03/14/2019 15:39:54 -->
+<!-- Written 03/15/2019 11:50:05 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -15,10 +15,9 @@
     <CATEGORY index="0x7" name="THROTTLE" />
     <CATEGORY index="0x8" name="TORQUE" />
     <CATEGORY index="0x9" name="VANOS" />
-	<CATEGORY index="0x0A" name="PATCHES" />
-	<CATEGORY index="0x0B" name="FANS" />
-	<CATEGORY index="0x0C" name="ELEC THERMOSTAT" />
-	
+    <CATEGORY index="0xA" name="PATCHES" />
+    <CATEGORY index="0xB" name="FANS" />
+    <CATEGORY index="0xC" name="ELEC THERMOSTAT" />
   </XDFHEADER>
   <XDFTABLE uniqueid="0x396A" flags="0x30">
     <title>BASE INJECTION MAP (Lambda) (X Throttle%) (Y RPMs)</title>
@@ -1646,7 +1645,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x3252" mmedelementsizebits="16" mmedrowcount="32" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x32B2" mmedelementsizebits="16" mmedrowcount="32" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>1</decimalpl>
       <min>0.000000</min>
       <max>6553.500000</max>
@@ -2311,7 +2310,7 @@
     <title>Cruise Fix - Manual w/ Short Diff Patch - 7532675/6</title>
     <XDFPATCHENTRY name="NVQUOT Gear recognition" address="0x57B4" datasize="0x17" patchdata="00468027722780186518FD10FC10800D720D600B5C0B80" />
   </XDFPATCH>
-    <XDFTABLE uniqueid="0x5F42" flags="0x0">
+  <XDFTABLE uniqueid="0x5F42" flags="0x0">
     <title>KFETRD - Target Temp - Throttle x speed for MAP T-stat - 7532675/6</title>
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x9B82" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
