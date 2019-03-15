@@ -16,6 +16,8 @@
     <CATEGORY index="0x8" name="TORQUE" />
     <CATEGORY index="0x9" name="VANOS" />
 	<CATEGORY index="0x0A" name="PATCHES" />
+	<CATEGORY index="0x0B" name="FANS" />
+	<CATEGORY index="0x0C" name="ELEC THERMOSTAT" />
 	
   </XDFHEADER>
   <XDFTABLE uniqueid="0x396A" flags="0x30">
@@ -2309,4 +2311,722 @@
     <title>Cruise Fix - Manual w/ Short Diff Patch - 7532675/6</title>
     <XDFPATCHENTRY name="NVQUOT Gear recognition" address="0x57B4" datasize="0x17" patchdata="00468027722780186518FD10FC10800D720D600B5C0B80" />
   </XDFPATCH>
+    <XDFTABLE uniqueid="0x5F42" flags="0x0">
+    <title>KFETRD - Target Temp - Throttle x speed for MAP T-stat - 7532675/6</title>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x9B82" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>KPH</units>
+      <indexcount>5</indexcount>
+      <embedinfo type="3" linkobjid="0x7DEF" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="X*1.25">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x9B87" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>% Throttle</units>
+      <indexcount>6</indexcount>
+      <embedinfo type="3" linkobjid="0x345B" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="X/2.55">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x9B8D" mmedelementsizebits="8" mmedrowcount="6" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="(X*.75)-48">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x7DEF" flags="0x0">
+    <title>     KFTETRD X-axis roadspeed</title>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>5</indexcount>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <LABEL index="1" value="0.00" />
+      <LABEL index="2" value="0.00" />
+      <LABEL index="3" value="0.00" />
+      <LABEL index="4" value="0.00" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>1</indexcount>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0x9B82" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="X*1.25">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x345B" flags="0x0">
+    <title>     KFTETRD Y-axis throttle %</title>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>1</indexcount>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>7</indexcount>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <LABEL index="1" value="0.00" />
+      <LABEL index="2" value="0.00" />
+      <LABEL index="3" value="0.00" />
+      <LABEL index="4" value="0.00" />
+      <LABEL index="5" value="0.00" />
+      <LABEL index="6" value="0.00" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x9B87" mmedelementsizebits="8" mmedrowcount="7" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="X/2.55">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x3C28" flags="0x0">
+    <title>KFETRD - Target Temp - Throttle x speed for MAP T-stat - 7539302</title>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x9A80" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>KPH</units>
+      <indexcount>5</indexcount>
+      <embedinfo type="1" linkobjid="0x7DEF" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="X*1.25">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x9A85" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>% Throttle</units>
+      <indexcount>6</indexcount>
+      <embedinfo type="1" linkobjid="0x345B" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="X/2.55">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x9A8B" mmedelementsizebits="8" mmedrowcount="6" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="(X*.75)-48">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x3B16" flags="0x0">
+    <title>KFETRD - Target Temp - Throttle x speed for MAP T-stat - 7522222</title>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x9C93" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>KPH</units>
+      <indexcount>6</indexcount>
+      <embedinfo type="1" linkobjid="0x7DEF" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="X*1.25">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x9C99" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>% Throttle</units>
+      <indexcount>6</indexcount>
+      <embedinfo type="1" linkobjid="0x345B" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="X/2.55">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x9C9F" mmedelementsizebits="8" mmedrowcount="6" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="(X*.75)-48">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x79D" flags="0x0">
+    <title>KFETRT - Target Temp - IAT x speed for MAP T-stat 7532675/6</title>
+    <description>88C patches change additional bytes past this area</description>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x9B82" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>KPH</units>
+      <indexcount>7</indexcount>
+      <embedinfo type="3" linkobjid="0x4128" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="X*1.25">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x9B87" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>% Throttle</units>
+      <indexcount>6</indexcount>
+      <embedinfo type="3" linkobjid="0x1784" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="X/2.55">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x9BBF" mmedelementsizebits="8" mmedrowcount="6" mmedcolcount="7" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="(X*.75)-48">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x4128" flags="0x0">
+    <title>     KFTETRT X-axis roadspeed</title>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>7</indexcount>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <LABEL index="1" value="0.00" />
+      <LABEL index="2" value="0.00" />
+      <LABEL index="3" value="0.00" />
+      <LABEL index="4" value="0.00" />
+      <LABEL index="5" value="0.00" />
+      <LABEL index="6" value="0.00" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>1</indexcount>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0x9BB2" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="7" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="X*1.25">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x1784" flags="0x0">
+    <title>     KFTETRT Y-axis IAT</title>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>1</indexcount>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>6</indexcount>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <LABEL index="1" value="0.00" />
+      <LABEL index="2" value="0.00" />
+      <LABEL index="3" value="0.00" />
+      <LABEL index="4" value="0.00" />
+      <LABEL index="5" value="0.00" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x9BB9" mmedelementsizebits="8" mmedrowcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="(X*.75)-48">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x24B4" flags="0x0">
+    <title>KFETRT - Target Temp - IAT x speed for MAP T-stat 7539302</title>
+    <description>88C patches change additional bytes past this area</description>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x9AB0" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>KPH</units>
+      <indexcount>7</indexcount>
+      <embedinfo type="1" linkobjid="0x4128" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="X*1.25">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x9AB7" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>% Throttle</units>
+      <indexcount>6</indexcount>
+      <embedinfo type="1" linkobjid="0x1784" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="(X*.75)-48">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x9ABD" mmedelementsizebits="8" mmedrowcount="6" mmedcolcount="7" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="(X*.75)-48">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x1266" flags="0x0">
+    <title>KFETRT - Target Temp - IAT x speed for MAP T-stat 7522222</title>
+    <description>88C patches change additional bytes past this area</description>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x9CC5" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>KPH</units>
+      <indexcount>8</indexcount>
+      <embedinfo type="1" linkobjid="0x4128" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="X*1.25">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x9CCD" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>% Throttle</units>
+      <indexcount>8</indexcount>
+      <embedinfo type="1" linkobjid="0x1784" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="(X*.75)-48">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x9CD5" mmedelementsizebits="8" mmedrowcount="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="(X*.75)-48">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x66C5" flags="0x0">
+    <title>----- Electric Fan --------------</title>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>1</indexcount>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>1</indexcount>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFFUNCTION uniqueid="0x2E72" flags="0x0">
+    <title>TAMLAC Electric Fan PWM% vs AC 7532675/6</title>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA54D" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>AC %</units>
+      <indexcount>10</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="X/.16">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA557" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>PWM %</units>
+      <indexcount>10</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/2.55">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFFUNCTION>
+  <XDFFUNCTION uniqueid="0xAF" flags="0x0">
+    <title>TAMLAC Electric Fan PWM% vs AC 7533032</title>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA42E" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>AC %</units>
+      <indexcount>10</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/.16">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA438" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>PWM %</units>
+      <indexcount>10</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/2.55">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFFUNCTION>
+  <XDFFUNCTION uniqueid="0x7F10" flags="0x0">
+    <title>TAMLAC Electric Fan PWM% vs AC - 7522222</title>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA65E" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>AC %</units>
+      <indexcount>10</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/.16">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA668" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>PWM %</units>
+      <indexcount>10</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/2.55">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFFUNCTION>
+  <XDFFUNCTION uniqueid="0x609E" flags="0x0">
+    <title>TAMLSNH Electric Fan PWM% vs speed 7532675/6 *</title>
+    <description>* data does not appear to be correct in these factory calibrations - 2 matching arrays</description>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA564" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>Roadspeed</units>
+      <indexcount>8</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/2.55">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA56C" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>PWM %</units>
+      <indexcount>8</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/2.55">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFFUNCTION>
+  <XDFFUNCTION uniqueid="0x262" flags="0x0">
+    <title>TAMLSNH Electric Fan PWM% vs speed 7533032</title>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA445" mmedelementsizebits="8" mmedcolcount="3" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>Roadspeed</units>
+      <indexcount>3</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/2.55">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA448" mmedelementsizebits="8" mmedcolcount="3" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>PWM %</units>
+      <indexcount>3</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/2.55">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFFUNCTION>
+  <XDFFUNCTION uniqueid="0x1CB8" flags="0x0">
+    <title>TAMLSNH Electric Fan PWM% vs speed - 7522222 *</title>
+    <description>* data does not appear to be correct in these factory calibrations - 2 matching arrays</description>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA675" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>Roadspeed</units>
+      <indexcount>8</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/2.55">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA67D" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>PWM %</units>
+      <indexcount>8</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/2.55">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFFUNCTION>
+  <XDFFUNCTION uniqueid="0x2E9C" flags="0x0">
+    <title>TAMLTKA Electric Fan PWM% from rad exit temp 7532675 MY03?*</title>
+    <description>MY03 only 7 rows like MY99!? </description>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA575" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>Coolant C</units>
+      <indexcount>7</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="(x*.75)-48">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA57C" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>PWM %</units>
+      <indexcount>7</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/2.55">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFFUNCTION>
+  <XDFFUNCTION uniqueid="0x628F" flags="0x0">
+    <title>TAMLTKA Electric Fan PWM% from rad exit temp MY01 7532676 &amp; MY02 7532675</title>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA575" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>Coolant C</units>
+      <indexcount>10</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="(x*.75)-48">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA57F" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>PWM %</units>
+      <indexcount>10</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/2.55">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFFUNCTION>
+  <XDFFUNCTION uniqueid="0x65B5" flags="0x0">
+    <title>TAMLTKA Electric Fan PWM% from rad exit temp - MY99-00 7533032</title>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA456" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>Coolant C</units>
+      <indexcount>7</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="(x*.75)-48">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA45D" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>PWM %</units>
+      <indexcount>7</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/2.55">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFFUNCTION>
+  <XDFFUNCTION uniqueid="0x3B28" flags="0x0">
+    <title>TAMLTKA Electric Fan PWM% from rad exit temp - 7522222</title>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA686" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>Coolant C</units>
+      <indexcount>10</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="(x*.75)-48">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA690" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>PWM %</units>
+      <indexcount>10</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/2.55">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFFUNCTION>
+  <XDFCONSTANT uniqueid="0x4DA8" flags="0x4">
+    <title>Activate code word DMTL diagnosis (EURO coding), CD .. = 0 -&gt; no slide</title>
+    <description>DMTL&#013;&#010;</description>
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x1F4A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x749C">
+    <title>Deactivate code word DAGR (EURO coding), CD .. = 0 -&gt; no diagnostics</title>
+    <description>DAGR</description>
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x1F49" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
 </XDFFORMAT>
