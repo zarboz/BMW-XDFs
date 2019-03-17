@@ -1,4 +1,4 @@
-<!-- Written 03/17/2019 16:18:39 -->
+<!-- Written 03/17/2019 16:30:04 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2070,6 +2070,17 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x42CA">
+    <title>Codewort DFSTT abschalten (EURO-Codierung), CD..=0 -&gt; no diagnosis</title>
+    <description>CDEFST</description>
+    <EMBEDDEDDATA mmedaddress="0x1F4B" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0" flags="0xC">
     <title>Codeword heater diagnosis behind Kat (CDHSH = 0 =&gt; no diagnosis)</title>
     <description>Codeword heater diagnosis behind Kat (CDHSH = 0 =&gt; no diagnosis)</description>
@@ -2229,6 +2240,18 @@
     <description>CWSLS</description>
     <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x1FD8" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x2B11">
+    <title>Deactivate codeword DSWE (EURO coding), CD .. = 0 -&gt; no diagnostics</title>
+    <description>CDSWE</description>
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x23B0" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
