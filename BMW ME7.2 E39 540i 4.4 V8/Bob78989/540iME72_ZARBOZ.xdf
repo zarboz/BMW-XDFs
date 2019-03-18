@@ -1,4 +1,4 @@
-<!-- Written 03/17/2019 22:08:14 -->
+<!-- Written 03/17/2019 22:41:27 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -427,7 +427,7 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x314D" flags="0x0">
+  <XDFTABLE uniqueid="0x314D" flags="0x30">
     <title>Target Load /Filling</title>
     <description>KFMIRL</description>
     <CATEGORYMEM index="0" category="8" />
@@ -468,7 +468,7 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x281B" flags="0x0">
+  <XDFTABLE uniqueid="0x281B" flags="0x30">
     <title>Throttle plate target calculation</title>
     <description>KFWDKMSN</description>
     <CATEGORYMEM index="0" category="8" />
@@ -503,14 +503,14 @@
       <units>%</units>
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
-      <max>255.000000</max>
+      <max>10000.000000</max>
       <outputtype>2</outputtype>
       <MATH equation="X/4">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x6666" flags="0x0">
+  <XDFTABLE uniqueid="0x6666" flags="0x30">
     <title>Throttle Pedal Requested Torque</title>
     <description>KFPED</description>
     <CATEGORYMEM index="0" category="9" />
@@ -541,10 +541,10 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x640A" mmedelementsizebits="8" mmedrowcount="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <decimalpl>1</decimalpl>
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x640A" mmedelementsizebits="16" mmedrowcount="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <decimalpl>2</decimalpl>
       <min>0.000000</min>
-      <max>255.000000</max>
+      <max>155.000000</max>
       <outputtype>1</outputtype>
       <MATH equation="X*.003052">
         <VAR id="X" />
@@ -889,7 +889,7 @@
       <EMBEDDEDDATA mmedaddress="0x1EAC" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
-      <max>100.000000</max>
+      <max>255.000000</max>
       <outputtype>1</outputtype>
       <MATH equation="X*0.392156862745098">
         <VAR id="X" />
