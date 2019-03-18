@@ -1,4 +1,4 @@
-<!-- Written 03/18/2019 10:32:43 -->
+<!-- Written 03/18/2019 11:10:21 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -24,45 +24,12 @@
     <CATEGORY index="0xC" name="ELEC THERMOSTAT" />
     <CATEGORY index="0xD" name="GEAR DETECTION" />
     <CATEGORY index="0xE" name="NVUQOT" />
+    <CATEGORY index="0xF" name="Versions / ID / Checksums" />
   </XDFHEADER>
-  <XDFTABLE uniqueid="0x54A6" flags="0x0">
-    <title>----- Versions / ID / Checksums --------------</title>
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <indexcount>1</indexcount>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="0.00" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <decimalpl>2</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
   <XDFTABLE uniqueid="0x7BF5" flags="0x0">
     <title>Software Version Entries</title>
     <description>ECU Identifer (3)&#013;&#010;Project (5)&#013;&#010;Status (2)</description>
+    <CATEGORYMEM index="0" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>16</indexcount>
@@ -115,6 +82,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6ECB" flags="0x0">
     <title>Siemens part number</title>
+    <CATEGORYMEM index="0" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
@@ -195,6 +163,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x19CD" flags="0x0">
     <title>     PN1</title>
+    <CATEGORYMEM index="0" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>1</indexcount>
@@ -230,6 +199,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x48C2" flags="0x0">
     <title>     PN2</title>
+    <CATEGORYMEM index="0" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>1</indexcount>
@@ -265,6 +235,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x71F6" flags="0x0">
     <title>     PN3</title>
+    <CATEGORYMEM index="0" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>1</indexcount>
@@ -347,6 +318,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x207" flags="0x0">
     <title>     SW-NR (0DA)</title>
+    <CATEGORYMEM index="0" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>1</indexcount>
@@ -391,6 +363,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x2341" flags="0x0">
     <title>     Typ-NR</title>
+    <CATEGORYMEM index="0" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>1</indexcount>
@@ -435,6 +408,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5008" flags="0x0">
     <title>     ZB-NR</title>
+    <CATEGORYMEM index="0" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>1</indexcount>
@@ -927,8 +901,8 @@
   <XDFTABLE uniqueid="0x281B" flags="0x30">
     <title>Throttle plate target calculation</title>
     <description>KFWDKMSN</description>
-    <CATEGORYMEM index="0" category="8" />
-    <CATEGORYMEM index="1" category="9" />
+    <CATEGORYMEM index="0" category="9" />
+    <CATEGORYMEM index="1" category="8" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x3186" mmedelementsizebits="16" mmedcolcount="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
       <units>kg/H</units>
