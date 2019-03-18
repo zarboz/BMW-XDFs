@@ -1,11 +1,14 @@
-<!-- Written 03/17/2019 22:41:27 -->
-<!-- Credits to GearGrindr, Bob78989, TerraPhantm, and many more -->
+<!-- Written 03/18/2019 10:32:43 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
-    <description></description>
+    <fileversion>5</fileversion>
+    <deftitle>XDF For ME7.2 BMW 540i</deftitle>
+    <description>This XDF is for the following years/models:&#013;&#010;MY01 540i6&#013;&#010;MY02 540i6&#013;&#010;MY03 540i6</description>
+    <author>GearGrindR,Bob78989,TerraPhantom,Zarboz</author>
     <BASEOFFSET offset="0" subtract="0" />
     <DEFAULTS datasizeinbits="8" sigdigits="2" outputtype="1" signed="0" lsbfirst="0" float="0" />
+    <REGION type="0xFFFFFFFF" startaddress="0x0" size="0xFFFF" regionflags="0x0" name="Binary File" desc="This region describes the bin file edited by this XDF" />
     <CATEGORY index="0x0" name="DTC" />
     <CATEGORY index="0x1" name="AIR-FLOW" />
     <CATEGORY index="0x2" name="FUEL INJECTION" />
@@ -22,7 +25,7 @@
     <CATEGORY index="0xD" name="GEAR DETECTION" />
     <CATEGORY index="0xE" name="NVUQOT" />
   </XDFHEADER>
-   <XDFTABLE uniqueid="0x54A6" flags="0x0">
+  <XDFTABLE uniqueid="0x54A6" flags="0x0">
     <title>----- Versions / ID / Checksums --------------</title>
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />

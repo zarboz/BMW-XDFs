@@ -1,10 +1,14 @@
-<!-- Written 03/15/2019 17:09:35 -->
+<!-- Written 03/18/2019 10:38:14 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
+    <fileversion>2</fileversion>
+    <deftitle>ME7.2 XDF for 540i SW 5A01</deftitle>
     <description></description>
+    <author>Bob78989</author>
     <BASEOFFSET offset="0" subtract="0" />
     <DEFAULTS datasizeinbits="8" sigdigits="2" outputtype="1" signed="0" lsbfirst="0" float="0" />
+    <REGION type="0xFFFFFFFF" startaddress="0x0" size="0xFFFF" regionflags="0x0" name="Binary File" desc="This region describes the bin file edited by this XDF" />
     <CATEGORY index="0x0" name="DTC" />
     <CATEGORY index="0x1" name="AIR-FLOW" />
     <CATEGORY index="0x2" name="FUEL INJECTION" />
@@ -16,6 +20,7 @@
     <CATEGORY index="0x8" name="TORQUE" />
     <CATEGORY index="0x9" name="VANOS" />
     <CATEGORY index="0xA" name="PATCHES" />
+    <CATEGORY index="0xB" name="Checksum" />
   </XDFHEADER>
   <XDFTABLE uniqueid="0x396A" flags="0x30">
     <title>BASE INJECTION MAP (Lambda) (X Throttle%) (Y RPMs)</title>
@@ -2249,7 +2254,7 @@
   <XDFTABLE uniqueid="0x40F2" flags="0x0">
     <title>CHECK SUM *IN PROGRESS*</title>
     <description>Checksum Adress&#013;&#010;(must be corrected before being flashed to ECU)&#013;&#010;&#013;&#010;Checksum memory address is:&#013;&#010;0x00FC0E-0x00FC11</description>
-    <CATEGORYMEM index="0" category="11" />
+    <CATEGORYMEM index="0" category="12" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>4</indexcount>
@@ -2337,4 +2342,14 @@
     <CATEGORYMEM index="0" category="11" />
     <XDFPATCHENTRY name="NVQUOT Gear recognition" address="0x57B4" datasize="0x17" patchdata="00468027722780186518FD10FC10800D720D600B5C0B80" />
   </XDFPATCH>
+  <XDFCHECKSUM uniqueid="0x8BA">
+    <title>ME7 Checksum</title>
+    <REGION>
+      <pluginmoduleid>9b6fa911-da49-1953-b6c0-1c7d3a9cf006</pluginmoduleid>
+      <datastart>0xFC0E</datastart>
+      <dataend>0xFC11</dataend>
+      <storeaddress>0x0</storeaddress>
+      <calculationmethod>0x0</calculationmethod>
+    </REGION>
+  </XDFCHECKSUM>
 </XDFFORMAT>
