@@ -1,4 +1,4 @@
-<!-- Written 03/18/2019 11:10:21 -->
+<!-- Written 03/19/2019 10:48:28 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -456,29 +456,14 @@
     <description>Target Base Lambda&#013;&#010;(X Throttle%) (Y RPMs)&#013;&#010;&#013;&#010;Adjust between 0(LEAN) and 1.99(RICH)</description>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x9E35" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Throttle %</units>
       <indexcount>16</indexcount>
+      <embedinfo type="1" />
       <datatype>57</datatype>
       <unittype>67</unittype>
       <DALINK index="0" />
-      <LABEL index="0" value="9.75" />
-      <LABEL index="1" value="12.75" />
-      <LABEL index="2" value="15.00" />
-      <LABEL index="3" value="20.25" />
-      <LABEL index="4" value="24.75" />
-      <LABEL index="5" value="30.00" />
-      <LABEL index="6" value="39.75" />
-      <LABEL index="7" value="50.25" />
-      <LABEL index="8" value="55.50" />
-      <LABEL index="9" value="60.00" />
-      <LABEL index="10" value="65.25" />
-      <LABEL index="11" value="70.50" />
-      <LABEL index="12" value="75.00" />
-      <LABEL index="13" value="80.25" />
-      <LABEL index="14" value="85.50" />
-      <LABEL index="15" value="95.25" />
-      <MATH equation="X">
+      <MATH equation="X*.75">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -507,7 +492,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0x9E44" mmedelementsizebits="8" mmedrowcount="12" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x9E45" mmedelementsizebits="8" mmedrowcount="12" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>1.990000</max>
@@ -522,29 +507,14 @@
     <description>LAMBDA based on driver wish.&#013;&#010;(X Throttle%) (Y RPMs)&#013;&#010;&#013;&#010;Adjust between 0(LEAN) and 1.99(RICH)</description>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xA081" mmedelementsizebits="8" mmedcolcount="11" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>TPS</units>
-      <indexcount>16</indexcount>
+      <indexcount>11</indexcount>
+      <embedinfo type="1" />
       <datatype>57</datatype>
       <unittype>67</unittype>
       <DALINK index="0" />
-      <LABEL index="0" value="15.00" />
-      <LABEL index="1" value="20.25" />
-      <LABEL index="2" value="25.50" />
-      <LABEL index="3" value="30.00" />
-      <LABEL index="4" value="35.25" />
-      <LABEL index="5" value="40.25" />
-      <LABEL index="6" value="45.00" />
-      <LABEL index="7" value="50.25" />
-      <LABEL index="8" value="55.50" />
-      <LABEL index="9" value="60.00" />
-      <LABEL index="10" value="65.25" />
-      <LABEL index="11" value="70.50" />
-      <LABEL index="12" value="75.00" />
-      <LABEL index="13" value="80.25" />
-      <LABEL index="14" value="85.50" />
-      <LABEL index="15" value="90.75" />
-      <MATH equation="X">
+      <MATH equation="X*.75">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -573,7 +543,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0xA083" mmedelementsizebits="8" mmedrowcount="12" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xA08C" mmedelementsizebits="8" mmedrowcount="12" mmedcolcount="11" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>1.990000</max>
@@ -590,7 +560,7 @@
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>RPM</units>
-      <indexcount>16</indexcount>
+      <indexcount>12</indexcount>
       <outputtype>2</outputtype>
       <datatype>6</datatype>
       <unittype>4</unittype>
@@ -605,12 +575,8 @@
       <LABEL index="7" value="2000" />
       <LABEL index="8" value="2520" />
       <LABEL index="9" value="3000" />
-      <LABEL index="10" value="3520" />
-      <LABEL index="11" value="4000" />
-      <LABEL index="12" value="4520" />
-      <LABEL index="13" value="5000" />
-      <LABEL index="14" value="5520" />
-      <LABEL index="15" value="6000" />
+      <LABEL index="10" value="4000" />
+      <LABEL index="11" value="4520" />
       <MATH equation="X">
         <VAR id="X" />
       </MATH>
@@ -627,12 +593,59 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0xA162" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xA15E" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>1</outputtype>
       <MATH equation="X/128">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x75A6" flags="0x30">
+    <title>Knock detection thresholds by cylinder</title>
+    <description>KExN</description>
+    <CATEGORYMEM index="0" category="3" />
+    <CATEGORYMEM index="1" category="6" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x975F" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <indexcount>16</indexcount>
+      <outputtype>2</outputtype>
+      <embedinfo type="1" />
+      <datatype>6</datatype>
+      <unittype>4</unittype>
+      <DALINK index="0" />
+      <MATH equation="X*40">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>8</indexcount>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="00" />
+      <LABEL index="1" value="00" />
+      <LABEL index="2" value="00" />
+      <LABEL index="3" value="00" />
+      <LABEL index="4" value="00" />
+      <LABEL index="5" value="00" />
+      <LABEL index="6" value="00" />
+      <LABEL index="7" value="00" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0x9134" mmedelementsizebits="8" mmedrowcount="8" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <decimalpl>3</decimalpl>
+      <min>0.000000</min>
+      <max>10.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="X*0.0625">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -2884,8 +2897,8 @@
     <CATEGORYMEM index="0" category="11" />
     <XDFPATCHENTRY name="NVQUOT Gear recognition" address="0x57B4" datasize="0x17" patchdata="00468027722780186518FD10FC10800D720D600B5C0B80" />
   </XDFPATCH>
-  <XDFTABLE uniqueid="0x5F42" flags="0x0">
-    <title>KFETRD - Target Temp - Throttle x speed for MAP T-stat - 7532675/6</title>
+  <XDFTABLE uniqueid="0x5F42" flags="0x30">
+    <title>KFETRD - Target Temp - Throttle x speed for MAP T-stat</title>
     <CATEGORYMEM index="0" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x9B82" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -2922,7 +2935,7 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x7DEF" flags="0x0">
+  <XDFTABLE uniqueid="0x7DEF" flags="0x30">
     <title>KFTETRD X-axis roadspeed</title>
     <CATEGORYMEM index="0" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2962,7 +2975,7 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x345B" flags="0x0">
+  <XDFTABLE uniqueid="0x345B" flags="0x30">
     <title>KFTETRD Y-axis throttle %</title>
     <CATEGORYMEM index="0" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -3004,8 +3017,8 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x79D" flags="0x0">
-    <title>KFETRT - Target Temp - IAT x speed for MAP T-stat 7532675/6</title>
+  <XDFTABLE uniqueid="0x79D" flags="0x30">
+    <title>KFETRT - Target Temp - IAT x speed for MAP T-stat</title>
     <description>88C patches change additional bytes past this area</description>
     <CATEGORYMEM index="0" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -3043,7 +3056,7 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x4128" flags="0x0">
+  <XDFTABLE uniqueid="0x4128" flags="0x30">
     <title>KFTETRT X-axis roadspeed</title>
     <CATEGORYMEM index="0" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -3085,7 +3098,7 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x1784" flags="0x0">
+  <XDFTABLE uniqueid="0x1784" flags="0x30">
     <title>KFTETRT Y-axis IAT</title>
     <CATEGORYMEM index="0" category="13" />
     <XDFAXIS id="x" uniqueid="0x0">
