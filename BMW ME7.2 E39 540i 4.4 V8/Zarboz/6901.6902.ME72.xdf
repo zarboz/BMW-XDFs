@@ -1,4 +1,4 @@
-<!-- Written 03/19/2019 11:00:01 -->
+<!-- Written 03/19/2019 22:58:18 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -25,6 +25,7 @@
     <CATEGORY index="0xD" name="GEAR DETECTION" />
     <CATEGORY index="0xE" name="NVUQOT" />
     <CATEGORY index="0xF" name="Versions / ID / Checksums" />
+    <CATEGORY index="0x10" name="KRKTE" />
   </XDFHEADER>
   <XDFTABLE uniqueid="0x7BF5" flags="0x0">
     <title>Software Version Entries</title>
@@ -3486,6 +3487,65 @@
       <max>255.000000</max>
       <outputtype>1</outputtype>
       <MATH equation="(X*.75)-48">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>Conversion of relative fuel mass rk into effective injection time </title>
+    <description>KRKTE</description>
+    <CATEGORYMEM index="0" category="3" />
+    <CATEGORYMEM index="1" category="17" />
+    <EMBEDDEDDATA mmedaddress="0x9CC6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>ms/%</units>
+    <decimalpl>4</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.002133 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>TVUB</title>
+    <description>voltage correction To be used in conjuction with KRKTE </description>
+    <CATEGORYMEM index="0" category="3" />
+    <CATEGORYMEM index="1" category="17" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x6A0B" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>V</units>
+      <indexcount>5</indexcount>
+      <decimalpl>3</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.094200 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x59C5" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>ms</units>
+      <decimalpl>3</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.003200 * X">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
