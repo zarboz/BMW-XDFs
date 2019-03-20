@@ -1,4 +1,4 @@
-<!-- Written 03/19/2019 22:58:18 -->
+<!-- Written 03/20/2019 15:40:33 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -126,7 +126,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x7A1" flags="0x0">
     <title>Initial / Master PN Entry</title>
-    <CATEGORYMEM index="0" category="2" />
+    <CATEGORYMEM index="0" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="72" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>44</indexcount>
@@ -3259,18 +3259,6 @@
     <description>DMTL&#013;&#010;</description>
     <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x1F4A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-    <datatype>0</datatype>
-    <unittype>0</unittype>
-    <DALINK index="0" />
-    <MATH equation="X">
-      <VAR id="X" />
-    </MATH>
-  </XDFCONSTANT>
-  <XDFCONSTANT uniqueid="0x749C">
-    <title>Deactivate code word DAGR (EURO coding), CD .. = 0 -&gt; no diagnostics</title>
-    <description>DAGR</description>
-    <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1F49" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
