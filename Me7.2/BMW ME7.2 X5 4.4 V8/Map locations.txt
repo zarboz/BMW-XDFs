@@ -1,0 +1,255 @@
+	Notes:
+
+    TWNWS: (Time for camshaft target angle retard) Location 14258
+	preceeding hex: 66 26 00 02 00 27 00 02
+	following hex: 00 D0 07 64 00 00 40
+	
+	NMAX (Speed Limit) Value
+	A2L declares at 814302 bin shows at 142302 A2L shows as 5F 50 bin shows as 50 5F
+	
+
+	NMXDAEF (Maximum speed at throttle actuator replacement operation) Curve 
+	A2l declares at 810427 bin shows at 10428 (starting)
+	Identifying hex: 
+			Axis 1: 00 33 66 99 CC FF 
+					1E 1E 2D 3C 4B 5A
+				
+	NNSTA (Speed transition Normal -> Start)  Curve
+	A2l declares at 81a4cf bin shows at 1a366 1a3b8 
+	Identifying hex: 
+			Axis 1: 80 80 80
+					80 08 08
+			Hex following marker: 14 19 1F 27 2C 32 3F 4B 04 0D 1B
+								
+	NSTNM (Transition start -> normal) Curve
+	A2l declares at 81a4d6 bin shows at 1A36d and 1A3bf
+	Identifying hex:
+			 Axis 1: 19 1F 27 
+					 2C 32 3F
+					 
+	KFFWNW (Correction factor for camshaft control) Map
+	a2l declares at 811B74 bin shows at 11B40
+	Identifying Hex:
+			 Axis 1: 3A 44 50 5D 69
+			 Axis 0: 78 87 D1 E4 C5 D8
+			    Map: AD C5 AD BF 08 19 26 35 3C 50 5D 73 85 3E 4A 94 75 A0 7B 6F 50 AB 80 80 80 80 80 80 80 80 
+	hex preceeding marker 03 03 08 19 02 05 A5 40 08 XX
+	
+	DMTL Euro flag Located at offset - 11F19, in euro cars this is 0x00 instead of 0x32 or whatever your ROM has (Value)
+	Identifying Hex: 1F 20 B6 61 45 38
+	  Following Hex: 2C 28 28 BF 6E 53
+	  
+	  
+	DTWNWS (Time for camshaft target angle retard) Value
+	A2l declares at 814008 bin shows 14008
+	hex following: XX 00 40 00 00 12 00
+	
+	NMXDKPU (Maximum speed for safety fuel cut-off (SKA))
+	A2l declares at 814304 bin shows at 
+	
+	DNSAH (Delta n SA high related to nWE) Value
+	A2l declares at 810016 bin shows at 10016
+	Following hex: 09 19 05 03 04 FF 10 5A
+	
+	DNSAL (Delta n SA low related to nWE) Value
+	A2l declares at 810017 bin shows at 10017
+	Hex Following: 19 05 03 04 FF 10 5A 4D
+	
+	KRKTE (Conversion of relative fuel mass rk into effective injection time te) Value
+	A2l Declares at 819bc4 bin shows at 19d41
+	Hex preceeding:8E 92 74 7C 83 88 8C 8F
+	Hex following: 64 80 80 7F 7F 04 00 50 28 FF 28
+	Bin: 9CC6
+	ms/% (units override)
+	sig dig 4
+	conv 0.002133 * X
+	This items raw data 
+	
+	TVUB:
+	Map: 59CA
+	Columns: 59C5  conv 0.094200 * X
+	Add step 1
+	Sig Dig 3
+	unit V (Column)
+	Dec Place 3
+	MS (main)
+	Conversion 0.003200 * X
+	
+	PSAPES (Intake manifold pressure for application injection) Value
+	A2l declares at 81b098 Shows as EE D2 but a2l shows D2EE as measurement. Bin shows at ??????
+	
+	AEVAB (Output injection valve cut off)Contains:
+	
+		EVMB () Value
+		a2l declares at 813f05 bin shows at 13f05
+		hex following: 5A 04 25 0A 01 32
+	
+		EVMB2 () value
+		a2l declares at 813f06 bin shows at 13f06
+		hex following 04 25 0A 01 32 08 01
+		
+		EVOFS () value
+		a2l declares at 813f07 bin shows at 13f07
+		hex following 25 0A 01 32 08 01 01
+		
+		REDMX () value
+		a2l declares at 813f0c bin shows at 13f0c
+		hex preceeding: 5A 04 25 0A 01 32
+		
+		TWO_ZYLZA () value
+		a2l declares 813f14 bin shows at 13f14
+		hex following 78 48 F0 FF 08 5A
+		
+		ZYLMASK () value
+		a2l declares at 813f18 bin shows at 13f18
+		hex preceeding: 01 00 10 78 48 FF
+		
+		ZYLA () value
+		a2l declares at 813f19 bin shows at 13f19
+		hex preceeding: 01 00 10 78 48 F0 FF
+		
+		NMXSKA (Maximum speed at unknown throttle position -> Ev shutdown) Value
+		a2l declares at 810060 bin shows at 10060
+		hex following: 01 06 08 00 20 01 BE 07 80 00 00
+		
+		REDABM (Ev deactivation pattern for torque reduction) Map
+		a2l declares at 8109f2 bin shows at 109f2
+		Hex preceeding: 64 7D AB AB AB AB
+		Hex Following: 0A 18 03 06 05
+			Column0: 01 11 15 55 57 77 7F FF
+			Column1: 02 22 2A AA AB BB BF FF
+			Column2: 04 44 54 55 57 77 7F FF
+			Column3: 08 88 A8 AA BA BB FB FF
+			Column4: 10 11 51 55 75 77 F7 FF
+			Column5: 20 22 A2 AA EA EE EF FF
+			Column6: 40 44 45 55 D5 DD BF FF
+			Column7: 80 88 8A AA AB BB BF FF
+			
+			
+	NUEMAX (Engine overspeed limit) Value
+	a2l declares at 813ff6 bin shows at 
+	
+	ARMD Torque Baed anti-jerk contains:
+		A0 (Transfer function coefficient)
+			a2l declares at 814288 bin shows at 14288. A2L shows as 28 f6 hex shows as f6 28
+			Following hex: EC 51 F6 28 19 9C
+		A1 (Transfer function coefficient)
+			a2l declares at 81428a bin shows at 1428a. A2L shows as 51 EC hex shows as EC 51
+			Following hex: F6 28 19 9C 0D 29
+		A2 (Transfer function coefficient_
+			a2l declares at 81428c bin shows at 1428C. A2L shows as 28 F6 bin shows as F6 28
+			Following hex: 19 9C 0D 29 00 7D
+		B1 (Transfer function coefficient)
+			A2L declares at 81428E bin shows at 1428E. A2L shows as 9C 19 bin shows as 19 9C
+			Following hex: 0D 29 00 7D 54 02 
+		B2 (Transfer function coefficient)
+			A2L declares at 814290 bin shows at 14290. A2L shows as 29 0D bin shows as 0D 29
+			Following hex: 00 7D 54 02 FC 02
+		DMDAROG (upper threshold for moment intervention gear-dependent)
+			A2L declares at 81AA36 bin shows at 1A8D7:
+			Column0: 00 80 
+			Column1: 00 80 
+			Column2: 00 80 
+			Column3: 00 80 
+			Column4: 00 80 
+			Column5: 00 80 
+			Column6: 00 80
+		DMDARUG (lower threshold for torque intervention gear-dependent)
+		DNARAO
+		DNFILO
+		NARA
+		NARLL
+		TAREIN
+		TMAR
+		TMARSTM
+		TZSPINI
+		VARAU
+		ZNGAR
+		
+		
+	TWDSTS (Waiting time for diagnosis start signal) I think this has something to do with EWS defeat because my EWS off dump has NO data here and the a2l hex has lots 
+	a2l declares at 815fca bin shows this would exist at 15F28 
+	
+	
+	KFWNLLK (Target angle for camshaft idling with cold engine) Map
+	A2l declares at 812404 bin shows at 1246a 
+	
+	Column Width: FF FF FF FF FF FF FF FF FF FF FF FF 
+	Number of rows: FF FF FF FF FF FF FF FF FF FF
+	First 4 map bits 08 0C 1B 27
+	last 4 map bits  0E 14 17 1B
+	A2l Map: 08 0C 1B 27 33 4D 74 9A E2 17 03 08 18 25 32 3F 4C 59 63 9A 00 1C 37 52 5F 5F 5F 5F 03 06 26 37 1C 0A 0A 01 06 18 25 33 40 5B D3 1C 1C 1C 17 16 13 05 64 00 00 01 00 00 00 71 3F 71 36 64 10 1E 80 04 10 30 50 80 4E 5C 65 6F 05 23 0F 02 4B 2F 05 00 50 26 ED E0 A4 46 46 E0 46 75 46 AA 00 14 50 04 00 03 0A 04 0C 0A 0F 14 17 1A 1F 26 32 4B 64 7D 8A 96 0E 14 17 1B
+	Bin Map: 08 0C 1B 27 33 4D 74 9A E2 17 03 08 18 25 32 3F 4C 59 63 9A 00 1C 37 52 5F 5F 5F 5F 03 06 26 37 1C 0A 0A 00 06 18 25 33 40 5B D3 1C 1C 1C 17 16 13 05 64 00 00 01 00 00 00 71 3F 71 36 64 10 1E 80 04 10 30 50 80 4E 5C 65 6F 02 4B 2F 05 01 50 26 ED E0 A4 46 46 E0 46 75 46 AA 00 14 50 04 00 03 0A 04 0C 0A 0F 14 17 1A 1F 26 32 4B 64 7D 8A 96 0E 14 17 1B 21 28 2F
+	78 long
+	Map: 2477
+	Rows: 2461
+	Colum: 246D
+	
+	KFNLLW (Target angle for camshaft idling with warm engine) Map
+	A2l declares at 812494 but shows at 812946 bin shows at 12455 has 2 leading bytes of 21 28 in both bin and a2l
+	Columns: 2F 36 3D 42 00 00 00 00 00 20 28 30
+	Rows: 30 30 00 00 00 14 28 30 38 40
+	a2l map: 2F 36 3D 42 00 00 00 00 00 20 28 30 30 30 00 00 00 14 28 30 38 40 40 40 00 00 0A 18 32 42 48 48 48 48 00 00 0E 18 38 44 50 50 50 50 00 00 0C 14 38 44 50 50 50 50 00 00 0C 14 38 44 50 64 64 64 00 04 18 38 58 68 78 8C 98 A0 00 3A 55 6E 84 8E 8D 86 83 78 00 2B 45 63 7D 89 91 96 8D 7E 00 3A 5C 73 87 90 95 99 9B 71 00 2B 45 63 7D 89 91 96 6B 41 00 2B 45 63 7D 89 91 89 6E 2B 0C 0A 19 1F 26 32 3F 4B 58 64 71 7D 8A 96 0E 14 17 1B
+	Bin map: 2F 36 3D 42 00 00 00 00 00 20 28 30 30 30 00 00 00 14 28 30 38 40 40 40 00 00 0A 18 32 42 48 48 48 48 00 00 0E 18 38 44 50 50 50 50 00 00 0C 14 38 44 50 50 50 50 00 00 0C 14 38 44 50 64 64 64 00 04 18 38 58 68 78 8C 98 A0 00 3A 55 6E 84 8E 8D 86 83 78 00 2B 45 63 7D 89 91 96 8D 7E 00 3A 5C 73 87 90 95 99 9B 71 00 2B 45 63 7D 89 91 96 6B 41 00 2B 45 63 7D 89 91 89 6E 2B 0C 0A 19 1F 26 32 3F 4B 58 64 71 7D 8A 96 0E 14 17 1B
+	Map : 2507
+	Rows: 24F1
+	Column:24FD
+	 
+	 
+	KFWNSL (NW nominal angle with SLP operation) Map
+	A2l declares at 812524 bin shows at 1256f a2l and bin have 2 leading bytes of 21 28 then the columns/rows 
+	Columns: 2F 36 3D 42
+	Rows: 00 00 00 00
+	A2L Map: 00 00 0A 17 17 17 00 00 00 08 14 1C 28 40 40 40
+	Bin Map: 00 00 0A 17 17 17 00 00 00 08 14 1C 28 40 40 40
+	
+	KFWNWK (Target angle for camshaft in the partial load with cold engine) Map 
+	A2l declares at 81253E Bin shows at 124e7 A2l map has leading 2 bytes of 00 00 the Bin shares this characteristic
+	Columns:04 10 24 3C 50 78 78 78 00 0F 08 18 30 58 80 8C
+	Rows: A0 A0 00 14 28 3C 50 7C 84 8C 8C 8C 00 3A 55 6E
+	A2l Map: 82 8E 8D 86 82 78 00 32 4D 69 7F 8C 8F 8E 87 80 00 2B 45 63 7B 89 91 96 8C 80 00 32 50 6B 80 8C 93 98 94 8E 00 3A 5C 73 85 90 95 99 9B 78 00 2B 45 63 7B 89 91 96 64 48 00 2B 45 63 7B 89 91 89 6A 30 04 04 0F 14 19 32 33 4A 83 90 00 00 00 00 00 04 04 00 00 08 08 00 00 0C 0C 00 10 10 0D 13 19 1F 26 2C 32 38 3F 4B 58 64 71 7D 8A 96 0E 11 15 17 1B 22 28 2F 36 3C 43 4A 50 57 6B 7F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0C 1E 28 2F 34 3B 3C 3C 3C 3C 3C 3C 00 00 00 00 00 16 28 33 3C 46 48 48 5C 64 64 64 00 00 00 00 05 1A 2D 39 50 50 50 50 64 78 78 78 00 00 00 03 16 38 47 51 64 64 64 64 78 8C 8C 8C 00 00 04 10 28 40 50 68 80 98 98 98 98 98 98 98 00 00 04 18 38 58 68 78 8C A0 A0 A0 A0 A0 A0 A0 00 05 14 2C 48 68 78 88 90 95 96 96 96 96 96 96 00 0A
+	Bin Map: 82 8E 8D 86 82 78 00 32 4D 69 7F 8C 8F 8E 87 80 00 2B 45 63 7B 89 91 96 8C 80 00 32 50 6B 80 8C 93 98 94 8E 00 3A 5C 73 85 90 95 99 9B 78 00 2B 45 63 7B 89 91 96 64 48 00 2B 45 63 7B 89 91 89 6A 30 04 04 0F 14 19 32 33 4A 83 90 00 00 00 00 00 04 04 00 00 08 08 00 00 0C 0C 00 10 10 0D 13 19 1F 26 2C 32 38 3F 4B 58 64 71 7D 8A 96 0E 11 15 17 1B 22 28 2F 36 3C 43 4A 50 57 6B 7F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0C 1E 28 2F 34 3B 3C 3C 3C 3C 3C 3C 00 00 00 00 00 16 28 33 3C 46 48 48 5C 64 64 64 00 00 00 00 05 1A 2D 39 50 50 50 50 64 78 78 78 00 00 00 03 16 38 47 51 64 64 64 64 78 8C 8C 8C 00 00 04 10 28 40 50 68 80 98 98 98 98 98 98 98 00 00 04 18 38 58 68 78 8C A0 A0 A0 A0 A0 A0 A0 00 05 14 2C 48 68 78 88 90 95 96 96 96 96 96 96 00 0A
+	Bin: 
+		Map: 25DB
+		Rows: 259B - Conversion 40.0 * x
+		Columns: 25AB - conversion .75 *x
+	
+	
+	
+	
+	KFWNWW (Target angle for camshaft in the partial load with warm engine) Map
+	A2l Declares at 812660 bin shows at 12609 the a2l map has leading 2 bytes of 24 40 the bin shares this 
+	Columns: 59 77 86 88 8C 8C 8C 8C 8C 8C 8C 8C 00 14 3A 55
+	Rows: 6E 84 8E 8D 86 83 78 78 78 78 78 78 00 14 32 4D
+	A2l Map: 69 81 8C 8F 8E 88 7F 77 73 70 6B 6A 00 14 2B 45 63 7D 89 91 96 8D 7E 72 6A 64 5C 5A 00 14 32 50 6B 82 8C 93 98 95 88 5E 3C 28 28 28 00 14 3A 5C 73 87 90 95 99 9B 71 41 18 00 00 00 00 14 2B 45 63 7D 89 91 96 6B 41 15 00 00 00 00 00 14 2B 45 63 7D 89 91 89 6E 2B 0E 00 00 00 00 10 10 0D 13 19 1F 26 2C 32 38 3F 4B 58 64 71 7D 8A 96 0E 11 14 17 1B 21 28 2F 36 3D 42 49 50 57 6B 71 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 08 14 1B 20 28 28 28 28 28 28 28 00 00 08 1C 2F 44 58 63 6C 78 78 78 78 78 78 78 00 00 08 1E 38 53 69 75 8C 8C 8C 8C 8C 8C 8C 8C 00 00 08 20 48 68 78 84 98 A0 A0 A0 A0 A0 A0 A0 00 00 08 20 48 68 78 84 98 A0 A0 A0 A0 A0 A0 A0 00 00 0C 28 4C 6C 7C 84 98 A0 A0 A0 A0 A0 A0 A0 00 05 16 33 54 72 84 8D 91 96 96 96 96 96 96 96 00 0A
+	Bin Map: 69 81 8C 8F 8E 88 7F 77 73 70 6B 6A 00 14 2B 45 63 7D 89 91 96 8D 7E 72 6A 64 5C 5A 00 14 32 50 6B 82 8C 93 98 95 88 5E 3C 28 28 28 00 14 3A 5C 73 87 90 95 99 9B 71 41 18 00 00 00 00 14 2B 45 63 7D 89 91 96 6B 41 15 00 00 00 00 00 14 2B 45 63 7D 89 91 89 6E 2B 0E 00 00 00 00 10 10 0D 13 19 1F 26 2C 32 38 3F 4B 58 64 71 7D 8A 96 0E 11 14 17 1B 21 28 2F 36 3D 42 49 50 57 6B 71 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 08 14 1B 20 28 28 28 28 28 28 28 00 00 08 1C 2F 44 58 63 6C 78 78 78 78 78 78 78 00 00 08 1E 38 53 69 75 8C 8C 8C 8C 8C 8C 8C 8C 00 00 08 20 48 68 78 84 98 A0 A0 A0 A0 A0 A0 A0 00 00 08 20 48 68 78 84 98 A0 A0 A0 A0 A0 A0 A0 00 00 0C 28 4C 6C 7C 84 98 A0 A0 A0 A0 A0 A0 A0 00 05 16 33 54 72 84 8D 91 96 96 96 96 96 96 96 00 0A
+	bin:
+		Map:26DD
+		Rows:26BD
+		Columns:26CD
+	
+	KFWNWWK (Weighting chart for NW setpoint angle warm / cold in TL / LL) Map
+	a2l declares at 8175c4 bin shows at 1724c a2l has 2 leading bytes of 38 00 bin shares this 
+	Columns 00 40 38 00 FE 7F 38 00 00 00  (A2L Shows like this 4000 0038 7FFE 0038 0000 0000)
+	Rows: 00 00 00 00
+	A2l Map: 1E 00 00 78 CD 0C 48 01 DA 00 66 44 9C 44 A8 45 B6 46 80 47 F6 47 CA 48
+	Bin Map: 1F 05 AE 07 40 06 F0 D8 3C 00 2C 01 00 00 64 00 CD 0C 11 11 1A 00 00 73
+	
+	WNWVLN (Target angle for camshaft in full load) Curve 16
+	a2l declares at 8127a3 bin declares at 1274D
+	Columns: 69 7F 8C 8F 8E 87 80 78 73 70 6B 6A 00 14 2B 45
+	Map: 63 7B 89 91 96 8C 80 73 6A 64 5C 5A 00 14 32 50
+	Bin:
+		Curve: 280F .25 * x Grad KW 
+		Columns: 27FF (Conversion 10 * X) 1 add step 1 sig dig Units U/min
+	
+	WNWV (Target angle for camshaft dependent on vehicle speed) curve 12
+	A2l declares at 81278A Bin shows at:12734
+	Columns: 8C 8C 8C 8C 8C 00 14 3A 55 6E 82 8E
+	Map: 8D 86 82 78 78 78 78 78 78 00 14 32
+	Bin:
+		Curve: 27F2 (.25 * X) Grad Kw
+		Columns: 27E6 (Conversion0.000003 * X) 1 add step 7 sig dig unit: s 
+		
+	
+	
