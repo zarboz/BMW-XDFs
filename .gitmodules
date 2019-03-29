@@ -2,7 +2,7 @@
 	path = MSS54-XDFs
 	url = https://github.com/saildot4k/MSS54-XDFs.git
 [submodule "BMW-6HPxx-XDF"]
-	path = BMW-6HPxx-XDF
+	path = Transmission files/BMW-6HPxx-XDF
 	url = https://github.com/bellium/BMW-6HPxx-XDF.git
 [submodule "agatha"]
 	path = MEVD172 - N55/agatha
