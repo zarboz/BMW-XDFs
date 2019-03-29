@@ -5,7 +5,7 @@
 	path = BMW-6HPxx-XDF
 	url = https://github.com/bellium/BMW-6HPxx-XDF.git
 [submodule "agatha"]
-	path = agatha
+	path = MEVD172 - N55/agatha
 	url = https://github.com/dbkaplun/agatha.git
 [submodule "bmw-coding"]
 	path = bmw-coding
