@@ -1,0 +1,44 @@
+DFPM_EWS3 categorized modules from OLS
+	CLADWA = Fehlerklasse: Diebstahlwarnanlage // Error class: Anti-theft alarm system   OLS shows at 1554 (23 23 /24/ 25)
+	CLAWCA = Fehlerklasse: Wegfahrsperre Wechselcode- Ablage // Error class: Immobilizer Variable code storage 15BC (22 22 25 /24/ 24)
+	CLAWFS = Fehlerklasse: Wegfahrsperre // Error class: immobilizer 0x15BD
+	TSFDWA = Fehlersummenzeit: Diebstahlwarnanlage // Fault time: Anti-theft alarm system 0x17F7
+	TSFWCA = Fehlersummenzeit: Wegfahrsperre Wechselcode-Ablage // Fault time: Immobilizer Variable code tray 0x185F
+	TSFWFS = Fehlersummenzeit: Wegfahrsperre // Fault time: immobilizer 0x1860
+	CDKDWA = Codewort Kunde: Diebstahlwarnanlage // Codeword customer: Anti-theft alarm system 0X64E0
+	CDKWCA = Codewort Kunde: Wegfahrsperre Wechselcode-Ablage // Codeword Customer: Immobilizer Removable code filing 0x65B0
+	CDKWFS = Codewort Kunde: Wegfahrsperre // Codeword customer: immobilizer 0x65B2
+	CDTDWA = Codewort Tester: Diebstahlwarnanlage // Codeword Tester: Anti-theft alarm system 0x65EE
+	CDTWCA = Codewort Tester: Wegfahrsperre Wechselcode-Ablage // Codeword Tester: Immobilizer Removable Code Tray 0x66BE
+	CDTWFS = Codewort Tester: Wegfahrsperre // Codeword Tester: Immobilizer 0x66C0
+	
+	
+
+From A2L file:
+B_EWS_OK Byte shows in RAM declaration of A2L file A2L Declares at 0x383150 (A2L file is 87FFEC long) the a2l hex file was included with a "spoofed" RAM area filled with 00
+	Freigabebit elektronische Wegfahrsperre // Release bit electronic immobilizer
+	Unfortunately the address is just full of 00 in the hex file that was included with a2l
+		Theory: The table that references this byte is done via calculation of other items in the aforementioned list. Once tracked down byte address I can redirect to an "always OK"
+		
+	
+EWSNvBits is another that shows from the A2L file at 383150 	
+
+DFPM_EWS3 from A2L Shows these as Def_Characteristics or items it uses to define its calculations 
+CDCDWA - Codewort CARB: Diebstahlwarnanlage // Codeword CARB: Anti-theft alarm system 0x815062
+CDCWCA - Codewort CARB: Wegfahrsperre Wechselcode-Ablage // Codeword CARB: immobilizer removable code filing 0x8153C2
+CDCWFS - Codewort CARB: Wegfahrsperre // Codeword CARB: immobilizer 0x8153CA
+CDKDWA - Codewort Kunde: Diebstahlwarnanlage // Codeword customer: Anti-theft alarm system 0x81541E
+CDKWCA = Codewort Kunde: Wegfahrsperre Wechselcode-Ablage // Codeword Customer: Immobilizer Removable code filing 0x8154F6
+CDKWFS - Codewort Kunde: Wegfahrsperre // Codeword customer: immobilizer  0x8154F8
+CDTDWA - Codewort Tester: Diebstahlwarnanlage // Codeword Tester: Anti-theft alarm system 0x815540
+CDTWCA - Codewort Tester: Wegfahrsperre Wechselcode-Ablage // Codeword Tester: Immobilizer Removable Code Tray 0x815618
+CDTWFS - Codewort Tester: Wegfahrsperre // Codeword Tester: Immobilizer 0x81561A
+CLADWA - Fehlerklasse: Diebstahlwarnanlage // Error class: Anti-theft alarm system 0x8115B3
+CLAWCA - Fehlerklasse: Wegfahrsperre Wechselcode- Ablage // Error class: Immobilizer Variable code storage 0x81161F
+CLAWFS - Fehlerklasse: Wegfahrsperre // Error class: immobilizer 0x811620
+FFTDWA - Freeze Frame Tabelle: Diebstahlwarnanlage // Freeze Frame Table: Anti-theft alarm system 0x8116AA
+FFTWCA - Freeze Frame Tabelle: Wegfahrsperre Wechselcode- Ablage // Freeze Frame Table: Immobilizer Variable Code Tray 0x81185A
+FFTWFS - Freeze Frame Tabelle: Wegfahrsperre // Freeze Frame Table: Immobilizer 0x81185E
+TSFDWA - Fehlersummenzeit: Diebstahlwarnanlage // Fault time: Anti-theft alarm system   0x811888
+TSFWCA - Fehlersummenzeit: Wegfahrsperre Wechselcode-Ablage // Fault time: Immobilizer Variable code tray 0x8118F4
+TSFWFS - Fehlersummenzeit: Wegfahrsperre // Fault time: immobilizer 0x8118F5
