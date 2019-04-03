@@ -1,4 +1,4 @@
-<!-- Written 04/03/2019 11:46:27 -->
+<!-- Written 04/03/2019 16:17:30 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2228,7 +2228,7 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-    <XDFCONSTANT uniqueid="0x0">
+  <XDFCONSTANT uniqueid="0x0">
     <title>DSLOFS</title>
     <description>Offset Drucksensor Ladedruck</description>
     <CATEGORYMEM index="0" category="160" />
@@ -2241,49 +2241,7 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
-  <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>KFKHFM</title>
-    <description>Korrekturkennfeld f&#252;r HFM</description>
-    <CATEGORYMEM index="0" category="163" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x571" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>%</units>
-      <indexcount>14</indexcount>
-      <decimalpl>3</decimalpl>
-      <embedinfo type="1" />
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <MATH equation="0.750000 * X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x563" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>Upm</units>
-      <indexcount>14</indexcount>
-      <decimalpl>1</decimalpl>
-      <embedinfo type="1" />
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <MATH equation="40.000000 * X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0x57F" mmedelementsizebits="8" mmedrowcount="14" mmedcolcount="14" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>-</units>
-      <decimalpl>4</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="0.007813 * X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
-    <XDFCONSTANT uniqueid="0x0">
+  <XDFCONSTANT uniqueid="0x0">
     <title>FKVAUM</title>
     <description>Umrechnungsfaktor Einspritzzeit in Kraftstoffverbrauch</description>
     <CATEGORYMEM index="0" category="187" />
@@ -2337,6 +2295,20 @@
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
+	 <XDFCONSTANT uniqueid="0x0">
+    <title>FKHABMN</title>
+    <description>Schwelle Abregelfaktor Katheizen</description>
+    <CATEGORYMEM index="0" category="105" />
+    <EMBEDDEDDATA mmedaddress="0xA245" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>-</units>
+    <decimalpl>4</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.003906 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>KFMLDMX</title>
@@ -2380,7 +2352,7 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-    <XDFTABLE uniqueid="0x0" flags="0x0">
+  <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>KFKHFM</title>
     <description>Korrekturkennfeld f&#252;r HFM</description>
     <CATEGORYMEM index="0" category="163" />
@@ -2422,7 +2394,7 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-   <XDFTABLE uniqueid="0x0" flags="0x0">
+  <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>FKKVS</title>
     <description>Korrekturfaktor Kraftstoffversorgungssystem</description>
     <CATEGORYMEM index="0" category="222" />
@@ -2464,7 +2436,7 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-   <XDFCONSTANT uniqueid="0x0">
+  <XDFCONSTANT uniqueid="0x0">
     <title>TEMIN</title>
     <description>minimales TE</description>
     <CATEGORYMEM index="0" category="222" />
@@ -2535,7 +2507,6 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
-  
   <XDFCONSTANT uniqueid="0x0">
     <title>MLMAX</title>
     <description>Maximaler Luftflu&#223; f&#252;r die Lastberechnung nach SAE J1979</description>
