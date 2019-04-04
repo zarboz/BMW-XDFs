@@ -1,4 +1,4 @@
-<!-- Written 04/03/2019 22:59:11 -->
+<!-- Written 04/03/2019 23:00:53 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2644,10 +2644,10 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFCONSTANT uniqueid="0x0">
-    <title>TLAFA</title>
-    <description>Vez&#246;gerungszeit bis Lambda Fahrerwunsch aktiv</description>
-    <CATEGORYMEM index="0" category="189" />
-    <EMBEDDEDDATA mmedaddress="0xA138" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <title>TLAFA - time delay before driver requested lambda active. Already set to 0 on many files. On others, you may have to reduce it to get LAMFA to take effect in a timely manner</title>
+    <description>Delay time until lambda driver request active</description>
+    <CATEGORYMEM index="0" category="3" />
+    <EMBEDDEDDATA mmedaddress="0xA172" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>s</units>
     <decimalpl>3</decimalpl>
     <datatype>0</datatype>
