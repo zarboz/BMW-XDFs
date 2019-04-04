@@ -1,4 +1,4 @@
-<!-- Written 04/03/2019 22:21:51 -->
+<!-- Written 04/03/2019 22:34:42 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2503,11 +2503,11 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>KFKHFM</title>
-    <description>Korrekturkennfeld f&#252;r HFM</description>
-    <CATEGORYMEM index="0" category="163" />
+    <title>KFKHFM - Correction map for HFM</title>
+    <description>fix up individual rich/lean areas, and WOT fueling issues (due to air intake tract and fuel system non-linearities).</description>
+    <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x571" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x63A" mmedelementsizebits="8" mmedcolcount="14" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>%</units>
       <indexcount>14</indexcount>
       <decimalpl>3</decimalpl>
@@ -2520,7 +2520,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x563" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x648" mmedelementsizebits="8" mmedcolcount="14" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
       <indexcount>14</indexcount>
       <decimalpl>1</decimalpl>
@@ -2533,7 +2533,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0x57F" mmedelementsizebits="8" mmedrowcount="14" mmedcolcount="14" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x656" mmedelementsizebits="8" mmedrowcount="14" mmedcolcount="14" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>-</units>
       <decimalpl>4</decimalpl>
       <min>0.000000</min>
