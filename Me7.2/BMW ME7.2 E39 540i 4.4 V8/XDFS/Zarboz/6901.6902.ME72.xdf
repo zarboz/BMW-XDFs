@@ -1,4 +1,4 @@
-<!-- Written 04/03/2019 22:44:24 -->
+<!-- Written 04/03/2019 22:49:00 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2587,9 +2587,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFCONSTANT uniqueid="0x0">
-    <title>TEMIN</title>
-    <description>minimales TE</description>
-    <CATEGORYMEM index="0" category="222" />
+    <title>TEMIN - minimum injector on time</title>
+    <CATEGORYMEM index="0" category="3" />
     <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4260" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>ms</units>
     <decimalpl>3</decimalpl>
