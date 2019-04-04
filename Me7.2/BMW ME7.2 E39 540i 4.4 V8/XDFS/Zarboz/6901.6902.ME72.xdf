@@ -1,4 +1,4 @@
-<!-- Written 04/03/2019 23:00:53 -->
+<!-- Written 04/03/2019 23:16:16 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2243,8 +2243,8 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>FKVAUM</title>
-    <description>Umrechnungsfaktor Einspritzzeit in Kraftstoffverbrauch</description>
-    <CATEGORYMEM index="0" category="187" />
+    <description>Conversion factor injection time into fuel consumption</description>
+    <CATEGORYMEM index="0" category="3" />
     <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4298" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>ul/ms</units>
     <decimalpl>3</decimalpl>
@@ -2270,11 +2270,11 @@
     </MATH>
   </XDFCONSTANT>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>KFMIZUOF</title>
-    <description>Zul&#228;ssiges indiziertes Moment zur Momentenbegrenzung</description>
-    <CATEGORYMEM index="0" category="216" />
+    <title>KFMIZUOF ******</title>
+    <description>Permitted indexed torque for torque limitation (DO NOT EDIT UNLESS YOU KNOW WTF YOURE DOING)</description>
+    <CATEGORYMEM index="0" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x18D0" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x19BE" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
       <indexcount>8</indexcount>
       <decimalpl>1</decimalpl>
@@ -2287,7 +2287,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x1EC0" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x1FB9" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>%</units>
       <indexcount>8</indexcount>
       <decimalpl>3</decimalpl>
@@ -2300,7 +2300,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0x1E7D" mmedelementsizebits="8" mmedrowcount="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x141D" mmedelementsizebits="8" mmedrowcount="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>%</units>
       <decimalpl>3</decimalpl>
       <min>0.000000</min>
@@ -2313,9 +2313,9 @@
   </XDFTABLE>
   <XDFCONSTANT uniqueid="0x0">
     <title>TMNSMN</title>
-    <description>Motortemperaturschwelle f&#252;r die Nachstartaufweitung</description>
-    <CATEGORYMEM index="0" category="216" />
-    <EMBEDDEDDATA mmedaddress="0x1EC9" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <description>Motor temperature threshold for post-start widening</description>
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x1FC2" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>Grad C</units>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -2326,9 +2326,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>TANSMN</title>
-    <description>Ansauglufttemperaturschwelle zur Nachstartaufweitung</description>
-    <CATEGORYMEM index="0" category="216" />
-    <EMBEDDEDDATA mmedaddress="0x1EC8" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <description>Intake air temperature threshold for post-start expansion</description>
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x1FC1" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>Grad C</units>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -2337,12 +2337,12 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
-  <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>KFMIOP</title>
-    <description>Kennfeld optimales Motormoment</description>
-    <CATEGORYMEM index="0" category="209" />
+  <XDFTABLE uniqueid="0x0" flags="0x30">
+    <title>KFMIOP - Optimal engine torque map</title>
+    <description>KFMIOP - Optimal engine torque map</description>
+    <CATEGORYMEM index="0" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x454C" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x2EBE" mmedelementsizebits="16" mmedcolcount="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
       <units>%</units>
       <indexcount>16</indexcount>
       <embedinfo type="1" />
@@ -2354,7 +2354,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6760" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5722" mmedelementsizebits="16" mmedcolcount="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
       <units>U/min</units>
       <indexcount>16</indexcount>
       <decimalpl>1</decimalpl>
@@ -2367,11 +2367,11 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x434A" mmedelementsizebits="16" mmedrowcount="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x2CBC" mmedelementsizebits="16" mmedrowcount="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>%</units>
       <decimalpl>4</decimalpl>
       <min>0.000000</min>
-      <max>255.000000</max>
+      <max>100.000000</max>
       <outputtype>1</outputtype>
       <MATH equation="0.001526 * X">
         <VAR id="X" />
@@ -2379,11 +2379,11 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>KFZWOP</title>
-    <description>optimaler Z&#252;ndwinkel</description>
-    <CATEGORYMEM index="0" category="202" />
+    <title>KFZWOP - Re-interpolate if you alter the KFMIOP load axis</title>
+    <description>optimaler Z&#252;ndwinkel&#013;&#010; - Re-interpolate if you alter the KFMIOP load axis</description>
+    <CATEGORYMEM index="0" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x454C" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x2EBE" mmedelementsizebits="16" mmedcolcount="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
       <units>%</units>
       <indexcount>16</indexcount>
       <embedinfo type="1" />
@@ -2395,7 +2395,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6760" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5722" mmedelementsizebits="16" mmedcolcount="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
       <units>U/min</units>
       <indexcount>16</indexcount>
       <decimalpl>1</decimalpl>
@@ -2408,48 +2408,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0x230" mmedelementsizebits="8" mmedrowcount="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>grad KW</units>
-      <decimalpl>3</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="0.750000 * X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
-  <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>KFZWOP2</title>
-    <description>optimaler Z&#252;ndwinkel Variante 2</description>
-    <CATEGORYMEM index="0" category="202" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x454C" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>%</units>
-      <indexcount>16</indexcount>
-      <embedinfo type="1" />
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <MATH equation="0.023438 * X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6760" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>U/min</units>
-      <indexcount>16</indexcount>
-      <decimalpl>1</decimalpl>
-      <embedinfo type="1" />
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <MATH equation="0.250000 * X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0x330" mmedelementsizebits="8" mmedrowcount="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0x220" mmedelementsizebits="8" mmedrowcount="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>grad KW</units>
       <decimalpl>3</decimalpl>
       <min>0.000000</min>
