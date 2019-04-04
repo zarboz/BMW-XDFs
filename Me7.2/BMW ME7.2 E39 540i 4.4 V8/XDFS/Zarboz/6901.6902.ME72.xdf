@@ -1,4 +1,4 @@
-<!-- Written 04/03/2019 22:51:35 -->
+<!-- Written 04/03/2019 22:59:11 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2229,10 +2229,10 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFCONSTANT uniqueid="0x0">
-    <title>DSLOFS</title>
-    <description>Offset Drucksensor Ladedruck</description>
-    <CATEGORYMEM index="0" category="160" />
-    <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x69F6" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <title>DSLOFS - MAP pressure sensor offset</title>
+    <description>Offset pressure sensor boost pressure</description>
+    <CATEGORYMEM index="0" category="2" />
+    <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x59C9" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>hPa</units>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -2256,10 +2256,10 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
-    <title>FKHABMN</title>
-    <description>Schwelle Abregelfaktor Katheizen</description>
-    <CATEGORYMEM index="0" category="105" />
-    <EMBEDDEDDATA mmedaddress="0xA245" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <title>FKHABMN - set to 0 if you do not have cats.</title>
+    <description>Threshold reduction factor catalytic heating</description>
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0xA2AB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>-</units>
     <decimalpl>4</decimalpl>
     <datatype>0</datatype>
