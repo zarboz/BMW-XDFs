@@ -1,4 +1,4 @@
-<!-- Written 04/03/2019 22:19:39 -->
+<!-- Written 04/03/2019 22:21:51 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2658,10 +2658,10 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
-    <title>MLMAX</title>
-    <description>Maximaler Luftflu&#223; f&#252;r die Lastberechnung nach SAE J1979</description>
-    <CATEGORYMEM index="0" category="32" />
-    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xAECC" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <title>MLMAX - maximum airflow</title>
+    <description>Maximum air flow for load calculation according to SAE J1979</description>
+    <CATEGORYMEM index="0" category="2" />
+    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xB51A" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>kg/h</units>
     <datatype>0</datatype>
     <unittype>0</unittype>
