@@ -1,4 +1,4 @@
-<!-- Written 04/03/2019 16:17:30 -->
+<!-- Written 04/03/2019 22:19:39 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -1675,8 +1675,8 @@
     </MATH>
   </XDFCONSTANT>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Linearization of the hot-film tension</title>
-    <description>MLHFM - Voltage to MAF conversion based on MAF sensor and housing diameter</description>
+    <title>MLHFM - Linearization of the hot-film tension</title>
+    <description>Voltage to MAF conversion based on MAF sensor and housing diameter</description>
     <CATEGORYMEM index="0" category="2" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -2255,47 +2255,7 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
-  <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>KIFZGHG</title>
-    <description>Integratorverst&#228;rkung des Fahrzeugmodells bei AT</description>
-    <CATEGORYMEM index="0" category="10" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x1875" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <indexcount>7</indexcount>
-      <embedinfo type="1" />
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>-</units>
-      <indexcount>1</indexcount>
-      <decimalpl>0</decimalpl>
-      <outputtype>2</outputtype>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xAA54" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="7" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>-</units>
-      <decimalpl>2</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="0.074219 * X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-	 <XDFCONSTANT uniqueid="0x0">
+  <XDFCONSTANT uniqueid="0x0">
     <title>FKHABMN</title>
     <description>Schwelle Abregelfaktor Katheizen</description>
     <CATEGORYMEM index="0" category="105" />
@@ -2309,7 +2269,6 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
-  </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>KFMIZUOF</title>
     <description>Zul&#228;ssiges indiziertes Moment zur Momentenbegrenzung</description>
@@ -2352,7 +2311,7 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
- <XDFCONSTANT uniqueid="0x0">
+  <XDFCONSTANT uniqueid="0x0">
     <title>TMNSMN</title>
     <description>Motortemperaturschwelle f&#252;r die Nachstartaufweitung</description>
     <CATEGORYMEM index="0" category="216" />
@@ -2365,7 +2324,7 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
-    <XDFCONSTANT uniqueid="0x0">
+  <XDFCONSTANT uniqueid="0x0">
     <title>TANSMN</title>
     <description>Ansauglufttemperaturschwelle zur Nachstartaufweitung</description>
     <CATEGORYMEM index="0" category="216" />
@@ -2379,11 +2338,134 @@
     </MATH>
   </XDFCONSTANT>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>KFMLDMX</title>
-    <description>ML-Schwelle f&#252;r B_maxflr-Diagnose HFM/HLM</description>
-    <CATEGORYMEM index="0" category="108" />
+    <title>KFMIOP</title>
+    <description>Kennfeld optimales Motormoment</description>
+    <CATEGORYMEM index="0" category="209" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xAFE6" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x454C" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>%</units>
+      <indexcount>16</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.023438 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6760" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>U/min</units>
+      <indexcount>16</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.250000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x434A" mmedelementsizebits="16" mmedrowcount="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>%</units>
+      <decimalpl>4</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.001526 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFZWOP</title>
+    <description>optimaler Z&#252;ndwinkel</description>
+    <CATEGORYMEM index="0" category="202" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x454C" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>%</units>
+      <indexcount>16</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.023438 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6760" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>U/min</units>
+      <indexcount>16</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.250000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0x230" mmedelementsizebits="8" mmedrowcount="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>grad KW</units>
+      <decimalpl>3</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.750000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFZWOP2</title>
+    <description>optimaler Z&#252;ndwinkel Variante 2</description>
+    <CATEGORYMEM index="0" category="202" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x454C" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>%</units>
+      <indexcount>16</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.023438 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6760" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>U/min</units>
+      <indexcount>16</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.250000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0x330" mmedelementsizebits="8" mmedrowcount="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>grad KW</units>
+      <decimalpl>3</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.750000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFMLDMX -  HFM threshhold for B_maxflr diagnosis</title>
+    <description>ML threshold for B_maxflr diagnosis HFM / HLM</description>
+    <CATEGORYMEM index="0" category="2" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xB7D6" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
       <units>U/min</units>
       <indexcount>8</indexcount>
       <decimalpl>1</decimalpl>
@@ -2396,7 +2478,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0xAFD4" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0xB754" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
       <units>% DK</units>
       <indexcount>8</indexcount>
       <decimalpl>3</decimalpl>
@@ -2409,7 +2491,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xAF52" mmedelementsizebits="16" mmedrowcount="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xB5A0" mmedelementsizebits="16" mmedrowcount="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>kg/h</units>
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
