@@ -1,4 +1,4 @@
-<!-- Written 04/08/2019 13:26:47 -->
+<!-- Written 04/08/2019 13:40:16 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2507,7 +2507,7 @@
   </XDFTABLE>
   <XDFCONSTANT uniqueid="0x0">
     <title>DNARAO</title>
-    <description>Drehzahlhysterese f&#252;r AR aktiv</description>
+    <description>Speed hysteresis active for AR</description>
     <CATEGORYMEM index="0" category="19" />
     <EMBEDDEDDATA mmedaddress="0x8C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>Upm</units>
@@ -2716,8 +2716,7 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>SGA07MDUB</title>
     <description>ARMD</description>
-    <CATEGORYMEM index="0" category="20" />
-    <CATEGORYMEM index="1" category="19" />
+    <CATEGORYMEM index="0" category="19" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>?</units>
