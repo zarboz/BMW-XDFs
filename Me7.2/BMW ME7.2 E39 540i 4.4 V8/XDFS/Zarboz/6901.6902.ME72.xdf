@@ -1,4 +1,4 @@
-<!-- Written 04/08/2019 13:46:58 -->
+<!-- Written 04/08/2019 13:50:20 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2603,7 +2603,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>VARAU</title>
-    <description>minimale Fahrzeuggeschwindigkeit f&#252;r ARA - Funktion</description>
+    <description>minimum vehicle speed for ARA function</description>
     <CATEGORYMEM index="0" category="19" />
     <EMBEDDEDDATA mmedaddress="0x93" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>-</units>
@@ -2616,7 +2616,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>MDIMX</title>
-    <description>Maximal erreichbares indiziertes Motormoment</description>
+    <description>Maximum achievable indexed engine torque</description>
     <CATEGORYMEM index="0" category="19" />
     <EMBEDDEDDATA mmedaddress="0x166" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>%</units>
