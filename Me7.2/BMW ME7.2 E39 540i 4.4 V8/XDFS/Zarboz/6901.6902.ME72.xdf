@@ -1,4 +1,4 @@
-<!-- Written 04/08/2019 13:58:02 -->
+<!-- Written 04/08/2019 14:04:09 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2672,10 +2672,10 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>NTAREIN</title>
-    <description>Sperrzeit f&#252;r Antiruckelfunktion</description>
+    <description>Lock time for anti-jerk function</description>
     <CATEGORYMEM index="0" category="19" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0xB23" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x9450" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>V</units>
       <indexcount>5</indexcount>
       <decimalpl>4</decimalpl>
@@ -2702,7 +2702,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0xB28" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x1CD3" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>s</units>
       <decimalpl>4</decimalpl>
       <min>0.000000</min>
