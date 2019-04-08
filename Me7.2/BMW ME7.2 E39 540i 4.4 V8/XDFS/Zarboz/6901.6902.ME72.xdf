@@ -1,4 +1,4 @@
-<!-- Written 04/08/2019 13:46:34 -->
+<!-- Written 04/08/2019 13:46:58 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2589,7 +2589,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>TZSPINI</title>
-    <description>Sperrzeit fuer Filterinitialisierung</description>
+    <description>Blocking time for filter initialization</description>
     <CATEGORYMEM index="0" category="19" />
     <EMBEDDEDDATA mmedaddress="0x92" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>s</units>
