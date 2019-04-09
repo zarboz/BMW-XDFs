@@ -41,4 +41,4 @@ FFTWCA - Freeze Frame Tabelle: Wegfahrsperre Wechselcode- Ablage // Freeze Frame
 FFTWFS - Freeze Frame Tabelle: Wegfahrsperre // Freeze Frame Table: Immobilizer 0x81185E
 TSFDWA - Fehlersummenzeit: Diebstahlwarnanlage // Fault time: Anti-theft alarm system   0x811888
 TSFWCA - Fehlersummenzeit: Wegfahrsperre Wechselcode-Ablage // Fault time: Immobilizer Variable code tray 0x8118F4
-TSFWFS - Fehlersummenzeit: Wegfahrsperre // Fault time: immobilizer 0x8118F5
+TSFWFS - Fehlersummenzeit: Wegfahrsperre // Fault time: immobilizer 0x8118F5 
