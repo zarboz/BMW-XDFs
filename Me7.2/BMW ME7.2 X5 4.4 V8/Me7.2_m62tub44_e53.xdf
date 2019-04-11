@@ -55,17 +55,17 @@
     <CATEGORY index="0x2B" name="COSA: Software reconciliation" />
     <CATEGORY index="0x2C" name="DACC: Plaus.-Check ACC-Signals Diagnosiss" />
     <CATEGORY index="0x2D" name="DASC: ASC-Signale Diagnosis" />
-    <CATEGORY index="0x2E" name="DCACC: Diagnose; CAN-Timeout ACC-Schnittstelle" />
-    <CATEGORY index="0x2F" name="DCAS: Diagnose; CAN-Timeout ASC-Schnittstelle" />
-    <CATEGORY index="0x30" name="DCGE: Diagnose; CAN-Timeout GE-Schnittstelle" />
+    <CATEGORY index="0x2E" name="DCACC: Diagnosis; CAN timeout ACC interface" />
+    <CATEGORY index="0x2F" name="DCAS: Diagnosis; CAN timeout ASC interface" />
+    <CATEGORY index="0x30" name="DCGE: Diagnose; CAN-Timeout GE interface" />
     <CATEGORY index="0x31" name="DCINS: Diagnose; CAN Timeout Instrument (Kombi)" />
-    <CATEGORY index="0x32" name="DDCY: OBDII; Erf&#252;llung Bedingung &apos;driving cycle&apos;" />
-    <CATEGORY index="0x33" name="DDG: Diagnose Drehzahlgeber" />
-    <CATEGORY index="0x34" name="DECJ: Diagnose; Endstufe CJ4x/9x" />
-    <CATEGORY index="0x35" name="DEGFE: Diagnose der Eingangsgr&#246;&#223;en F&#252;llungserfassung" />
-    <CATEGORY index="0x36" name="DEKON: Konfiguration der Endstufendiagnose" />
-    <CATEGORY index="0x37" name="DEPCL: Diagnose; Elektronik Powertrain Control Lampe" />
-    <CATEGORY index="0x38" name="DFFTCNV: Diagnose; Freeze Frame Tabelle, Konvertierung zu Bytes" />
+    <CATEGORY index="0x32" name="DDCY: OBDII; Fulfillment condition & apos; driving cycle & apos;" />
+    <CATEGORY index="0x33" name="DDG: Diagnostic speed sensor" />
+    <CATEGORY index="0x34" name="DECJ: Diagnosis; Power amplifier CJ4x / 9x" />
+    <CATEGORY index="0x35" name="DEGFE: Diagnosis of the input variables Filling detection" />
+    <CATEGORY index="0x36" name="DEKON: Configuration of the final stage diagnosis" />
+    <CATEGORY index="0x37" name="DEPCL: Diagnosis; Electronics Powertrain Control Lamp" />
+    <CATEGORY index="0x38" name="DFFTCNV: Diagnosis; Freeze frame table, conversion to bytes" />
     <CATEGORY index="0x39" name="DFPM_ADVE" />
     <CATEGORY index="0x3A" name="DFPM_BGDVE" />
     <CATEGORY index="0x3B" name="DFPM_BGRBS" />
