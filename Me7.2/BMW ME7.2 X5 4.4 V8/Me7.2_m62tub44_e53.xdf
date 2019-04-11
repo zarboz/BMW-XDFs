@@ -1,4 +1,4 @@
-<!-- Written 02/07/2019 08:04:11 -->
+<!-- Written 04/11/2019 12:07:43 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -11,50 +11,50 @@
     <REGION type="0xFFFFFFFF" startaddress="0x0" size="0x10000" regionflags="0x0" name="Binary File" desc="This region describes the bin file edited by this XDF" />
     <CATEGORY index="0x0" name="My maps" />
     <CATEGORY index="0x1" name="ADC_HW" />
-    <CATEGORY index="0x2" name="ADVE: Ansteuerung der DV-E mit dem DLR" />
-    <CATEGORY index="0x3" name="AEKP: Ausgabe EKP-Ansteuerung" />
-    <CATEGORY index="0x4" name="AES: Ausgabe Einspritzung" />
-    <CATEGORY index="0x5" name="AEVAB: Ausgabe Einspritzung Ev-Ausblendung" />
-    <CATEGORY index="0x6" name="ALE: Auslauferkennung" />
+    <CATEGORY index="0x2" name="ADVE: Control of the DV-E with the DLR" />
+    <CATEGORY index="0x3" name="AEKP: Output EKP control" />
+    <CATEGORY index="0x4" name="AES: Issue injection" />
+    <CATEGORY index="0x5" name="AEVAB: Issue Injection Ev Blanking" />
+    <CATEGORY index="0x6" name="ALE: leak detection" />
     <CATEGORY index="0x7" name="ALEOLD" />
-    <CATEGORY index="0x8" name="AMUENE: Abspeicherung von Motor&#252;berdrehzahlereignissen" />
-    <CATEGORY index="0x9" name="ARMD: Momentenbasierte Antiruckelfunktion" />
-    <CATEGORY index="0xA" name="ATEV: Ansteuerung Tankentl&#252;ftungsventil (Periodendauer)" />
-    <CATEGORY index="0xB" name="ATM: Abgastemperaturmodell" />
-    <CATEGORY index="0xC" name="BBFGR: Ein- und Ausschaltbedingungen Fahrgeschwindigkeitsregler" />
-    <CATEGORY index="0xD" name="BBGANG: Betriebsbereich Gang" />
-    <CATEGORY index="0xE" name="BBKHZ: Betriebsbereich motorisches Katheizen" />
-    <CATEGORY index="0xF" name="BBKURU: Betriebsbereich Erkennung Kupplung rutscht" />
-    <CATEGORY index="0x10" name="BBSAWE: Betriebsbereich Schubabschalten/Wiedereinsetzen" />
-    <CATEGORY index="0x11" name="BBSTART: Betriebsbedingungen: Start" />
-    <CATEGORY index="0x12" name="BBSTT: Betriebsbereich: Start" />
-    <CATEGORY index="0x13" name="BBTEGA: Phasensteuerung f&#252;r Tankentl&#252;ftung und Gemischadaption" />
-    <CATEGORY index="0x14" name="BBVL: Betriebsbereich Vollast" />
-    <CATEGORY index="0x15" name="BGDVE: Gr&#246;&#223;en f&#252;r DV-E-Ansteuerung aus Lern- und Pr&#252;froutinen" />
-    <CATEGORY index="0x16" name="BGLBZ: Berechnete Gr&#246;&#223;e Ladebilanz der Batterie" />
-    <CATEGORY index="0x17" name="BGMDLM: Berechnete Gr&#246;&#223;e Motormoment mit Momenteneingriffen" />
-    <CATEGORY index="0x18" name="BGMRACC: Berechnete Gr&#246;&#223;e relatives ACC-Moment" />
-    <CATEGORY index="0x19" name="BGMSZS: F&#252;llungserfassung Berechnung Massenstr&#246;me zum Saugrohr" />
-    <CATEGORY index="0x1A" name="BGNG: Berechnete Gr&#246;&#223;e Drehzahlgradient" />
-    <CATEGORY index="0x1B" name="BGNMOT: Berechnete Gr&#246;&#223;e Drehzahl" />
-    <CATEGORY index="0x1C" name="BGPUK: 1.10      Berechnungsgr&#246;&#223;e Umgebungsdruck korrigiert (Bergabfahrterkennung)" />
-    <CATEGORY index="0x1D" name="BGRBS: Berechnete Gr&#246;&#223;e Radbeschleunigung aus Raddrehzahl" />
-    <CATEGORY index="0x1E" name="BGRLP: Berechnungsgroesse rlp praedizierte Luftf&#252;llung" />
-    <CATEGORY index="0x1F" name="BGRML: Berechnungsgr&#246;&#223;e relative Luftmasse nach SAE J1979 Mode $01 + $02 PID $04" />
-    <CATEGORY index="0x20" name="BGSRM: F&#252;llungserfassung Saugrohrmodell" />
-    <CATEGORY index="0x21" name="BGTABST: Berechnete Gr&#246;&#223;e Abstellzeit" />
-    <CATEGORY index="0x22" name="BGTEMPK: 3.30      F&#252;llungserfassung Berechnung Temperaturkompensation" />
-    <CATEGORY index="0x23" name="BGTEV: Berechnungsgr&#246;&#223;e Massenstrom TEV" />
-    <CATEGORY index="0x24" name="BGUBF: Berechnete Gr&#246;&#223;e ub gefiltert" />
-    <CATEGORY index="0x25" name="BGVFGR: Berechnete Geschwindigkeit f&#252;r Fahrgeschwindigkeitsregler" />
-    <CATEGORY index="0x26" name="BGWDKM: Berechnung Dk-Winkel Modell" />
-    <CATEGORY index="0x27" name="CANASR: CAN-Botschafts- und Signaldefinition Antriebsschlupfregelung" />
-    <CATEGORY index="0x28" name="CANDME: DME CAN-Botschafts- und Signaldefinitionen" />
-    <CATEGORY index="0x29" name="CANINS: CAN-Botschafts- und Signaldefinition Kombiinstrument" />
+    <CATEGORY index="0x8" name="AMUENE: Storage of engine overspeed events" />
+    <CATEGORY index="0x9" name="ARMD: Moments-based anti-glitch function" />
+    <CATEGORY index="0xA" name="ATEV: Control of tank vent valve (period duration)" />
+    <CATEGORY index="0xB" name="ATM: Exhaust gas temperature model" />
+    <CATEGORY index="0xC" name="BBFGR: On and off conditions Vehicle speed controller" />
+    <CATEGORY index="0xD" name="BBGANG: Operating area gear" />
+    <CATEGORY index="0xE" name="BBKHZ: Operating range of motor catalysing" />
+    <CATEGORY index="0xF" name="BBKURU: Operating range detection clutch slips" />
+    <CATEGORY index="0x10" name="BBSAWE: Operating range push-off / re-insert" />
+    <CATEGORY index="0x11" name="BBSTART: Operating conditions: Start" />
+    <CATEGORY index="0x12" name="BBSTT: Operating range: Start" />
+    <CATEGORY index="0x13" name="BBTEGA: Phase control for tank ventilation and mixture adaptation" />
+    <CATEGORY index="0x14" name="BBVL: Operating range full load" />
+    <CATEGORY index="0x15" name="BGDVE: Sizes for DV-E control from learning and test routines" />
+    <CATEGORY index="0x16" name="BGLBZ: Calculated size Battery charge balance" />
+    <CATEGORY index="0x17" name="BGMDLM: Calculated size of engine torque with torque interventions" />
+    <CATEGORY index="0x18" name="BGMRACC: Calculated size relative ACC moment" />
+    <CATEGORY index="0x19" name="BGMSZS: Fill detection Calculation of mass flows to intake manifold" />
+    <CATEGORY index="0x1A" name="BGNG: Calculated size speed gradient" />
+    <CATEGORY index="0x1B" name="BGNMOT: Calculated size speed" />
+    <CATEGORY index="0x1C" name="BGPUK: 1.10 Calculation value ambient pressure corrected (downhill detection)" />
+    <CATEGORY index="0x1D" name="BGRBS: Calculated size wheel acceleration from wheel speed" />
+    <CATEGORY index="0x1E" name="BGRLP: Calculation size rlp praedicated air filling" />
+    <CATEGORY index="0x1F" name="BGRML: Calculation size relative air mass according to SAE J1979 Mode $ 01 + $ 02 PID $ 04" />
+    <CATEGORY index="0x20" name="BGSRM: Fill detection Suction tube model" />
+    <CATEGORY index="0x21" name="BGTABST: Calculated size stop time" />
+    <CATEGORY index="0x22" name="BGTEMPK: 3.30 Fill detection Calculation of temperature compensation" />
+    <CATEGORY index="0x23" name="BGTEV: Calculation variable mass flow TEV" />
+    <CATEGORY index="0x24" name="BGUBF: Calculated size ub filtered" />
+    <CATEGORY index="0x25" name="BGVFGR: Calculated speed for cruise control" />
+    <CATEGORY index="0x26" name="BGWDKM: Calculation Dk angle model" />
+    <CATEGORY index="0x27" name="CANASR: CAN message and signal definition Traction control" />
+    <CATEGORY index="0x28" name="CANDME: DME CAN message and signal definitions" />
+    <CATEGORY index="0x29" name="CANINS: CAN message and signal definition instrument cluster" />
     <CATEGORY index="0x2A" name="CIFIVOR" />
-    <CATEGORY index="0x2B" name="COSA: Software-Abgleich" />
-    <CATEGORY index="0x2C" name="DACC: Plaus.-Pr&#252;fung ACC-Signale Diagnose" />
-    <CATEGORY index="0x2D" name="DASC: Diagnose ASC-Signale" />
+    <CATEGORY index="0x2B" name="COSA: Software reconciliation" />
+    <CATEGORY index="0x2C" name="DACC: Plaus.-Check ACC-Signals Diagnosiss" />
+    <CATEGORY index="0x2D" name="DASC: ASC-Signale Diagnosis" />
     <CATEGORY index="0x2E" name="DCACC: Diagnose; CAN-Timeout ACC-Schnittstelle" />
     <CATEGORY index="0x2F" name="DCAS: Diagnose; CAN-Timeout ASC-Schnittstelle" />
     <CATEGORY index="0x30" name="DCGE: Diagnose; CAN-Timeout GE-Schnittstelle" />
@@ -5990,7 +5990,7 @@
     <description>Notlauf rl bei E_DK und !E_HFM</description>
     <CATEGORYMEM index="0" category="26" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x9E7" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x9E7" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Grad C</units>
       <indexcount>6</indexcount>
       <embedinfo type="1" />
@@ -28218,7 +28218,7 @@
     <description>Kennfeld normierter Massenstrom &#252;ber DK</description>
     <CATEGORYMEM index="0" category="26" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5762" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5762" mmedelementsizebits="16" mmedcolcount="6" mmedmajorstridebits="16" mmedminorstridebits="0" />
       <units>U/min</units>
       <indexcount>6</indexcount>
       <decimalpl>1</decimalpl>
@@ -28231,7 +28231,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5742" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5742" mmedelementsizebits="16" mmedcolcount="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
       <units>%</units>
       <indexcount>16</indexcount>
       <decimalpl>4</decimalpl>
@@ -29928,7 +29928,7 @@
     <description>Verh&#228;ltnis pspvdk ungedrosselt</description>
     <CATEGORYMEM index="0" category="26" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5C1A" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5C1A" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="16" mmedminorstridebits="0" />
       <units>U/min</units>
       <indexcount>12</indexcount>
       <decimalpl>1</decimalpl>
@@ -30014,7 +30014,7 @@
     <description>Zeitkonstante schnelle Massenstromadaption</description>
     <CATEGORYMEM index="0" category="26" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5C4C" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5C4C" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="16" mmedminorstridebits="0" />
       <units>-</units>
       <indexcount>8</indexcount>
       <decimalpl>5</decimalpl>
@@ -59951,10 +59951,10 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>FKKVS</title>
-    <description>Korrekturfaktor Kraftstoffversorgungssystem</description>
+    <description>Correction factor fueling system</description>
     <CATEGORYMEM index="0" category="222" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xA82E" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xA82E" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
       <units>ms</units>
       <indexcount>10</indexcount>
       <decimalpl>3</decimalpl>
@@ -59967,7 +59967,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0xA824" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xA824" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
