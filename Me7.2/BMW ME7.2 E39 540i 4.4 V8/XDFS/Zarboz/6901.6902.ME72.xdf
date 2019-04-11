@@ -2886,6 +2886,48 @@
     </MATH>
   </XDFCONSTANT>
   <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>FKKVS</title>
+    <description>Correction factor fueling system</description>
+    <CATEGORYMEM index="0" category="222" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xA82E" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>ms</units>
+      <indexcount>10</indexcount>
+      <decimalpl>3</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.003200 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xA824" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>Upm</units>
+      <indexcount>10</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xA842" mmedelementsizebits="16" mmedrowcount="10" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>-</units>
+      <decimalpl>5</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.000031 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>DWKRMSN - Delta angle offset for average retard</title>
     <description>Delta Angle KR Distance to the averaged retardation</description>
     <CATEGORYMEM index="0" category="6" />
@@ -4173,11 +4215,35 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
+   <XDFCONSTANT uniqueid="0x0">
+    <title>CDLLR</title>
+    <description>Codewort DLLR abschalten (EURO-Codierung), CD..=0 -&gt; keine Diagnose</description>
+    <CATEGORYMEM index="0" category="221" />
+    <EMBEDDEDDATA mmedaddress="0x1EE9" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x42CA">
     <title>Codewort DFSTT abschalten (EURO-Codierung), CD..=0 -&gt; no diagnosis</title>
     <description>CDEFST</description>
     <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x1F4B" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDAGR</title>
+    <description>Codewort DAGR abschalten (EURO-Codierung), CD..=0 -&gt; keine Diagnose</description>
+    <CATEGORYMEM index="0" category="221" />
+    <EMBEDDEDDATA mmedaddress="0x1EE6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4326,6 +4392,30 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWERFIL</title>
+    <description>Codewort zur Auswahl Filtervar. f&#252;r die Ausgabe von AS.-Fehler an das Scan Tool</description>
+    <CATEGORYMEM index="0" category="221" />
+    <EMBEDDEDDATA mmedaddress="0x1EF3" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+    <XDFCONSTANT uniqueid="0x0">
+    <title>CWOBD</title>
+    <description>Codewort f&#252;r Konfiguration OBD Zertifikationsnachweis</description>
+    <CATEGORYMEM index="0" category="221" />
+    <EMBEDDEDDATA mmedaddress="0x1EF4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0" flags="0xC">
     <title>Deactivate code word tank ventilation diagnosis (EURO coding), CD .. = 0 -&gt; no slide</title>
     <description>CWDTES</description>
@@ -4356,6 +4446,66 @@
     <description>CDSWE</description>
     <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x23B0" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+    <XDFCONSTANT uniqueid="0x0">
+    <title>CWDTLECK</title>
+    <description>Codewort Abschaltung der DLDP</description>
+    <CATEGORYMEM index="0" category="221" />
+    <EMBEDDEDDATA mmedaddress="0x2361" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWUHR</title>
+    <description>Codewort f&#252;r Uhr</description>
+    <CATEGORYMEM index="0" category="221" />
+    <EMBEDDEDDATA mmedaddress="0x1EF7" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+    <XDFCONSTANT uniqueid="0x0">
+    <title>CWKONLS</title>
+    <description>Codewort f&#252;r Konfiguration Lambda Sonden</description>
+    <CATEGORYMEM index="0" category="221" />
+    <EMBEDDEDDATA mmedaddress="0xA52C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWNSABG</title>
+    <description>Codewort Einstellen Leerlauf-Solldrehzahl mit Diagnosetester</description>
+    <CATEGORYMEM index="0" category="221" />
+    <EMBEDDEDDATA mmedaddress="0xA52D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWKONABG</title>
+    <description>Codewort f&#252;r Konfiguration Abgasbehandlung</description>
+    <CATEGORYMEM index="0" category="221" />
+    <EMBEDDEDDATA mmedaddress="0xA52B" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
