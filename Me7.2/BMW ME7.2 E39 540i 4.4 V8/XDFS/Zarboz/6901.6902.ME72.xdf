@@ -1,4 +1,4 @@
-<!-- Written 04/11/2019 10:41:53 -->
+<!-- Written 04/16/2019 16:46:00 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -4215,35 +4215,11 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
-   <XDFCONSTANT uniqueid="0x0">
-    <title>CDLLR</title>
-    <description>Codewort DLLR abschalten (EURO-Codierung), CD..=0 -&gt; keine Diagnose</description>
-    <CATEGORYMEM index="0" category="221" />
-    <EMBEDDEDDATA mmedaddress="0x1EE9" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-    <datatype>0</datatype>
-    <unittype>0</unittype>
-    <DALINK index="0" />
-    <MATH equation="X">
-      <VAR id="X" />
-    </MATH>
-  </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x42CA">
     <title>Codewort DFSTT abschalten (EURO-Codierung), CD..=0 -&gt; no diagnosis</title>
     <description>CDEFST</description>
     <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x1F4B" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-    <datatype>0</datatype>
-    <unittype>0</unittype>
-    <DALINK index="0" />
-    <MATH equation="X">
-      <VAR id="X" />
-    </MATH>
-  </XDFCONSTANT>
-  <XDFCONSTANT uniqueid="0x0">
-    <title>CDAGR</title>
-    <description>Codewort DAGR abschalten (EURO-Codierung), CD..=0 -&gt; keine Diagnose</description>
-    <CATEGORYMEM index="0" category="221" />
-    <EMBEDDEDDATA mmedaddress="0x1EE6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4394,7 +4370,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CWERFIL</title>
-    <description>Codewort zur Auswahl Filtervar. f&#252;r die Ausgabe von AS.-Fehler an das Scan Tool</description>
+    <description>Codeword for selection Filtervar. for issuing AS. errors to the Scan Tool</description>
     <CATEGORYMEM index="0" category="221" />
     <EMBEDDEDDATA mmedaddress="0x1EF3" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -4404,9 +4380,9 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
-    <XDFCONSTANT uniqueid="0x0">
-    <title>CWOBD</title>
-    <description>Codewort f&#252;r Konfiguration OBD Zertifikationsnachweis</description>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWOBD - Only touch this for Emissions with OBD reads</title>
+    <description>Codeword for configuration OBD certification&#013;&#010;01 OBDII-CARB&#013;&#010;02 OBD-EPA&#013;&#010;03 OBDII-CARB + OBD-EPA&#013;&#010;04 OBDI&#013;&#010;05 no OBD-requirements&#013;&#010;06 EOBD</description>
     <CATEGORYMEM index="0" category="221" />
     <EMBEDDEDDATA mmedaddress="0x1EF4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -4453,9 +4429,9 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
-    <XDFCONSTANT uniqueid="0x0">
+  <XDFCONSTANT uniqueid="0x0">
     <title>CWDTLECK</title>
-    <description>Codewort Abschaltung der DLDP</description>
+    <description>Codeword Shutdown of the DLDP</description>
     <CATEGORYMEM index="0" category="221" />
     <EMBEDDEDDATA mmedaddress="0x2361" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -4466,20 +4442,8 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
-    <title>CWUHR</title>
-    <description>Codewort f&#252;r Uhr</description>
-    <CATEGORYMEM index="0" category="221" />
-    <EMBEDDEDDATA mmedaddress="0x1EF7" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-    <datatype>0</datatype>
-    <unittype>0</unittype>
-    <DALINK index="0" />
-    <MATH equation="X">
-      <VAR id="X" />
-    </MATH>
-  </XDFCONSTANT>
-    <XDFCONSTANT uniqueid="0x0">
     <title>CWKONLS</title>
-    <description>Codewort f&#252;r Konfiguration Lambda Sonden</description>
+    <description>Codeword for configuration lambda probes</description>
     <CATEGORYMEM index="0" category="221" />
     <EMBEDDEDDATA mmedaddress="0xA52C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -4491,7 +4455,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CWNSABG</title>
-    <description>Codewort Einstellen Leerlauf-Solldrehzahl mit Diagnosetester</description>
+    <description>Codeword Set idle setpoint speed with diagnostic tester</description>
     <CATEGORYMEM index="0" category="221" />
     <EMBEDDEDDATA mmedaddress="0xA52D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -4503,7 +4467,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CWKONABG</title>
-    <description>Codewort f&#252;r Konfiguration Abgasbehandlung</description>
+    <description>Codeword for configuration exhaust treatment</description>
     <CATEGORYMEM index="0" category="221" />
     <EMBEDDEDDATA mmedaddress="0xA52B" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
