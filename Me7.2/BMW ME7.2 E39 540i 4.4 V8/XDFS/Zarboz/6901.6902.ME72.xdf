@@ -1,4 +1,4 @@
-<!-- Written 04/16/2019 16:46:00 -->
+<!-- Written 04/16/2019 16:52:53 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2888,9 +2888,9 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>FKKVS</title>
     <description>Correction factor fueling system</description>
-    <CATEGORYMEM index="0" category="222" />
+    <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xA82E" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xAA22" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
       <units>ms</units>
       <indexcount>10</indexcount>
       <decimalpl>3</decimalpl>
@@ -2903,7 +2903,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0xA824" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xA2EA" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
@@ -2916,7 +2916,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xA842" mmedelementsizebits="16" mmedrowcount="10" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xAA36" mmedelementsizebits="16" mmedrowcount="10" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>-</units>
       <decimalpl>5</decimalpl>
       <min>0.000000</min>
@@ -4371,8 +4371,8 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>CWERFIL</title>
     <description>Codeword for selection Filtervar. for issuing AS. errors to the Scan Tool</description>
-    <CATEGORYMEM index="0" category="221" />
-    <EMBEDDEDDATA mmedaddress="0x1EF3" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x1FD6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4383,8 +4383,8 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>CWOBD - Only touch this for Emissions with OBD reads</title>
     <description>Codeword for configuration OBD certification&#013;&#010;01 OBDII-CARB&#013;&#010;02 OBD-EPA&#013;&#010;03 OBDII-CARB + OBD-EPA&#013;&#010;04 OBDI&#013;&#010;05 no OBD-requirements&#013;&#010;06 EOBD</description>
-    <CATEGORYMEM index="0" category="221" />
-    <EMBEDDEDDATA mmedaddress="0x1EF4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x1FD7" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4430,22 +4430,10 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
-    <title>CWDTLECK</title>
-    <description>Codeword Shutdown of the DLDP</description>
-    <CATEGORYMEM index="0" category="221" />
-    <EMBEDDEDDATA mmedaddress="0x2361" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-    <datatype>0</datatype>
-    <unittype>0</unittype>
-    <DALINK index="0" />
-    <MATH equation="X">
-      <VAR id="X" />
-    </MATH>
-  </XDFCONSTANT>
-  <XDFCONSTANT uniqueid="0x0">
     <title>CWKONLS</title>
     <description>Codeword for configuration lambda probes</description>
-    <CATEGORYMEM index="0" category="221" />
-    <EMBEDDEDDATA mmedaddress="0xA52C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x51BC" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4456,8 +4444,8 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>CWNSABG</title>
     <description>Codeword Set idle setpoint speed with diagnostic tester</description>
-    <CATEGORYMEM index="0" category="221" />
-    <EMBEDDEDDATA mmedaddress="0xA52D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x51BD" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4468,8 +4456,8 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>CWKONABG</title>
     <description>Codeword for configuration exhaust treatment</description>
-    <CATEGORYMEM index="0" category="221" />
-    <EMBEDDEDDATA mmedaddress="0xA52B" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x51BB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5158,6 +5146,7 @@
   <XDFCONSTANT uniqueid="0x3496">
     <title>_TURBO</title>
     <description>This is a constant in the A2L no idea what it does but it exists to toggle</description>
+    <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x3F13" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
