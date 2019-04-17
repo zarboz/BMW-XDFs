@@ -1,4 +1,4 @@
-<!-- Written 04/17/2019 10:42:18 -->
+<!-- Written 04/17/2019 10:59:11 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -4303,7 +4303,18 @@
   <XDFCONSTANT uniqueid="0x2D02">
     <title>CLASLVE</title>
     <description>Error class: secondary air valve output stage</description>
-    <EMBEDDEDDATA mmedaddress="0x162F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1631" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x1859">
+    <title>CLASLS</title>
+    <description>Error class: secondary air system</description>
+    <EMBEDDEDDATA mmedaddress="0x162D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
