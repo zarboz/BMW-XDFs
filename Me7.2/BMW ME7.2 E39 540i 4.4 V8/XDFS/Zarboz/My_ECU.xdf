@@ -1,4 +1,4 @@
-<!-- Written 04/16/2019 23:52:29 -->
+<!-- Written 04/17/2019 10:42:18 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -4288,6 +4288,29 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x68A5">
+    <title>CLASLPE</title>
+    <description>Error class: secondary air pump output stage</description>
+    <CATEGORYMEM index="0" category="20" />
+    <EMBEDDEDDATA mmedaddress="0x162C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x2D02">
+    <title>CLASLVE</title>
+    <description>Error class: secondary air valve output stage</description>
+    <EMBEDDEDDATA mmedaddress="0x162F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0" flags="0xC">
     <title>Codeword Catalyst Diagnosis in OBDII Mode (inverse: Europe-Mode)</title>
     <description>CWDKAT</description>
@@ -4425,6 +4448,7 @@
   </XDFCONSTANT>
   <XDFTABLE uniqueid="0x79E" flags="0x0">
     <title>MSLUB</title>
+    <description>Secondary air mass depending on the battery voltage</description>
     <CATEGORYMEM index="0" category="20" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x9772" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
