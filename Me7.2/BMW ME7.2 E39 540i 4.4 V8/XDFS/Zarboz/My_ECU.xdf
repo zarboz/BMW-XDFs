@@ -1,4 +1,4 @@
-<!-- Written 04/16/2019 20:04:44 -->
+<!-- Written 04/16/2019 22:20:21 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2715,8 +2715,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>SGA07MDUB</title>
-    <CATEGORYMEM index="0" category="20" />
-    <CATEGORYMEM index="1" category="19" />
+    <CATEGORYMEM index="0" category="19" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>?</units>
@@ -4331,7 +4330,19 @@
     <title>Codeword for secondary air system</title>
     <description>CWSLS</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1F29" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1FAB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x2922">
+    <title>CWFASL</title>
+    <description>Codeword: tester intervention secondary air diagnosis</description>
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x9706" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4354,7 +4365,8 @@
   <XDFCONSTANT uniqueid="0x549C">
     <title>CWDSLSY</title>
     <description>Codeword in the diagnosis secondary air system</description>
-    <EMBEDDEDDATA mmedaddress="0x956E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x96D6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4367,6 +4379,30 @@
     <description>CDSWE</description>
     <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x23B0" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x17C">
+    <title>CDKSLS</title>
+    <description>Codeword customer: secondary air system</description>
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x54BE" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x763D">
+    <title>CDKSLS2</title>
+    <description>Codeword customer: secondary air system bank 2</description>
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x54C0" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
