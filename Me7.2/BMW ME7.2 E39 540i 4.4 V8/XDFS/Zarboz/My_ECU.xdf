@@ -1,4 +1,4 @@
-<!-- Written 04/17/2019 10:59:11 -->
+<!-- Written 04/17/2019 11:11:39 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -4303,6 +4303,7 @@
   <XDFCONSTANT uniqueid="0x2D02">
     <title>CLASLVE</title>
     <description>Error class: secondary air valve output stage</description>
+    <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x1631" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4314,7 +4315,31 @@
   <XDFCONSTANT uniqueid="0x1859">
     <title>CLASLS</title>
     <description>Error class: secondary air system</description>
+    <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x162D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x5878">
+    <title>CLASLS2</title>
+    <description>ERror class SAP 2</description>
+    <CATEGORYMEM index="0" category="20" />
+    <EMBEDDEDDATA mmedaddress="0x162E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x3FF4">
+    <title>CLASVE</title>
+    <CATEGORYMEM index="0" category="20" />
+    <EMBEDDEDDATA mmedaddress="0x1631" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
