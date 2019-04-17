@@ -1,4 +1,4 @@
-<!-- Written 04/16/2019 22:20:21 -->
+<!-- Written 04/16/2019 23:02:40 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -28,6 +28,7 @@
     <CATEGORY index="0x10" name="KRKTE" />
     <CATEGORY index="0x11" name="TIMING" />
     <CATEGORY index="0x12" name="ARMD Anti judder stuff" />
+    <CATEGORY index="0x13" name="SAP" />
   </XDFHEADER>
   <XDFTABLE uniqueid="0x7BF5" flags="0x0">
     <title>Software Version Entries</title>
@@ -4278,7 +4279,7 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>Euro-byte for diagnosis secondary air system</title>
     <description>CDSLS</description>
-    <CATEGORYMEM index="0" category="1" />
+    <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x1FA1" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4329,7 +4330,7 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>Codeword for secondary air system</title>
     <description>CWSLS</description>
-    <CATEGORYMEM index="0" category="1" />
+    <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x1FAB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4341,7 +4342,7 @@
   <XDFCONSTANT uniqueid="0x2922">
     <title>CWFASL</title>
     <description>Codeword: tester intervention secondary air diagnosis</description>
-    <CATEGORYMEM index="0" category="1" />
+    <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x9706" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4353,7 +4354,7 @@
   <XDFCONSTANT uniqueid="0x5F74">
     <title>CWSLSOF</title>
     <description>Code word for secondary air system; Configuration SLS</description>
-    <CATEGORYMEM index="0" category="1" />
+    <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x959E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4365,7 +4366,7 @@
   <XDFCONSTANT uniqueid="0x549C">
     <title>CWDSLSY</title>
     <description>Codeword in the diagnosis secondary air system</description>
-    <CATEGORYMEM index="0" category="1" />
+    <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x96D6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4389,7 +4390,7 @@
   <XDFCONSTANT uniqueid="0x17C">
     <title>CDKSLS</title>
     <description>Codeword customer: secondary air system</description>
-    <CATEGORYMEM index="0" category="1" />
+    <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x54BE" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4401,12 +4402,75 @@
   <XDFCONSTANT uniqueid="0x763D">
     <title>CDKSLS2</title>
     <description>Codeword customer: secondary air system bank 2</description>
-    <CATEGORYMEM index="0" category="1" />
+    <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x54C0" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
     <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x3A50">
+    <title>CWKONABG</title>
+    <description>Codeword for configuration exhaust treatment</description>
+    <CATEGORYMEM index="0" category="20" />
+    <EMBEDDEDDATA mmedaddress="0xA590" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFTABLE uniqueid="0x79E" flags="0x0">
+    <title>MSLUB</title>
+    <CATEGORYMEM index="0" category="20" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x9772" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <indexcount>8</indexcount>
+      <decimalpl>3</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.094200 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>1</indexcount>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0x977A" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.400000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFCONSTANT uniqueid="0x46D4">
+    <title>MSLBAS</title>
+    <description>Ini.- secondary air mass</description>
+    <CATEGORYMEM index="0" category="20" />
+    <EMBEDDEDDATA mmedaddress="0x96DA" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>kg/h</units>
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>13</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.400000 * X">
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
