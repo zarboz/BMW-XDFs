@@ -1,4 +1,4 @@
-<!-- Written 04/20/2019 11:30:13 -->
+<!-- Written 04/20/2019 11:34:55 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -29,6 +29,7 @@
     <CATEGORY index="0x11" name="TIMING" />
     <CATEGORY index="0x12" name="ARMD Anti judder stuff" />
     <CATEGORY index="0x13" name="SAP" />
+    <CATEGORY index="0x14" name="Error Class" />
   </XDFHEADER>
   <XDFTABLE uniqueid="0x7BF5" flags="0x0">
     <title>Software Version Entries</title>
@@ -4291,7 +4292,8 @@
   <XDFCONSTANT uniqueid="0x68A5">
     <title>CLASLPE &gt; Set to 0 for no diagnosis</title>
     <description>Error class: secondary air pump output stage</description>
-    <CATEGORYMEM index="0" category="20" />
+    <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="20" />
     <EMBEDDEDDATA mmedaddress="0x162C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4303,7 +4305,8 @@
   <XDFCONSTANT uniqueid="0x2D02">
     <title>CLASLVE &gt; Set to 0 for no diagnosis</title>
     <description>Error class: secondary air valve output stage</description>
-    <CATEGORYMEM index="0" category="20" />
+    <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="20" />
     <EMBEDDEDDATA mmedaddress="0x1631" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4315,7 +4318,8 @@
   <XDFCONSTANT uniqueid="0x1859">
     <title>CLASLS &gt; Set to 0 for no diagnosis</title>
     <description>Error class: secondary air system</description>
-    <CATEGORYMEM index="0" category="20" />
+    <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="20" />
     <EMBEDDEDDATA mmedaddress="0x162D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4327,7 +4331,8 @@
   <XDFCONSTANT uniqueid="0x5878">
     <title>CLASLS2 &gt; Set to 0 for no diagnosis</title>
     <description>ERror class SAP 2</description>
-    <CATEGORYMEM index="0" category="20" />
+    <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="20" />
     <EMBEDDEDDATA mmedaddress="0x162E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4338,7 +4343,8 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x3FF4">
     <title>CLASVE &gt; Set to 0 for no diagnosis</title>
-    <CATEGORYMEM index="0" category="20" />
+    <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="20" />
     <EMBEDDEDDATA mmedaddress="0x1631" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4387,7 +4393,7 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
-    <title>Codeword for secondary air system &gt; Set to 0 for no diagnosis</title>
+    <title>Codeword for secondary air system</title>
     <description>CWSLS</description>
     <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x1FAB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -4399,7 +4405,7 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x2922">
-    <title>CWFASL &gt; Set to 0 for no diagnosis</title>
+    <title>CWFASL</title>
     <description>Codeword: tester intervention secondary air diagnosis</description>
     <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x9706" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -4411,7 +4417,7 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x5F74">
-    <title>CWSLSOF &gt; Set to 0 for no diagnosis</title>
+    <title>CWSLSOF</title>
     <description>Code word for secondary air system; Configuration SLS</description>
     <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x959E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -4423,7 +4429,7 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x549C">
-    <title>CWDSLSY &gt; Set to 0 for no diagnosis</title>
+    <title>CWDSLSY</title>
     <description>Codeword in the diagnosis secondary air system</description>
     <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x96D6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -4447,7 +4453,7 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x17C">
-    <title>CDKSLS &gt; Set to 0 for no diagnosis</title>
+    <title>CDKSLS</title>
     <description>Codeword customer: secondary air system</description>
     <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x54BE" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -4459,7 +4465,7 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x763D">
-    <title>CDKSLS2 &gt; Set to 0 for no diagnosis</title>
+    <title>CDKSLS2</title>
     <description>Codeword customer: secondary air system bank 2</description>
     <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x54C0" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -4471,7 +4477,7 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x3A50">
-    <title>CWKONABG &gt; Set to 0 for no diagnosis</title>
+    <title>CWKONABG</title>
     <description>Codeword for configuration exhaust treatment</description>
     <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0xA590" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -4483,7 +4489,7 @@
     </MATH>
   </XDFCONSTANT>
   <XDFTABLE uniqueid="0x79E" flags="0x0">
-    <title>MSLUB &gt; Set to 0 for no diagnosis</title>
+    <title>MSLUB</title>
     <description>Secondary air mass depending on the battery voltage</description>
     <CATEGORYMEM index="0" category="20" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -4521,7 +4527,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFCONSTANT uniqueid="0x46D4">
-    <title>MSLBAS &gt; Set to 0 for no diagnosis</title>
+    <title>MSLBAS</title>
     <description>Ini.- secondary air mass</description>
     <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x96DA" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
