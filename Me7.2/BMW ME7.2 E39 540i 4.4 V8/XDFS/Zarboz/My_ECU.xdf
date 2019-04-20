@@ -1,4 +1,4 @@
-<!-- Written 04/20/2019 11:34:55 -->
+<!-- Written 04/20/2019 11:46:44 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -5232,7 +5232,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAACC</title>
-    <description>Fehlerklasse: ACC</description>
+    <description>Error Class: ACC</description>
     <CATEGORYMEM index="0" category="61" />
     <EMBEDDEDDATA mmedaddress="0x153A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5268,7 +5268,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAAKRE</title>
-    <description>Fehlerklasse: Abgasklappe Endstufe</description>
+    <description>Error class: Exhaust flap output stage</description>
     <CATEGORYMEM index="0" category="68" />
     <EMBEDDEDDATA mmedaddress="0x153D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5280,7 +5280,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAAS</title>
-    <description>Fehlerklasse: ASR- Eingriff</description>
+    <description>Error class: ASR intervention</description>
     <CATEGORYMEM index="0" category="62" />
     <EMBEDDEDDATA mmedaddress="0x153E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5292,7 +5292,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLABM</title>
-    <description>Fehlerklasse: Bezugsmarkengeber</description>
+    <description>Error class: Reference marker</description>
     <CATEGORYMEM index="0" category="67" />
     <EMBEDDEDDATA mmedaddress="0x153F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5328,7 +5328,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLACACC</title>
-    <description>Fehlerklasse: CAN-Timeout ACC-Botschaft</description>
+    <description>Error class: CAN timeout ACC message</description>
     <CATEGORYMEM index="0" category="63" />
     <EMBEDDEDDATA mmedaddress="0x1542" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5340,7 +5340,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLACAS</title>
-    <description>Fehlerklasse: CAN-Timeout ASC-Botschaft</description>
+    <description>Error class: CAN timeout ASC message</description>
     <CATEGORYMEM index="0" category="64" />
     <EMBEDDEDDATA mmedaddress="0x1543" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5352,7 +5352,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLACGE</title>
-    <description>Fehlerklasse: CAN-Timeout EGS-Botschaft</description>
+    <description>Error class: CAN timeout EGS message</description>
     <CATEGORYMEM index="0" category="65" />
     <EMBEDDEDDATA mmedaddress="0x1544" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5364,7 +5364,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLACINS</title>
-    <description>Fehlerklasse: CAN-Timeout Botschaft Kombiinstrument</description>
+    <description>Error class: CAN timeout message instrument cluster</description>
     <CATEGORYMEM index="0" category="66" />
     <EMBEDDEDDATA mmedaddress="0x1545" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5459,7 +5459,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLADVEE</title>
-    <description>Fehlerklasse: DV-E Endstufe</description>
+    <description>Error class: DV-E amplifier</description>
     <CATEGORYMEM index="0" category="58" />
     <EMBEDDEDDATA mmedaddress="0x154D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5471,7 +5471,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLADVEF</title>
-    <description>Fehlerklasse: DV-E Fehler bei Federpr&#252;fung</description>
+    <description>Error class: DV-E error during spring test</description>
     <CATEGORYMEM index="0" category="59" />
     <EMBEDDEDDATA mmedaddress="0x154E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5483,7 +5483,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLADVEL</title>
-    <description>Fehlerklasse: DV-E Lageabweichung</description>
+    <description>Error class: DV-E position deviation</description>
     <CATEGORYMEM index="0" category="58" />
     <EMBEDDEDDATA mmedaddress="0x154F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5495,7 +5495,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLADVEN</title>
-    <description>Fehlerklasse: DV-E Fehler bei Pr&#252;fung Notluftposition</description>
+    <description>Error class: DV-E error when checking emergency air position</description>
     <CATEGORYMEM index="0" category="59" />
     <EMBEDDEDDATA mmedaddress="0x1550" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5507,7 +5507,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLADVER</title>
-    <description>Fehlerklasse: DV-E Regelbereich</description>
+    <description>Error class: DV-E control range</description>
     <CATEGORYMEM index="0" category="58" />
     <EMBEDDEDDATA mmedaddress="0x1551" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5519,7 +5519,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLADVEU</title>
-    <description>Fehlerklasse: DV-E Fehler beim UMA-Lernen</description>
+    <description>Error class: DV-E error during UMA learning</description>
     <CATEGORYMEM index="0" category="59" />
     <EMBEDDEDDATA mmedaddress="0x1552" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5531,7 +5531,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLADVEV</title>
-    <description>Fehlerklasse: DV-E Fehler bei Verst&#228;rkerabgleich</description>
+    <description>Error class: DV-E error during amplifier calibration</description>
     <CATEGORYMEM index="0" category="59" />
     <EMBEDDEDDATA mmedaddress="0x1553" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5566,7 +5566,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAETS</title>
-    <description>Fehlerklasse: ETS-Endstufe</description>
+    <description>Error class: ETS power amplifier</description>
     <CATEGORYMEM index="0" category="68" />
     <EMBEDDEDDATA mmedaddress="0x1556" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5578,7 +5578,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAEV1</title>
-    <description>Fehlerklasse: EV Endtsufe 1</description>
+    <description>Error class: EV End call 1</description>
     <CATEGORYMEM index="0" category="68" />
     <EMBEDDEDDATA mmedaddress="0x1557" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5590,7 +5590,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAEV2</title>
-    <description>Fehlerklasse: EV Endstufe 2</description>
+    <description>Error class: EV End call 2&#013;&#010;</description>
     <CATEGORYMEM index="0" category="68" />
     <EMBEDDEDDATA mmedaddress="0x1558" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5602,7 +5602,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAEV3</title>
-    <description>Fehlerklasse: EV Endstufe 3</description>
+    <description>Error class: EV End call 3</description>
     <CATEGORYMEM index="0" category="68" />
     <EMBEDDEDDATA mmedaddress="0x1559" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -6333,7 +6333,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAN</title>
-    <description>Fehlerklasse: Drehzahlgeber</description>
+    <description>Error class: Speed sensor</description>
     <CATEGORYMEM index="0" category="67" />
     <EMBEDDEDDATA mmedaddress="0x1596" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -6573,7 +6573,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLASWE</title>
-    <description>Fehlerklasse: Beschleunigungssensor der Schlechtwegerkennung</description>
+    <description>Error class: acceleration sensor of the bad path detection</description>
     <CATEGORYMEM index="0" category="60" />
     <EMBEDDEDDATA mmedaddress="0x15AA" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
