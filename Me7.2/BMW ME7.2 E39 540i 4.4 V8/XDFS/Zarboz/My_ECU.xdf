@@ -1,4 +1,4 @@
-<!-- Written 04/22/2019 16:49:08 -->
+<!-- Written 04/22/2019 17:01:29 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -1440,29 +1440,15 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x2567" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <indexcount>16</indexcount>
+      <decimalpl>0</decimalpl>
       <outputtype>2</outputtype>
+      <embedinfo type="1" />
       <datatype>6</datatype>
       <unittype>4</unittype>
       <DALINK index="0" />
-      <LABEL index="0" value="520" />
-      <LABEL index="1" value="760" />
-      <LABEL index="2" value="1000" />
-      <LABEL index="3" value="1240" />
-      <LABEL index="4" value="1520" />
-      <LABEL index="5" value="1760" />
-      <LABEL index="6" value="2000" />
-      <LABEL index="7" value="2240" />
-      <LABEL index="8" value="2520" />
-      <LABEL index="9" value="3000" />
-      <LABEL index="10" value="3520" />
-      <LABEL index="11" value="4000" />
-      <LABEL index="12" value="4520" />
-      <LABEL index="13" value="5000" />
-      <LABEL index="14" value="5520" />
-      <LABEL index="15" value="6000" />
-      <MATH equation="X">
+      <MATH equation="X*40">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -1508,29 +1494,15 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x2689" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <indexcount>16</indexcount>
+      <decimalpl>0</decimalpl>
       <outputtype>2</outputtype>
+      <embedinfo type="1" />
       <datatype>6</datatype>
       <unittype>4</unittype>
       <DALINK index="0" />
-      <LABEL index="0" value="520" />
-      <LABEL index="1" value="760" />
-      <LABEL index="2" value="1000" />
-      <LABEL index="3" value="1240" />
-      <LABEL index="4" value="1520" />
-      <LABEL index="5" value="1760" />
-      <LABEL index="6" value="2000" />
-      <LABEL index="7" value="2240" />
-      <LABEL index="8" value="2520" />
-      <LABEL index="9" value="3000" />
-      <LABEL index="10" value="3520" />
-      <LABEL index="11" value="4000" />
-      <LABEL index="12" value="4520" />
-      <LABEL index="13" value="5000" />
-      <LABEL index="14" value="5520" />
-      <LABEL index="15" value="6000" />
-      <MATH equation="X">
+      <MATH equation="X*40">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -1570,25 +1542,15 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x242D" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <indexcount>12</indexcount>
+      <decimalpl>0</decimalpl>
       <outputtype>2</outputtype>
+      <embedinfo type="1" />
       <datatype>6</datatype>
       <unittype>4</unittype>
       <DALINK index="0" />
-      <LABEL index="0" value="600" />
-      <LABEL index="1" value="800" />
-      <LABEL index="2" value="920" />
-      <LABEL index="3" value="1040" />
-      <LABEL index="4" value="1240" />
-      <LABEL index="5" value="1520" />
-      <LABEL index="6" value="2000" />
-      <LABEL index="7" value="3000" />
-      <LABEL index="8" value="4000" />
-      <LABEL index="9" value="5000" />
-      <LABEL index="10" value="5520" />
-      <LABEL index="11" value="6000" />
-      <MATH equation="X">
+      <MATH equation="X*40">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -1628,25 +1590,15 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x24BD" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <indexcount>12</indexcount>
+      <decimalpl>0</decimalpl>
       <outputtype>2</outputtype>
+      <embedinfo type="1" />
       <datatype>6</datatype>
       <unittype>4</unittype>
       <DALINK index="0" />
-      <LABEL index="0" value="1000" />
-      <LABEL index="1" value="1240" />
-      <LABEL index="2" value="1520" />
-      <LABEL index="3" value="2000" />
-      <LABEL index="4" value="2520" />
-      <LABEL index="5" value="3000" />
-      <LABEL index="6" value="3520" />
-      <LABEL index="7" value="4000" />
-      <LABEL index="8" value="4520" />
-      <LABEL index="9" value="5000" />
-      <LABEL index="10" value="5520" />
-      <LABEL index="11" value="6000" />
-      <MATH equation="X">
+      <MATH equation="X*40">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -4559,27 +4511,6 @@
     <title>RPM Limiter Patch - 6500</title>
     <CATEGORYMEM index="0" category="11" />
     <XDFPATCHENTRY name="NMAX" address="0x4302" datasize="0x2" patchdata="9065" />
-  </XDFPATCH>
-  <XDFPATCH uniqueid="0x6E2A">
-    <title>VMAX Top Speed Patch 300km/h - 7532675/6</title>
-    <CATEGORYMEM index="0" category="11" />
-    <XDFPATCHENTRY name="1 VBSCH" address="0xBBC0" datasize="0x2" patchdata="8094" />
-    <XDFPATCHENTRY name="4 VORH" address="0xBBCC" datasize="0x2" patchdata="8095" />
-    <XDFPATCHENTRY name="3 VMAXO" address="0xBBC8" datasize="0x2" patchdata="0096" />
-    <XDFPATCHENTRY name="2 VHYST" address="0xBBC4" datasize="0x2" patchdata="0095" />
-  </XDFPATCH>
-  <XDFPATCH uniqueid="0x2E1D">
-    <title>M5 Cluster Oil Temp Patch - 7532675/6</title>
-    <description>Fixing oil temp stuff to use an M5 cluster</description>
-    <CATEGORYMEM index="0" category="11" />
-    <XDFPATCHENTRY name="Oil Temp Light Thresholds" address="0xA87C" datasize="0x5" patchdata="89837C6F64" />
-    <XDFPATCHENTRY name="Oil Temp Block 0" address="0xB396" datasize="0x6" patchdata="210083008901" />
-    <XDFPATCHENTRY name="Oil Data Blocks 1-3" address="0x9AE4" datasize="0x6E" patchdata="0504407CC5D3FF0471E1FF1A13050025190C0A34251E123D302C255C4D4032737373737373737373737373737373737373730404324B647D0D1E3C5A40414142444444454B4B4B4C4E4E4F5073737373737373737373737373737373737373737373737302021F33002830303030" />
-  </XDFPATCH>
-  <XDFPATCH uniqueid="0x3">
-    <title>Cruise Fix - Manual w/ Short Diff Patch - 7532675/6</title>
-    <CATEGORYMEM index="0" category="11" />
-    <XDFPATCHENTRY name="NVQUOT Gear recognition" address="0x57B4" datasize="0x17" patchdata="00468027722780186518FD10FC10800D720D600B5C0B80" />
   </XDFPATCH>
   <XDFTABLE uniqueid="0x5F42" flags="0x30">
     <title>KFETRD - Target Temp - Throttle x speed for MAP T-stat</title>
