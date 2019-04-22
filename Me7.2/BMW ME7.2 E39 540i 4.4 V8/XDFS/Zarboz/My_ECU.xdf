@@ -1,4 +1,4 @@
-<!-- Written 04/22/2019 16:38:26 -->
+<!-- Written 04/22/2019 16:49:08 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -6809,6 +6809,60 @@
     <unittype>0</unittype>
     <DALINK index="0" />
     <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CREDSTU</title>
+    <description>Codeword for reduction stage on / off</description>
+    <CATEGORYMEM index="0" category="24" />
+    <EMBEDDEDDATA mmedaddress="0x0C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>MDHYEZ</title>
+    <description>Torque hysteresis when deciding the cylinder blanking</description>
+    <CATEGORYMEM index="0" category="24" />
+    <EMBEDDEDDATA mmedaddress="0x0D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>%</units>
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.390625 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>REDHYOC</title>
+    <description>Hysteresis of the reduction stage with larger target reduction stage as actual value</description>
+    <CATEGORYMEM index="0" category="24" />
+    <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0x0E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>%</units>
+    <decimalpl>4</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.015625 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>REDHYUC</title>
+    <description>Hysteresis of the reduction stage with smaller target reduction stage as actual value</description>
+    <CATEGORYMEM index="0" category="24" />
+    <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0x0F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>%</units>
+    <decimalpl>4</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.015625 * X">
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
