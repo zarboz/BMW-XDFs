@@ -1,4 +1,4 @@
-<!-- Written 04/22/2019 12:19:25 -->
+<!-- Written 04/22/2019 12:25:30 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -5640,7 +5640,7 @@
     <title>CLAEV6</title>
     <description>Fehlerklasse: EV Endstufe 6</description>
     <CATEGORYMEM index="0" category="68" />
-    <EMBEDDEDDATA mmedaddress="0x155C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15E7" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5652,7 +5652,7 @@
     <title>CLAEV7</title>
     <description>Fehlerklasse: EV Endstufe 7</description>
     <CATEGORYMEM index="0" category="68" />
-    <EMBEDDEDDATA mmedaddress="0x155D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15E8" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5664,7 +5664,7 @@
     <title>CLAEV8</title>
     <description>Fehlerklasse: EV Endstufe 8</description>
     <CATEGORYMEM index="0" category="68" />
-    <EMBEDDEDDATA mmedaddress="0x155E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15E9" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5676,7 +5676,7 @@
     <title>CLAFP1P</title>
     <description>Fehlerklasse: Poti 1, Fahrpedal</description>
     <CATEGORYMEM index="0" category="101" />
-    <EMBEDDEDDATA mmedaddress="0x155F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15EA" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5688,7 +5688,7 @@
     <title>CLAFP2P</title>
     <description>Fehlerklasse: Poti 2, Fahrpedal</description>
     <CATEGORYMEM index="0" category="101" />
-    <EMBEDDEDDATA mmedaddress="0x1560" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15EB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5700,7 +5700,7 @@
     <title>CLAFPP</title>
     <description>Fehlerklasse: Poti Fahrpedal</description>
     <CATEGORYMEM index="0" category="101" />
-    <EMBEDDEDDATA mmedaddress="0x1561" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15EC" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5712,7 +5712,7 @@
     <title>CLAFRAO</title>
     <description>Fehlerklasse: LR-Adaption oberer Bereich</description>
     <CATEGORYMEM index="0" category="77" />
-    <EMBEDDEDDATA mmedaddress="0x1562" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15ED" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5724,7 +5724,7 @@
     <title>CLAFRAO2</title>
     <description>Fehlerklasse: LR-Adaption oberer Bereich Bank 2</description>
     <CATEGORYMEM index="0" category="77" />
-    <EMBEDDEDDATA mmedaddress="0x1563" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15EC" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5736,7 +5736,7 @@
     <title>CLAFRAU</title>
     <description>Fehlerklasse: LR-Adaption unterer Bereich</description>
     <CATEGORYMEM index="0" category="77" />
-    <EMBEDDEDDATA mmedaddress="0x1564" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15ED" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5748,7 +5748,7 @@
     <title>CLAFRAU2</title>
     <description>Fehlerklasse: LR-Adaption unterer Bereich Bank 2</description>
     <CATEGORYMEM index="0" category="77" />
-    <EMBEDDEDDATA mmedaddress="0x1565" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15EF" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5760,7 +5760,7 @@
     <title>CLAFRST</title>
     <description>Fehlerklasse: LR-Abweichung</description>
     <CATEGORYMEM index="0" category="77" />
-    <EMBEDDEDDATA mmedaddress="0x1566" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15EE" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5772,7 +5772,7 @@
     <title>CLAFRST2</title>
     <description>Fehlerklasse : LR-Abweichung Bank 2</description>
     <CATEGORYMEM index="0" category="77" />
-    <EMBEDDEDDATA mmedaddress="0x1567" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15EF" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5784,7 +5784,7 @@
     <title>CLAHSH</title>
     <description>Fehlerklasse: Heizung Lambdasonde hinter Kat</description>
     <CATEGORYMEM index="0" category="71" />
-    <EMBEDDEDDATA mmedaddress="0x1568" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15F0" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5796,7 +5796,7 @@
     <title>CLAHSH2</title>
     <description>Fehlerklasse: Heizung Lambdasonde 2 hinter Kat</description>
     <CATEGORYMEM index="0" category="71" />
-    <EMBEDDEDDATA mmedaddress="0x1569" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15F1" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5808,7 +5808,7 @@
     <title>CLAHSV</title>
     <description>Fehlerklasse: Heizung Lambdasonde vor Kat</description>
     <CATEGORYMEM index="0" category="71" />
-    <EMBEDDEDDATA mmedaddress="0x156A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15F2" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5820,7 +5820,7 @@
     <title>CLAHSV2</title>
     <description>Fehlerklasse: Heizung Lambdasonde 2 vor Kat</description>
     <CATEGORYMEM index="0" category="71" />
-    <EMBEDDEDDATA mmedaddress="0x156B" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15F3" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5832,7 +5832,7 @@
     <title>CLAKAT</title>
     <description>Fehlerklasse: Katalysator</description>
     <CATEGORYMEM index="0" category="72" />
-    <EMBEDDEDDATA mmedaddress="0x156C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15F4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5844,7 +5844,7 @@
     <title>CLAKAT2</title>
     <description>Fehlerklasse: Katalysator Bank 2</description>
     <CATEGORYMEM index="0" category="72" />
-    <EMBEDDEDDATA mmedaddress="0x156D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15F5" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5855,7 +5855,7 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAKKUE</title>
     <CATEGORYMEM index="0" category="68" />
-    <EMBEDDEDDATA mmedaddress="0x156E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15F6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5867,7 +5867,7 @@
     <title>CLAKOS</title>
     <description>Fehlerklasse: Kompressor-Endstufe</description>
     <CATEGORYMEM index="0" category="68" />
-    <EMBEDDEDDATA mmedaddress="0x156F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15F7" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5879,7 +5879,7 @@
     <title>CLAKPE</title>
     <description>Fehlerklasse: EKP-Relais Endstufe</description>
     <CATEGORYMEM index="0" category="68" />
-    <EMBEDDEDDATA mmedaddress="0x1570" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15F8" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5891,7 +5891,7 @@
     <title>CLAKRNT</title>
     <description>Fehlerklasse: Klopfregelung Nulltest</description>
     <CATEGORYMEM index="0" category="73" />
-    <EMBEDDEDDATA mmedaddress="0x1571" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15F9" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5903,7 +5903,7 @@
     <title>CLAKROF</title>
     <description>Fehlerklasse: Klopfreglung Offset</description>
     <CATEGORYMEM index="0" category="73" />
-    <EMBEDDEDDATA mmedaddress="0x1572" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15FA" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5915,7 +5915,7 @@
     <title>CLAKRTP</title>
     <description>Fehlerklasse: Klopfregelung Testimpuls</description>
     <CATEGORYMEM index="0" category="75" />
-    <EMBEDDEDDATA mmedaddress="0x1573" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15FB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
