@@ -1,4 +1,4 @@
-<!-- Written 04/20/2019 11:46:44 -->
+<!-- Written 04/22/2019 12:13:08 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -5222,7 +5222,7 @@
     <title>CLAAAV</title>
     <description>Fehlerklasse: Tankdiagnose, AAV verstopft</description>
     <CATEGORYMEM index="0" category="107" />
-    <EMBEDDEDDATA mmedaddress="0x1539" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15C4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5234,7 +5234,7 @@
     <title>CLAACC</title>
     <description>Error Class: ACC</description>
     <CATEGORYMEM index="0" category="61" />
-    <EMBEDDEDDATA mmedaddress="0x153A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15C5" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5246,7 +5246,7 @@
     <title>CLAAGRE</title>
     <description>Fehlerklasse: AGR-Ventil Endstufe</description>
     <CATEGORYMEM index="0" category="107" />
-    <EMBEDDEDDATA mmedaddress="0x153B" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15C6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5258,7 +5258,7 @@
     <title>CLAAGRF</title>
     <description>Fehlerklasse: &#220;berwachung AGR-Flow</description>
     <CATEGORYMEM index="0" category="107" />
-    <EMBEDDEDDATA mmedaddress="0x153C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15C7" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5270,7 +5270,7 @@
     <title>CLAAKRE</title>
     <description>Error class: Exhaust flap output stage</description>
     <CATEGORYMEM index="0" category="68" />
-    <EMBEDDEDDATA mmedaddress="0x153D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15C8" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5282,7 +5282,7 @@
     <title>CLAAS</title>
     <description>Error class: ASR intervention</description>
     <CATEGORYMEM index="0" category="62" />
-    <EMBEDDEDDATA mmedaddress="0x153E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15C9" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5294,7 +5294,7 @@
     <title>CLABM</title>
     <description>Error class: Reference marker</description>
     <CATEGORYMEM index="0" category="67" />
-    <EMBEDDEDDATA mmedaddress="0x153F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15CA" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5306,7 +5306,7 @@
     <title>CLABREMS</title>
     <description>Fehlerklasse: BREMS (Bremsschalter)</description>
     <CATEGORYMEM index="0" category="100" />
-    <EMBEDDEDDATA mmedaddress="0x1540" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15CB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5318,7 +5318,7 @@
     <title>CLABWF</title>
     <description>Fehlerklasse:  PWG Bewegung</description>
     <CATEGORYMEM index="0" category="101" />
-    <EMBEDDEDDATA mmedaddress="0x1541" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15CC" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5330,7 +5330,7 @@
     <title>CLACACC</title>
     <description>Error class: CAN timeout ACC message</description>
     <CATEGORYMEM index="0" category="63" />
-    <EMBEDDEDDATA mmedaddress="0x1542" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15CD" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5342,7 +5342,7 @@
     <title>CLACAS</title>
     <description>Error class: CAN timeout ASC message</description>
     <CATEGORYMEM index="0" category="64" />
-    <EMBEDDEDDATA mmedaddress="0x1543" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15CE" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5354,7 +5354,7 @@
     <title>CLACGE</title>
     <description>Error class: CAN timeout EGS message</description>
     <CATEGORYMEM index="0" category="65" />
-    <EMBEDDEDDATA mmedaddress="0x1544" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15CF" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5366,7 +5366,7 @@
     <title>CLACINS</title>
     <description>Error class: CAN timeout message instrument cluster</description>
     <CATEGORYMEM index="0" category="66" />
-    <EMBEDDEDDATA mmedaddress="0x1545" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15D0" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
