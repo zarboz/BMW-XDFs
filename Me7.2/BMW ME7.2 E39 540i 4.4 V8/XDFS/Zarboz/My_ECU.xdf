@@ -1,4 +1,4 @@
-<!-- Written 04/22/2019 16:14:44 -->
+<!-- Written 04/22/2019 16:24:59 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -30,6 +30,8 @@
     <CATEGORY index="0x12" name="ARMD Anti judder stuff" />
     <CATEGORY index="0x13" name="SAP" />
     <CATEGORY index="0x14" name="Error Class" />
+    <CATEGORY index="0x15" name="EGR" />
+    <CATEGORY index="0x16" name="Exhaust" />
   </XDFHEADER>
   <XDFTABLE uniqueid="0x7BF5" flags="0x0">
     <title>Software Version Entries</title>
@@ -5220,8 +5222,9 @@
   </XDFTABLE>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAAAV</title>
-    <description>Fehlerklasse: Tankdiagnose, AAV verstopft</description>
+    <description>Error class: Tank diagnosis, AAV clogged</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="3" />
     <EMBEDDEDDATA mmedaddress="0x15C6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5244,8 +5247,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAAGRE</title>
-    <description>Fehlerklasse: AGR-Ventil Endstufe</description>
+    <description>Error class: EGR valve output stage</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="22" />
     <EMBEDDEDDATA mmedaddress="0x15C8" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5256,8 +5260,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAAGRF</title>
-    <description>Fehlerklasse: &#220;berwachung AGR-Flow</description>
+    <description>Error class: monitoring EGR flow</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="22" />
     <EMBEDDEDDATA mmedaddress="0x15C9" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5270,6 +5275,7 @@
     <title>CLAAKRE</title>
     <description>Error class: Exhaust flap output stage</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="23" />
     <EMBEDDEDDATA mmedaddress="0x15CA" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5282,6 +5288,7 @@
     <title>CLAAS</title>
     <description>Error class: ASR intervention</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="9" />
     <EMBEDDEDDATA mmedaddress="0x15CB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5304,8 +5311,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLABREMS</title>
-    <description>Fehlerklasse: BREMS (Bremsschalter)</description>
+    <description>Error class: BRAKE (brake switch)</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="19" />
     <EMBEDDEDDATA mmedaddress="0x15CD" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5316,7 +5324,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLABWF</title>
-    <description>Fehlerklasse:  PWG Bewegung</description>
+    <description>Error class: PWG motion</description>
     <CATEGORYMEM index="0" category="21" />
     <EMBEDDEDDATA mmedaddress="0x15CE" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5388,8 +5396,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLADK1P</title>
-    <description>Fehlerklassse: Drosselklappe 1. Poti</description>
+    <description>Fault Class: Throttle 1. Pot</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="8" />
     <EMBEDDEDDATA mmedaddress="0x15D4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5400,8 +5409,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLADK2P</title>
-    <description>Fehlerklasse: Drosselklappenpotentiometer 2</description>
+    <description>Fault Class: Throttle 2. Pot</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="8" />
     <EMBEDDEDDATA mmedaddress="0x15D5" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5412,7 +5422,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLADSL</title>
-    <description>Fehlerklasse: Druchsensor Ladedruck</description>
+    <description>Error class: Drip sensor boost pressure</description>
     <CATEGORYMEM index="0" category="21" />
     <EMBEDDEDDATA mmedaddress="0x15D6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5424,8 +5434,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLADSS</title>
-    <description>Fehlerklasse: Saugrohrdrucksensor</description>
+    <description>Error class: Intake manifold pressure sensor</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="2" />
     <EMBEDDEDDATA mmedaddress="0x15D7" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5436,8 +5447,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLADSU</title>
-    <description>Fehlerklasse: Umgebungsdrucksensor</description>
+    <description>Error class: Ambient pressure sensor</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="2" />
     <EMBEDDEDDATA mmedaddress="0x15D8" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5543,7 +5555,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLADWA</title>
-    <description>Fehlerklasse: Diebstahlwarnanlage</description>
+    <description>Error class: Anti-theft alarm system</description>
     <CATEGORYMEM index="0" category="21" />
     <EMBEDDEDDATA mmedaddress="0x15E1" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5614,7 +5626,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAEV4</title>
-    <description>Fehlerklasse: EV Endstufe 4</description>
+    <description>Error class: EV power amplifier 4</description>
     <CATEGORYMEM index="0" category="21" />
     <EMBEDDEDDATA mmedaddress="0x15E7" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5626,7 +5638,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAEV5</title>
-    <description>Fehlerklasse: EV Endstufe 5</description>
+    <description>Error class: EV power amplifier 5</description>
     <CATEGORYMEM index="0" category="21" />
     <EMBEDDEDDATA mmedaddress="0x15E8" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5638,7 +5650,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAEV6</title>
-    <description>Fehlerklasse: EV Endstufe 6</description>
+    <description>Error class: EV power amplifier 6</description>
     <CATEGORYMEM index="0" category="21" />
     <EMBEDDEDDATA mmedaddress="0x15E9" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5650,7 +5662,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAEV7</title>
-    <description>Fehlerklasse: EV Endstufe 7</description>
+    <description>Error class: EV power amplifier 7</description>
     <CATEGORYMEM index="0" category="21" />
     <EMBEDDEDDATA mmedaddress="0x15EA" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5662,7 +5674,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAEV8</title>
-    <description>Fehlerklasse: EV Endstufe 8</description>
+    <description>Error class: EV power amplifier 8</description>
     <CATEGORYMEM index="0" category="21" />
     <EMBEDDEDDATA mmedaddress="0x15EB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5674,8 +5686,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAFP1P</title>
-    <description>Fehlerklasse: Poti 1, Fahrpedal</description>
+    <description>Error class: Poti 1, accelerator pedal</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="8" />
     <EMBEDDEDDATA mmedaddress="0x15EC" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5686,8 +5699,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAFP2P</title>
-    <description>Fehlerklasse: Poti 2, Fahrpedal</description>
+    <description>Error class: Poti 2, accelerator pedal</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="8" />
     <EMBEDDEDDATA mmedaddress="0x15ED" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5698,8 +5712,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAFPP</title>
-    <description>Fehlerklasse: Poti Fahrpedal</description>
+    <description>Error class: Poti accelerator pedal</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="8" />
     <EMBEDDEDDATA mmedaddress="0x15EE" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5710,8 +5725,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAFRAO</title>
-    <description>Fehlerklasse: LR-Adaption oberer Bereich</description>
+    <description>Error class: LR adaptation upper range</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="3" />
     <EMBEDDEDDATA mmedaddress="0x15EF" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5722,8 +5738,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAFRAO2</title>
-    <description>Fehlerklasse: LR-Adaption oberer Bereich Bank 2</description>
+    <description>Error class: LR adaptation upper area Bank 2</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="3" />
     <EMBEDDEDDATA mmedaddress="0x15F0" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5734,8 +5751,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAFRAU</title>
-    <description>Fehlerklasse: LR-Adaption unterer Bereich</description>
+    <description>Error class: LR adaptation lower range</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="3" />
     <EMBEDDEDDATA mmedaddress="0x15F1" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5746,8 +5764,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAFRAU2</title>
-    <description>Fehlerklasse: LR-Adaption unterer Bereich Bank 2</description>
+    <description>Error class: LR adaptation lower area Bank 2</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="3" />
     <EMBEDDEDDATA mmedaddress="0x15F2" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5758,7 +5777,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAFRST</title>
-    <description>Fehlerklasse: LR-Abweichung</description>
+    <description>Error class: LR deviation</description>
     <CATEGORYMEM index="0" category="21" />
     <EMBEDDEDDATA mmedaddress="0x15F3" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5770,7 +5789,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAFRST2</title>
-    <description>Fehlerklasse : LR-Abweichung Bank 2</description>
+    <description>Error class: LR deviation Bank 2</description>
     <CATEGORYMEM index="0" category="21" />
     <EMBEDDEDDATA mmedaddress="0x15F4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5782,8 +5801,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAHSH</title>
-    <description>Fehlerklasse: Heizung Lambdasonde hinter Kat</description>
+    <description>Error class: Heating Lambda probe behind Cat</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="23" />
     <EMBEDDEDDATA mmedaddress="0x15F5" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5794,8 +5814,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAHSH2</title>
-    <description>Fehlerklasse: Heizung Lambdasonde 2 hinter Kat</description>
+    <description>Error class: Heating Lambda probe 2 behind Cat</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="23" />
     <EMBEDDEDDATA mmedaddress="0x15F6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5806,8 +5827,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAHSV</title>
-    <description>Fehlerklasse: Heizung Lambdasonde vor Kat</description>
+    <description>Error class: Heating Lambda probe before Cat</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="23" />
     <EMBEDDEDDATA mmedaddress="0x15F7" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5818,8 +5840,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAHSV2</title>
-    <description>Fehlerklasse: Heizung Lambdasonde 2 vor Kat</description>
+    <description>Error class: Heating Lambda probe 2 before Cat</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="23" />
     <EMBEDDEDDATA mmedaddress="0x15F8" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -5830,8 +5853,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAKAT</title>
-    <description>Fehlerklasse: Katalysator</description>
+    <description>Error class: Catalyst</description>
     <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="23" />
     <EMBEDDEDDATA mmedaddress="0x15F9" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
