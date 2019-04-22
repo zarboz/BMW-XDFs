@@ -1,4 +1,4 @@
-<!-- Written 04/22/2019 12:13:08 -->
+<!-- Written 04/22/2019 12:19:25 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -5378,7 +5378,7 @@
     <title>CLADK</title>
     <description>Fehlerklasse: DK- Potentiometer</description>
     <CATEGORYMEM index="0" category="99" />
-    <EMBEDDEDDATA mmedaddress="0x1546" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15D1" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5390,7 +5390,7 @@
     <title>CLADK1P</title>
     <description>Fehlerklassse: Drosselklappe 1. Poti</description>
     <CATEGORYMEM index="0" category="99" />
-    <EMBEDDEDDATA mmedaddress="0x1547" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15D2" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5402,7 +5402,7 @@
     <title>CLADK2P</title>
     <description>Fehlerklasse: Drosselklappenpotentiometer 2</description>
     <CATEGORYMEM index="0" category="99" />
-    <EMBEDDEDDATA mmedaddress="0x1548" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15D3" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5414,7 +5414,7 @@
     <title>CLADSL</title>
     <description>Fehlerklasse: Druchsensor Ladedruck</description>
     <CATEGORYMEM index="0" category="98" />
-    <EMBEDDEDDATA mmedaddress="0x1549" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15D4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5426,7 +5426,7 @@
     <title>CLADSS</title>
     <description>Fehlerklasse: Saugrohrdrucksensor</description>
     <CATEGORYMEM index="0" category="107" />
-    <EMBEDDEDDATA mmedaddress="0x154A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15D5" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5438,7 +5438,7 @@
     <title>CLADSU</title>
     <description>Fehlerklasse: Umgebungsdrucksensor</description>
     <CATEGORYMEM index="0" category="98" />
-    <EMBEDDEDDATA mmedaddress="0x154B" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15D6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5449,7 +5449,7 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>CLADSVLU</title>
     <CATEGORYMEM index="0" category="98" />
-    <EMBEDDEDDATA mmedaddress="0x154C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15D7" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5461,7 +5461,7 @@
     <title>CLADVEE</title>
     <description>Error class: DV-E amplifier</description>
     <CATEGORYMEM index="0" category="58" />
-    <EMBEDDEDDATA mmedaddress="0x154D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15D8" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5473,7 +5473,7 @@
     <title>CLADVEF</title>
     <description>Error class: DV-E error during spring test</description>
     <CATEGORYMEM index="0" category="59" />
-    <EMBEDDEDDATA mmedaddress="0x154E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15D9" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5485,7 +5485,7 @@
     <title>CLADVEL</title>
     <description>Error class: DV-E position deviation</description>
     <CATEGORYMEM index="0" category="58" />
-    <EMBEDDEDDATA mmedaddress="0x154F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15DA" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5497,7 +5497,7 @@
     <title>CLADVEN</title>
     <description>Error class: DV-E error when checking emergency air position</description>
     <CATEGORYMEM index="0" category="59" />
-    <EMBEDDEDDATA mmedaddress="0x1550" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15DB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5509,7 +5509,7 @@
     <title>CLADVER</title>
     <description>Error class: DV-E control range</description>
     <CATEGORYMEM index="0" category="58" />
-    <EMBEDDEDDATA mmedaddress="0x1551" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15DC" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5521,7 +5521,7 @@
     <title>CLADVEU</title>
     <description>Error class: DV-E error during UMA learning</description>
     <CATEGORYMEM index="0" category="59" />
-    <EMBEDDEDDATA mmedaddress="0x1552" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15DD" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5533,7 +5533,7 @@
     <title>CLADVEV</title>
     <description>Error class: DV-E error during amplifier calibration</description>
     <CATEGORYMEM index="0" category="59" />
-    <EMBEDDEDDATA mmedaddress="0x1553" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15DE" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5545,7 +5545,7 @@
     <title>CLADWA</title>
     <description>Fehlerklasse: Diebstahlwarnanlage</description>
     <CATEGORYMEM index="0" category="97" />
-    <EMBEDDEDDATA mmedaddress="0x1554" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15DF" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5556,7 +5556,7 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAEGFE</title>
     <CATEGORYMEM index="0" category="96" />
-    <EMBEDDEDDATA mmedaddress="0x1555" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15E0" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5568,7 +5568,7 @@
     <title>CLAETS</title>
     <description>Error class: ETS power amplifier</description>
     <CATEGORYMEM index="0" category="68" />
-    <EMBEDDEDDATA mmedaddress="0x1556" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15E1" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5580,7 +5580,7 @@
     <title>CLAEV1</title>
     <description>Error class: EV End call 1</description>
     <CATEGORYMEM index="0" category="68" />
-    <EMBEDDEDDATA mmedaddress="0x1557" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15E2" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5592,7 +5592,7 @@
     <title>CLAEV2</title>
     <description>Error class: EV End call 2&#013;&#010;</description>
     <CATEGORYMEM index="0" category="68" />
-    <EMBEDDEDDATA mmedaddress="0x1558" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15E3" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5604,7 +5604,7 @@
     <title>CLAEV3</title>
     <description>Error class: EV End call 3</description>
     <CATEGORYMEM index="0" category="68" />
-    <EMBEDDEDDATA mmedaddress="0x1559" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15E4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5616,7 +5616,7 @@
     <title>CLAEV4</title>
     <description>Fehlerklasse: EV Endstufe 4</description>
     <CATEGORYMEM index="0" category="68" />
-    <EMBEDDEDDATA mmedaddress="0x155A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15E5" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -5628,7 +5628,7 @@
     <title>CLAEV5</title>
     <description>Fehlerklasse: EV Endstufe 5</description>
     <CATEGORYMEM index="0" category="68" />
-    <EMBEDDEDDATA mmedaddress="0x155B" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x15E6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
