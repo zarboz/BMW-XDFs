@@ -1,4 +1,4 @@
-<!-- Written 04/22/2019 16:24:59 -->
+<!-- Written 04/22/2019 16:38:26 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -32,6 +32,7 @@
     <CATEGORY index="0x14" name="Error Class" />
     <CATEGORY index="0x15" name="EGR" />
     <CATEGORY index="0x16" name="Exhaust" />
+    <CATEGORY index="0x17" name="MSR" />
   </XDFHEADER>
   <XDFTABLE uniqueid="0x7BF5" flags="0x0">
     <title>Software Version Entries</title>
@@ -6784,6 +6785,44 @@
     <unittype>0</unittype>
     <DALINK index="0" />
     <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>BZ_MSR_M</title>
+    <description>MSR message counter mask (0Fh for 4-bit message counter)</description>
+    <CATEGORYMEM index="0" category="24" />
+    <EMBEDDEDDATA mmedaddress="0x7AD3" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWNOMSRU</title>
+    <description>Codeword MSR monitoring not active</description>
+    <CATEGORYMEM index="0" category="24" />
+    <EMBEDDEDDATA mmedaddress="0x7AD4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>MSRC_T_UM</title>
+    <description>Error time for MSR intervention monitoring of the function monitoring</description>
+    <CATEGORYMEM index="0" category="24" />
+    <EMBEDDEDDATA mmedaddress="0x7AD5" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>ms</units>
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="40.000000 * X">
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
