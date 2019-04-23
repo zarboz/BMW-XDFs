@@ -1,4 +1,4 @@
-<!-- Written 04/22/2019 19:38:33 -->
+<!-- Written 04/22/2019 22:04:49 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -588,37 +588,27 @@
     <description>Full load target lambda&#013;&#010;&#013;&#010;Adjust between 0(Lean) and 1.99 (Rich)</description>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xA161" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>RPM</units>
       <indexcount>12</indexcount>
+      <decimalpl>0</decimalpl>
       <outputtype>2</outputtype>
+      <embedinfo type="1" />
       <datatype>6</datatype>
       <unittype>4</unittype>
       <DALINK index="0" />
-      <LABEL index="0" value="360" />
-      <LABEL index="1" value="440" />
-      <LABEL index="2" value="520" />
-      <LABEL index="3" value="760" />
-      <LABEL index="4" value="1000" />
-      <LABEL index="5" value="1240" />
-      <LABEL index="6" value="1520" />
-      <LABEL index="7" value="2000" />
-      <LABEL index="8" value="2520" />
-      <LABEL index="9" value="3000" />
-      <LABEL index="10" value="4000" />
-      <LABEL index="11" value="4520" />
-      <MATH equation="X">
+      <MATH equation="X*40">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0xA161" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <indexcount>1</indexcount>
       <decimalpl>0</decimalpl>
-      <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
+      <LABEL index="0" value="0" />
       <MATH equation="X * 40">
         <VAR id="X" />
       </MATH>
@@ -931,7 +921,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x2F3A" mmedelementsizebits="16" mmedrowcount="13" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x2F3C" mmedelementsizebits="16" mmedrowcount="13" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>%</units>
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
@@ -1375,7 +1365,7 @@
     <description>WDKVLN</description>
     <CATEGORYMEM index="0" category="8" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x1EA4" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x1E74" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>RPM</units>
       <indexcount>8</indexcount>
       <outputtype>2</outputtype>
@@ -1388,7 +1378,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x1EAC" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x1E82" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Pedal %</units>
       <indexcount>8</indexcount>
       <embedinfo type="1" />
@@ -2976,7 +2966,7 @@
     <description>Correction factor fueling system</description>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xAA22" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xA8AA" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
       <units>ms</units>
       <indexcount>10</indexcount>
       <decimalpl>3</decimalpl>
@@ -2989,7 +2979,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0xAA18" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xA8A0" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
@@ -3002,7 +2992,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xAA36" mmedelementsizebits="16" mmedrowcount="10" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xA8B8" mmedelementsizebits="16" mmedrowcount="10" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>-</units>
       <decimalpl>5</decimalpl>
       <min>0.000000</min>
