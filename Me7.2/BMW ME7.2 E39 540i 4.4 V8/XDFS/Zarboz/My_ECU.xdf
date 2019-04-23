@@ -1,4 +1,4 @@
-<!-- Written 04/22/2019 22:04:49 -->
+<!-- Written 04/22/2019 23:57:08 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -6821,6 +6821,156 @@
     <description>Fehlerklasse: Wegfahrsperre</description>
     <CATEGORYMEM index="0" category="21" />
     <EMBEDDEDDATA mmedaddress="0x1648" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CLADWA</title>
+    <description>Error class: Anti-theft alarm system</description>
+    <CATEGORYMEM index="0" category="97" />
+    <EMBEDDEDDATA mmedaddress="0x15F9" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TSFDWA</title>
+    <description>Fault time: Anti-theft alarm system</description>
+    <CATEGORYMEM index="0" category="97" />
+    <EMBEDDEDDATA mmedaddress="0x18AC" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TSFWCA</title>
+    <description>Fault time: Immobilizer Variable code tray</description>
+    <CATEGORYMEM index="0" category="97" />
+    <EMBEDDEDDATA mmedaddress="0x191E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TSFWFS</title>
+    <description>Fehlersummenzeit: Wegfahrsperre</description>
+    <CATEGORYMEM index="0" category="97" />
+    <EMBEDDEDDATA mmedaddress="0x1860" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDKDWA</title>
+    <description>Codewort Kunde: Diebstahlwarnanlage</description>
+    <CATEGORYMEM index="0" category="97" />
+    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x64E0" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDKWCA</title>
+    <description>Codewort Kunde: Wegfahrsperre Wechselcode-Ablage</description>
+    <CATEGORYMEM index="0" category="97" />
+    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x65B0" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDKWFS</title>
+    <description>Codewort Kunde: Wegfahrsperre</description>
+    <CATEGORYMEM index="0" category="97" />
+    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x65B2" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDTDWA</title>
+    <description>Codewort Tester: Diebstahlwarnanlage</description>
+    <CATEGORYMEM index="0" category="97" />
+    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x65EE" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDTWCA</title>
+    <description>Codewort Tester: Wegfahrsperre Wechselcode-Ablage</description>
+    <CATEGORYMEM index="0" category="97" />
+    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x66BE" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDTWFS</title>
+    <description>Codewort Tester: Wegfahrsperre</description>
+    <CATEGORYMEM index="0" category="97" />
+    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x66C0" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CLAWCA</title>
+    <description>Fehlerklasse: Wegfahrsperre Wechselcode- Ablage</description>
+    <CATEGORYMEM index="0" category="97" />
+    <EMBEDDEDDATA mmedaddress="0x15BC" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CLAWFS</title>
+    <description>Fehlerklasse: Wegfahrsperre</description>
+    <CATEGORYMEM index="0" category="97" />
+    <EMBEDDEDDATA mmedaddress="0x15BD" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
