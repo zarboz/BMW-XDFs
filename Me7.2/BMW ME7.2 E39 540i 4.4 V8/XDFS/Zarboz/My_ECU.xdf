@@ -1,4 +1,4 @@
-<!-- Written 04/22/2019 23:57:08 -->
+<!-- Written 04/23/2019 00:03:25 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -6866,9 +6866,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>TSFWFS</title>
-    <description>Fehlersummenzeit: Wegfahrsperre</description>
+    <description>Fault time: immobilizer</description>
     <CATEGORYMEM index="0" category="97" />
-    <EMBEDDEDDATA mmedaddress="0x1860" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x191F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -6878,9 +6878,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CDKDWA</title>
-    <description>Codewort Kunde: Diebstahlwarnanlage</description>
+    <description>Codeword customer: Anti-theft alarm system</description>
     <CATEGORYMEM index="0" category="97" />
-    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x64E0" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x541E" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <decimalpl>1</decimalpl>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -6891,9 +6891,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CDKWCA</title>
-    <description>Codewort Kunde: Wegfahrsperre Wechselcode-Ablage</description>
+    <description>Codeword Customer: Immobilizer Removable code filing</description>
     <CATEGORYMEM index="0" category="97" />
-    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x65B0" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x54F6" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <decimalpl>1</decimalpl>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -6904,9 +6904,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CDKWFS</title>
-    <description>Codewort Kunde: Wegfahrsperre</description>
+    <description>Codeword customer: immobilizer</description>
     <CATEGORYMEM index="0" category="97" />
-    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x65B2" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x54F8" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <decimalpl>1</decimalpl>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -6917,9 +6917,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CDTDWA</title>
-    <description>Codewort Tester: Diebstahlwarnanlage</description>
+    <description>Codeword Tester: Anti-theft alarm system</description>
     <CATEGORYMEM index="0" category="97" />
-    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x65EE" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5540" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <decimalpl>1</decimalpl>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -6930,9 +6930,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CDTWCA</title>
-    <description>Codewort Tester: Wegfahrsperre Wechselcode-Ablage</description>
+    <description>Codeword Tester: Immobilizer Removable Code Tray</description>
     <CATEGORYMEM index="0" category="97" />
-    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x66BE" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5618" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <decimalpl>1</decimalpl>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -6943,9 +6943,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CDTWFS</title>
-    <description>Codewort Tester: Wegfahrsperre</description>
+    <description>Codeword Tester: Immobilizer</description>
     <CATEGORYMEM index="0" category="97" />
-    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x66C0" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x561A" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <decimalpl>1</decimalpl>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -6956,9 +6956,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAWCA</title>
-    <description>Fehlerklasse: Wegfahrsperre Wechselcode- Ablage</description>
+    <description>Error class: Immobilizer Variable code storage</description>
     <CATEGORYMEM index="0" category="97" />
-    <EMBEDDEDDATA mmedaddress="0x15BC" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1649" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -6968,9 +6968,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLAWFS</title>
-    <description>Fehlerklasse: Wegfahrsperre</description>
+    <description>Error class: immobilizer</description>
     <CATEGORYMEM index="0" category="97" />
-    <EMBEDDEDDATA mmedaddress="0x15BD" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x164A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
