@@ -1,4 +1,4 @@
-<!-- Written 04/22/2019 17:01:29 -->
+<!-- Written 04/22/2019 19:17:54 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -476,26 +476,16 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xA084" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>RPM</units>
       <indexcount>12</indexcount>
+      <decimalpl>0</decimalpl>
       <outputtype>2</outputtype>
+      <embedinfo type="1" />
       <datatype>6</datatype>
       <unittype>4</unittype>
       <DALINK index="0" />
-      <LABEL index="0" value="360" />
-      <LABEL index="1" value="760" />
-      <LABEL index="2" value="1000" />
-      <LABEL index="3" value="1520" />
-      <LABEL index="4" value="2000" />
-      <LABEL index="5" value="3000" />
-      <LABEL index="6" value="3520" />
-      <LABEL index="7" value="4000" />
-      <LABEL index="8" value="4520" />
-      <LABEL index="9" value="5000" />
-      <LABEL index="10" value="5520" />
-      <LABEL index="11" value="6000" />
-      <MATH equation="X">
+      <MATH equation="X * 40">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -569,7 +559,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0xA075" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x9E38" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>RPM</units>
       <indexcount>12</indexcount>
       <decimalpl>0</decimalpl>
@@ -583,7 +573,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0xA08C" mmedelementsizebits="8" mmedrowcount="12" mmedcolcount="11" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xA090" mmedelementsizebits="8" mmedrowcount="12" mmedcolcount="11" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>1.990000</max>
@@ -622,13 +612,14 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xA161" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <LABEL index="0" value="0.00" />
-      <MATH equation="X">
+      <MATH equation="X * 40">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -2923,18 +2914,6 @@
     <unittype>0</unittype>
     <DALINK index="0" />
     <MATH equation="40.000000 * X">
-      <VAR id="X" />
-    </MATH>
-  </XDFCONSTANT>
-  <XDFCONSTANT uniqueid="0x0">
-    <title>MSR 1=on 0=off</title>
-    <description>Codeword MSR monitoring not active EXP test at your own risk</description>
-    <CATEGORYMEM index="0" category="9" />
-    <EMBEDDEDDATA mmedaddress="0x7AD4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-    <datatype>0</datatype>
-    <unittype>0</unittype>
-    <DALINK index="0" />
-    <MATH equation="X">
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
