@@ -1,11 +1,11 @@
-<!-- Written 04/23/2019 22:12:04 -->
+<!-- Written 04/24/2019 10:58:05 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
     <fileversion>5</fileversion>
     <deftitle>XDF For ME7.2 BMW 540i</deftitle>
     <description>This XDF is for the following years/models:&#013;&#010;MY01 540i6&#013;&#010;MY02 540i6&#013;&#010;MY03 540i6</description>
-    <author>GearGrindR,Bob78989,TerraPhantom,Zarboz</author>
+    <author>Bob78989,TerraPhantom,Zarboz</author>
     <BASEOFFSET offset="0" subtract="0" />
     <DEFAULTS datasizeinbits="8" sigdigits="2" outputtype="1" signed="0" lsbfirst="0" float="0" />
     <REGION type="0xFFFFFFFF" startaddress="0x0" size="0xFFFF" regionflags="0x0" name="Binary File" desc="This region describes the bin file edited by this XDF" />
@@ -33,6 +33,9 @@
     <CATEGORY index="0x15" name="EGR" />
     <CATEGORY index="0x16" name="Exhaust" />
     <CATEGORY index="0x17" name="MSR" />
+    <CATEGORY index="0x18" name="Anti  Theft" />
+    <CATEGORY index="0x19" name="Speed Calculation" />
+    <CATEGORY index="0x60" name="Anti Theft" />
   </XDFHEADER>
   <XDFTABLE uniqueid="0x7BF5" flags="0x0">
     <title>Software Version Entries</title>
@@ -2240,7 +2243,7 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>FKHABMN - set to 0 if you do not have cats.</title>
     <description>Threshold reduction factor catalytic heating</description>
-    <CATEGORYMEM index="0" category="1" />
+    <CATEGORYMEM index="0" category="23" />
     <EMBEDDEDDATA mmedaddress="0xA58C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>-</units>
     <decimalpl>4</decimalpl>
@@ -3061,8 +3064,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFCONSTANT uniqueid="0x0">
-    <title>TLAFA - time delay before driver requested lambda active. Already set to 0 on many files. On others, you may have to reduce it to get LAMFA to take effect in a timely manner</title>
-    <description>Delay time until lambda driver request active</description>
+    <title>TLAFA - </title>
+    <description>Delay time until lambda driver request active&#013;&#010;time delay before driver requested lambda active. Already set to 0 on many files. On others, you may have to reduce it to get LAMFA to take effect in a timely manner</description>
     <CATEGORYMEM index="0" category="3" />
     <EMBEDDEDDATA mmedaddress="0xA172" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>s</units>
@@ -4321,6 +4324,20 @@
     <description>CWSLS</description>
     <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x1FAB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDKSLPE</title>
+    <description>Codeword customer: secondary air pump (power amplifier)</description>
+    <CATEGORYMEM index="0" category="21" />
+    <CATEGORYMEM index="1" category="20" />
+    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1FA9" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <decimalpl>1</decimalpl>
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -6831,7 +6848,7 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>FNRAD</title>
     <description>Factor between wheel speed and speed f (wheel circumference)</description>
-    <CATEGORYMEM index="0" category="215" />
+    <CATEGORYMEM index="0" category="26" />
     <EMBEDDEDDATA mmedaddress="0x1E44" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>-</units>
     <decimalpl>4</decimalpl>
