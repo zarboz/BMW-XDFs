@@ -1,4 +1,4 @@
-<!-- Written 04/23/2019 00:03:25 -->
+<!-- Written 04/23/2019 22:12:04 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -4630,7 +4630,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x9BED" mmedelementsizebits="8" mmedrowcount="6" mmedcolcount="7" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x9BD3" mmedelementsizebits="8" mmedrowcount="6" mmedcolcount="7" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
@@ -6825,6 +6825,20 @@
     <unittype>0</unittype>
     <DALINK index="0" />
     <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>FNRAD</title>
+    <description>Factor between wheel speed and speed f (wheel circumference)</description>
+    <CATEGORYMEM index="0" category="215" />
+    <EMBEDDEDDATA mmedaddress="0x1E44" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>-</units>
+    <decimalpl>4</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.062500 * X">
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
