@@ -1,4 +1,4 @@
-<!-- Written 04/25/2019 13:16:02 -->
+<!-- Written 04/25/2019 17:35:58 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -4545,8 +4545,8 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0" flags="0xC">
-    <title>Deactivating the codeword DMD (EURO coding), CD .. = 0 -&gt; no diagnostics</title>
-    <description>CDMD</description>
+    <title>CDMD</title>
+    <description>With the Codeword CDMD the whole misfire detection can be stopped.&#013;&#010;If B cdmd=0, misfire detection is stopped and E ase=0, E ask=0, Z ase=1, Z ask=1, B mderk=0.&#013;&#010;For B cdmd=1 misfire detection is active.</description>
     <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x1F9F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <rangehigh>1.000000</rangehigh>
@@ -4785,7 +4785,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x3A50">
     <title>CWKONABG</title>
-    <description>Codeword for configuration exhaust treatment&#013;&#010;Set from 5&gt;1 for SLS removal&#013;&#010;Set from 5&gt;0 for SLS+kat removal&#013;&#010;Byte order:&#013;&#010;0=B_katfz&#013;&#010;1=B_Kath&#013;&#010;2=B_slsfz&#013;&#010;3=&#013;&#010;4=&#013;&#010;5=&#013;&#010;6=&#013;&#010;7=</description>
+    <description>Codeword for configuration exhaust treatment&#013;&#010;The data I have on this is invalid&#013;&#010;Set from 5&gt;1 for SLS removal&#013;&#010;Set from 5&gt;0 for SLS+kat removal&#013;&#010;Byte order:&#013;&#010;0=B_katfz&#013;&#010;1=B_Kath&#013;&#010;2=B_slsfz&#013;&#010;3=&#013;&#010;4=&#013;&#010;5=&#013;&#010;6=&#013;&#010;7=</description>
     <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0xA5DB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
