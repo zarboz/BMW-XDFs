@@ -204,12 +204,12 @@
     <CATEGORY index="0xC0" name="LLRMR: Momentenreserve Leerlaufregelung" />
     <CATEGORY index="0xC1" name="LLRNS: Leerlaufregelung-Solldrehzahl" />
     <CATEGORY index="0xC2" name="LLRRM: Leerlaufregelung Reglereingriff Drehmoment" />
-    <CATEGORY index="0xC3" name="LR: Lambdaregelung" />
-    <CATEGORY index="0xC4" name="LRA: Adaptive Vorsteuerung f&#252;r Lambdaregelung" />
-    <CATEGORY index="0xC5" name="LRAEB: Einschaltbedingungen Gemischadaption" />
-    <CATEGORY index="0xC6" name="LREB: Lambdaregelung Einschaltbedingungen" />
-    <CATEGORY index="0xC7" name="LRHK: F&#252;hrungsregelung mit Sonde hinter KAT (OBDII)" />
-    <CATEGORY index="0xC8" name="LRKA: Zweipunkt-Lambdaregelung mit tv : Funkt. KAT-Ausr&#228;umen von Sauerstoff" />
+    <CATEGORY index="0xC3" name="LR: lambda control" />
+    <CATEGORY index="0xC4" name="LRA: Adaptive pilot control for lambda control" />
+    <CATEGORY index="0xC5" name="LRAEB: Switch-on conditions Mixture adaptation" />
+    <CATEGORY index="0xC6" name="LREB: Lambda control switch-on conditions" />
+    <CATEGORY index="0xC7" name="LRHK: Guidance control with probe behind CAT (OBDII)" />
+    <CATEGORY index="0xC8" name="LRKA: Two-point lambda control with tv: Funct. KAT purging of oxygen" />
     <CATEGORY index="0xC9" name="MDBAS: Berechnung der Basisgr&#246;&#223;en f&#252;r Momentenschnittstelle" />
     <CATEGORY index="0xCA" name="MDFAW: Fahrerwunschberechnung" />
     <CATEGORY index="0xCB" name="MDFUE: Sollwertvorgabe f&#252;r Luftmasse aus Sollmoment" />
