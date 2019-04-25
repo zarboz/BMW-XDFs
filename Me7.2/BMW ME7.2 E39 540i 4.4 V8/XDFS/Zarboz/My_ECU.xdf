@@ -1,4 +1,4 @@
-<!-- Written 04/25/2019 13:02:14 -->
+<!-- Written 04/25/2019 13:16:02 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -4785,7 +4785,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x3A50">
     <title>CWKONABG</title>
-    <description>Codeword for configuration exhaust treatment&#013;&#010;&#013;&#010;0=B_katfz&#013;&#010;1=B_Kath&#013;&#010;2=B_slsfz</description>
+    <description>Codeword for configuration exhaust treatment&#013;&#010;Set from 5&gt;1 for SLS removal&#013;&#010;Set from 5&gt;0 for SLS+kat removal&#013;&#010;Byte order:&#013;&#010;0=B_katfz&#013;&#010;1=B_Kath&#013;&#010;2=B_slsfz&#013;&#010;3=&#013;&#010;4=&#013;&#010;5=&#013;&#010;6=&#013;&#010;7=</description>
     <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0xA5DB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
