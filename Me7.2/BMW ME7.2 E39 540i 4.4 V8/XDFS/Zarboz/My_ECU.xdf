@@ -1,4 +1,4 @@
-<!-- Written 04/25/2019 11:16:00 -->
+<!-- Written 04/25/2019 13:02:14 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -4785,9 +4785,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x3A50">
     <title>CWKONABG</title>
-    <description>Codeword for configuration exhaust treatment</description>
+    <description>Codeword for configuration exhaust treatment&#013;&#010;&#013;&#010;0=B_katfz&#013;&#010;1=B_Kath&#013;&#010;2=B_slsfz</description>
     <CATEGORYMEM index="0" category="20" />
-    <EMBEDDEDDATA mmedaddress="0xA590" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0xA5DB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
