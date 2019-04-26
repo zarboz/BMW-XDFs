@@ -1,4 +1,4 @@
-<!-- Written 04/25/2019 21:10:08 -->
+<!-- Written 04/26/2019 10:46:24 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -9,7 +9,7 @@
     <BASEOFFSET offset="0" subtract="0" />
     <DEFAULTS datasizeinbits="8" sigdigits="2" outputtype="1" signed="0" lsbfirst="0" float="0" />
     <REGION type="0xFFFFFFFF" startaddress="0x0" size="0xFFFF" regionflags="0x0" name="Binary File" desc="This region describes the bin file edited by this XDF" />
-    <CATEGORY index="0x0" name="Euro Coding" />
+    <CATEGORY index="0x0" name="Project Configuration" />
     <CATEGORY index="0x1" name="AIR-FLOW" />
     <CATEGORY index="0x2" name="FUEL INJECTION" />
     <CATEGORY index="0x3" name="IDLE" />
@@ -4660,8 +4660,8 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0" flags="0xC">
-    <title>Codeword DKVS active / inactive, CD .. = 0 -&gt; no diagnostics</title>
-    <description>CWDKVS</description>
+    <title> CWDKVS </title>
+    <description>Codeword DKVS active / inactive, CD .. = 0 -&gt; no diagnostics&#013;&#010;Deactivation in case of error in the mixture formation, B edkvs&#013;&#010;The fuel-on adaptation is deactivated, if the adaptation error threshold in the mixture formation is exceeded&#013;&#010;(B edkvs = 1).</description>
     <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x1FA3" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <rangehigh>1.000000</rangehigh>
@@ -4673,8 +4673,8 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0" flags="0xC">
-    <title>Deactivate code word tank ventilation diagnosis (EURO coding), CD .. = 0 -&gt; no slide</title>
-    <description>CWDTES</description>
+    <title>CWDTES</title>
+    <description>code word disable canister-purge monotoring&#013;&#010;Deactivate code word tank ventilation diagnosis (EURO coding), CD .. = 0 -&gt; no slide</description>
     <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x1FA4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <rangehigh>1.000000</rangehigh>
@@ -4748,8 +4748,8 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x2B11">
-    <title>Deactivate codeword DSWE (EURO coding), CD .. = 0 -&gt; no diagnostics</title>
-    <description>CDSWE</description>
+    <title>CDSWE</title>
+    <description>Deactivate codeword DSWE (EURO coding), CD .. = 0 -&gt; no diagnostics&#013;&#010;&#013;&#010;Hint : The rough road function %DSWEC can be deactivated by means of the Euro-switch (B cdswe = 0).&#013;&#010;In this case B swe c = 0 applies.</description>
     <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x23B0" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -4848,8 +4848,8 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
-    <title>Codeword for temperature sensor configuration</title>
-    <description>CWTF</description>
+    <title>CWTF</title>
+    <description>Codeword for temperature sensor configuration</description>
     <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x1FA0" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -5221,8 +5221,8 @@
     </XDFAXIS>
   </XDFFUNCTION>
   <XDFCONSTANT uniqueid="0x4DA8" flags="0x4">
-    <title>Activate code word DMTL diagnosis (EURO coding), CD .. = 0 -&gt; no slide</title>
-    <description>DMTL&#013;&#010;</description>
+    <title>CWDMTL</title>
+    <description>Activate code word DMTL diagnosis (EURO coding), CD .. = 0 -&gt; no slide</description>
     <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x1F4A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -7368,6 +7368,18 @@
     <description>Error class: immobilizer</description>
     <CATEGORYMEM index="0" category="97" />
     <EMBEDDEDDATA mmedaddress="0x164A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>_TURBO</title>
+    <description> System constant for turbocharged engines interacts with fuel torque and air pressure tables changes a lot of the flow of the DME</description>
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x3F13" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
