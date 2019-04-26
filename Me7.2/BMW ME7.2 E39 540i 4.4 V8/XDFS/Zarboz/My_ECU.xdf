@@ -1,4 +1,4 @@
-<!-- Written 04/26/2019 14:03:25 -->
+<!-- Written 04/26/2019 15:08:03 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -4448,8 +4448,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFCONSTANT uniqueid="0x0" flags="0xC">
-    <title>Deactivate code word DAGR (EURO coding), CD .. = 0 -&gt; no diagnostics</title>
-    <description>Deactivate code word DAGR (EURO coding), CD .. = 0 -&gt; no diagnostics</description>
+    <title>CWDAGR</title>
+    <description>System constant for EGR present&#013;&#010;SY AGR PROKON AUS system constant EGR present&#013;&#010;Deactivate code word DAGR (EURO coding), CD .. = 0 -&gt; no diagnostics</description>
     <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x1F98" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <rangehigh>1.000000</rangehigh>
