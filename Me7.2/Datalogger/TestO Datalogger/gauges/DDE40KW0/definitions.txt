@@ -8,11 +8,25 @@ Title=Torque request
 Unit=Nm
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_MROMD_FAHR_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
+
+[MRMM_EMOT]
+Min=0
+Max=80
+Title=Injection Volume ARD
+Unit=mm^3
+decimals=2
+Jobname=MW_SELECT_LESEN_NORM
+Resultname=STAT_MRMM_EMOT_WERT
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [MROMD_SOLL]
 Min=0
@@ -21,11 +35,38 @@ Title=Torque target
 Unit=Nm
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_MROMD_SOLL_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
+
+[EHMFLDS]
+Min=0
+Max=100
+Title=Control boot pressure adjuster
+Unit=%
+Jobname=MW_SELECT_LESEN_NORM
+Resultname=STAT_ehmFLDS_WERT
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
+
+
+[EHMFARS]
+Min=0
+Max=1000
+Title=Control AGR adjuster
+Unit=%
+Jobname=MW_SELECT_LESEN_NORM
+Resultname=STAT_ehmFARS_WERT
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 
 [ZUOME_VE]
@@ -36,11 +77,11 @@ Unit=mm^3
 decimals=2
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_ZUOME_VE_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 
 [ZUOMEHE]
@@ -51,11 +92,25 @@ Unit=mm^3
 decimals=2
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_ZUOMEHE_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
+
+[MRMF_GANG]
+Min=0
+Max=6
+Title=Speed Level
+Unit=-
+decimals=0
+Jobname=MW_SELECT_LESEN_NORM
+Resultname=STAT_MRMF_GANG_WERT
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 
 [ZUMP_ANMKDF]
@@ -66,11 +121,11 @@ Unit=bar
 decimals=0
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_ANMKDF_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [ZUMPQSOLL]
 Min=0
@@ -80,11 +135,11 @@ Unit=bar
 decimals=0
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_ZUMPQSOLL_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [ARMM_LIST]
 Min=0
@@ -93,11 +148,25 @@ Title=MAF
 Unit=mg/hub
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_ARMM_LIST_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
+
+
+[ARO_SOLL5]
+Min=0
+Max=1500
+Title=MAF target
+Unit=mg/hub
+Jobname=MW_SELECT_LESEN_NORM
+Resultname=STAT_ARO_SOLL5_WERT
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [DZMNMIT]
 Min=0
@@ -106,11 +175,11 @@ Title=RPM
 Unit=1/min
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_DZMNMIT_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [ZUMAB_HE]
 Min=-10
@@ -120,11 +189,11 @@ Unit=deg KW
 decimals=2
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_ZUMAB_HE_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [ZUOAD_HE]
 Min=0
@@ -133,40 +202,40 @@ Title=Main inj. open time
 Unit=uS
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_ZUOAD_HE_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 
 [LDMP_LLIN]
 Min=0
-Max=3000
+Max=2600
 Title=Boost
 Unit=mbar
 decimals=0
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_LDMP_LLIN_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [LDMP_LSOLL]
 Min=0
-Max=3000
+Max=2600
 Title=Boost target
 Unit=mbar
 decimals=0
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_LDMP_LSOLL_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [EHMFARS]
 Min=0
@@ -176,11 +245,11 @@ Unit=%
 decimals=2
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_EHMFARS_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [ANMPWG]
 Min=0
@@ -190,25 +259,67 @@ Unit=%
 decimals=2
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_ANMPWG_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
+
+[ANMWTF]
+Min=0
+Max=130
+Title=Water Temperature
+Unit=Grad
+decimals=1
+Jobname=MW_SELECT_LESEN_NORM
+Resultname=STAT_ANMWTF_WERT
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
+
+[FGMBESCH]
+Min=-10
+Max=10
+Title=Acceleration
+Unit=m/s^2
+decimals=1
+Jobname=MW_SELECT_LESEN_NORM
+Resultname=STAT_FGMBESCH_WERT
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
+
+[FGMFGAKT]
+Min=0
+Max=260
+Title=Speed
+Unit=km/h
+decimals=1
+Jobname=MW_SELECT_LESEN_NORM
+Resultname=STAT_FGMFGAKT_WERT
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [ANMVDF]
 Min=0
-Max=500
-Title=Pre-Supply pr.
+Max=5
+Title=Pre-Supply pressure
 Unit=bar
-decimals=0
+decimals=2
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_ANMVDF_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [DZMZMK1]
 Min=-6
@@ -218,11 +329,11 @@ Unit=mm^3
 decimals=3
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_DZMZMK1_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [DZMZMK2]
 Min=-6
@@ -232,11 +343,11 @@ Unit=mm^3
 decimals=3
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_DZMZMK2_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [DZMZMK3]
 Min=-6
@@ -246,11 +357,11 @@ Unit=mm^3
 decimals=3
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_DZMZMK3_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [DZMZMK4]
 Min=-6
@@ -260,11 +371,11 @@ Unit=mm^3
 decimals=3
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_DZMZMK4_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [DZMZMK5]
 Min=-6
@@ -274,11 +385,11 @@ Unit=mm^3
 decimals=3
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_DZMZMK5_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [DZMZMK6]
 Min=-6
@@ -288,11 +399,11 @@ Unit=mm^3
 decimals=3
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_DZMZMK6_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 
 [DZMZN1]
@@ -303,11 +414,11 @@ Unit=RPM
 decimals=3
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_DZMZK1_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [DZMZN2]
 Min=-6
@@ -317,11 +428,11 @@ Unit=RPM
 decimals=3
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_DZMZN2_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [DZMZN3]
 Min=-6
@@ -331,11 +442,11 @@ Unit=RPM
 decimals=3
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_DZMZN3_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [DZMZN4]
 Min=-6
@@ -345,11 +456,11 @@ Unit=RPM
 decimals=3
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_DZMZN4_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [DZMZN5]
 Min=-6
@@ -359,11 +470,11 @@ Unit=RPM
 decimals=3
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_DZMZN5_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 [DZMZN6]
 Min=-6
@@ -373,10 +484,10 @@ Unit=RPM
 decimals=3
 Jobname=MW_SELECT_LESEN_NORM
 Resultname=STAT_DZMZN6_WERT
-color=#ff0000
-needlecolor=#157DEC
-textcolor=#ffffff
-titlecolor=#FFFFFF
-fillcolor=#000000
+color=#ff7f00
+needlecolor=#ff7f00
+textcolor=#ff7f00
+titlecolor=#ff7f00
+fillcolor=#ff7f00
 
 

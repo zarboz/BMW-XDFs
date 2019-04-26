@@ -1,0 +1,145 @@
+LNAME,JOBNAME,MEAS,TELEGRAM
+Knock sensor Cyl.1,ZYL1_KLOPF,V,B812F103224000
+Knock sensor Cyl.2,ZYL2_KLOPF,V,B812F103224000
+Knock sensor Cyl.3,ZYL3_KLOPF,V,B812F103224000
+Knock sensor Cyl.4,ZYL4_KLOPF,V,B812F103224000
+Knock sensor Cyl.5,ZYL5_KLOPF,V,B812F103224000
+Knock sensor Cyl.6,ZYL6_KLOPF,V,B812F103224000
+Knock sensor Cyl.7,ZYL7_KLOPF,V,B812F103224000
+Knock sensor Cyl.8,ZYL8_KLOPF,V,B812F103224000
+Wert fuer TKATM              ,DSLSRTKATM, ,B812F106230000000502
+Wert fuer ML                 ,DSLSRML, ,B812F106230000000502
+Nockenwinkel Sollwert  auslesen,S_EVAN_S,GradKW,B812F106230000000502
+Adaptionswinkel NW-B1 Flanke 1,,GradKW,B812F103224006
+Adaptionswinkel NW-B1 Flanke 2,,GradKW,B812F103224006
+Adaptionswinkel NW-B1 Flanke 3,,GradKW,B812F103224006
+Adaptionswinkel NW-B1 Flanke 4,,GradKW,B812F103224006
+Adaptionswinkel NW-B1 Flanke 1,,GradKW,B812F103224006
+Adaptionswinkel NW-B1 Flanke 2,,GradKW,B812F103224006
+Adaptionswinkel NW-B2 Flanke 3,,GradKW,B812F103224006
+Adaptionswinkel NW-B2 Flanke 4,,GradKW,B812F103224006
+Adaptionswinkel NW-B2 Flanke 4,NW_B2_FL4,GradKW,B812F106230000000502
+Adaptionswinkel NW-B2 Flanke 4,NW_B2_FL4,GradKW,B812F106230000000502
+Lernstep DK-Apaption lesen    ,LRNSTEP, ,B812F106230000000501
+Injection time             ,EINSPRITZZEIT,ms,B812F103224000
+Lambdaintegrator 1                 ,LAMBDA_INTEGRATOR_1, ,B812F103224000
+Lambdaintegrator 2                 ,LAMBDA_INTEGRATOR_2, ,B812F103224000
+Vehicle speed       ,GESCHWINDIGKEIT,km/h,B812F103224000
+Current RPM                 ,MOTORDREHZAHL,1/min,B812F103224000
+Target RPM               ,MOTORDREHZAHL_SOLL,1/min,B812F103224000
+camshaft position bank 1,VANOS_NW_LAGE_EINLASS_BANK_1,GradKW,B812F103224000
+camshaft position bank 2,VANOS_NW_LAGE_EINLASS_BANK_2,GradKW,B812F103224000
+Intake temp.          ,AN_LUFTTEMPERATUR,Grad C,B812F103224000
+Engine temp.               ,MOTORTEMPERATUR,Grad C,B812F103224000
+Ignition angle              ,ZUENDWINKEL,Grad,B812F103224000
+Throttle pos.                     ,DKP_WINKEL,% DK,B812F103224000
+Air mass                     ,LMM_MASSE,kg/h,B812F103224000
+Load                         ,MIIST,%,B812F103224000
+Battery voltage                         ,UBATT,V,B812F103224000
+Pedal pos.                  ,PWG_POTI_SPANNUNG,V,B812F103224000
+Fahrerwunsch                  ,PWG1_POTI_SPANNUNG,V,B812F103304601
+Fahrerwunsch                  ,PWG2_POTI_SPANNUNG,V,B812F103304701
+Coolant temp.     ,KUEHLW_AUSL_TEMPERATUR,Grad C,B812F103224000
+Integrator Ladebilanz Batterie,LDB_INTEGRATOR, ,B812F103224001
+Lambda 1 pre-cat voltage    ,LS_VKAT_SIGNAL_1,V,B812F103224003
+Lambda 2 pre-cat voltage  ,LS_VKAT_SIGNAL_2,V,B812F103224003
+Lambdasondenspannung n Kat    ,LS_NKAT_SIGNAL_1,V,B812F103300001
+Lambdasondenspannung n Kat 2  ,LS_NKAT_SIGNAL_2,V,B812F103300001
+Adaptation additive 1     ,LAMBDA_ADD_1,%,B812F103224004
+Adaptation additive 2     ,LAMBDA_ADD_2,%,B812F103224004
+Adaptation multiplicative 1    ,LAMBDA_MUL_1,%,B812F103224004
+Adaptation multiplicative 2    ,LAMBDA_MUL_2,%,B812F103224004
+Lambda heating pre-cat 1,LS_VKAT_HEIZUNG_TV_1, ,B812F103224004
+Lambda heating pre-cat 2,LS_VKAT_HEIZUNG_TV_2, ,B812F103224004
+Lambda heating post-cat 1,LS_NKAT_HEIZUNG_TV_1, ,B812F103224004
+Lambda heating post-cat 2,LS_NKAT_HEIZUNG_TV_2, ,B812F103224004
+PeridenDauer L-Sonde v Kat1   ,LS_VKAT_PERIODENDAUER_1,s,B812F103224004
+PeridenDauer L-Sonde v Kat2   ,LS_VKAT_PERIODENDAUER_2,s,B812F103224004
+Tastverhaeltnis TEV           ,TE_TASTVERHAELTNIS,%,B812F103224005
+Tastverhaeltnis Vanos 1       ,VANOS_NW_LAGE_EINLASS_TV_1,%TV,B812F103224005
+Tastverhaeltnis Vanos 2       ,VANOS_NW_LAGE_EINLASS_TV_2,%TV,B812F103224005
+Tastverhaeltnis E-Luefter     ,E_LUEFTER_TV,%,B812F103224005
+ Roughness Cyl. 1 ,LUTSFI1,sec-1,B812F103224003
+ Roughness Cyl. 2   ,LUTSFI2,sec-1,B812F103224003
+ Roughness Cyl. 3   ,LUTSFI3,sec-1,B812F103224003
+ Roughness Cyl. 4   ,LUTSFI4,sec-1,B812F103224003
+ Roughness Cyl. 5   ,LUTSFI5,sec-1,B812F103224003
+ Roughness Cyl. 6   ,LUTSFI6,sec-1,B812F103224003
+ Roughness Cyl. 7   ,LUTSFI7,sec-1,B812F103224003
+ Roughness Cyl. 8   ,LUTSFI8,sec-1,B812F103224003
+B_NAC (LL-Anheb. bei KA)      , , ,B812F103224001
+B_FHZ (Frontscheibenheiz.)    , , ,B812F103224001
+B_NFTEV(N-Anh. erh. TE-Spuelen), , ,B812F103224001
+B_DKPU (DK_Pos. falsch (SKA)) , , ,B812F103224001
+B_NSUB (N-Anheb. niedr. UBatt), , ,B812F103224001
+B_KO                          , , ,B812F103224002
+S_BRS                         , , ,B812F103224002
+S_BLS                         , , ,B812F103224002
+B_KUPPL                       , , ,B812F103224002
+B_ESTART                      , , ,B812F103224002
+B_KL15                        , , ,B812F103224002
+Adaption abgeschlossen (LL)   , , ,B812F103224003
+B_HSHE                        , , ,B812F103224005
+B_HSHE2                       , , ,B812F103224005
+B_HSVE                        , , ,B812F103224005
+B_HSVE2                       , , ,B812F103224005
+B_LR                          , , ,B812F103224007
+B_LR2                         , , ,B812F103224007
+B_SBBVK                       , , ,B812F103224007
+B_SBBVK2                      , , ,B812F103224007
+B_SBBHK                       , , ,B812F103224007
+B_SBBHK2                      , , ,B812F103224007
+B_VL                          , , ,B812F103224007
+B_LL                          , , ,B812F103224007
+B_UMAERF                      , , ,B812F103224007
+B_SA                          , , ,B812F103224007
+B_TEHB                        , , ,B812F103224007
+B_EWS_OK                      , , ,B812F103224007
+B_PN                          , , ,B812F103224007
+B_NOKATFZG                    , , ,B812F10330A801
+L_FGR                         , , ,B812F1022107
+B_FGRTVE                      , , ,B812F1022107
+B_FGRHSA                      , , ,B812F1022107
+B_FGRTSE                      , , ,B812F1022107
+B_FGRAT                       , , ,B812F1022107
+B_FGRTWA                      , , ,B812F1022107
+B_FGRTBE                      , , ,B812F1022107
+B_CDLSV                       , , ,B812F1022105
+B_CDAGR                       , , ,B812F1022105
+B_CDSLS                       , , ,B812F1022105
+B_CDHSV                       , , ,B812F1022105
+B_CDTES                       , , ,B812F1022105
+B_HSRDY                       , , ,B812F1022105
+B_TESRDY                      , , ,B812F1022105
+B_SLSRDY                      , , ,B812F1022105
+B_LSRRDY                      , , ,B812F1022105
+B_KATRDY                      , , ,B812F1022105
+B_AGRRDY                      , , ,B812F1022105
+S_LDPR                        , , ,B812F103224002
+B_LDPEIN                      , , ,B812F103224005
+B_SLP                         , , ,B812F103224005
+B_STA                         , , ,B812F103224005
+B_EBL                         , , ,B812F103224005
+B_KOE                         , , ,B812F103224005
+B_EKP                         , , ,B812F103224005
+B_SLV                         , , ,B812F103224005
+B_ETR                         , , ,B812F103224005
+B_AKR                         , , ,B812F103224005
+B_ASC_PKW                     , , ,B812F10330A801
+B_ACC                         , , ,B812F10330A801
+B_AUTGET                      , , ,B812F10330A801
+Vanos1 tightness              ,DICHT_1, ,B812F1022114
+Vanos2 tightness              ,DICHT_2, ,B812F1022114
+Vanos1 angle          ,VANOS1_IST,GradKW,B812F1022114
+Vanos2 angle         ,VANOS2_IST,GradKW,B812F1022114
+Adjustment time check Vanos1     ,Verstellzeitpruef. Vanos1, ,B812F1022113
+Adjustment time check Vanos2     ,Verstellzeitpruef. Vanos2, ,B812F1022113
+VANOS early timing NW1         ,FRUEH_NW1,sec,B812F1022113
+VANOS early timing NW2          ,FRUEH_NW2,sec,B812F1022113
+VANOS delay timing NW1         ,SPAET_NW1,sec,B812F1022113
+VANOS delay timing NW2         ,SPAET_NW2,sec,B812F1022113
+DNSLBV                        ,Abgleichwert , ,B812F10330A101
+DNLLMV                        ,Abgleichwert , ,B812F10330A101
+DNFSACMV                      ,Abgleichwert , ,B812F10330A101
+DNSACMV                       ,Abgleichwert , ,B812F10330A101
+DNFSMV                        ,Abgleichwert , ,B812F10330A101

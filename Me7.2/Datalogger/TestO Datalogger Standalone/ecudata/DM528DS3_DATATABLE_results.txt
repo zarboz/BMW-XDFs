@@ -1,0 +1,159 @@
+Eingang Start,S_ESTART,,12050B04
+Reedkontakt LDP,S_LDPR,,12050B04
+KL15-Eingang,S_KL15,,12050B04
+SG-Eingang EWS,D_EWS,,12050B04
+SG-Eingang Nockenwellengeber,P_NWGE,,12050B04
+SG-Eingang VFZ,F_VFZ,,12050B04
+SG-Ausgang Hauptrelais,S_HR,,12050B04
+SG-Ausgang Kennfeldkuehlung,S_KFK,,12050B04
+SG-Ausgang RL-Ventil,S_RL,,12050B04
+SG-Ausgang EKP-Relais,EKP,,12050B04
+SG-Ausgang Kompressorrelais,KOS,,12050B04
+Heizung Sonde hinter Kat,HSH,,12050B04
+Heizung Sonde vor Kat,HSV,,12050B04
+Ansteuerung LDP,T_LDP,,12050B04
+Ausgang Automatik-Startrelais,S_START,,12050B04
+SG-Ausgang Tankentl.-Ventil,T_TEV,,12050B04
+SG-Ausgang TD-Signal,F_DMTD,,12050B04
+Schalter Fahrstufe,S_FS,,12050B04
+Signal niedriger Fuellstand,S_TAL,,12050B04
+Schalter Klimakompressor,S_KO,,12050B04
+Schalter Aircondition,S_AC,,12050B04
+Anf. niedrige Kuehlwassertemp.,S_NTKW,,12050B04
+Signal Tag/Nacht-Schalter,S_TNS,,12050B04
+CAN-Bus i.O.,CANOK,,12050B04
+EGS CAN i.O.,EGSCOK,,12050B04
+ASC CAN i.O.,ASCCOK,,12050B04
+INSTR2 CAN i.O.,INS2COK,,12050B04
+Beschleunigungsanreicherung,NSPON,,12050B04
+Bedingung Vollast,B_VL,,12050B04
+Bedingung Leerlauf,B_LL,,12050B04
+Bedingung Start,B_ST,,12050B04
+Bedingung Klopfregelbereit,B_KR,,12050B04
+Bedingung Schubabschaltung,B_SA,,12050B04
+Bed.Kraftstoffkreislaufumsch.,B_KKU,,12050B04
+ASR1-Betrieb,ASR1,,12050B04
+Warmlaufabregelung freigeg.,B_WLAR,,12050B04
+Sonden vor Kat betriebsb.,B_SBBVK,,12050B04
+Sonden hinter Kat betriebsb.,B_SBBHK,,12050B04
+Lambdaregelung ein,B_LR,,12050B04
+Sonden v. Kat betriebsb.Bank2,B_SBBVK2,,12050B04
+Sonden h. Kat betriebsb.Bank2,B_SBBHK2,,12050B04
+Lambdaregelung ein Bank2,B_LR2,,12050B04
+Bedingung Tankentlueftung,B_TE,,12050B04
+Bedingung hohe Beladung,B_TEHB,,12050B04
+Bedingung Grundadaption,B_GA,,12050B04
+Getriebeeingriff aktiv,B_GE,,12050B04
+Sondenheizung EIN vor KAT,B_HSVEIN,,12050B04
+Sondenheizung bereit vor KAT,B_HSV,,12050B04
+Red. Heizleistung vor KAT,B_HSVRED,,12050B04
+Sondenheizung EIN hinter KAT,B_HSHEIN,,12050B04
+Sondenheizung bereit h. KAT,B_HSH,,12050B04
+Red. Heizleistung hinter KAT,B_HSHRED,,12050B04
+Periodendauer-Mess. SVK freig.,B_DLATP,,12050B04
+Periodendauer-Messung gueltig,F_DLAGP,,12050B04
+Per.dauer-Mess. SVK freig. Bank2,B_DLATP2,,12050B04
+Per.dauer-Messung gueltig Bank2,F_DLAGP2,,12050B04
+Adaption Geberrad abgeschl. Seg1,B_ZADRE1,,12050B04
+Adaption Geberrad abgeschl. Seg2,B_ZADRE2,,12050B04
+Adaption Geberrad abgeschl. Seg3,B_ZADRE3,,12050B04
+Adaption Geberrad abgeschl. Seg4,B_ZADRE4,,12050B04
+Monitor Lambdas. vor KAT verbaut,CDLSV,,12050B04
+Monitor Lambdas. h. KAT verbaut,CDLSH,,12050B04
+KAT erkannt?,KATPKW,,12050B04
+EGS erkannt?,AGPKW,,12050B04
+Statusbit fuer Diagnosefunk. TEV,B_DTES,,12050B04
+Flag Reed-Switch Zustand,B_READS,,12050B04
+Bedingung LDP eingeschaltet,B_LDPEIN,,12050B04
+Flag DLDP aktiv,B_DLDP,,12050B04
+Flag Natural Frequency aktiv,B_NFLDP,,12050B04
+Flag DLDP Abbruchbed. erfuellt,B_STLDP,,12050B04
+Flag Freigabebedingungen erfuellt,B_FBLDP,,12050B04
+Flag Warmlauf fett,B_LRWL,,12050B04
+Flag Solldrehzahlanhebung UBatt,B_NSUB,,12050B04
+Luftmassendurchsatz,STATUS_ML,kg/h,12050B03
+Leerlaufintegrator,STATUS_IV,kg/h,12050B03
+Einspritzzeit,STATUS_TE1,ms,12050B03
+Lambdasondenintegrator,STATUS_XFR,,12050B03
+Lambdasondenintegrator Bank2,STATUS_XFR2,,12050B03
+Adaption LR additiv,STATUS_TRA,ms,12050B03
+Adaption LR additiv Bank2,STATUS_TRA2,ms,12050B03
+Adaption LR,STATUS_FRA,,12050B03
+Adaption LR Bank2,FSTATUS_RA2,,12050B03
+Drehzahl N40,STATUS_N40,Upm,12050B03
+Drosselklappenpoti,STATUS_DKPOT,%,12050B03
+Zuendwinkel,STATUS_ZWOUT,Grad_KW,12050B03
+Last,STATUS_TL,ms/Umdr,12050B03
+Ansauglufttemperatur,STATUS_TANS,Grad_C,12050B03
+Motortemperatur,STATUS_TMOT,Grad_C,12050B03
+Adaptierter Leerlaufwinkel,STATUS_WDKLM_H+1,%,12050B03
+Soll-Luftmasse,STATUS_QSOL,kg/h,12050B03
+Fahrzeuggeschwindigkeit,STATUS_VFZ,km/h,12050B03
+Summe Bedarfsadaption,STATUS_XQASUM,kg/h,12050B03
+Batteriespannung,STATUS_UB,V,12050B03
+Betriebsstundenzaehler,STATUS_TBETRIEB,h,12050B03
+Leerlauf CO-Korrektur,STATUS_CO_COR,,12050B03
+Drehzahl N10,STATUS_N10,Upm,12050B03
+Solldrehzahl LLR,STATUS_NSOL,Upm,12050B03
+Tastverhaeltnis TEV,STATUS_TATE,,12050B03
+Shuntspg.Sonde vor Kat,STATUS_UHVSAV,V,12050B03
+Shuntspg.Sonde hinter Kat,STATUS_UHHSAV,V,12050B03
+Heizungswiderstand vor Kat,STATUS_RHSV,Ohm,12050B03
+Heizungswiderstand hinter Kat,STATUS_RHSH,Ohm,12050B03
+Periodendauerm.Lambdas.signal,STATUS_TPSVKOF,sec,12050B03
+Periodendauerm.Lambdas.sig. 2,STATUS_TPSVKOF2,sec,12050B03
+Kontrollwert autom. ASC-Erk.,STATUS_ASCCOD,,12050B03
+Akt.dauer LDP nach Dia.-Start,STATUS_TLDPCTR,sec,12050B03
+gemessene Periodendauer LDP,STATUS_TPLDP,sec,12050B03
+Leerlaufluftadaption mit KK,STATUS_QAKO,kg/h,12050B03
+Leerlaufluftadaption,STATUS_QADP,kg/h,12050B03
+gefilterte LUT 1 Zylinder 1,STATUS_LUTFI1,Umdr/sec,12050B10
+gefilterte LUT 2 Zylinder 5,STATUS_LUTFI2,Umdr/sec,12050B10
+gefilterte LUT 3 Zylinder 4,STATUS_LUTFI3,Umdr/sec,12050B10
+gefilterte LUT 4 Zylinder 8,STATUS_LUTFI4,Umdr/sec,12050B10
+gefilterte LUT 5 Zylinder 6,STATUS_LUTFI5,Umdr/sec,12050B10
+gefilterte LUT 6 Zylinder 3,STATUS_LUTFI6,Umdr/sec,12050B10
+gefilterte LUT 7 Zylinder 7,STATUS_LUTFI7,Umdr/sec,12050B10
+gefilterte LUT 8 Zylinder 2,STATUS_LUTFI8,Umdr/sec,12050B10
+Adaptionsfaktor Segment A,STATUS_ASA,,12050B10
+Adaptionsfaktor Segment B,STATUS_ASB,,12050B10
+Adaptionsfaktor Segment C,STATUS_ASC,,12050B10
+Adaptionsfaktor Segment D,STATUS_ASD,,12050B10
+ADC HFM,STATUS_ADC_HFM,V,12090B020E000000
+ADC DK-Poti,STATUS_ADC_DK,V,12090B020E000001
+ADC Batteriespannung,STATUS_ADC_UBATT,V,12090B020E000002
+ADC Ansauglufttemperatur,STATUS_ADC_TANS,V,12090B020E000003
+ADC Motortemperatur,STATUS_ADC_TMOT,V,12090B020E000004
+ADC Lambdasonde 1 vor Kat,STATUS_ADC_LS1VK,V,12090B020E000005
+ADC Lambdasonde 1 hinter KAT,STATUS_ADC_LS1HK,V,12090B020E000006
+ADC Lambdasonde 2 vor KAT,STATUS_ADC_LS2VK,V,12090B020E000007
+ADC Lambdasonde 2 hinter KAT,STATUS_ADC_LS2HK,V,12090B020E000008
+ADC ISHZ1,STATUS_ADC_ISHZ1,V,12090B020E000009
+ADC ISHZ2,STATUS_ADC_ISHZ2,V,12090B020E00000A
+Fehler LR-Adaption ti additiv Bank1,STATUS_Z_DTV,,12050BA0
+Fehler LR-Adaption ti additiv Bank2,STATUS_Z_DTV2,,12050BA0
+Fehler LR-Adaption multiplikativ Bank1,STATUS_Z_FRA,,12050BA0
+Fehler LR-Adaption multiplikativ Bank2,STATUS_Z_FRA2,,12050BA0
+Heizung Lambdasonde hinter Kat Bank1,STATUS_Z_HSH,,12050BA0
+Heizung Lambdasonde hinter Kat Bank2,STATUS_Z_HSH2,????,12050BA0
+Heizung Lambdasonde vor Kat Bank1,STATUS_Z_HSV,,12050BA0
+Heizung Lambdasonde vor Kat Bank2,STATUS_Z_HSV2,????,12050BA0
+Katalysator-Konvertierung Bank1,STATUS_Z_KAT,,12050BA0
+Katalysator-Konvertierung Bank2,STATUS_Z_KAT2,,12050BA0
+LS-Alterung hinter Kat Bank1,STATUS_Z_LASH,,12050BA0
+LS-Alterung hinter Kat Bank2,STATUS_Z_LASH2,,12050BA0
+LS-Alterung Periodendauermessung Bank1,STATUS_Z_LATP,,12050BA0
+LS-Alterung Periodendauermessung Bank2,STATUS_Z_LATP2,,12050BA0
+LS-Alterung ATV-Ueberwachung Bank1,STATUS_Z_LATV,,12050BA0
+LS-Alterung ATV-Ueberwachung Bank2,STATUS_Z_LATV2,,12050BA0
+Lambdasonde hinter Kat Bank1,STATUS_Z_LSH,,12050BA0
+Lambdasonde hinter Kat Bank2,STATUS_Z_LSH2,,12050BA0
+Lambdasonde vor Kat Bank1,STATUS_Z_LSV,,12050BA0
+Lambdasonde vor Kat Bank2,STATUS_Z_LSV2,,12050BA0
+Vertauschte Lambdasonden vor Kat,STATUS_Z_LSVV,,12050BA0
+LDP-Test,STATUS_Z_LDP,,12050BA0
+Tankentlueftungs-System,STATUS_Z_TES,,12050BA0
+LDP-Test verstopfte Leitung,STATUS_Z_TESB,,12050BA0
+LDP-Test Leckerkennung,STATUS_Z_TESK,,12050BA0
+Tankentlueftungs-System-Endstufe,STATUS_Z_TEVE,,12050BA0
+ENDE,,1.0,

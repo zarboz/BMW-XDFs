@@ -1,0 +1,140 @@
+<DeviceDefinitions>
+	<dev type="AXB1" description="LMA-3 Multi-sensor Device (AuxBox)">
+		<channel defaultFunc="RPM">
+			<function name="RPM"/>
+			<function name="RPM_1"/>
+			<function name="EXT_5V"/>
+		</channel>
+		<channel defaultFunc="EGT">
+			<function name="EGT"/>
+			<function name="CHT"/>
+			<function name="SIDE_FORCE"/>
+			<function name="SIDE_FORCE_1"/>
+			<function name="SIDE_FORCE_2"/>
+			<function name="EXT_5V"/>
+		</channel>
+		<channel defaultFunc="DUTY_CYCLE">
+			<function name="DUTY_CYCLE"/>
+			<function name="FREQUENCY"/>
+			<function name="EXT_5V"/>
+		</channel>
+		<channel defaultFunc="MAP">
+			<function name="MAP"/>
+			<function name="MAP_1"/>
+			<function name="VACUUM"/>
+			<function name="FREQUENCY"/>
+			<function name="DUTY_CYCLE"/>
+			<function name="EXT_5V"/>
+		</channel>
+		<channel defaultFunc="SIDE_FORCE">	
+			<function name="SIDE_FORCE"/>
+			<function name="SIDE_FORCE_1"/>
+			<function name="SIDE_FORCE_2"/>
+			<function name="FREQUENCY"/>
+			<function name="DUTY_CYCLE"/>
+			<function name="EXT_5V"/>
+		</channel>
+	</dev>
+
+	<dev type="LC1 " description="LC-1 WideBand Controller">
+		<channel defaultFunc="LAMBDA"/>
+	</dev>
+
+	<dev type="LC-2" description="LC-2 Digital Wideband 'Lambda' O² Controller">
+		<channel defaultFunc="LAMBDA"/>
+	</dev>
+
+	<dev type="TC4 " description="TC-4 Temperature Module">
+		<channel defaultFunc="EGT">
+			<function name="EGT"/>
+			<function name="CHT"/>
+		</channel>
+		<channel defaultFunc="EGT">
+			<function name="EGT"/>
+			<function name="CHT"/>
+		</channel>
+		<channel defaultFunc="EGT">
+			<function name="EGT"/>
+			<function name="CHT"/>
+		</channel>
+		<channel defaultFunc="EGT">
+			<function name="EGT"/>
+			<function name="CHT"/>
+		</channel>
+	</dev>
+
+	<dev type="SSI4" description="SSI-4 4 Channel Simple Sensor Interface">
+		<channel defaultFunc="RPM"/>
+		<channel defaultFunc="EXT_5V"/>
+		<channel defaultFunc="EXT_5V"/>
+		<channel defaultFunc="EXT_5V"/>
+	</dev>		
+	<dev type="DL32" description="Dl-32">
+		<channel defaultFunc="RPM"/>
+		<channel defaultFunc="EGT"/>
+		<channel defaultFunc="DUTY_CYCLE"/>
+		<channel defaultFunc="MAP"/>
+		<channel defaultFunc="SIDE_FORCE"/>
+	</dev>		
+
+	<dev type="DLG1" description="DLG-1 Dual Lambda Gauge">
+		<channel defaultFunc="LAMBDA"/>
+		<channel defaultFunc="LAMBDA"/>		
+	</dev>	
+
+	<dev type="MTXl" description="MTX-L Lambda Gauge">
+		<channel defaultFunc="LAMBDA"/>		
+	</dev>	
+
+	<dev type="MTXb" description="MTX-D Vacuum/Boost and Shift Light">		
+		<channel defaultFunc="TIMING"/>		
+		<channel defaultFunc="MTX_BOOST"/>	
+	</dev>
+
+	<dev type="MTXe" description="MTX-D EGT/CHT Gauge ">
+		<channel defaultFunc="EGT"/>			
+	</dev>	
+
+	<dev type="MTXf" description="MTX-D Fluid Temp/Voltage Gauge">
+		<channel defaultFunc="MTX_FLUID_TEMP"/>			
+		<channel defaultFunc="MTX_VOLTAGE"/>			
+	</dev>	
+
+	<dev type="MTXp" description="MTX-D Oil Pressure/Temp">
+		<channel defaultFunc="MTX_OIL_PRESSURE"/>			
+		<channel defaultFunc="MTX_FLUID_TEMP"/>			
+	</dev>	
+
+	<dev type="ECS1" description="ECS-1 Ethanol and Fuel Temp">
+		<channel defaultFunc="ECS_ETHANOL"/>			
+		<channel defaultFunc="ECS_FUEL_TEMP"/>			
+	</dev>	
+
+	<dev type="ECF1" description="ECF-1 (Fuel) Ethanol Advanced Gauge">
+		<channel defaultFunc="LAMBDA"/>			
+		<channel defaultFunc="ECS_FUEL_TEMP"/>			
+		<channel defaultFunc="ECS_FUEL_PRESSURE"/>			
+		<channel defaultFunc="ECS_ETHANOL"/>			
+	</dev>	
+	<dev type="ECB1" description="ECB-1 (Boost) Ethanol Advanced Gauge">
+		<channel defaultFunc="LAMBDA"/>			
+		<channel defaultFunc="ECS_FUEL_TEMP"/>			
+		<channel defaultFunc="MTX_BOOST"/>			
+		<channel defaultFunc="ECS_ETHANOL"/>			
+	</dev>	
+
+	<dev type="PSN1" description="PSN-1 Powersafe Nitrous">
+		<channel defaultFunc="LAMBDA"/>			
+		<channel defaultFunc="RPM"/>			
+		<channel defaultFunc="PSN_PRESS"/>			
+		<channel defaultFunc="PSB_ON_OFF"/>			
+	</dev>	
+
+	<dev type="PSB1" description="PSB-1 Powersafe Boost">
+		<channel defaultFunc="LAMBDA"/>			
+		<channel defaultFunc="RPM"/>			
+		<channel defaultFunc="MTX_BOOST"/>			
+		<channel defaultFunc="AUX"/>			
+	</dev>	
+
+</DeviceDefinitions>

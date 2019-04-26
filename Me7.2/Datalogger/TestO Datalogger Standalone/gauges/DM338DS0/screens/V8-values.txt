@@ -1,0 +1,13 @@
+columns=3
+
+[RPM]
+a=a
+
+[MAF]
+a=a
+
+[LAMBDA2]
+a=a
+
+[LAMBDAINTEGRATOR1]
+a=a

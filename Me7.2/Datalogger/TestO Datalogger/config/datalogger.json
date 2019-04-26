@@ -1,0 +1,89 @@
+{
+ "loggingSets" : {
+  "a2" : [
+   {
+    "ecu" : "D73N57C0",
+    "job" : "SET_1",
+    "result" : "JOB_STATUS"
+   },
+   {
+    "ecu" : "D73N57C0",
+    "job" : "SET_1",
+    "result" : "STAT_AirCtl_rDesVal_WERT"
+   }
+  ],
+  "asdf" : [
+   {
+    "ecu" : "D73N57C0",
+    "job" : "SET_1",
+    "result" : "STAT_MoFVSS_a_WERT"
+   }
+  ],
+  "nimi2" : [
+   {
+    "ecu" : "D73N57C0",
+    "job" : "SET_1",
+    "result" : "STAT_MY_RESULT3"
+   },
+   {
+    "ecu" : "D73N57C0",
+    "job" : "SET_1",
+    "result" : "STAT_MY_RESULT2"
+   },
+   {
+    "ecu" : "D73N57C0",
+    "job" : "SET_1",
+    "result" : "STAT_MY_RESULT"
+   }
+  ],
+  "presetti" : [
+   {
+    "ecu" : "D73N57C0",
+    "job" : "SET_1",
+    "result" : "STAT_MY_RESULT3"
+   },
+   {
+    "ecu" : "D73N57C0",
+    "job" : "SET_1",
+    "result" : "STAT_MY_RESULT2"
+   },
+   {
+    "ecu" : "D73N57C0",
+    "job" : "SET_1",
+    "result" : "STAT_MY_RESULT"
+   }
+  ],
+  "zuend" : [
+   {
+    "ecu" : "BMSS501_SERIAL",
+    "job" : "STATUS_DIGITAL_SER",
+    "result" : "ZUENDUNG0_AKTIV"
+   },
+   {
+    "ecu" : "BMSS501_SERIAL",
+    "job" : "STATUS_DIGITAL_SER",
+    "result" : "ZUENDUNG1_AKTIV"
+   },
+   {
+    "ecu" : "BMSS501_SERIAL",
+    "job" : "STATUS_DIGITAL_SER",
+    "result" : "ZUENDUNG2_AKTIV"
+   },
+   {
+    "ecu" : "BMSS501_SERIAL",
+    "job" : "STATUS_DIGITAL_SER",
+    "result" : "ZUENDUNG3_AKTIV"
+   },
+   {
+    "ecu" : "BMSS501_SERIAL",
+    "job" : "STATUS_DIGITAL_SER",
+    "result" : "ZUENDUNG4_AKTIV"
+   },
+   {
+    "ecu" : "BMSS501_SERIAL",
+    "job" : "STATUS_DIGITAL_SER",
+    "result" : "ZUENDUNG5_AKTIV"
+   }
+  ]
+ }
+}

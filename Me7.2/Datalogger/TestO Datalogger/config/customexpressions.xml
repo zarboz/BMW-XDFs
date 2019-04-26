@@ -90,5 +90,30 @@
          	</result>
      	</customexpression>
    
+		 <customexpression>
+			<ecu>D60M47A0</ecu>
+			<job>Dashboard</job>
+			<result>
+				<resultname>InjCrv_eoiMI1</resultname>
+                                <expression>STAT_INJCRV_TIMI1ET_WERT*STAT_ENG_NAVRG_WERT*0.000006-STAT_INJCRV_PHIMI1DES_WERT</expression>
+			</result>
+			<result>
+				<resultname>CoEng_Torque</resultname>
+                                <expression>STAT_INJCRV_QMI1DES_WERT*6*(1-(STAT_ENG_NAVRG_WERT-2000)/10000)</expression>
+			</result>
+			<result>
+				<resultname>CoEng_Power</resultname>
+                                <expression>STAT_INJCRV_QMI1DES_WERT*6*(1-(STAT_ENG_NAVRG_WERT-2000)/10000)*STAT_ENG_NAVRG_WERT/7121</expression>
+			</result>
+			<result>
+				<resultname>AFSCD_Afr</resultname>
+                                <expression>STAT_AFSCD_MAIRPERCYL_WERT/STAT_INJCRV_QMI1DES_WERT</expression>
+			</result>
+
+                        <result>
+                                <resultname>Lambda_kertaa_kaksi</resultname>
+                                <expression>STAT_LSU_RLMBD0_WERT*2</expression>
+                        </result>
+		</customexpression>		
 </customexpressions>
 

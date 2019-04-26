@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SensorDefinitions>
+	<SensorDefinition>
+		<name>Air/Fuel</name>
+		<address>0</address>
+		<units>
+			<unit name="Lambda" num="0"/>
+			<unit name="Gasoline" num="1"/>
+			<unit name="Diesel" num="2"/>
+			<unit name="Methanol" num="3"/>
+			<unit name="Ethanol" num="4"/>
+			<unit name="LPG" num="5"/>
+			<unit name="CNG" num="6"/>
+		</units>
+	</SensorDefinition>
+	<SensorDefinition>  
+		<name>Exhaust Gas Temp</name>
+		<address>1</address>
+		<units>	
+			<unit name="Celsius" num="0"/>
+			<unit name="Fahrenheit" num="1"/>
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Fluid Temp</name>
+		<address>2</address>
+		<units>	
+			<unit name="°C" num="0"/>
+			<unit name="°F" num="1"/>
+			<unit name="°C" num="2"/>
+			<unit name="°F" num="3"/>
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Vacuum</name>
+		<address>3</address>
+		<units>	
+			<unit name="in/Hg" num="0"/>
+			<unit name="mm/Hg" num="1"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Boost</name>
+		<address>4</address>
+		<units>	
+			<unit name="PSI" num="0"/>
+			<unit name="kg/cm²" num="1"/>
+			<unit name="PSI" num="2"/>
+			<unit name="kg/cm²" num="3"/>
+			<unit name="PSI" num="4"/>
+			<unit name="kg/cm²" num="5"/>
+		</units>	
+	</SensorDefinition>
+	<SensorDefinition>  
+		<name>Intake Air Temp</name>
+		<address>5</address>
+		<units>	
+			<unit name="°C" num="0"/>
+			<unit name="°F" num="1"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>RPM</name>
+		<address>6</address>
+		<units>	
+			<unit name="RPM" num="0"/>
+			<unit name="RPM" num="1"/>
+			<unit name="RPM" num="2"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Speed</name>
+		<address>7</address>
+		<units>	
+			<unit name="MPH" num="0"/>
+			<unit name="km/h" num="1"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Throttle Position</name>
+		<address>8</address>
+		<units>	
+			<unit name="%" num="0"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Engine Load</name>
+		<address>9</address>
+		<units>	
+			<unit name="%" num="0"/>
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Fluid Pressure</name>
+		<address>10</address>
+		<units>	
+			<unit name="PSI" num="0"/>
+			<unit name="kg/cm²" num="1"/>			
+			<unit name="Bar" num="2"/>
+			<unit name="PSI" num="3"/>
+			<unit name="kg/cm²" num="4"/>
+			<unit name="Bar" num="5"/>
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Timing</name>
+		<address>11</address>
+		<units>	
+			<unit name="°" num="0"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>MAP</name>
+		<address>12</address>
+		<units>	
+			<unit name="kPa" num="0"/>
+			<unit name="inHg" num="1"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>MAF</name>
+		<address>13</address>
+		<units>	
+			<unit name="g/s" num="0"/>
+			<unit name="lb/min" num="1"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>STFT</name>
+		<address>14</address>
+		<units>	
+			<unit name="%" num="0"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>LTFT</name>
+		<address>15</address>
+		<units>	
+			<unit name="%" num="0"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Narrowband O2</name>
+		<address>16</address>
+		<units>	
+			<unit name="%" num="0"/>
+			<unit name="Volts" num="1"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Fuel Level</name>
+		<address>17</address>
+		<units>	
+			<unit name="%" num="0"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Volt Meter</name>
+		<address>18</address>
+		<units>	
+			<unit name="%" num="0"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Knock</name>
+		<address>19</address>
+		<units>	
+			<unit name="Volts" num="0"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Duty Cycle</name>
+		<address>20</address>
+		<units>	
+			<unit name="positive" num="0"/>			
+			<unit name="negative" num="0"/>			
+		</units>	
+	</SensorDefinition>	
+	<!--
+	Conversions missing from TestO code -> disabled
+	<SensorDefinition>  
+		<name>Fuel Efficiency</name>
+		<address>21</address>
+		<units>	
+			<unit name="MPG" num="0"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Analog Voltage</name>
+		<address>22</address>
+		<units>	
+			<unit name="Volts" num="0"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Speed</name>
+		<address>23</address>
+		<units>	
+			<unit name="Hz" num="0"/>			
+		</units>	
+	</SensorDefinition>	
+	-->
+</SensorDefinitions>

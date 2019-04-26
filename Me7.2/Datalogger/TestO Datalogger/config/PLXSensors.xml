@@ -158,7 +158,7 @@
 		<name>Volt Meter</name>
 		<address>18</address>
 		<units>	
-			<unit name="%" num="0"/>			
+			<unit name="Volts" num="0"/>			
 		</units>	
 	</SensorDefinition>	
 	<SensorDefinition>  
@@ -176,8 +176,16 @@
 			<unit name="negative" num="0"/>			
 		</units>	
 	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Volt Meter</name>
+		<address>18</address>
+		<units>	
+			<unit name="Volts" num="0"/>			
+		</units>	
+	</SensorDefinition>	
 	<!--
 	Conversions missing from TestO code -> disabled
+	-->
 	<SensorDefinition>  
 		<name>Fuel Efficiency</name>
 		<address>21</address>
@@ -199,5 +207,25 @@
 			<unit name="Hz" num="0"/>			
 		</units>	
 	</SensorDefinition>	
-	-->
+	<SensorDefinition>  
+		<name>Wideband AFR Status </name>
+		<address>24</address>
+		<units>	
+			<unit name="0-Heat,1-Ready" num="0"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Wideband AFR Health </name>
+		<address>25</address>
+		<units>	
+			<unit name="%" num="0"/>			
+		</units>	
+	</SensorDefinition>	
+	<SensorDefinition>  
+		<name>Wideband AFR Reaction</name>
+		<address>26</address>
+		<units>	
+			<unit name="ms" num="0"/>			
+		</units>	
+	</SensorDefinition>	
 </SensorDefinitions>

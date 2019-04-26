@@ -1,3 +1,4 @@
+call C:\Qt\4.8.6\bin\qtvars.bat
 
 cd ..
 testo.exe translate

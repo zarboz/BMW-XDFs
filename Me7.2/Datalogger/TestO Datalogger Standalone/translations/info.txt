@@ -1,0 +1,43 @@
+This folder contains translations for custom job parameters and job names including result names. Translations for 'Serial' jobs are not supported currently.
+
+TestO currently reads translation files based on 'locale' defined in testo.ini. By default locale is 'en_EN'. These files are loaded at startup:
+
+custom_jobs_en_EN.qm
+jobs_all_en_EN.qm
+
+
+testo.ini config file
+---------------------
+
+[translations]
+locale=en_EN
+
+'locale' (default: en_EN) defines which file is used at program startup. If locale is 'en_en' then custom_jobs_en_EN.qm is loaded. If locale is defined as 'fi_FI' then custom_jobs_fi_FI.qm is loaded and so on.
+
+
+Custom jobs
+-----------
+
+Source file for translations (resultnames) is in file: custom_jobs_en_EN.txt. It is tab delimited file that can be opened and edited in Excel.
+
+.txt file has to be converted to .po file. PO file needs to be converted into .qm that TestO reads. This is done automatically with translation script 'create_translations.bat'
+
+
+Jobs and result names
+---------------------
+
+Source file for translations (resultnames) is in file: jobs_all_en_EN.txt. It is tab delimited file that can be opened and edited in Excel.
+
+
+conversion
+----------
+
+Conversion from .txt into .qm can be created by executing batch file 'create_translations.bat'
+
+
+RES_L = Result long format
+RES_S = Result short format
+JOB_L = Jobname long format
+JOB_S = Jobname long format
+
+RES_S is used in data logger and gauge labels otherwise RES_L is used to translate result names. 

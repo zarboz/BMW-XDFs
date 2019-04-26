@@ -29271,22 +29271,22 @@ msgstr "MAF_Bank2"
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X4301_WERT"
-msgstr "Coolant outlet"
+msgstr "Kühlerauslasstemperatur"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_0X4301_WERT"
-msgstr "Coolant"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X4307_WERT"
-msgstr "Waterpump mode"
+msgstr "empf. Status von BSS-Wasserpumpe"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_0X4307_WERT"
-msgstr "Pump_mode"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -29861,22 +29861,22 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X4506_WERT"
-msgstr "Camshaft pos. inlet"
+msgstr "Nockenwellenposition Einlass"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_0X4506_WERT"
-msgstr "Cam_In"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X4507_WERT"
-msgstr "Camshaft pos. outlet"
+msgstr "Nockenwellenposition Auslass"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_0X4507_WERT"
-msgstr "Cam_Out"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -31031,22 +31031,22 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X4820_WERT"
-msgstr "TPS Bank 1"
+msgstr "Drosselklappenwinkel Bank 1"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_0X4820_WERT"
-msgstr "TPS_Bank_1"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X4821_WERT"
-msgstr "TPS Bank 2"
+msgstr "Drosselklappenwinkel Bank 2"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_0X4821_WERT"
-msgstr "TPS_Bank_2"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -32801,7 +32801,7 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X4B00_WERT"
-msgstr "Injection time Cylinder 1"
+msgstr "Injection time Cylinder 1 von der Endstufe rückgemessen"
 
 # 
 msgctxt "RES_S|"
@@ -32811,7 +32811,7 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X4B01_WERT"
-msgstr "Injection time Cylinder 2"
+msgstr "Injection time Cylinder 2 von der Endstufe rückgemessen"
 
 # 
 msgctxt "RES_S|"
@@ -32821,7 +32821,7 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X4B02_WERT"
-msgstr "Injection time Cylinder 3"
+msgstr "Injection time Cylinder 3 von der Endstufe rückgemessen"
 
 # 
 msgctxt "RES_S|"
@@ -32831,7 +32831,7 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X4B03_WERT"
-msgstr "Injection time Cylinder 4"
+msgstr "Injection time Cylinder 4 von der Endstufe rückgemessen"
 
 # 
 msgctxt "RES_S|"
@@ -32841,7 +32841,7 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X4B04_WERT"
-msgstr "Injection time Cylinder 5"
+msgstr "Injection time Cylinder 5 von der Endstufe rückgemessen"
 
 # 
 msgctxt "RES_S|"
@@ -32851,7 +32851,7 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X4B05_WERT"
-msgstr "Injection time Cylinder 6"
+msgstr "Injection time Cylinder 6 von der Endstufe rückgemessen"
 
 # 
 msgctxt "RES_S|"
@@ -32861,7 +32861,7 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X4B06_WERT"
-msgstr "Injection time Cylinder 7"
+msgstr "Injection time Cylinder 7 von der Endstufe rückgemessen"
 
 # 
 msgctxt "RES_S|"
@@ -32871,7 +32871,7 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X4B07_WERT"
-msgstr "Injection time Cylinder 2"
+msgstr "Injection time Cylinder 2 von der Endstufe rückgemessen"
 
 # 
 msgctxt "RES_S|"
@@ -33911,12 +33911,12 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X581F_WERT"
-msgstr "Motor temp."
+msgstr "Kilometerstand bei der Erkennung Ölniveau am Minimum"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_0X581F_WERT"
-msgstr "MotorTemp"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -34021,12 +34021,12 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X582C_WERT"
-msgstr "Lambda"
+msgstr "Lambda corrected"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_0X582C_WERT"
-msgstr "LBD"
+msgstr "LBD_Corr"
 
 # 
 msgctxt "RES_L|"
@@ -34441,12 +34441,12 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X5858_WERT"
-msgstr "Throttle pos."
+msgstr "Drosselklappenwinkel bezogen auf unteren Anschlag"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_0X5858_WERT"
-msgstr "Throttle_pos."
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -37611,7 +37611,7 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X5B00_WERT"
-msgstr "Injection time Cylinder 1"
+msgstr "Injection time Cylinder 1 von der Endstufe rückgemessen "
 
 # 
 msgctxt "RES_S|"
@@ -37621,7 +37621,7 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X5B01_WERT"
-msgstr "Injection time Cylinder 2"
+msgstr "Injection time Cylinder 2 von der Endstufe rückgemessen "
 
 # 
 msgctxt "RES_S|"
@@ -37631,7 +37631,7 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X5B02_WERT"
-msgstr "Injection time Cylinder 3"
+msgstr "Injection time Cylinder 3 von der Endstufe rückgemessen "
 
 # 
 msgctxt "RES_S|"
@@ -37641,7 +37641,7 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X5B03_WERT"
-msgstr "Injection time Cylinder 4"
+msgstr "Injection time Cylinder 4 von der Endstufe rückgemessen "
 
 # 
 msgctxt "RES_S|"
@@ -37651,7 +37651,7 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X5B04_WERT"
-msgstr "Injection time Cylinder 5"
+msgstr "Injection time Cylinder 5 von der Endstufe rückgemessen "
 
 # 
 msgctxt "RES_S|"
@@ -37661,7 +37661,7 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X5B05_WERT"
-msgstr "Injection time Cylinder 6"
+msgstr "Injection time Cylinder 6 von der Endstufe rückgemessen "
 
 # 
 msgctxt "RES_S|"
@@ -37671,7 +37671,7 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X5B06_WERT"
-msgstr "Injection time Cylinder 7"
+msgstr "Injection time Cylinder 7 von der Endstufe rückgemessen"
 
 # 
 msgctxt "RES_S|"
@@ -37681,7 +37681,7 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_0X5B07_WERT"
-msgstr "Injection time Cylinder 2"
+msgstr "Injection time Cylinder 2 von der Endstufe rückgemessen"
 
 # 
 msgctxt "RES_S|"
@@ -39521,22 +39521,22 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_ABGASTEMPERATUR_NACH_KAT_B1_WERT"
-msgstr "EGT Bank1 "
+msgstr ""
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_ABGASTEMPERATUR_NACH_KAT_B1_WERT"
-msgstr "EGT_Bank1 "
+msgstr ""
 
 # 
 msgctxt "RES_L|"
 msgid "STAT_ABGASTEMPERATUR_NACH_KAT_B2_WERT"
-msgstr "EGT Bank2 "
+msgstr ""
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_ABGASTEMPERATUR_NACH_KAT_B2_WERT"
-msgstr "EGT_Bank2"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -42931,12 +42931,12 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_AFSCD_DMAIRNORM_WERT"
-msgstr "MAF"
+msgstr "HFM Luftmassenstrom"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_AFSCD_DMAIRNORM_WERT"
-msgstr "MAF"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -42971,7 +42971,7 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_AFSCD_MAIRPERCYL_WERT"
-msgstr "Air mass per Cylinder"
+msgstr "angesaugte Air mass per Cylinder"
 
 # 
 msgctxt "RES_S|"
@@ -43791,12 +43791,12 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_AIRCTL_MDESVAL_WERT"
-msgstr "MAF Setpoint"
+msgstr "Luftmassensollwert"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_AIRCTL_MDESVAL_WERT"
-msgstr "MAF Setpoint"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -47051,22 +47051,22 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_ANSAUGLUFTTEMPERATUR_B1_WERT"
-msgstr "Intake temp. Bank1"
+msgstr ""
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_ANSAUGLUFTTEMPERATUR_B1_WERT"
-msgstr "Intake temp. Bank1"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
 msgid "STAT_ANSAUGLUFTTEMPERATUR_B2_WERT"
-msgstr "Intake temp. Bank2"
+msgstr ""
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_ANSAUGLUFTTEMPERATUR_B2_WERT"
-msgstr "Intake temp. Bank2"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -48861,12 +48861,12 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_APPCD_RFLT_WERT"
-msgstr "Pedal signal"
+msgstr "gefiltertes Pedalwertgebersignal"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_APPCD_RFLT_WERT"
-msgstr "Pedal_signal"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -80861,12 +80861,12 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_DISAKLAPPEN_POSITION_WERT"
-msgstr "DISA position"
+msgstr "aktuelle Position Disaklappen"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_DISAKLAPPEN_POSITION_WERT"
-msgstr "DISA_position"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -81781,22 +81781,22 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_DK_ISTWERT_BANK1_WERT"
-msgstr "Throttle pos. Bank1"
+msgstr ""
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_DK_ISTWERT_BANK1_WERT"
-msgstr "ThrottleBank1"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
 msgid "STAT_DK_ISTWERT_BANK2_WERT"
-msgstr "Throttle pos. Bank2"
+msgstr ""
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_DK_ISTWERT_BANK2_WERT"
-msgstr "ThrottleBank2"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -90041,22 +90041,22 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_EGRCD_ROUT_WERT"
-msgstr "EGR %"
+msgstr "duty cycle zür Endstufenansteuerung"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_EGRCD_ROUT_WERT"
-msgstr "EGR_DC"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
 msgid "STAT_EGRCD_ROUT2_WERT"
-msgstr "EGR Duty Cycle"
+msgstr "Output Duty Cycle"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_EGRCD_ROUT2_WERT"
-msgstr "EGR Duty Cycle"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -117581,12 +117581,12 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_INJCTL_QCURR_WERT"
-msgstr "Injection amount"
+msgstr "Einspritzmenge aktueller Wert"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_INJCTL_QCURR_WERT"
-msgstr "Injection_amount"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -128031,22 +128031,22 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_KRAFTSTOFFDRUCK_RELATIV_WERT"
-msgstr "Relative fuel pressure"
+msgstr ""
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_KRAFTSTOFFDRUCK_RELATIV_WERT"
-msgstr "Rel_FuelPr"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
 msgid "STAT_KRAFTSTOFFDRUCK_WERT"
-msgstr "FuelPressure"
+msgstr "Bereich von 0 [bar] bis 10 [bar]"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_KRAFTSTOFFDRUCK_WERT"
-msgstr "FuelPressure"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -130021,12 +130021,12 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_LADEDRUCKSTELLER_ANSTEUERUNG_WERT"
-msgstr "Waste gate duty cycle"
+msgstr "duty cycle zur Endstufenansteuerung"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_LADEDRUCKSTELLER_ANSTEUERUNG_WERT"
-msgstr "WG_DC"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -131631,22 +131631,22 @@ msgstr "LDB_grp2"
 # 
 msgctxt "RES_L|"
 msgid "STAT_LAMBDA_ISTWERT_VKAT_B1_WERT"
-msgstr "Lambda Bank1"
+msgstr ""
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_LAMBDA_ISTWERT_VKAT_B1_WERT"
-msgstr "LambdaBank1"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
 msgid "STAT_LAMBDA_ISTWERT_VKAT_B2_WERT"
-msgstr "Lambda Bank2"
+msgstr ""
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_LAMBDA_ISTWERT_VKAT_B2_WERT"
-msgstr "LambdaBank2"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -137766,12 +137766,12 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_LUFTMASSE_2_WERT"
-msgstr "Air mass #2"
+msgstr "Rohwert Luftmassenstrom vom HFM Bank 2"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_LUFTMASSE_2_WERT"
-msgstr "Air_mass_2"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -138006,12 +138006,12 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_LUFTMASSENSTROM_B1_UND_B2_WERT"
-msgstr "MAF Bank1&2"
+msgstr ""
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_LUFTMASSENSTROM_B1_UND_B2_WERT"
-msgstr "MAF"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -148856,12 +148856,12 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_MOTORTEMPERATUR_WERT"
-msgstr "Motor temp."
+msgstr "Result Motortemperatur"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_MOTORTEMPERATUR_WERT"
-msgstr "MotorTemp."
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -163746,12 +163746,12 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_OXICCD_TPRE_WERT"
-msgstr "EGT pre-cat"
+msgstr "Lufttemperatur Spannungsrohwert"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_OXICCD_TPRE_WERT"
-msgstr "EGT_pre_cat"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -167816,32 +167816,32 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_PFLTCD_PPRE_WERT"
-msgstr "Exhaust temp. before particle filter"
+msgstr "Abgasdruck before particle filter"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_PFLTCD_PPRE_WERT"
-msgstr "EGT_PRE_PF"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
 msgid "STAT_PFLTCD_PPREB1_WERT"
-msgstr "Exhaust temp. before particle filter"
+msgstr "Abgasdruck before particle filter"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_PFLTCD_PPREB1_WERT"
-msgstr "Exhaust temp. before particle filter"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
 msgid "STAT_PFLTCD_PPREB2_WERT"
-msgstr "Exhaust temp. before particle filter #2"
+msgstr "Abgasdruck before particle filter"
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_PFLTCD_PPREB2_WERT"
-msgstr "EGT_PRE_PF #2"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -177366,12 +177366,12 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_RELATIVE_FUELLUNG_WERT"
-msgstr "Relative filling"
+msgstr ""
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_RELATIVE_FUELLUNG_WERT"
-msgstr "RelativeFill"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -177381,7 +177381,7 @@ msgstr "Relative Last"
 # 
 msgctxt "RES_S|"
 msgid "STAT_RELATIVE_LAST_WERT"
-msgstr "RelativeLast"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -220936,12 +220936,12 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_ZUEDWINKEL_ZYL1_WERT"
-msgstr "Ignition angle Cyl.1"
+msgstr ""
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_ZUEDWINKEL_ZYL1_WERT"
-msgstr "Ign_Ang_Cyl1"
+msgstr ""
 
 # 
 msgctxt "RES_L|"
@@ -220956,12 +220956,12 @@ msgstr ""
 # 
 msgctxt "RES_L|"
 msgid "STAT_ZUEDWINKEL_ZYL6_WERT"
-msgstr "Ignition angle Cyl.6"
+msgstr ""
 
 # 
 msgctxt "RES_S|"
 msgid "STAT_ZUEDWINKEL_ZYL6_WERT"
-msgstr "Ign_Ang_Cyl6"
+msgstr ""
 
 # 
 msgctxt "RES_L|"

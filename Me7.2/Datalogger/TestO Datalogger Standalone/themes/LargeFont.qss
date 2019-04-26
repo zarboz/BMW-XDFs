@@ -1,0 +1,80 @@
+QDockWidget{
+font: 16pt "Segoe Ui";
+}
+
+
+QTableWidgetItem{
+font: 16pt "Segoe Ui";
+}
+
+
+QHeaderView{
+font: 16pt "Segoe Ui";
+}
+
+
+
+QListWidget{
+font: 16pt "Segoe Ui";
+}
+
+QTableWidget{
+font: 16pt "Segoe Ui";
+}
+
+QTableView{
+font: 16pt "Segoe Ui";
+}
+
+
+QListView{
+font: 16pt "Segoe Ui";
+}
+
+
+QTabBar{
+font: 16pt "Segoe Ui";
+}
+
+QTabWidget{
+font: 16pt "Segoe Ui";
+}
+
+
+QCheckBox{
+font: 16pt "Segoe Ui";
+}
+
+QComboBox{
+font: 16pt "Segoe Ui";
+}
+
+
+QMenuBar{
+font: 16pt "Segoe Ui";
+}
+
+
+QMenu {
+font: 16pt "Segoe Ui";
+}
+
+QListView {
+font: 16pt "Segoe Ui";
+}
+
+QListWidget {
+font: 16pt "Segoe Ui";
+}
+
+QLabel{
+font: 16pt "Segoe Ui";
+}
+
+QPushButton{
+font: 16pt "Segoe Ui";
+}
+
+QLineEdit{
+font: 16pt "Segoe Ui";
+}

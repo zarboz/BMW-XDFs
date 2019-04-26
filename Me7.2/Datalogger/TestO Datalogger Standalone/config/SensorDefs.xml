@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <SensorDefinition>
+  <Configuration>
+   <name>SPEED</name>
+   <unit num="7">km/h</unit>
+   <minValue>0</minValue>
+   <maxValue>320</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>RPM</name>
+    <unit num="6">RPM</unit>
+    <minValue>0</minValue>
+    <maxValue>10230</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>RPM_1</name>
+    <unit num="6">RPM</unit>
+    <minValue>0</minValue>
+    <maxValue>20460</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>EXT_5V</name>
+    <unit num="11">V</unit>
+    <minValue>0</minValue>
+    <maxValue>5</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>EGT</name>
+    <unit num="0">degC</unit>
+    <minValue>0</minValue>
+    <maxValue>1093</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>CHT</name>
+    <unit num="0">degC</unit>
+    <minValue>0</minValue>
+    <maxValue>300</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>SIDE_FORCE</name>
+    <unit num="10">g</unit>
+    <minValue>-2</minValue>
+    <maxValue>2</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>SIDE_FORCE_1</name>
+    <unit num="10">g</unit>
+    <minValue>-1</minValue>
+    <maxValue>1</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>SIDE_FORCE_2</name>
+    <unit num="10">g</unit>
+    <minValue>-0.25</minValue>
+    <maxValue>0.25</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>TIMING</name>
+    <unit>degC</unit>
+    <minValue>-10</minValue>
+    <maxValue>50</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>DUTY_CYCLE</name>
+    <unit num="12">%</unit>
+    <minValue>0</minValue>
+    <maxValue>100</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>FREQUENCY</name>
+    <unit num="5">Hz</unit>
+    <minValue>0</minValue>
+    <maxValue>1023</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>MAP</name>
+    <unit num="9">kPa</unit>
+    <minValue>0</minValue>
+    <maxValue>101,4</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>MAP_1</name>
+    <unit num="9">kPa</unit>
+    <minValue>0</minValue>
+    <maxValue>304,1</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>MTX_BOOST</name>
+    <unit num="2">bar</unit>
+    <minValue>-1</minValue>
+    <maxValue>3</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>VACUUM</name>
+    <unit num="4">inHg</unit>
+    <minValue>0</minValue>
+    <maxValue>30</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>VACUUM/BOOST</name>
+    <unit num="3">PSI</unit>
+    <minValue>-14.7</minValue>
+    <maxValue>29,4</maxValue>
+  </Configuration>  
+  <Configuration>
+    <name>LAMBDA</name>
+    <unit></unit>
+    <minValue></minValue>
+    <maxValue>22.39</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>UNKNOWN</name>
+    <unit></unit>
+    <minValue>0</minValue>
+    <maxValue>1023</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>MTX_FLUID_TEMP</name>
+    <unit num="0">degC</unit>
+    <minValue>48,9</minValue>
+    <maxValue>137,8</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>MTX_VOLTAGE</name>
+    <unit>V</unit>
+    <minValue>0</minValue>
+    <maxValue>25</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>MTX_OIL_PRESSURE</name>
+    <unit num="2">bar</unit>
+    <minValue>0</minValue>
+    <maxValue>6.89</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>ECS_ETHANOL</name>
+    <unit>%</unit>
+    <minValue>0</minValue>
+    <maxValue>100</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>ECS_FUEL_TEMP</name>
+    <unit num="0">degC</unit>
+    <minValue>-40</minValue>
+    <maxValue>125</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>ECS_FUEL_PRESSURE</name>
+    <unit num="2">bar</unit>
+    <minValue>0</minValue>
+    <maxValue>10</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>PSB_ON_OFF</name>
+    <unit></unit>
+    <minValue>0</minValue>
+    <maxValue>2</maxValue>
+  </Configuration>
+  <Configuration>
+    <name>PSN_PRESS</name>
+    <unit num="2">bar</unit>
+    <minValue>0</minValue>
+    <maxValue>100</maxValue>
+  </Configuration>
+ </SensorDefinition>
