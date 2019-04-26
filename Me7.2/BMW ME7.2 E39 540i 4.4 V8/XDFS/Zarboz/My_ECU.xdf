@@ -1,4 +1,4 @@
-<!-- Written 04/26/2019 10:49:10 -->
+<!-- Written 04/26/2019 13:59:20 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -505,6 +505,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5F7D" flags="0x0">
     <title>Base injection RPM</title>
+    <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>1</indexcount>
@@ -634,6 +635,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5261" flags="0x0">
     <title>Throttle injection RPM</title>
+    <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>1</indexcount>
@@ -721,6 +723,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5AF5" flags="0x30">
     <title>Full load RPM</title>
+    <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>12</indexcount>
@@ -1825,6 +1828,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x183A" flags="0x30">
     <title>Intake idle RPM cold</title>
+    <CATEGORYMEM index="0" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>1</indexcount>
@@ -1919,6 +1923,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x1D0C" flags="0x30">
     <title>Intake idle RPM warm</title>
+    <CATEGORYMEM index="0" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>1</indexcount>
@@ -7590,7 +7595,7 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-   <XDFTABLE uniqueid="0x0" flags="0x0">
+  <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>WPHN</title>
     <description>Phasengang</description>
     <XDFAXIS id="x" uniqueid="0x0">
