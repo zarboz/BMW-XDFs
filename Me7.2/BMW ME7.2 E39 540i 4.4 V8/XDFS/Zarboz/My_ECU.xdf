@@ -1,4 +1,4 @@
-<!-- Written 04/26/2019 13:59:20 -->
+<!-- Written 04/26/2019 14:01:55 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -7395,7 +7395,7 @@
   </XDFCONSTANT>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>KFTVSA</title>
-    <description>Verz&#246;gerungszeit f&#252;r Schubabschalten</description>
+    <description>Delay time for fuel cutoff</description>
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
@@ -7435,47 +7435,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>KFTVSAM</title>
-    <description>Verz&#246;gerungszeit f&#252;r Schubabschalten</description>
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>Upm</units>
-      <indexcount>8</indexcount>
-      <decimalpl>1</decimalpl>
-      <embedinfo type="1" />
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <MATH equation="40.000000 * X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x985A" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>Grad C</units>
-      <indexcount>5</indexcount>
-      <embedinfo type="1" />
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <MATH equation="0.750000 * X+ -48.000000">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0x903B" mmedelementsizebits="8" mmedrowcount="5" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>s</units>
-      <decimalpl>4</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="0.020000 * X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
-  <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>KFTVSAM</title>
-    <description>Verz&#246;gerungszeit f&#252;r Schubabschalten</description>
+    <description>Delay time for fuel cutoff manual car</description>
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
@@ -7515,7 +7475,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>NWEM</title>
-    <description>Wiedereinsetzdrehzahl</description>
+    <description>Resume engine speed</description>
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x985A" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Grad C</units>
@@ -7556,7 +7516,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>NWENG</title>
-    <description>Wiedereinsetzdrehzahl</description>
+    <description>Resume engine speed</description>
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x4919" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Grad C</units>
@@ -7597,7 +7557,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>WPHN</title>
-    <description>Phasengang</description>
+    <description>phase response</description>
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
