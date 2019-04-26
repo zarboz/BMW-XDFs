@@ -1,4 +1,4 @@
-<!-- Written 04/26/2019 10:46:24 -->
+<!-- Written 04/26/2019 10:49:10 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -7375,11 +7375,12 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
-  <XDFCONSTANT uniqueid="0x0">
-    <title>_TURBO</title>
+  <XDFCONSTANT uniqueid="0x0" flags="0xC">
+    <title>SY_TURBO</title>
     <description> System constant for turbocharged engines interacts with fuel torque and air pressure tables changes a lot of the flow of the DME</description>
     <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x3F13" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <rangehigh>1.000000</rangehigh>
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />

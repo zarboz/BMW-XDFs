@@ -1,0 +1,879 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<customjobs>
+ <customjob ecu="D71N47A0">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>3;0x13A6;0x0080</argument>
+ </customjob>
+ <customjob ecu="mevd174k">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_7</virtualname>
+  <comment>aaaa</comment>
+  <argument>3;0x4704;0x5806;0x4800</argument>
+ </customjob>
+ <customjob ecu="S55">
+  <jobname>STATUS_BLOCK_LESEN</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>MyJob</comment>
+  <argument>3;JA;ID;0x4205;0x4206</argument>
+ </customjob>
+ <customjob ecu="D73N57E0">
+  <jobname>STATUS_BLOCK_LESEN</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Gauge</comment>
+  <argument>3;JA;ID;0x4841;0x4843;0x4AF4;0x45D4;0x4746;0x4459;0x47DE;0x47DC;0x47DD;0x5955;0x461B;0x5242;0x48A5;0x44F2;0x44EF;0x4506;0x44F8</argument>
+ </customjob>
+ <customjob ecu="D73N57E0">
+  <jobname>STATUS_BLOCK_LESEN</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Custom values #1</comment>
+  <argument>3;JA;ID;0x4841;0x42C8</argument>
+ </customjob>
+ <customjob ecu="N63TU_L0">
+  <jobname>STATUS_BLOCK_LESEN</jobname>
+  <virtualname>SET_5</virtualname>
+  <comment>Values #1</comment>
+  <argument>0;JA;ID;0x4205</argument>
+ </customjob>
+ <customjob ecu="D71N47C0">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>3;0x1881;0x0500;0x0709;0x076D;0x01F4;0x0502;0x0772;0x0672;0x0641;0x07D1;0x07D0;0x041E;0x0A29</argument>
+ </customjob>
+ <customjob ecu="D71N47D0">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Values #2</comment>
+  <argument>3</argument>
+ </customjob>
+ <customjob ecu="D71N47D0">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>3;0x1881;0x0500;0x0709;0x076D;0x01F4;0x0502;0x0772;0x0672;0x0641;0x07D1;0x07D0;0x041E;0x0A29</argument>
+ </customjob>
+ <customjob ecu="D73N57D0">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Custom values #1</comment>
+  <argument>3;0x0042</argument>
+ </customjob>
+ <customjob ecu="D63SM670">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>virtual_1</virtualname>
+  <comment>Test</comment>
+  <argument>14DC</argument>
+ </customjob>
+ <customjob ecu="D63MM670">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>virtual_1</virtualname>
+  <comment>Test</comment>
+  <argument>003814A30052002E</argument>
+ </customjob>
+ <customjob ecu="D50M47A">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_6</virtualname>
+  <comment>custom1</comment>
+  <argument>3;0x002E</argument>
+ </customjob>
+ <customjob ecu="D50M47A">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_5</virtualname>
+  <comment>custom</comment>
+  <argument>0046</argument>
+ </customjob>
+ <customjob ecu="D50M47A">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>002F005B00C2000C0050005200550036003A009B003900E9</argument>
+ </customjob>
+ <customjob ecu="D50M47A">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Values #2</comment>
+  <argument>007A005B00C200C300550034009B0054004A00500088003A18A5000C</argument>
+ </customjob>
+ <customjob ecu="D50M47A">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Injector values #1</comment>
+  <argument>000C00AC00AB00AA00A900A800A7</argument>
+ </customjob>
+ <customjob ecu="D50M47A">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_4</virtualname>
+  <comment>Values #4 Air Mass test diagnostic</comment>
+  <argument>00520010005000880056000B003A002C14B6007A000C005B0036005514C200C2</argument>
+ </customjob>
+ <customjob ecu="D50M47A">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>002F007A002C14B6004A005B00C200C300340055005000880052003A18A514C20036009B00DA0066000C</argument>
+ </customjob>
+ <customjob ecu="D50M47B1">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>002C002F300D14B6005B00C2000C00500052005514C20036003A009B</argument>
+ </customjob>
+ <customjob ecu="D50M47B1">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Values #2</comment>
+  <argument>007A005B00C200C300550034009B0054004A00500088003A18A5000C</argument>
+ </customjob>
+ <customjob ecu="D50M47B1">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Injector values #1</comment>
+  <argument>000C00AC00AB00AA00A900A800A7</argument>
+ </customjob>
+ <customjob ecu="D50M47B1">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_4</virtualname>
+  <comment>Values #4 Air Mass test diagnostic</comment>
+  <argument>00520010005000880056000B003A002C14B6007A000C005B0036005514C200C2</argument>
+ </customjob>
+ <customjob ecu="D50M47B1">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>002F007A002C14B6004A005B00C200C300340055005000880052003A18A514C20036009B00DA0066000C</argument>
+ </customjob>
+ <customjob ecu="D50M57A0">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_5</virtualname>
+  <comment>Values #6</comment>
+  <argument>3</argument>
+ </customjob>
+ <customjob ecu="D50M57A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_4</virtualname>
+  <comment>Values #5</comment>
+  <argument/>
+ </customjob>
+ <customjob ecu="D50M57A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>002C002F300D14B6005B00C2000C00500052005514C20036003A009B</argument>
+ </customjob>
+ <customjob ecu="D50M57A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Values #2</comment>
+  <argument>007A005B00C200C300550034009B0054004A00500088003A18A5000C</argument>
+ </customjob>
+ <customjob ecu="D50M57A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>002F007A002C14B6004A005B00C200C300340055005000880052003A18A514C20036009B00DA0066000C</argument>
+ </customjob>
+ <customjob ecu="D50M57A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Injector values #1</comment>
+  <argument>000C00AC00AB00AA00A900A800A7</argument>
+ </customjob>
+ <customjob ecu="D50M57A1">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_4</virtualname>
+  <comment>Mikas set #1</comment>
+  <argument/>
+ </customjob>
+ <customjob ecu="D50M57A1">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>002C002F300D14B6005B00C2000C00500052005514C20036003A009B</argument>
+ </customjob>
+ <customjob ecu="D50M57A1">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Values #2</comment>
+  <argument>007A005B00C200C300550034009B0054004A00500088003A18A5000C</argument>
+ </customjob>
+ <customjob ecu="D50M57A1">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>002F007A002C14B6004A005B00C200C300340055005000880052003A18A514C20036009B00DA0066000C</argument>
+ </customjob>
+ <customjob ecu="D50M57A1">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Injector values #1</comment>
+  <argument>000C00AC00AB00AA00A900A800A7</argument>
+ </customjob>
+ <customjob ecu="D50M57B0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>002C002F300D14B6005B00C2000C00500052005514C20036003A009B</argument>
+ </customjob>
+ <customjob ecu="D50M57B0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Values #2</comment>
+  <argument>007A005B00C200C300550034009B0054004A00500088003A18A5000C</argument>
+ </customjob>
+ <customjob ecu="D50M57B0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>002F007A002C14B6004A005B00C200C300340055005000880052003A18A514C20036009B00DA0066000C</argument>
+ </customjob>
+ <customjob ecu="D50M57B0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Injector values #1</comment>
+  <argument>000C00AC00AB00AA00A900A800A7</argument>
+ </customjob>
+ <customjob ecu="D50M57C0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>002C002F300D14B6005B00C2000C00500052005514C20036003A009B</argument>
+ </customjob>
+ <customjob ecu="D50M57C0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Values #2</comment>
+  <argument>007A005B00C200C300550034009B0054004A00500088003A18A5000C</argument>
+ </customjob>
+ <customjob ecu="D50M57C0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>002F007A002C14B6004A005B00C200C300340055005000880052003A18A514C20036009B00DA0066000C</argument>
+ </customjob>
+ <customjob ecu="D50M57C0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Injector values #1</comment>
+  <argument>000C00AC00AB00AA00A900A800A7</argument>
+ </customjob>
+ <customjob ecu="D50M57D0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>002C002F300D14B6005B00C2000C00500052005514C20036003A009B</argument>
+ </customjob>
+ <customjob ecu="D50M57D0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Values #2</comment>
+  <argument>007A005B00C200C300550034009B0054004A00500088003A18A5000C</argument>
+ </customjob>
+ <customjob ecu="D50M57D0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>002F007A002C14B6004A005B00C200C300340055005000880052003A18A514C20036009B00DA0066000C</argument>
+ </customjob>
+ <customjob ecu="D50M57D0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Injector values #1</comment>
+  <argument>000C00AC00AB00AA00A900A800A7</argument>
+ </customjob>
+ <customjob ecu="D50M57E0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>002C002F300D14B6005B00C2000C00500052005514C20036003A009B</argument>
+ </customjob>
+ <customjob ecu="D50M57E0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Values #2</comment>
+  <argument>007A005B00C200C300550034009B0054004A00500088003A18A5000C</argument>
+ </customjob>
+ <customjob ecu="D50M57E0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>002F007A002C14B6004A005B00C200C300340055005000880052003A18A514C20036009B00DA0066000C</argument>
+ </customjob>
+ <customjob ecu="D50M57E0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Injector values #1</comment>
+  <argument>000C00AC00AB00AA00A900A800A7</argument>
+ </customjob>
+ <customjob ecu="D50M57E1">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>002C002F300D14B6005B00C2000C00500052005514C20036003A009B</argument>
+ </customjob>
+ <customjob ecu="D50M57E1">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Values #2</comment>
+  <argument>007A005B00C200C300550034009B0054004A00500088003A18A5000C</argument>
+ </customjob>
+ <customjob ecu="D50M57E1">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>002F007A002C14B6004A005B00C200C300340055005000880052003A18A514C20036009B00DA0066000C</argument>
+ </customjob>
+ <customjob ecu="D50M57E1">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Injector values #1</comment>
+  <argument>000C00AC00AB00AA00A900A800A7</argument>
+ </customjob>
+ <customjob ecu="D60M47A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>002C002F300D14B6005B00C2000C00500052005514C20036003A009B</argument>
+ </customjob>
+ <customjob ecu="D60M47A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Values #2</comment>
+  <argument>007A005B00C200C300550034009B0054004A00500088003A18A5000C</argument>
+ </customjob>
+ <customjob ecu="D60M47A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Injector values #1</comment>
+  <argument>000C00AC00AB00AA00A900A800A7</argument>
+ </customjob>
+ <customjob ecu="D60M47A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>002F007A002C14B6004A005B00C200C300340055005000880052003A18A514C20036009B00DA0066000C</argument>
+ </customjob>
+ <customjob ecu="D60M57A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>comment</comment>
+  <argument>00025555</argument>
+ </customjob>
+ <customjob ecu="D60M57A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Values #2</comment>
+  <argument>007A005B00C200C300550034009B0054004A00500088003A18A5000C</argument>
+ </customjob>
+ <customjob ecu="D60M57A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Injector values #1</comment>
+  <argument>000C00AC00AB00AA00A900A800A7</argument>
+ </customjob>
+ <customjob ecu="D60M57A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>002F007A002C14B6004A005B00C200C300340055005000880052003A18A514C20036009B00DA0066000C</argument>
+ </customjob>
+ <customjob ecu="D60M57D0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>002C002F300D14B6005B00C2000C00500052005514C20036003A009B</argument>
+ </customjob>
+ <customjob ecu="D60M57D0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Values #2</comment>
+  <argument>007A005B00C200C300550034009B0054004A00500088003A18A5000C</argument>
+ </customjob>
+ <customjob ecu="D60M57D0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Injector values #1</comment>
+  <argument>000C00AC00AB00AA00A900A800A7</argument>
+ </customjob>
+ <customjob ecu="D60M57D0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>002F007A002C14B6004A005B00C200C300340055005000880052003A18A514C20036009B00DA0066000C</argument>
+ </customjob>
+ <customjob ecu="D62M57A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_5</virtualname>
+  <comment>Values #3</comment>
+  <argument>0055</argument>
+ </customjob>
+ <customjob ecu="D62M57A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_4</virtualname>
+  <comment>Values #4</comment>
+  <argument>0055005014C2002E009B007B003A008A</argument>
+ </customjob>
+ <customjob ecu="D62M57A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>002C002F300D14B6005B00C2000C0050005214C20036003A009B0055</argument>
+ </customjob>
+ <customjob ecu="D62M57A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Values #2</comment>
+  <argument>007A005B00C200C30034009B0054004A00500088003A18A5000C</argument>
+ </customjob>
+ <customjob ecu="D62M57A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Injector values #1</comment>
+  <argument>000C00AC00AB00AA00A900A800A7</argument>
+ </customjob>
+ <customjob ecu="D62M57A0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>002F007A002C14B6004A005B00C200C300340055005000880052003A18A514C20036009B00DA0066000C</argument>
+ </customjob>
+ <customjob ecu="D62M57B0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_4</virtualname>
+  <comment>Values #4</comment>
+  <argument>002C002F300D14B6005B00C2000C0050</argument>
+ </customjob>
+ <customjob ecu="D62M57B0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>002C002F300D14B6005B00C2000C00500052005514C20036003A009B</argument>
+ </customjob>
+ <customjob ecu="D62M57B0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Values #2</comment>
+  <argument>007A005B00C200C300550034009B0054004A00500088003A18A5000C</argument>
+ </customjob>
+ <customjob ecu="D62M57B0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Injector values #1</comment>
+  <argument>000C00AC00AB00AA00A900A800A7</argument>
+ </customjob>
+ <customjob ecu="D62M57B0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_4</virtualname>
+  <comment>Values #4</comment>
+  <argument>002C002F300D14B6005B00C2000C0050</argument>
+ </customjob>
+ <customjob ecu="D62M57B0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>002F007A002C14B6004A005B00C200C300340055005000880052003A18A514C20036009B00DA0066000C</argument>
+ </customjob>
+ <customjob ecu="D73N57C0">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_6</virtualname>
+  <comment>Values for HP2</comment>
+  <argument>3</argument>
+ </customjob>
+ <customjob ecu="D73N57C0">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>HP2</virtualname>
+  <comment>Values for HP2</comment>
+  <argument>3;0x0708;0x07C6;0x07D0;0x0203</argument>
+ </customjob>
+ <customjob ecu="D73N57C0">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>HP</virtualname>
+  <comment>Values for HP</comment>
+  <argument>3;0x0B40;0x0B41;0x0882;0x0884;0x0B40</argument>
+ </customjob>
+ <customjob ecu="D73N57C0">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Custom values #1</comment>
+  <argument>JA;Absch_korr;AccMon_trqDesSel;Absch_korr;AccMon_trqDesSel;AirSys_mLM20_mp</argument>
+ </customjob>
+ <customjob ecu="D73N57C0">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Custom values #2</comment>
+  <argument>JA;TrbCh_r;TrbCh_rAct;TrbCh_rActB1;TrbCh_rActB2;IALDS;TrbChLP_r;TrbChLP_rPs</argument>
+ </customjob>
+ <customjob ecu="D73N57C0">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Custom values #3</comment>
+  <argument>JA;IMOAK;SMOMO;SLMMG;ILMKG;IPLAD;ITLAL;IULDF;ITAVO;IPRDR;SPRDR</argument>
+ </customjob>
+ <customjob ecu="D73N57C0">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_4</virtualname>
+  <comment>Boost</comment>
+  <argument>JA;IULDF;IPLAD;SPLAD</argument>
+ </customjob>
+ <customjob ecu="D73N57C0">
+  <jobname>MW_SELECT_LESEN_NORM2</jobname>
+  <virtualname>SET_5</virtualname>
+  <comment>RPM,MAF,etc..</comment>
+  <argument>Epm_nEng AFS_mAirPerCyl ActMod_trq Air_pIntkVUs AirCtl_mDesVal InjCtl_qCurr PCR_pDesVal Exh_pUnFltPTrbnUs Exh_pUnFltPTrbnUs</argument>
+ </customjob>
+ <customjob ecu="DDE30DS0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Custom values #2</comment>
+  <argument>0F620F610F100F800E810F830F34</argument>
+ </customjob>
+ <customjob ecu="DDE30DS0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Custom values #1</comment>
+  <argument>0F620F000F300E81</argument>
+ </customjob>
+ <customjob ecu="DDE40KW0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_8</virtualname>
+  <comment>Values #76</comment>
+  <argument/>
+ </customjob>
+ <customjob ecu="DDE40KW0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_7</virtualname>
+  <comment>Values #7</comment>
+  <argument>0F650F00</argument>
+ </customjob>
+ <customjob ecu="DDE40KW0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_5</virtualname>
+  <comment>M57_special</comment>
+  <argument>0F100F400F421F060FFC1F5E22110F080F8C</argument>
+ </customjob>
+ <customjob ecu="DDE40KW0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>1F531F5C0FFC1F5E0F300F101F5A1F5B</argument>
+ </customjob>
+ <customjob ecu="DDE40KW0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Values #2</comment>
+  <argument>1F531F5C0FFC1F5E0F300F101F5A1F5B0E800F601F060F400F42</argument>
+ </customjob>
+ <customjob ecu="DDE40KW0">
+  <jobname>MW_SELECT_LESEN_NORM</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Injector values #1</comment>
+  <argument>0F190F1A0F1B0F1C0F1D0F1E0F130F140F150F160F170F18</argument>
+ </customjob>
+ <customjob ecu="IHKA">
+  <jobname>STATUS_LESEN</jobname>
+  <virtualname>omajobi1</virtualname>
+  <comment>PTC virta ja jännite</comment>
+  <argument>ID;0xD983</argument>
+ </customjob>
+ <customjob ecu="IHKA">
+  <jobname>STATUS_LESEN</jobname>
+  <virtualname>omajobi2</virtualname>
+  <comment>PTC lämpötila</comment>
+  <argument>ID;0xD984</argument>
+ </customjob>
+ <customjob ecu="MS_S65_2">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>2;0x5800;0x5801;0x5807;0x5808;0x5F5F;0x5F5E;0x5827;0x5828;0x5829;0x5C82;0x580F;0x5810;0x5817;0x5F55;0x5FDE;0x5F58</argument>
+ </customjob>
+ <customjob ecu="MS_S65_2">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_11</virtualname>
+  <comment>Values #11</comment>
+  <argument>3;0x5800;0x5801;0x5807;0x5808;0x5F5F;0x5F5E;0x5827;0x5828;0x5829;0x58A2;0x5C82;0x580F;0x5810;0x5817;0x5F55;0x5FDE;0x5F58</argument>
+ </customjob>
+ <customjob ecu="MSD85L6">
+  <jobname>STATUS_BLOCK_LESEN</jobname>
+  <virtualname>LAMBDA</virtualname>
+  <comment>Lambda</comment>
+  <argument>3;JA;ID;0x4704;0x4705;0x4202;0x58CC;0x4403</argument>
+ </customjob>
+ <customjob ecu="MSD80">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>LAMBDA</virtualname>
+  <comment>Lambda</comment>
+  <argument>3;0x4704;0x5A50;0x5A51;0x5A11;0x5A12;0x4202;0x4203;0x58D1</argument>
+ </customjob>
+ <customjob ecu="MSD80">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN123</jobname>
+  <virtualname>LAMBDA</virtualname>
+  <comment>Lambda</comment>
+  <argument>3;0x4704;0x5A50;0x5A51;0x5A11;0x5A12;0x4202;0x4203;0x58D1</argument>
+ </customjob>
+ <customjob ecu="MSD80">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Injection</comment>
+  <argument>3;0x5B00;0x5B01;0x5B02;0x5B03;0x5B04;0x5B05</argument>
+ </customjob>
+ <customjob ecu="MSD80">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>3;0x470;0x4470;0x5581;0x3587;0x5588;0x3588;0x5588;0x6588;0x8589;0x6589;0x7589;0x958C;0xF58D;0x58D1</argument>
+ </customjob>
+ <customjob ecu="MSD80">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_4</virtualname>
+  <comment>Values #4</comment>
+  <argument>3;0x5A42;0x5A43;0x5A44;0x5A45;0x5A46;0x5A47;0x5A49</argument>
+ </customjob>
+ <customjob ecu="MSD80">
+  <jobname>MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_6</virtualname>
+  <comment>Values #6</comment>
+  <argument>0x5A42,0x5A43,0x5A44,0x5A45,0x5A46,0x5A47,0x5A49</argument>
+ </customjob>
+ <customjob ecu="MSD80">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>RICK_VALUES</virtualname>
+  <comment>Ricks_values</comment>
+  <argument>3;0x4202;0x4203;0x4600;0x4704;0x4705;0x480B;0x5804;0x5811;0x5812;0x5814;0x5816;0x581E;0x58CF;0x58D0;0x58D1;0x58D8;0x58F0;0x5A3D;0x5A3E;0x5A3F;0x5A40;0x5AAB;0x5AAC;0x5AAD;0x5AAE;0x5AB0;0x5B00</argument>
+ </customjob>
+ <customjob ecu="MSD87">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>LAMBDA</virtualname>
+  <comment>Lambda</comment>
+  <argument>3;0x4704;0x5A50;0x5A51;0x5A11;0x5A12;0x4704;0x4A12;0x4A51;0x5816</argument>
+ </customjob>
+ <customjob ecu="MSD85">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>LAMBDA</virtualname>
+  <comment>Lambda</comment>
+  <argument>3;0x4704;0x5A50;0x4705;0x5A11;0x5A12</argument>
+ </customjob>
+ <customjob ecu="MSD85">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>KNOCK</virtualname>
+  <comment>Knock sensors</comment>
+  <argument>3;0x5A37;0x5A38;0x5A38;0x5A3A;0x5A3B;0x5A3C</argument>
+ </customjob>
+ <customjob ecu="MSD85">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>TORQUE</virtualname>
+  <comment>Torque</comment>
+  <argument>3;0x58D1;0x58D0;0x58CF;0x5891</argument>
+ </customjob>
+ <customjob ecu="MSD85">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>3;0x4807;0x4200;0x4201;0x4202;0x4203;0x4205;0x4300;0x4402;0x4506;0x4507;0x4600;0x4601</argument>
+ </customjob>
+ <customjob ecu="MSD85">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Injection</comment>
+  <argument>3;0x5B00;0x5B01;0x5B02;0x5B03;0x5B04;0x5B05</argument>
+ </customjob>
+ <customjob ecu="MSD85">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>3;0x470;0x4470;0x5581;0x3587;0x5588;0x3588;0x5588;0x6588;0x8589;0x6589;0x7589;0x958C;0xF58D;0x58D1</argument>
+ </customjob>
+ <customjob ecu="MSD85">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_4</virtualname>
+  <comment>Values #4</comment>
+  <argument>3;0x5A42;0x5A43;0x5A44;0x5A45;0x5A46;0x5A47;0x5A49</argument>
+ </customjob>
+ <customjob ecu="MSD85">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_7</virtualname>
+  <comment>Custom #1</comment>
+  <argument>3;0x5AAB;0x5AAC;0x5AAD;0x5AAE;0x5AAE;0x4203;0x5AB0;0x54A9;0x58AD;0x4600;0x5A24;0x5813;0x5804;0x5811;0x5816</argument>
+ </customjob>
+ <customjob ecu="MSD85">
+  <jobname>MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_6</virtualname>
+  <comment>Values #6</comment>
+  <argument>0x5A42,0x5A43,0x5A44,0x5A45,0x5A46,0x5A47,0x5A49</argument>
+ </customjob>
+ <customjob ecu="MSS60">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_5</virtualname>
+  <comment>Values #1</comment>
+  <argument>3;0x5800;0x580F;0x5817;0x584D</argument>
+ </customjob>
+ <customjob ecu="MSS60">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_12</virtualname>
+  <comment>Values #2</comment>
+  <argument>3;0x5800;0x5820;0x5821</argument>
+ </customjob>
+ <customjob ecu="MSS60">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>2;0x5800;0x5801;0x5807;0x5808;0x5F5F;0x5F5E;0x5827;0x5828;0x5829;0x5C82;0x580F;0x5810;0x5817;0x5F55;0x5FDE;0x5F58</argument>
+ </customjob>
+ <customjob ecu="MSS60">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_11</virtualname>
+  <comment>Values #11</comment>
+  <argument>3;0x5800;0x5801;0x5807;0x5808;0x5F5F;0x5F5E;0x5827;0x5828;0x5829;0x5C82;0x580F;0x5810;0x5817;0x5F55;0x5FDE;0x5F58</argument>
+ </customjob>
+ <customjob ecu="MSS70">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Values #2</comment>
+  <argument>3</argument>
+ </customjob>
+ <customjob ecu="MSS70">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>3;0x5800;0x5801;0x5807;0x5808;0x5827;0x5828;0x5829;0x580F;0x5810;0x5817</argument>
+ </customjob>
+ <customjob ecu="MSV70">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>LAMBDA</virtualname>
+  <comment>Lambda</comment>
+  <argument>3;0x4704;0x5A50;0x4705;0x5A51;0x5A11;0x5A12</argument>
+ </customjob>
+ <customjob ecu="MSV70">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>3;0x4807;0x4200;0x4201;0x4202;0x4203;0x4205;0x4300;0x4402;0x4506;0x4507;0x4600;0x4601</argument>
+ </customjob>
+ <customjob ecu="MSV70">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Injection</comment>
+  <argument>3;0x5B00;0x5B01;0x5B02;0x5B03;0x5B04;0x5B05</argument>
+ </customjob>
+ <customjob ecu="MSV70">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>3;0x470;0x4470;0x5581;0x3587;0x5588;0x3588;0x5588;0x6588;0x8589;0x6589;0x7589;0x958C;0xF58D;0x58D1</argument>
+ </customjob>
+ <customjob ecu="MSV70">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_4</virtualname>
+  <comment>Values #4</comment>
+  <argument>3;0x5A42;0x5A43;0x5A44;0x5A45;0x5A46;0x5A47;0x5A49</argument>
+ </customjob>
+ <customjob ecu="MSV70">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_6</virtualname>
+  <comment>Values #6</comment>
+  <argument>3;0x5A42;0x5A43;0x5A44;0x5A45;0x5A46;0x5A47;0x5A49</argument>
+ </customjob>
+ <customjob ecu="MSV80">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>LAMBDA</virtualname>
+  <comment>Lambda</comment>
+  <argument>3;0x5A50;0x4705;0x5A51;0x5A11;0x5A12</argument>
+ </customjob>
+ <customjob ecu="MSV80">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>3;0x4807;0x4200;0x4201;0x4202;0x4203;0x4205;0x4300;0x4402;0x4506;0x4507;0x4600;0x4601</argument>
+ </customjob>
+ <customjob ecu="MSV80">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Injection</comment>
+  <argument>3;0x5B00;0x5B01;0x5B02;0x5B03;0x5B04;0x5B05</argument>
+ </customjob>
+ <customjob ecu="MSV80">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>3;0x470;0x4470;0x5581;0x3587;0x5588;0x3588;0x5588;0x6588;0x8589;0x6589;0x7589;0x958C;0xF58D;0x58D1</argument>
+ </customjob>
+ <customjob ecu="MSV80">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_4</virtualname>
+  <comment>Values #4</comment>
+  <argument>3;0x5A42;0x5A43;0x5A44;0x5A45;0x5A46;0x5A47;0x5A49</argument>
+ </customjob>
+ <customjob ecu="MSV80">
+  <jobname>MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_6</virtualname>
+  <comment>Values #6</comment>
+  <argument>0x5A42,0x5A43,0x5A44,0x5A45,0x5A46,0x5A47,0x5A49</argument>
+ </customjob>
+ <customjob ecu="MSV90">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>LAMBDA</virtualname>
+  <comment>Lambda</comment>
+  <argument>3;0x4704;0x5A50;0x4705;0x5A51;0x5A11;0x5A12</argument>
+ </customjob>
+ <customjob ecu="MSV90">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>KNOCK</virtualname>
+  <comment>Knock sensors</comment>
+  <argument>3;0x4A38;0x4A37;0x4A39;0x4A3A;0x4A3B;0x4A3C</argument>
+ </customjob>
+ <customjob ecu="MSV90">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>TORQUE</virtualname>
+  <comment>Torque</comment>
+  <argument>3;0x58D1;0x58D0;0x58CF;0x5891</argument>
+ </customjob>
+ <customjob ecu="MSV90">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_1</virtualname>
+  <comment>Values #1</comment>
+  <argument>3;0x4807;0x42000x42010x42020x42030x42050x43000x44020x45060x45070x46000x4601</argument>
+ </customjob>
+ <customjob ecu="MSV90">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_2</virtualname>
+  <comment>Injection</comment>
+  <argument>3;0x5B00;0x5B01;0x5B02;0x5B03;0x5B04;0x5B05</argument>
+ </customjob>
+ <customjob ecu="MSV90">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_3</virtualname>
+  <comment>Values #3</comment>
+  <argument>3;0x470;0x4470;0x5581;0x3587;0x5588;0x3588;0x5588;0x6588;0x8589;0x6589;0x7589;0x958C;0xF58D;0x58D1</argument>
+ </customjob>
+ <customjob ecu="MSV90">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_4</virtualname>
+  <comment>Values #4</comment>
+  <argument>3;0x5A42;0x5A43;0x5A44;0x5A45;0x5A46;0x5A47;0x5A49</argument>
+ </customjob>
+ <customjob ecu="MSV90">
+  <jobname>STATUS_MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_7</virtualname>
+  <comment>Custom #1</comment>
+  <argument>3;0x5AAB;0x5AAC;0x5AAD;0x5AAE;0x5AAE;0x4203;0x5AB0;0x54A9;0x58AD;0x4600;0x5A24;0x5813;0x5804;0x5811;0x5816</argument>
+ </customjob>
+ <customjob ecu="MSV90">
+  <jobname>MESSWERTBLOCK_LESEN</jobname>
+  <virtualname>SET_6</virtualname>
+  <comment>Values #6</comment>
+  <argument>0x5A42,0x5A43,0x5A44,0x5A45,0x5A46,0x5A47,0x5A49</argument>
+ </customjob>
+ <customjob ecu="D70BX7A0">
+  <jobname>STATUS_BLOCK_LESEN</jobname>
+  <virtualname>INJ</virtualname>
+  <comment>INJECTION FUEL</comment>
+  <argument>3;JA;ID;0x432F;0x42C8;0x45D4;0x45A4;0x4715;0x42C8;0x4746;0x48A5;0x513F;0x5274;0x5275;0x5275;0x5277;0x5278;0x5279</argument>
+ </customjob>
+ <customjob ecu="D70BX7A0">
+  <jobname>STATUS_BLOCK_LESEN</jobname>
+  <virtualname>DPF</virtualname>
+  <comment>DPF</comment>
+  <argument>3;JA;ID;0x44F8;0x4506;0x4500;0x44BE;0x44C4;0x5308;0x44BC;0x44B7;0x44BB</argument>
+ </customjob>
+</customjobs>

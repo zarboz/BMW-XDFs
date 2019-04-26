@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSVFile>
+    <info>
+        <starttime>1556250605819</starttime>
+        <startdate>2019-04-25 21:50:05.819</startdate>
+        <timeformat>0</timeformat>
+        <CSVSeparator><![CDATA[;]]></CSVSeparator>
+        <columns>
+            <column>
+                <number>1</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Intake temp.          </resultname>
+            </column>
+            <column>
+                <number>2</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Throttle pos.                     </resultname>
+            </column>
+            <column>
+                <number>3</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Injection time             </resultname>
+            </column>
+            <column>
+                <number>4</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Vehicle speed       </resultname>
+            </column>
+            <column>
+                <number>5</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Coolant temp.     </resultname>
+            </column>
+            <column>
+                <number>6</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Lambdaintegrator 1                 </resultname>
+            </column>
+            <column>
+                <number>7</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Lambdaintegrator 2                 </resultname>
+            </column>
+            <column>
+                <number>8</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Air mass                     </resultname>
+            </column>
+            <column>
+                <number>9</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Load                         </resultname>
+            </column>
+            <column>
+                <number>10</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Current RPM                 </resultname>
+            </column>
+            <column>
+                <number>11</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Target RPM               </resultname>
+            </column>
+            <column>
+                <number>12</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Engine temp.               </resultname>
+            </column>
+            <column>
+                <number>13</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Pedal pos.                  </resultname>
+            </column>
+            <column>
+                <number>14</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Battery voltage                         </resultname>
+            </column>
+            <column>
+                <number>15</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>camshaft position bank 1</resultname>
+            </column>
+            <column>
+                <number>16</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>camshaft position bank 2</resultname>
+            </column>
+            <column>
+                <number>17</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Ignition angle              </resultname>
+            </column>
+            <column>
+                <number>18</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Knock sensor Cyl.1</resultname>
+            </column>
+            <column>
+                <number>19</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Knock sensor Cyl.2</resultname>
+            </column>
+            <column>
+                <number>20</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Knock sensor Cyl.3</resultname>
+            </column>
+            <column>
+                <number>21</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Knock sensor Cyl.4</resultname>
+            </column>
+            <column>
+                <number>22</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Knock sensor Cyl.5</resultname>
+            </column>
+            <column>
+                <number>23</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Knock sensor Cyl.6</resultname>
+            </column>
+            <column>
+                <number>24</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Knock sensor Cyl.7</resultname>
+            </column>
+            <column>
+                <number>25</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_MOTOR_1</jobname>
+                <virtualname></virtualname>
+                <resultname>Knock sensor Cyl.8</resultname>
+            </column>
+            <column>
+                <number>26</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_LAMBDA_2</jobname>
+                <virtualname></virtualname>
+                <resultname>Lambdasondenspannung n Kat    </resultname>
+            </column>
+            <column>
+                <number>27</number>
+                <ecu>ME72KWP1_SERIAL</ecu>
+                <jobname>STATUS_LAMBDA_2</jobname>
+                <virtualname></virtualname>
+                <resultname>Lambdasondenspannung n Kat 2  </resultname>
+            </column>
+        </columns>
+    </info>
+</CSVFile>

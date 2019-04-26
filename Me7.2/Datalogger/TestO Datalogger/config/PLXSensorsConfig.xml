@@ -1,0 +1,10 @@
+<SensorConfigs>
+ <SensorConfig instance="0" address="10" unitNum="1"/>
+ <SensorConfig instance="1" address="10" unitNum="2"/>
+ <SensorConfig instance="0" address="2" unitNum="0"/>
+ <SensorConfig instance="1" address="2" unitNum="0"/>
+ <SensorConfig instance="2" address="2" unitNum="0"/>
+ <SensorConfig instance="0" address="5" unitNum="0"/>
+ <SensorConfig instance="0" address="6" unitNum="0"/>
+ <SensorConfig instance="0" address="9" unitNum="0"/>
+</SensorConfigs>

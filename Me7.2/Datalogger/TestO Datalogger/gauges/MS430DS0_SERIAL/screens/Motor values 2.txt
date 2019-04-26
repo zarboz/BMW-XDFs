@@ -1,0 +1,13 @@
+columns=2
+
+[IN_CAM_ACTUAL]
+a=a
+
+[EX_CAM_ACTUAL]
+a=a
+
+[KNOCK1]
+a=a
+
+[KNOCK2]
+a=a

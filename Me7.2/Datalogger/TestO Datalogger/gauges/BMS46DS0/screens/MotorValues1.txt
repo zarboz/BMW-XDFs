@@ -1,0 +1,13 @@
+[RPM]
+color=red
+
+[MAF]
+color=blue
+
+[LAMBDA1]
+color=red
+
+
+
+
+

@@ -1,0 +1,61 @@
+Luftmassendurchsatz,ML,kg/h,13050B03
+Soll-Luftmasse,QSOL,kg/h,13050B03
+Einspritzzeit,TE1,ms,13050B03
+Last,TL,ms/Umdr,13050B03
+Lambdasondenintegrator,XFR,,13050B03
+Lambdaintegrator,XFR2,,13050B03
+Leerlauf regler,IV,kg/h,13050B03
+Adaption LR additiv,TRA,ms,13050B03
+Lambda adaptation add. ,lambda_add,,13050B03
+Lambda adaptation mul. ,lambda_mul,,13050B03
+Adaption LR,FRA3,,13050B03
+Drehzahl N40,N40,Upm,13050B03
+Drehzahl N10,N10,Upm,13050B03
+Drosselklappenpoti,DKPOT,%,13050B03
+Zuendwinkel KW,ZWOUT,Grad_KW,13050B03
+Zuendwinkel NW,ZWOUT2,Grad_NW,13050B03
+Lambda1 heiz.,LAM1_HEIZ,%,13050B03
+Ansauglufttemperatur,TANS,Grad_C,13050B03
+Motortemperatur,TMOT,Grad_C,13050B03
+Fahrzeuggeschwindigkeit,VFZ,km/h,13050B03
+Summe Bedarfsadaption,XQASUM,kg/h,13050B03
+Batteriespannung,UB,V,13050B03
+Betriebsstundenzaehler,TBETRIEB,h,13050B03
+Leerlauf CO-Korrektur,CO_COR,,13050B03
+Solldrehzahl LLR,NSOL,Upm,13050B03
+Tastverhaeltnis TEV,TATE,,13050B03
+Shuntspg.Sonde vor Kat,UHVSAV,V,13050B03
+Shuntspg.Sonde hinter Kat,UHHSAV,V,13050B03
+Periodendauerm.Lambdas.signal,TPSVKOF,sec,13050B03
+Periodendauerm.Lambdas.sig. 2,TPSVKOF2,sec,13050B03
+Akt.dauer LDP nach Dia.-Start,TLDPCTR,sec,13050B03
+gemessene Periodendauer LDP,TPLDP,sec,13050B03
+Leerlaufluftadaption mit KK,QAKO,kg/h,13050B03
+Leerlaufluftadaption,QADP,kg/h,13050B03
+gefilterte LUT 1  Zylinder 1,LUTFI1,Umdr/sec,13050B10
+gefilterte LUT 2  Zylinder 7,LUTFI2,Umdr/sec,13050B10
+gefilterte LUT 3  Zylinder 5,LUTFI3,Umdr/sec,13050B10
+gefilterte LUT 4  Zylinder 11,LUTFI4,Umdr/sec,13050B10
+gefilterte LUT 5  Zylinder 3,LUTFI5,Umdr/sec,13050B10
+gefilterte LUT 6  Zylinder 9,LUTFI6,Umdr/sec,13050B10
+gefilterte LUT 7  Zylinder 6,LUTFI7,Umdr/sec,13050B10
+gefilterte LUT 8  Zylinder 12,LUTFI8,Umdr/sec,13050B10
+gefilterte LUT 9  Zylinder 2,LUTFI9,Umdr/sec,13050B10
+gefilterte LUT 10 Zylinder 8,LUTFI10,Umdr/sec,13050B10
+gefilterte LUT 11 Zylinder 4,LUTFI11,Umdr/sec,13050B10
+gefilterte LUT 12 Zylinder 10,LUTFI12,Umdr/sec,13050B10
+Adaptionsfaktor Segment A,ASA,,13050B10
+Adaptionsfaktor Segment B,ASB,,13050B10
+Adaptionsfaktor Segment C,ASC,,13050B10
+Adaptionsfaktor Segment D,ASD,,13050B10
+Adaptionsfaktor Segment E,ASE,,13050B10
+Adaptionsfaktor Segment F,ASF,,13050B10
+ADC HFM,ADC_HFM,V,13090B020E000000
+ADC DK-Poti,ADC_DK,V,13090B020E000001
+ADC Batteriespannung,ADC_UBATT,V,13090B020E000002
+ADC Ansauglufttemperatur,ADC_TANS,V,13090B020E000003
+ADC Motortemperatur,ADC_TMOT,V,13090B020E000004
+ADC Lambdasonde 1 vor Kat,ADC_LS1VK,V,13090B020E000005
+ADC Lambdasonde 1 hinter KAT,ADC_LS1HK,V,13090B020E000006
+ADC ISHZ1,ADC_ISHZ1,V,13090B020E000009
+ADC ISHZ2,ADC_ISHZ2,V,13090B020E00000A

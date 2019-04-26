@@ -1,0 +1,23 @@
+[RPM]
+Min=0
+Max=7000
+Title=RPM
+Unit=1/min
+Jobname=STATUS_DREHZAHL
+Resultname=STATUS_DREHZAHL_WERT
+
+[MAF]
+Min=0
+Max=1000
+Title=MAFä
+Unit=kg/h
+Jobname=STATUS_LMM
+Resultname=STATUS_LMM_WERT
+
+[LAMBDA1]
+Min=0
+Max=1000
+Title=Lambda 1
+Unit=V
+Jobname=STATUS_L_SONDE
+Resultname=STATUS_L_sonde_WERT

@@ -1,0 +1,2 @@
+cd ..
+testo.exe translate

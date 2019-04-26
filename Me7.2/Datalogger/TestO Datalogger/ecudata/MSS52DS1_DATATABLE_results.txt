@@ -1,0 +1,79 @@
+Adaption Additive Bank 1,ADD,ms,12050B06
+Adaption Additive Bank 1,LAMBDA_ADD_1,ms,12050B06
+Adaption Additive Bank 2,ADD_2,ms,12050B06
+Adaption Additive Bank 2,LAMBDA_ADD_2,ms,12050B06
+Exhaust camshaft pos. bank 1 actual,AVANOS1_IST,Deg. KW,12050B23
+Exhaust camshaft pos. bank 2 actual,AVANOS2_IST,Deg. KW,12050B23
+Exhaust camshaft pos. bank 1 expected,AVANOS1_SOLL,Deg. KW,12050B23
+Exhaust camshaft pos. bank 2 actual,AVANOS2_SOLL,Deg. KW,12050B23
+relativer Oeffnungsquerschnitt,AQREL,%,12050B03
+Throttle pos. actual,DKP_WINKEL,%,12050B03
+Throttle pos. expected,DKP_WINKEL_SOLL,%,12050B03
+Intake camshaft pos. bank 1 actual,EVANOS1_IST,Deg. KW,12050B23
+Intake camshaft pos. bank 2 actual,EVANOS2_IST,Deg. KW,12050B23
+Intake camshaft pos. bank 1 expected,EVANOS1_SOLL,Deg. KW,12050B23
+Intake camshaft pos. bank 2 expected,EVANOS2_SOLL,Deg. KW,12050B23
+TPS 1,PWG_POTI_WINKEL,%,12050B03
+TPS 2,PWG_POTI_WINKEL_2,%,12050B03
+Lambdaintegrator 1,LAMBDA_INTEGRATOR_1,[1],12050B13
+Lambdaintegrator 1,INT,[1],12050B13
+Lambdaintegrator 2,LAMBDA_INTEGRATOR_2,[1],12050B13
+Lambdaintegrator 2,INT2,[1],12050B13
+Idle controller adaptation with compressor,LFR_KO,Nm,12050B06
+Idle controller adaptation without compressor,LFR,Nm,12050B06
+Lambda 1 post cat voltage ,LS_NKAT_SIGNAL_1,V,12050B02
+Lambda 1 post cat voltage ,L_SONDE_H,V,12050B02
+Lambda 2 post cat voltage ,LS_NKAT_SIGNAL_2,V,12050B02
+Lambda 2 post cat voltage ,L_SONDE_2_H,V,12050B02
+Lambda 1 pre cat voltage ,LS_VKAT_SIGNAL_1,V,12050B02
+Lambda 1 pre cat voltage ,L_SONDE,V,12050B02
+Lambda 2 pre cat voltage ,LS_VKAT_SIGNAL_2,V,12050B02
+Lambda 2 pre cat voltage ,L_SONDE_2,V,12050B02
+TPS 1 Voltage,PWG_POTI_SPANNUNG,V,12050B02
+MAF ,LMM_MASSE,kg/h,12050B03
+Adaptation Multiplicative Bank 1,LAMBDA_MUL_1,[1],12050B06
+Adaptation Multiplicative Bank 1,MUL,[1],12050B06
+Adaptation Multiplicative Bank 2,LAMBDA_MUL_2,[1],12050B06
+Adaptation Multiplicative Bank 2,MUL_2,[1],12050B06
+RPM,MOTORDREHZAHL,1/min,12050B03
+Max RPM,NMAX,km/h,12050B06
+Idle controller expected RPM,N_LL_SOLL,1/min,12050B03
+Environment pressure (intern),PUMG_INTERN,mbar,12050B03
+relative Fuellung,RF,%,12050B03
+Exhaust temp.,TABG,Deg C,12050B03
+Intake temp.,AN_LUFTTEMPERATUR,Deg C,12050B03
+Injection time cyl. 1,EINSPRITZZEIT,ms,12050B13
+Injection time cyl. 2,TI2,ms,12050B13
+Injection time cyl. 3,TI3,ms,12050B13
+Injection time cyl. 4,TI4,ms,12050B13
+Injection time cyl. 5,TI5,ms,12050B13
+Injection time cyl. 6,TI6,ms,12050B13
+Injection time cyl. 7,TI7,ms,12050B13
+Injection time cyl. 8,TI8,ms,12050B13
+Ausblendzaehler Einspritzung Ist,TI_AUS_IST,[1],12050B13
+Ist Strom Servotronikventil,STATUS_ANALOG_GM3,mA,12050B13
+Soll Strom Servotronikventil,STATUS_ANALOG_GM3,mA,12050B13
+Soll Strom Servotronikventil,STATUS_ANALOG_GM3,%,12050B15
+Coolant temp.,KUEHLW_AUSL_TEMPERATUR,GradC,12050B03
+load signal,LAST,ms,12050B03
+Motor temp.,MOTORTEMPERATUR,Deg C,12050B03
+Gesamtzeit Ueberdrehzahl n,TNMAX,s,12050B06
+Oil temp. (TOG),OEL_TEMPERATUR,Deg C,12050B03
+Environment temp.,TUMG,Deg C,12050B03
+Tank ventilation valve duty cycle,TV_TEV,ms,12050B13
+Ignition angle cyl. 1,TZ1,Deg. KW,12050B13
+Ignition angle cyl. 2,TZ2,Deg. KW,12050B13
+Ignition angle cyl. 3,TZ3,Deg. KW,12050B13
+Ignition angle cyl. 4,TZ4,Deg. KW,12050B13
+Ignition angle cyl. 5,TZ5,Deg. KW,12050B13
+Ignition angle cyl. 6,TZ6,Deg. KW,12050B13
+Ignition angle cyl. 7,TZ7,Deg. KW,12050B13
+Ignition angle cyl. 8,TZ8,Deg. KW,12050B13
+Battery voltage,UBATT,V,12050B03
+Sensorversorgung 1 (Master),UEXT1,V,12050B03
+Sensorversorgung 2 (Slave),UEXT2,V,12050B03
+Vehicle speed,GESCHWINDIGKEIT,km/h,12050B13
+Fahrzeuggeschwindigkeit v_asc (CAN),V_CAN,km/h,12050B13
+TEV Messstrom,TEV Messstrom,,12050B13
+TEV Messzeit,TEV Messzeit,s,12050B13
+Max. speed,VMAX,km/h,12050B06

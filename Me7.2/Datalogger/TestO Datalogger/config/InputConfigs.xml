@@ -1,0 +1,65 @@
+<InputConfigs>
+  <InputConfig SensorPrefix="LMA_3">
+    <input>
+      <number>1</number>
+      <config>SPEED</config>
+    </input>
+    <input>
+      <number>2</number>
+      <config>EGT</config>
+    </input>
+    <input>
+      <number>3</number>
+      <config>VACUUM/BOOST</config>
+    </input>
+    <input>
+      <number>4</number>
+      <config>MAP</config>
+    </input>
+    <input>
+      <number>5</number>
+      <config>SIDE_FORCE</config>
+    </input>
+  </InputConfig>
+
+  <InputConfig SensorPrefix="MTXb">
+    <input type="foo">
+      <number>1</number>
+      <config>RPM</config>
+    </input>
+    <input>
+      <number>2</number>
+      <config>MTX_BOOST</config>
+    </input>
+  </InputConfig>
+  
+  <InputConfig SensorPrefix="MTXl">
+    <input type="lambda">
+      <number>1</number>
+	  <config>LAMBDA</config>
+    </input>
+  </InputConfig>
+
+  <InputConfig SensorPrefix="DL_32">
+    <input>
+      <number>1</number>
+      <config>RPM_1</config>
+    </input>
+    <input>
+      <number>2</number>
+      <config>EGT</config>
+    </input>
+    <input>
+      <number>3</number>
+      <config>SIDE_FORCE_2</config>
+    </input>
+    <input>
+      <number>4</number>
+      <config>MAP</config>
+    </input>
+    <input>
+      <number>5</number>
+      <config>SIDE_FORCE</config>
+    </input>
+  </InputConfig>
+</InputConfigs>

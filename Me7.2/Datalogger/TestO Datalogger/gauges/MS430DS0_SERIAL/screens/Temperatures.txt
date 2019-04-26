@@ -1,0 +1,16 @@
+columns=3
+
+[IAT]
+a=a
+
+[COOLANT_TEMP]
+a=a
+
+[ENGINE_TEMP]
+a=a
+
+[OIL_TEMP]
+a=a
+
+[AIR_PRESSURE]
+a=a
