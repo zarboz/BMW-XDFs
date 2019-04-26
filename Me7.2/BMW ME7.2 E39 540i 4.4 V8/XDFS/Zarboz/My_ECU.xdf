@@ -1,4 +1,4 @@
-<!-- Written 04/25/2019 17:35:58 -->
+<!-- Written 04/25/2019 21:10:08 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -6473,7 +6473,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLALSVV</title>
-    <description>Fehlerklasse: Vertauschte Lambda-Sonden vor Kat</description>
+    <description>Error class: Replace Lambda probes before Cat</description>
     <CATEGORYMEM index="0" category="21" />
     <EMBEDDEDDATA mmedaddress="0x1613" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -6737,7 +6737,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CLARKAT2</title>
-    <description>Fehlerklasse: LR-Adaption additiver Bereich pro Zeit Bank 2</description>
+    <description>Error class: LR adaptation of the additive range per time Bank 2</description>
     <CATEGORYMEM index="0" category="21" />
     <EMBEDDEDDATA mmedaddress="0x1629" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
