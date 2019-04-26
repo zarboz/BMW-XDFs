@@ -7391,7 +7391,6 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>KFTVSA</title>
     <description>Verz&#246;gerungszeit f&#252;r Schubabschalten</description>
-    <CATEGORYMEM index="0" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
@@ -7432,7 +7431,6 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>KFTVSAM</title>
     <description>Verz&#246;gerungszeit f&#252;r Schubabschalten</description>
-    <CATEGORYMEM index="0" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
@@ -7473,7 +7471,6 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>KFTVSAM</title>
     <description>Verz&#246;gerungszeit f&#252;r Schubabschalten</description>
-    <CATEGORYMEM index="0" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
@@ -7514,7 +7511,6 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>NWEM</title>
     <description>Wiedereinsetzdrehzahl</description>
-    <CATEGORYMEM index="0" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x985A" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Grad C</units>
@@ -7556,7 +7552,6 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>NWENG</title>
     <description>Wiedereinsetzdrehzahl</description>
-    <CATEGORYMEM index="0" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x4919" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Grad C</units>
@@ -7598,7 +7593,6 @@
    <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>WPHN</title>
     <description>Phasengang</description>
-    <CATEGORYMEM index="0" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
