@@ -1,4 +1,4 @@
-<!-- Written 04/27/2019 20:06:01 -->
+<!-- Written 04/27/2019 20:10:10 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -3285,7 +3285,7 @@
     <title>NOLRA</title>
     <description>Codeword for adoption release set to 5 to disable LTFTS</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x9509" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x9441" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4451,7 +4451,7 @@
     <title>CWDAGR</title>
     <description>System constant for EGR present&#013;&#010;SY AGR PROKON AUS system constant EGR present&#013;&#010;Deactivate code word DAGR (EURO coding), CD .. = 0 -&gt; no diagnostics</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1F98" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1FC9" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <rangehigh>1.000000</rangehigh>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4461,10 +4461,10 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x42CA">
-    <title>Codewort DFSTT abschalten (EURO-Codierung), CD..=0 -&gt; no diagnosis</title>
-    <description>CDEFST</description>
+    <title>CDEFST</title>
+    <description>Codewort DFSTT abschalten (EURO-Codierung), CD..=0 -&gt; no diagnosis</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1F99" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1F4B" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4476,7 +4476,7 @@
     <title>Codeword heater diagnosis behind Kat (CDHSH = 0 =&gt; no diagnosis)</title>
     <description>Codeword heater diagnosis behind Kat (CDHSH = 0 =&gt; no diagnosis)</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1F99" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1FCA" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <rangehigh>1.000000</rangehigh>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4489,7 +4489,7 @@
     <title>Codeword heater diagnosis before cat in (CDHSV = 0 =&gt; no diagnosis)</title>
     <description>Codeword heater diagnosis before cat in (CDHSV = 0 =&gt; no diagnosis)</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1F9A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1FCB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <rangehigh>1.000000</rangehigh>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4502,7 +4502,7 @@
     <title>Deactivate codeword DLLR (EURO coding), CD .. = 0 -&gt; no diagnostics</title>
     <description>Deactivate codeword DLLR (EURO coding), CD .. = 0 -&gt; no diagnostics</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1F9B" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1FCC" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <rangehigh>1.000000</rangehigh>
     <datatype>0</datatype>
     <unittype>0</unittype>
