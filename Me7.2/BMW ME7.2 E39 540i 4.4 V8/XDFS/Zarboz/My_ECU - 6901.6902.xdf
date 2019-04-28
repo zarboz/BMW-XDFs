@@ -1,4 +1,4 @@
-<!-- Written 04/27/2019 21:25:54 -->
+<!-- Written 04/27/2019 21:48:51 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2615,7 +2615,7 @@
     <title>FKHABMN - set to 0 if you do not have cats.</title>
     <description>Threshold reduction factor catalytic heating</description>
     <CATEGORYMEM index="0" category="23" />
-    <EMBEDDEDDATA mmedaddress="0xA58C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0xA59A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>-</units>
     <decimalpl>4</decimalpl>
     <datatype>0</datatype>
@@ -4721,7 +4721,7 @@
     <title>CWFASL</title>
     <description>Codeword: tester intervention secondary air diagnosis</description>
     <CATEGORYMEM index="0" category="20" />
-    <EMBEDDEDDATA mmedaddress="0x9706" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x963E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4733,7 +4733,7 @@
     <title>CWSLSOF</title>
     <description>Code word for secondary air system; Configuration SLS</description>
     <CATEGORYMEM index="0" category="20" />
-    <EMBEDDEDDATA mmedaddress="0x959E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x94D6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4745,7 +4745,7 @@
     <title>CWDSLSY</title>
     <description>Codeword in the diagnosis secondary air system</description>
     <CATEGORYMEM index="0" category="20" />
-    <EMBEDDEDDATA mmedaddress="0x96D6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x960E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4769,7 +4769,7 @@
     <title>CDKSLS</title>
     <description>Codeword customer: secondary air system</description>
     <CATEGORYMEM index="0" category="20" />
-    <EMBEDDEDDATA mmedaddress="0x54BE" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x54DA" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4781,7 +4781,7 @@
     <title>CDKSLS2</title>
     <description>Codeword customer: secondary air system bank 2</description>
     <CATEGORYMEM index="0" category="20" />
-    <EMBEDDEDDATA mmedaddress="0x54C0" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x54DC" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4793,7 +4793,7 @@
     <title>CWKONABG</title>
     <description>Codeword for configuration exhaust treatment&#013;&#010;The data I have on this is invalid&#013;&#010;Set from 5&gt;1 for SLS removal&#013;&#010;Set from 5&gt;0 for SLS+kat removal&#013;&#010;Byte order:&#013;&#010;0=B_katfz&#013;&#010;1=B_Kath&#013;&#010;2=B_slsfz&#013;&#010;3=&#013;&#010;4=&#013;&#010;5=&#013;&#010;6=&#013;&#010;7=</description>
     <CATEGORYMEM index="0" category="20" />
-    <EMBEDDEDDATA mmedaddress="0xA5DB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0xA5E9" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4806,7 +4806,7 @@
     <description>Secondary air mass depending on the battery voltage</description>
     <CATEGORYMEM index="0" category="20" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x9772" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x98E7" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
       <decimalpl>3</decimalpl>
       <embedinfo type="1" />
@@ -4829,7 +4829,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0x977A" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x96B2" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
@@ -4843,7 +4843,7 @@
     <title>MSLBAS</title>
     <description>Ini.- secondary air mass</description>
     <CATEGORYMEM index="0" category="20" />
-    <EMBEDDEDDATA mmedaddress="0x96DA" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x9612" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>kg/h</units>
     <decimalpl>3</decimalpl>
     <datatype>0</datatype>
@@ -7192,7 +7192,7 @@
     <title>FNRAD</title>
     <description>Factor between wheel speed and speed f (wheel circumference)</description>
     <CATEGORYMEM index="0" category="26" />
-    <EMBEDDEDDATA mmedaddress="0x1E44" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1E73" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>-</units>
     <decimalpl>4</decimalpl>
     <datatype>0</datatype>
