@@ -1,4 +1,4 @@
-<!-- Written 04/27/2019 21:48:51 -->
+<!-- Written 04/27/2019 21:56:49 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -7369,7 +7369,7 @@
     <title>KFTVSA</title>
     <description>Delay time for fuel cutoff</description>
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x19C7" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
       <indexcount>8</indexcount>
       <decimalpl>1</decimalpl>
@@ -7382,7 +7382,47 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x985A" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x97AE" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>Grad C</units>
+      <indexcount>5</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.750000 * X+ -48.000000">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0x8FFF" mmedelementsizebits="8" mmedrowcount="5" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>s</units>
+      <decimalpl>4</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.020000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFTVSAM</title>
+    <description>Delay time for fuel cutoff manual car</description>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x19C7" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>Upm</units>
+      <indexcount>8</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x97AE" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Grad C</units>
       <indexcount>5</indexcount>
       <embedinfo type="1" />
@@ -7406,50 +7446,10 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>KFTVSAM</title>
-    <description>Delay time for fuel cutoff manual car</description>
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>Upm</units>
-      <indexcount>8</indexcount>
-      <decimalpl>1</decimalpl>
-      <embedinfo type="1" />
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <MATH equation="40.000000 * X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x985A" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>Grad C</units>
-      <indexcount>5</indexcount>
-      <embedinfo type="1" />
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <MATH equation="0.750000 * X+ -48.000000">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0x9033" mmedelementsizebits="8" mmedrowcount="5" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>s</units>
-      <decimalpl>4</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="0.020000 * X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
-  <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>NWEM</title>
     <description>Resume engine speed</description>
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x985A" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x97AE" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Grad C</units>
       <indexcount>5</indexcount>
       <embedinfo type="1" />
@@ -7475,7 +7475,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0x9063" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x90B3" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>Upm</units>
       <decimalpl>1</decimalpl>
       <min>0.000000</min>
@@ -7490,7 +7490,7 @@
     <title>NWENG</title>
     <description>Resume engine speed</description>
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x4919" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x328D" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Grad C</units>
       <indexcount>5</indexcount>
       <embedinfo type="1" />
@@ -7516,7 +7516,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0x3232" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x3296" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>Upm</units>
       <decimalpl>1</decimalpl>
       <min>0.000000</min>
@@ -7531,7 +7531,7 @@
     <title>WPHN</title>
     <description>phase response</description>
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x19C7" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
       <indexcount>8</indexcount>
       <decimalpl>1</decimalpl>
