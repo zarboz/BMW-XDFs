@@ -1,4 +1,4 @@
-<!-- Written 04/27/2019 20:10:10 -->
+<!-- Written 04/27/2019 20:18:47 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -4515,7 +4515,7 @@
     <title>Codeword lambda probe aging diagnostics, config.-byte, for application purposes</title>
     <description>CDLSA</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1F9C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1FCD" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4527,7 +4527,7 @@
     <title>Codeword probe diagnosis behind Kat in OBDII mode (inverse: Europa-Mode)</title>
     <description>CDLSH</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1F9D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1FCE" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <rangehigh>1.000000</rangehigh>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4540,7 +4540,7 @@
     <title>Codeword probe diagnosis before CAT in OBDII mode (inverse: Europe-Mode)</title>
     <description>CDLSV</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1F9E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1FCF" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <rangehigh>1.000000</rangehigh>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4566,7 +4566,7 @@
     <title>Deactivate codeword DNWS (EURO coding), CD .. = 0 -&gt; no diagnostics</title>
     <description>CDNWS</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1FA0" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1FD1" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <rangehigh>10.000000</rangehigh>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4579,7 +4579,7 @@
     <title>Euro-byte for diagnosis secondary air system</title>
     <description>CDSLS</description>
     <CATEGORYMEM index="0" category="20" />
-    <EMBEDDEDDATA mmedaddress="0x1FA1" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1FD2" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4655,7 +4655,7 @@
     <title>Codeword Catalyst Diagnosis in OBDII Mode (inverse: Europe-Mode)</title>
     <description>CWDKAT</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1FA2" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1FD3" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <rangehigh>1.000000</rangehigh>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4668,7 +4668,7 @@
     <title> CWDKVS </title>
     <description>Codeword DKVS active / inactive, CD .. = 0 -&gt; no diagnostics&#013;&#010;Deactivation in case of error in the mixture formation, B edkvs&#013;&#010;The fuel-on adaptation is deactivated, if the adaptation error threshold in the mixture formation is exceeded&#013;&#010;(B edkvs = 1).</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1FA3" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1FD4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <rangehigh>1.000000</rangehigh>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4681,7 +4681,7 @@
     <title>CWDTES</title>
     <description>code word disable canister-purge monotoring&#013;&#010;Deactivate code word tank ventilation diagnosis (EURO coding), CD .. = 0 -&gt; no slide</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1FA4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1FD5" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <rangehigh>1.000000</rangehigh>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -4694,7 +4694,7 @@
     <title>Codeword for secondary air system</title>
     <description>CWSLS</description>
     <CATEGORYMEM index="0" category="20" />
-    <EMBEDDEDDATA mmedaddress="0x1FAB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1FD8" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4856,7 +4856,7 @@
     <title>CWTF</title>
     <description>Codeword for temperature sensor configuration</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1FA0" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1FD9" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
