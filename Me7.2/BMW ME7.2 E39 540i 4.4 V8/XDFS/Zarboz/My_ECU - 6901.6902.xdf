@@ -1,4 +1,4 @@
-<!-- Written 04/27/2019 21:11:37 -->
+<!-- Written 04/27/2019 21:24:22 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2942,7 +2942,7 @@
   </XDFCONSTANT>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>NARASTG</title>
-    <description>Drehzahlschwelle in hoeherem Gang fuer AR aktiv</description>
+    <description>Speed threshold in higher gear active for AR</description>
     <CATEGORYMEM index="0" category="19" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0xB16" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="8" mmedminorstridebits="0" />
@@ -2971,7 +2971,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0xB1C" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x9D93" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>Upm</units>
       <decimalpl>1</decimalpl>
       <min>0.000000</min>
@@ -2984,7 +2984,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>NTAREIN</title>
-    <description>Sperrzeit f&#252;r Antiruckelfunktion</description>
+    <description>Lock time for anti-jerk function</description>
     <CATEGORYMEM index="0" category="19" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0xB23" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="8" mmedminorstridebits="0" />
@@ -3014,7 +3014,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0xB28" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x1CD3" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>s</units>
       <decimalpl>4</decimalpl>
       <min>0.000000</min>
@@ -3027,6 +3027,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>SGA07MDUB</title>
+    <description>ARMD</description>
     <CATEGORYMEM index="0" category="19" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -3077,7 +3078,7 @@
     <title>CWDVMX</title>
     <description>Codewort SW-Schalter f&#252;r Integratorinit. bei VMAX-Regelung</description>
     <CATEGORYMEM index="0" category="19" />
-    <EMBEDDEDDATA mmedaddress="0x1ECB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1FC4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4897,7 +4898,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x9B9D" mmedelementsizebits="8" mmedrowcount="6" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x9B8D" mmedelementsizebits="8" mmedrowcount="6" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
@@ -5018,7 +5019,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x9BD3" mmedelementsizebits="8" mmedrowcount="6" mmedcolcount="7" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x9BBF" mmedelementsizebits="8" mmedrowcount="6" mmedcolcount="7" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
@@ -6967,7 +6968,7 @@
     <title>CLATM</title>
     <description>Fehlerklasse: Motortemperatur TMOT</description>
     <CATEGORYMEM index="0" category="21" />
-    <EMBEDDEDDATA mmedaddress="0x163E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x165E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -6979,7 +6980,7 @@
     <title>CLATUM</title>
     <description>Fehlerklasse: Umgebungstemperatur TUM</description>
     <CATEGORYMEM index="0" category="21" />
-    <EMBEDDEDDATA mmedaddress="0x163F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x165F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -6991,7 +6992,7 @@
     <title>CLAUB</title>
     <description>Fehlerklasse: Batteriespannung UB (Bordnetz)</description>
     <CATEGORYMEM index="0" category="21" />
-    <EMBEDDEDDATA mmedaddress="0x1640" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1660" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -7003,7 +7004,7 @@
     <title>CLAUFMV</title>
     <description>Fehlerklasse: Funktions&#252;berwachung: Momentenvergleich</description>
     <CATEGORYMEM index="0" category="21" />
-    <EMBEDDEDDATA mmedaddress="0x1641" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1661" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -7015,7 +7016,7 @@
     <title>CLAUFSKA</title>
     <description>Fehlerklasse: Funktions&#252;berwachung: Sicherheits-Kraftstoff-Abschaltung</description>
     <CATEGORYMEM index="0" category="21" />
-    <EMBEDDEDDATA mmedaddress="0x1642" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1662" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -7027,7 +7028,7 @@
     <title>CLAURRAM</title>
     <description>Fehlerklasse: Rechner&#252;berwachung: RAM</description>
     <CATEGORYMEM index="0" category="21" />
-    <EMBEDDEDDATA mmedaddress="0x1643" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1663" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -7039,7 +7040,7 @@
     <title>CLAURROM</title>
     <description>Fehlerklasse: Rechner&#252;berwachung: ROM</description>
     <CATEGORYMEM index="0" category="21" />
-    <EMBEDDEDDATA mmedaddress="0x1644" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1664" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
