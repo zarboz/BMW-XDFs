@@ -219,60 +219,60 @@
     <CATEGORY index="0xD0" name="DLSSA: Signal output lambda probes" />
     <CATEGORY index="0xD1" name="DLSU: Diagnosis of continuous lambda probe LSU " />
     <CATEGORY index="0xD2" name="DLSUV: Recognition of exchanged lambda probes before Cat" />
-    <CATEGORY index="0xD3" name="DMDFLU: Diagnose Misfire Detection Filterung der Laufunruhe" />
+    <CATEGORY index="0xD3" name="DMDFLU: Diagnosis Misfire Detection Filtering of uneven running" />
     <CATEGORY index="0xD4" name="DMDFOF: Diagnosis Misfire Detection Fuel-off Adaptation" />
     <CATEGORY index="0xD5" name="DMDFON: Diagnosis Misfire Detection Fuel-on Adaptation" />
-    <CATEGORY index="0xD6" name="DMDLAD: Logic and Delay; Log. Verkn&#252;pfung versch. Bl&#246;cke zur Aussetzererkennung" />
-    <CATEGORY index="0xD7" name="DMDLFB: Diagnose Misfire Detection Berechnung Laufunruhe luts und gefilterte fluts" />
-    <CATEGORY index="0xD8" name="DMDLU:  Diagnose misfire detection; Laufunruhe" />
+    <CATEGORY index="0xD6" name="DMDLAD: Logic and Delay; Log. Shortcut blocks for misfire detection" />
+    <CATEGORY index="0xD7" name="DMDLFB: Diagnosis Misfire Detection Calculate uneventful luts and filtered fluts" />
+    <CATEGORY index="0xD8" name="DMDLU:  Diagnosis misfire detection; running irregularity" />
     <CATEGORY index="0xD9" name="DMDLUA: Diagnose Misfire Detection Laufunruhe Abstandsmass" />
-    <CATEGORY index="0xDA" name="DMDMIL: Fehlerbehandlung der Aussetzererkennung, Ansteuerung der MIL und Heilung" />
-    <CATEGORY index="0xDB" name="DMDSTP: Diagnose Misfire Detection; Stopbedingungen" />
-    <CATEGORY index="0xDC" name="DMDTSB: Diagnosis Misfire Detection Segmentzeitbildung" />
-    <CATEGORY index="0xDD" name="DMDZAG: Diagnose misfire detection: Aussetzergenerator" />
-    <CATEGORY index="0xDE" name="DMIL: OBDII; MIL-Ansteuerung" />
-    <CATEGORY index="0xDF" name="DMLSE: Diagnose; Endstufenpr&#252;fung elektrischer Motorl&#252;fter" />
+    <CATEGORY index="0xDA" name="DMDMIL: Error handling of misfire detection, control of MIL and healing" />
+    <CATEGORY index="0xDB" name="DMDSTP: Diagnosis Misfire Detection; stop conditions" />
+    <CATEGORY index="0xDC" name="DMDTSB: Diagnosis Misfire Detection Segment Timing" />
+    <CATEGORY index="0xDD" name="DMDZAG: Diagnosis misfire detection: Misfire generator" />
+    <CATEGORY index="0xDE" name="DMIL: OBDII; MIL-control" />
+    <CATEGORY index="0xDF" name="DMLSE: Diagnose; Final stage test of electric motor fans" />
     <CATEGORY index="0xE0" name="DNVRBUP: Diagnose NVRAM Backup" />
-    <CATEGORY index="0xE1" name="DNWSAUS: DNWSAUS.exportedDiagnose Nockenwellensteuerung (Ausla&#223;seitig)" />
-    <CATEGORY index="0xE2" name="DNWSEAUS: DNWSEAUS.exportedDiagnose: Endstufe Nockenwellensteuerung (Ausla&#223;seitig)" />
-    <CATEGORY index="0xE3" name="DNWSEEIN: DNWSEEIN.exportedDiagnose der Nockenwellenendstufe (einla&#223;seitig)" />
-    <CATEGORY index="0xE4" name="DNWSEIN: DNWSEIN.exportedDiagnose Nockenwellensteuerung (Einla&#223;seitig)" />
-    <CATEGORY index="0xE5" name="DODSNL: Diagnose des &#214;ldruckschalters im Nachlauf" />
-    <CATEGORY index="0xE6" name="DPH: DPH.      Diagnose; Plausibilit&#228;tspr&#252;fung Phasensensor" />
-    <CATEGORY index="0xE7" name="DSLPE: Diagnose; Sekund&#228;rluftpumpe Endstufe" />
-    <CATEGORY index="0xE8" name="DSLSLRS: Diagnose Sekund&#228;rluftsystem mit stetiger Lambdaregelung" />
-    <CATEGORY index="0xE9" name="DSLVE: Diagnose; Plausibilit&#228;tspr&#252;fung Sekund&#228;rluftventil-Endstufe" />
-    <CATEGORY index="0xEA" name="DSTA: Diagnose; Startautomatik Ansteuerung" />
-    <CATEGORY index="0xEB" name="DSTS: Diagnose; Startautomatik Signaleingang" />
-    <CATEGORY index="0xEC" name="DSUE: Diagnose; Saugrohrumschaltung Endstufe" />
-    <CATEGORY index="0xED" name="DSWEC: Schlechtwegerk. aus Rad-Beschl.,-&gt; mittels CAN von ABS SG zu Motronic" />
-    <CATEGORY index="0xEE" name="DTEVE: Diagnose; Tankentl&#252;ftungsventil - Endstufe" />
-    <CATEGORY index="0xEF" name="DTEVN: Diagnose Tankentl&#252;ftungsventil (OBDII)" />
-    <CATEGORY index="0xF0" name="DTHS: DTHS.     Diagnose Thermostat" />
-    <CATEGORY index="0xF1" name="DUF: Diagnose aus der Funktions&#252;berwachung" />
+    <CATEGORY index="0xE1" name="DNWSAUS: Diagnosis camshaft control (exhaust side)" />
+    <CATEGORY index="0xE2" name="DNWSEAUS: Diagnosis: Power stage camshaft control (exhaust side)" />
+    <CATEGORY index="0xE3" name="DNWSEEIN: Diagnosis of camshaft power amplifier (inlet side)" />
+    <CATEGORY index="0xE4" name="DNWSEIN: Diagnosis camshaft control (inlet side)" />
+    <CATEGORY index="0xE5" name="DODSNL: Diagnosis of the oil pressure switch in the wake" />
+    <CATEGORY index="0xE6" name="DPH: Diagnosis; Plausibility check phase sensor" />
+    <CATEGORY index="0xE7" name="DSLPE: Diagnosis; Secondary air pump output stage" />
+    <CATEGORY index="0xE8" name="DSLSLRS: Diagnosis of secondary air system with continuous lambda control" />
+    <CATEGORY index="0xE9" name="DSLVE: Diagnosis; Plausibility check Secondary air valve output stage" />
+    <CATEGORY index="0xEA" name="DSTA: Diagnosis; Start automatic control" />
+    <CATEGORY index="0xEB" name="DSTS: Diagnosis; Start automatic signal input" />
+    <CATEGORY index="0xEC" name="DSUE: Diagnosis; Intake manifold switching output stage" />
+    <CATEGORY index="0xED" name="DSWEC: Schlechtwegerk. from Rad-Besch., - & gt; via CAN from ABS SG to Motronic" />
+    <CATEGORY index="0xEE" name="DTEVE: Diagnosis; Tank vent valve - power amplifier" />
+    <CATEGORY index="0xEF" name="DTEVN: Diagnostic Tank Bleeder Valve (OBDII)" />
+    <CATEGORY index="0xF0" name="DTHS:  Diagnose Thermostat" />
+    <CATEGORY index="0xF1" name="DUF: Diagnosis from the function monitoring" />
     <CATEGORY index="0xF2" name="DVANOS: Diagnose VANOS" />
-    <CATEGORY index="0xF3" name="DVAT: Diagnose Angezeigte Fahrzeuggeschwindigkeit im Tacho" />
-    <CATEGORY index="0xF4" name="DVFZ: Diagnose: Plausibilit&#228;tspr&#252;fung Fahrzeuggeschwindigkeit" />
-    <CATEGORY index="0xF5" name="DVVT: DVVT.     Diagnose VVT-Steuerger&#228;t" />
-    <CATEGORY index="0xF6" name="DVVTE: Diagnose VVT-Steuerger&#228;t-Endstufe" />
-    <CATEGORY index="0xF7" name="DWUC: OBDII; Erf&#252;llung Bedingung &apos;warm up cycle&apos;" />
-    <CATEGORY index="0xF8" name="DZKU: Diagnose: Z&#252;ndkreis&#252;berwachung" />
-    <CATEGORY index="0xF9" name="EAVANOS: Ein-/Auslassvanos (BMW)" />
-    <CATEGORY index="0xFA" name="ELS: E-Box L&#252;fter Steuerung" />
-    <CATEGORY index="0xFB" name="ESGRU: Grundeinspritzungen" />
-    <CATEGORY index="0xFC" name="ESNST: Einspritzung Nachstart" />
-    <CATEGORY index="0xFD" name="ESSTT: Einspritzzeit Start" />
+    <CATEGORY index="0xF3" name="DVAT: Diagnosis Displayed vehicle speed in the odometer" />
+    <CATEGORY index="0xF4" name="DVFZ: Diagnosis: plausibility check vehicle speed" />
+    <CATEGORY index="0xF5" name="DVVT: Diagnosis VVT control unit" />
+    <CATEGORY index="0xF6" name="DVVTE: Diagnostic VVT Controller Power Amplifier" />
+    <CATEGORY index="0xF7" name="DWUC: OBDII; Fulfillment condition warm up cycle" />
+    <CATEGORY index="0xF8" name="DZKU: Diagnosis: Ignition circuit monitoring" />
+    <CATEGORY index="0xF9" name="EAVANOS: Inlet / Outlet Vanos (BMW)" />
+    <CATEGORY index="0xFA" name="ELS: E-box fan control" />
+    <CATEGORY index="0xFB" name="ESGRU: basic injections" />
+    <CATEGORY index="0xFC" name="ESNST: Injection after start" />
+    <CATEGORY index="0xFD" name="ESSTT: Injection time start" />
     <CATEGORY index="0xFE" name="ESUK: " />
-    <CATEGORY index="0xFF" name="ESUKDK: Einspritzung &#220;bergangskomp. DK-Anteil" />
-    <CATEGORY index="0x100" name="ESVW: ESVW.exportedEinspritzung: Berechnung der Vorlagerungswinkel" />
-    <CATEGORY index="0x101" name="ESWE: Einspritzung Schubabschalten Wiedereinsetzen" />
-    <CATEGORY index="0x102" name="ESWL: Einspritzung Warmlauf" />
-    <CATEGORY index="0x103" name="ETR: Elektrische Thermostatregelung" />
-    <CATEGORY index="0x104" name="FE: F&#252;llungseingriffe" />
-    <CATEGORY index="0x105" name="FE_UM: BMW Funktion" />
-    <CATEGORY index="0x106" name="FFZ: Folgefunkenz&#252;ndung" />
-    <CATEGORY index="0x107" name="FGRAUS: Abschaltung Fahrgeschwindigkeitsregler" />
-    <CATEGORY index="0x108" name="FGRMD: Funktionslogik und Regelalgorithmus Fahrgeschwindigkeitsregler" />
+    <CATEGORY index="0xFF" name="ESUKDK: Injection transition Comp. DK-share" />
+    <CATEGORY index="0x100" name="ESVW: Injection: calculation of the advance angle" />
+    <CATEGORY index="0x101" name="ESWE: Injection Thrust Shutdown Reinstall" />
+    <CATEGORY index="0x102" name="ESWL: Injection warm-up" />
+    <CATEGORY index="0x103" name="ETR: Electric thermostat control" />
+    <CATEGORY index="0x104" name="FE: filling operations" />
+    <CATEGORY index="0x105" name="FE_UM: BMW function" />
+    <CATEGORY index="0x106" name="FFZ: Sequential spark ignition" />
+    <CATEGORY index="0x107" name="FGRAUS: Shutdown cruise control" />
+    <CATEGORY index="0x108" name="FGRMD: Function Logic and Control Algorithm Vehicle speed controller" />
     <CATEGORY index="0x109" name="FUEDK: F&#252;llungssteuerung (Berechnung DK-Sollwinkel)" />
     <CATEGORY index="0x10A" name="FUEVVT: F&#252;llungsbeeinflussung &#252;ber VVT" />
     <CATEGORY index="0x10B" name="GGDDSS: Gebergr&#246;&#223;e Differenzdrucksensor Saugrohr" />
