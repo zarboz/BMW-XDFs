@@ -9,432 +9,432 @@
     <DEFAULTS datasizeinbits="8" sigdigits="2" outputtype="1" signed="0" lsbfirst="1" float="0" />
     <REGION type="0xFFFFFFFF" startaddress="0x0" size="0x20000" regionflags="0x0" name="Binary File" desc="This region describes the bin file edited by this XDF" />
     <CATEGORY index="0x0" name="My maps" />
-    <CATEGORY index="0x1" name="ADVE: &quot;Ansteuerung der DV-E mit dem DLR&quot;" />
-    <CATEGORY index="0x2" name="AEKP: &quot;Ausgabe EKP-Ansteuerung&quot;" />
-    <CATEGORY index="0x3" name="AEVAB: &quot;Ausgabe Einspritzung Ev-Ausblendung&quot;" />
-    <CATEGORY index="0x4" name="AEVABU: &quot;Ausgabe EV-Abschaltung durch &#220;berwachungsfunktionen bei EGAS&quot;" />
-    <CATEGORY index="0x5" name="AKR: &quot;Ansteuerung Abgasklappe (f&#252;r Resonator)&quot;" />
-    <CATEGORY index="0x6" name="ALE: &quot;ALE.exportedAuslauferkennung&quot;" />
-    <CATEGORY index="0x7" name="AMUENE: &quot;Abspeicherung von Motor&#252;berdrehzahlereignissen&quot;" />
-    <CATEGORY index="0x8" name="ARMD: &quot;Momentenbasierte Antiruckelfunktion&quot;" />
-    <CATEGORY index="0x9" name="ATBEG: &quot;ATBEG.    Abgastemperaturbegrenzung (BMW)&quot;" />
-    <CATEGORY index="0xA" name="ATEV: &quot;Ansteuerung Tankentl&#252;ftungsventil (Periodendauer)&quot;" />
-    <CATEGORY index="0xB" name="ATM: &quot;Abgastemperaturmodell&quot;" />
-    <CATEGORY index="0xC" name="BBACC: &quot;Ein.- und Ausschaltbedingungen ACC (Adaptiv Cruise Control)&quot;" />
-    <CATEGORY index="0xD" name="BBBO: &quot;Betriebsbereich Erkennung Benzin im &#214;l&quot;" />
-    <CATEGORY index="0xE" name="BBFGR: &quot;Ein- und Ausschaltbedingungen Fahrgeschwindigkeitsregler&quot;" />
-    <CATEGORY index="0xF" name="BBGANG: &quot;Betriebsbereich Gang&quot;" />
-    <CATEGORY index="0x10" name="BBHWONOF: &quot;Betriebsbereich SG HW Startup und abschalten&quot;" />
-    <CATEGORY index="0x11" name="BBKD: &quot;Berechnung der Kick-Down-Information&quot;" />
-    <CATEGORY index="0x12" name="BBKHZ: &quot;Betriebsbereich motorisches Katheizen&quot;" />
-    <CATEGORY index="0x13" name="BBKURU: &quot;Betriebsbereich Erkennung Kupplung rutscht&quot;" />
-    <CATEGORY index="0x14" name="BBPEDBR: &quot;Plausibilisierung Fahrpedalwert/Bremspedal; Dokumentation&quot;" />
-    <CATEGORY index="0x15" name="BBSAWE: &quot;Betriebsbereich Schubabschalten/Wiedereinsetzen&quot;" />
-    <CATEGORY index="0x16" name="BBSTT: &quot;Betriebsbereich: Start&quot;" />
-    <CATEGORY index="0x17" name="BBTEGA: &quot;Phasensteuerung f&#252;r Tankentl&#252;ftung und Gemischadaption&quot;" />
-    <CATEGORY index="0x18" name="BBVL: &quot;Betriebsbereich Vollast&quot;" />
-    <CATEGORY index="0x19" name="BBWAKEUP: &quot;Betriebsbereich SG im wake up Zustand&quot;" />
-    <CATEGORY index="0x1A" name="BGANZNMX: &quot;Berechnete Gr&#246;&#223;e Anzeige Nmax&quot;" />
-    <CATEGORY index="0x1B" name="BGCCM: &quot;Berechnete Gr&#246;&#223;e CheckControl Meldung&quot;" />
-    <CATEGORY index="0x1C" name="BGCMSGGTS: &quot;Berechnete Gr&#246;sse sende CAN-Message Geschwindigkeit_Tempomat&quot;" />
-    <CATEGORY index="0x1D" name="BGCRENG: &quot;BGCRENG.  Berechnete Gr&#246;&#223;e Strombedarf Motor&quot;" />
-    <CATEGORY index="0x1E" name="BGDETX: &quot;Kundenspez. Fehlerart-Erweiterungs-Byte (Status Diagnosefunktion)&quot;" />
-    <CATEGORY index="0x1F" name="BGDVE: &quot;Gr&#246;&#223;en f&#252;r DV-E-Ansteuerung aus Lern- und Pr&#252;froutinen&quot;" />
-    <CATEGORY index="0x20" name="BGFDCAN: &quot;Berechnete Gr&#246;sse Freigabe CAN-Diagnose&quot;" />
-    <CATEGORY index="0x21" name="BGFKEZ: &quot;Berechnete Gr&#246;&#223;e zylinderidividuelle Faktoren zur Kraftstoffkorrektur&quot;" />
-    <CATEGORY index="0x22" name="BGKV: &quot;Berechnungsgroesse verbrauchter Kraftstoff&quot;" />
-    <CATEGORY index="0x23" name="BGMDLM: &quot;Berechnete Gr&#246;&#223;e Motormoment mit Momenteneingriffen&quot;" />
-    <CATEGORY index="0x24" name="BGMIMK: &quot;Berechnete Gr&#246;&#223;e in ind. Moment in  Kupplungsmoment&quot;" />
-    <CATEGORY index="0x25" name="BGMRACC: &quot;Berechnete Gr&#246;&#223;e relatives ACC-Moment&quot;" />
-    <CATEGORY index="0x26" name="BGMSZS: &quot;Berechnungsgr&#246;&#223;e Massenstr&#246;me zum Saugrohr&quot;" />
-    <CATEGORY index="0x27" name="BGMSZSNN: &quot;Berechnung Luftmassenoffset LL &#252;ber Temperatur&quot;" />
-    <CATEGORY index="0x28" name="BGNG: &quot;Berechnete Gr&#246;&#223;e Drehzahlgradient&quot;" />
-    <CATEGORY index="0x29" name="BGODS: &quot;BGODS.    Berechnete Gr&#246;&#223;e &#214;ldruckschalter&quot;" />
-    <CATEGORY index="0x2A" name="BGRBS: &quot;Berechnete Gr&#246;&#223;e Radbeschleunigung aus Raddrehzahl&quot;" />
-    <CATEGORY index="0x2B" name="BGRGM: &quot;Restgasmodell&quot;" />
-    <CATEGORY index="0x2C" name="BGRLMAX: &quot;Maximale F&#252;llungsbegrenzung (BMW)&quot;" />
-    <CATEGORY index="0x2D" name="BGRML: &quot;Berechnungsgr&#246;&#223;e relative Luftmasse nach SAE J1979 Mode $01 + $02 PID $04&quot;" />
-    <CATEGORY index="0x2E" name="BGSRM: &quot;F&#252;llungserfassung Saugrohrmodell&quot;" />
-    <CATEGORY index="0x2F" name="BGSTDKAT: &quot;Berechnete Gr&#246;&#223;e Status Diagnose Katalysator bei Testeraufruf&quot;" />
-    <CATEGORY index="0x30" name="BGSTUT: &quot;Berechnungsgr&#246;&#223;en Stufentempomat&quot;" />
-    <CATEGORY index="0x31" name="BGTABST: &quot;Berechnete Gr&#246;&#223;e Abstellzeit&quot;" />
-    <CATEGORY index="0x32" name="BGTEMPK: &quot;F&#252;llungserfassung Berechnung Temperaturkompensation&quot;" />
-    <CATEGORY index="0x33" name="BGTEV: &quot;Berechnungsgr&#246;&#223;e Massenstrom TEV&quot;" />
-    <CATEGORY index="0x34" name="BGTWSLP: &quot;Berechnete Gr&#246;&#223;en f&#252;r Temperatur der SLP-Wicklung&quot;" />
-    <CATEGORY index="0x35" name="BGVFGR: &quot;Berechnete Geschwindigkeit f&#252;r Fahrgeschwindigkeitsregler&quot;" />
-    <CATEGORY index="0x36" name="BGVSEKP: &quot;Berechnete Gr&#246;&#223;e Kraftstoff-Sollvolumenstrom f&#252;r bedarfsgesteuerte EKP&quot;" />
-    <CATEGORY index="0x37" name="BGWDKHF: &quot;BGWDKHF.  Berechnung Winkel Drosselklappe aus Signal d. Hauptf&#252;llungssensors&quot;" />
-    <CATEGORY index="0x38" name="BGWDKM: &quot;Berechnung Dk-Winkel Modell&quot;" />
-    <CATEGORY index="0x39" name="BGWNE: &quot;Berechnete Basis-Gr&#246;&#223;en f&#252;r Winkel- und Drehzahlerfassung&quot;" />
-    <CATEGORY index="0x3A" name="BNKABG: &quot;Bankabgleich&quot;" />
-    <CATEGORY index="0x3B" name="CANDME: &quot;DME CAN-Botschafts- und Signaldefinitionen&quot;" />
-    <CATEGORY index="0x3C" name="CANIHKA: &quot;IHKA CAN-Botschafts- und Signaldefinition&quot;" />
-    <CATEGORY index="0x3D" name="CANPWML: &quot;Powermanagement Ladespannung&quot;" />
-    <CATEGORY index="0x3E" name="CCP: &quot;&#220;bertragungsprotokoll f&#252;r Applikationstools&quot;" />
-    <CATEGORY index="0x3F" name="COSA: &quot;Software-Abgleich&quot;" />
-    <CATEGORY index="0x40" name="DAKRE: &quot;Diagnose; Abgasklappe Endstufe&quot;" />
-    <CATEGORY index="0x41" name="DCACC: &quot;Diagnose; CAN-Timeout ACC-Schnittstelle&quot;" />
-    <CATEGORY index="0x42" name="DCANA: &quot;Diagnose CAN A&quot;" />
-    <CATEGORY index="0x43" name="DCANB: &quot;Diagnose CAN B&quot;" />
-    <CATEGORY index="0x44" name="DCARS: &quot;Diagnose CAN-Timeout ARS-Steuerger&#228;t&quot;" />
-    <CATEGORY index="0x45" name="DCCAS: &quot;Diagnose CAN-Timeout CAS-Steuerger&#228;t&quot;" />
-    <CATEGORY index="0x46" name="DCDSC: &quot;Diagnose CAN-Timeout DSC-SG&quot;" />
-    <CATEGORY index="0x47" name="DCEGS: &quot;Diagnose CAN-Timeout Getriebesteuerger&#228;t&quot;" />
-    <CATEGORY index="0x48" name="DCIHKA: &quot;Diagnose CAN-Timeout IHKA-Steuerger&#228;t&quot;" />
-    <CATEGORY index="0x49" name="DCINS: &quot;Diagnose; CAN Timeout Instrument (Kombi)&quot;" />
-    <CATEGORY index="0x4A" name="DCLA: &quot;OBDII; Klassentabelle&quot;" />
-    <CATEGORY index="0x4B" name="DCOD: &quot;Diagnosefunktion Codierung&quot;" />
-    <CATEGORY index="0x4C" name="DCPWML: &quot;Diagnose CAN-Timeout PWML-Steuerger&#228;t&quot;" />
-    <CATEGORY index="0x4D" name="DCSZL: &quot;Diagnose CAN-Timeout SZL-Steuerger&#228;t&quot;" />
-    <CATEGORY index="0x4E" name="DDCY: &quot;OBDII; Erf&#252;llung Bedingung &apos;driving cycle&apos;&quot;" />
-    <CATEGORY index="0x4F" name="DDG: &quot;Diagnose Drehzahlgeber&quot;" />
-    <CATEGORY index="0x50" name="DDISA: &quot;Diagnose DISA (BMW)&quot;" />
-    <CATEGORY index="0x51" name="DDMMVE: &quot;DDMMVE.   Diagnose Endstufe DM-TL Magnetventil&quot;" />
-    <CATEGORY index="0x52" name="DDMPME: &quot;Diagnose Endstufe DM-TL Pumpenmotor&quot;" />
-    <CATEGORY index="0x53" name="DDMTL: &quot;Tankleckdiagnose mit DM-TL Modul&quot;" />
-    <CATEGORY index="0x54" name="DDMTLTC: &quot;DMTL Mode 8 und Schnittstelle Testerkommunikation&quot;" />
-    <CATEGORY index="0x55" name="DDPMEE: &quot;Diagnose; DM-TL Pumpenmotor Endstufe&quot;" />
-    <CATEGORY index="0x56" name="DDVE: &quot;Diagnose: EGAS-Steller DV-E&quot;" />
-    <CATEGORY index="0x57" name="DEAVANOS: &quot;Diagnose Ein- / Ausla&#223;- VANOS&quot;" />
-    <CATEGORY index="0x58" name="DECJ: &quot;Diagnose; Endstufe CJ4x/9x&quot;" />
-    <CATEGORY index="0x59" name="DEGFE: &quot;Diagnose der Eingangsgr&#246;&#223;en F&#252;llungserfassung&quot;" />
-    <CATEGORY index="0x5A" name="DEKPE: &quot;Diagnose; Elektrokraftstoffpumpe Endstufe&quot;" />
-    <CATEGORY index="0x5B" name="DELSE: &quot;Diagnose; Endstufe  E-BOX L&#252;fteransteuerung&quot;" />
-    <CATEGORY index="0x5C" name="DEPCL: &quot;Diagnose; Elektronik Powertrain Control Lampe&quot;" />
-    <CATEGORY index="0x5D" name="DETS: &quot;Endstufendiagnose; elektrische Thermostatsteuerung&quot;" />
-    <CATEGORY index="0x5E" name="DEVE: &quot;Diagnose; Einspritzventil - Endstufe&quot;" />
-    <CATEGORY index="0x5F" name="DFFTCNV: &quot;Diagnose; Freeze Frame Tabelle, Konvertierung zu Bytes&quot;" />
-    <CATEGORY index="0x60" name="DFPM: &quot;OBDII; Fehlerpfadmanager&quot;" />
-    <CATEGORY index="0x61" name="DFPMNL: &quot;Diagnose Fehlerpfadmanagement im Nachlauf&quot;" />
-    <CATEGORY index="0x62" name="DFPMOVF: &quot;Diagnose Fehlerpfadmanagement, Memory Overflow&quot;" />
-    <CATEGORY index="0x63" name="DFPM_BGRBS: &quot;&quot;" />
-    <CATEGORY index="0x64" name="DFPM_DAKRE: &quot;&quot;" />
-    <CATEGORY index="0x65" name="DFPM_DCACC: &quot;&quot;" />
-    <CATEGORY index="0x66" name="DFPM_DCANA: &quot;&quot;" />
-    <CATEGORY index="0x67" name="DFPM_DCANB: &quot;&quot;" />
-    <CATEGORY index="0x68" name="DFPM_DCARS: &quot;&quot;" />
-    <CATEGORY index="0x69" name="DFPM_DCCAS: &quot;&quot;" />
-    <CATEGORY index="0x6A" name="DFPM_DCDSC: &quot;&quot;" />
-    <CATEGORY index="0x6B" name="DFPM_DCEGS: &quot;&quot;" />
-    <CATEGORY index="0x6C" name="DFPM_DCIHKA: &quot;&quot;" />
-    <CATEGORY index="0x6D" name="DFPM_DCINS: &quot;&quot;" />
-    <CATEGORY index="0x6E" name="DFPM_DCOD: &quot;&quot;" />
-    <CATEGORY index="0x6F" name="DFPM_DCPWML: &quot;&quot;" />
-    <CATEGORY index="0x70" name="DFPM_DCSZL: &quot;&quot;" />
-    <CATEGORY index="0x71" name="DFPM_DDG: &quot;&quot;" />
-    <CATEGORY index="0x72" name="DFPM_DDISA: &quot;&quot;" />
-    <CATEGORY index="0x73" name="DFPM_DDMMVE: &quot;DDMMVE.&quot;" />
-    <CATEGORY index="0x74" name="DFPM_DDMPME: &quot;&quot;" />
-    <CATEGORY index="0x75" name="DFPM_DDMTL: &quot;&quot;" />
-    <CATEGORY index="0x76" name="DFPM_DDPMEE: &quot;&quot;" />
-    <CATEGORY index="0x77" name="DFPM_DDVE: &quot;&quot;" />
-    <CATEGORY index="0x78" name="DFPM_DEKPE: &quot;&quot;" />
-    <CATEGORY index="0x79" name="DFPM_DELSE: &quot;&quot;" />
-    <CATEGORY index="0x7A" name="DFPM_DETS: &quot;&quot;" />
-    <CATEGORY index="0x7B" name="DFPM_DEVE: &quot;&quot;" />
-    <CATEGORY index="0x7C" name="DFPM_DFPM: &quot;&quot;" />
-    <CATEGORY index="0x7D" name="DFPM_DFSTT: &quot;&quot;" />
-    <CATEGORY index="0x7E" name="DFPM_DHDMTE: &quot;1.30&quot;" />
-    <CATEGORY index="0x7F" name="DFPM_DHFM: &quot;&quot;" />
-    <CATEGORY index="0x80" name="DFPM_DHLSHK: &quot;&quot;" />
-    <CATEGORY index="0x81" name="DFPM_DHLSU: &quot;&quot;" />
-    <CATEGORY index="0x82" name="DFPM_DKATSP: &quot;&quot;" />
-    <CATEGORY index="0x83" name="DFPM_DKOSE: &quot;&quot;" />
-    <CATEGORY index="0x84" name="DFPM_DKRNT: &quot;&quot;" />
-    <CATEGORY index="0x85" name="DFPM_DKRS: &quot;&quot;" />
-    <CATEGORY index="0x86" name="DFPM_DKRTP: &quot;&quot;" />
-    <CATEGORY index="0x87" name="DFPM_DKUPPL: &quot;&quot;" />
-    <CATEGORY index="0x88" name="DFPM_DKVS: &quot;&quot;" />
-    <CATEGORY index="0x89" name="DFPM_DLLR: &quot;&quot;" />
-    <CATEGORY index="0x8A" name="DFPM_DLOCVVT: &quot;&quot;" />
-    <CATEGORY index="0x8B" name="DFPM_DLSAHK: &quot;&quot;" />
-    <CATEGORY index="0x8C" name="DFPM_DLSH: &quot;&quot;" />
-    <CATEGORY index="0x8D" name="DFPM_DLSU: &quot;&quot;" />
-    <CATEGORY index="0x8E" name="DFPM_DMDMIL: &quot;DMDMIL.exported&quot;" />
-    <CATEGORY index="0x8F" name="DFPM_DMLSE: &quot;&quot;" />
-    <CATEGORY index="0x90" name="DFPM_DNVRBUP: &quot;&quot;" />
-    <CATEGORY index="0x91" name="DFPM_DNWSAUS: &quot;DNWSAUS.exported&quot;" />
-    <CATEGORY index="0x92" name="DFPM_DNWSEAUS: &quot;DNWSEAUS.exported&quot;" />
-    <CATEGORY index="0x93" name="DFPM_DNWSEEIN: &quot;DNWSEEIN.exported&quot;" />
-    <CATEGORY index="0x94" name="DFPM_DNWSEIN: &quot;DNWSEIN.exported&quot;" />
-    <CATEGORY index="0x95" name="DFPM_DODSNL: &quot;&quot;" />
-    <CATEGORY index="0x96" name="DFPM_DPH: &quot;DPH.&quot;" />
-    <CATEGORY index="0x97" name="DFPM_DSLPE: &quot;&quot;" />
-    <CATEGORY index="0x98" name="DFPM_DSLSLRS: &quot;&quot;" />
-    <CATEGORY index="0x99" name="DFPM_DSLVE: &quot;&quot;" />
-    <CATEGORY index="0x9A" name="DFPM_DSTA: &quot;&quot;" />
-    <CATEGORY index="0x9B" name="DFPM_DSTS: &quot;&quot;" />
-    <CATEGORY index="0x9C" name="DFPM_DSUE: &quot;&quot;" />
-    <CATEGORY index="0x9D" name="DFPM_DTEVE: &quot;&quot;" />
-    <CATEGORY index="0x9E" name="DFPM_DTEVN: &quot;&quot;" />
-    <CATEGORY index="0x9F" name="DFPM_DTHS: &quot;DTHS.&quot;" />
-    <CATEGORY index="0xA0" name="DFPM_DUF: &quot;&quot;" />
-    <CATEGORY index="0xA1" name="DFPM_DUR: &quot;&quot;" />
-    <CATEGORY index="0xA2" name="DFPM_DVAT: &quot;&quot;" />
-    <CATEGORY index="0xA3" name="DFPM_DVFZ: &quot;&quot;" />
-    <CATEGORY index="0xA4" name="DFPM_DVVT: &quot;DVVT.&quot;" />
-    <CATEGORY index="0xA5" name="DFPM_DVVTE: &quot;&quot;" />
-    <CATEGORY index="0xA6" name="DFPM_DZKU: &quot;&quot;" />
-    <CATEGORY index="0xA7" name="DFPM_EGFE: &quot;&quot;" />
-    <CATEGORY index="0xA8" name="DFPM_FSPVDGEN: &quot;FSPVDGEN.exported&quot;" />
-    <CATEGORY index="0xA9" name="DFPM_GGDDSS: &quot;&quot;" />
-    <CATEGORY index="0xAA" name="DFPM_GGDSAS: &quot;&quot;" />
-    <CATEGORY index="0xAB" name="DFPM_GGEGAS: &quot;&quot;" />
-    <CATEGORY index="0xAC" name="DFPM_GGPED: &quot;&quot;" />
-    <CATEGORY index="0xAD" name="DFPM_GGTFA: &quot;&quot;" />
-    <CATEGORY index="0xAE" name="DFPM_GGTFM: &quot;&quot;" />
-    <CATEGORY index="0xAF" name="DFPM_GGTFUMG: &quot;&quot;" />
-    <CATEGORY index="0xB0" name="DFPM_GGTKA: &quot;&quot;" />
-    <CATEGORY index="0xB1" name="DFPM_GGUB: &quot;&quot;" />
-    <CATEGORY index="0xB2" name="DFPM_LSVV: &quot;&quot;" />
-    <CATEGORY index="0xB3" name="DFPM_MDKOG: &quot;&quot;" />
-    <CATEGORY index="0xB4" name="DFPM_MINHUB: &quot;&quot;" />
-    <CATEGORY index="0xB5" name="DFPM_MTOEL: &quot;&quot;" />
-    <CATEGORY index="0xB6" name="DFPM_NVRMON: &quot;&quot;" />
-    <CATEGORY index="0xB7" name="DFPM_OZGG: &quot;OZGG.exported&quot;" />
-    <CATEGORY index="0xB8" name="DFPM_SWADP: &quot;&quot;" />
-    <CATEGORY index="0xB9" name="DFPM_WFS: &quot;&quot;" />
-    <CATEGORY index="0xBA" name="DFSTT: &quot;Diagnose Fullstandsgeber Tank&quot;" />
-    <CATEGORY index="0xBB" name="DGEN: &quot;DGEN.     Diagnose BSD-Generator und KL61-Bildung&quot;" />
-    <CATEGORY index="0xBC" name="DHDMTE: &quot;1.30      Endstufendiagnose Heizung DM-TL&quot;" />
-    <CATEGORY index="0xBD" name="DHFM: &quot;Diagnose; Plausibilit&#228;tspr&#252;fung HFM&quot;" />
-    <CATEGORY index="0xBE" name="DHLSHK: &quot;Diagnose Sondenheizung hinter Kat&quot;" />
-    <CATEGORY index="0xBF" name="DHLSU: &quot;Diagnose Heizung LSU&quot;" />
-    <CATEGORY index="0xC0" name="DIMC: &quot;OBDII; inspection/maintenance-ready&quot;" />
-    <CATEGORY index="0xC1" name="DIMCTES: &quot;Diagnose; Inspection-Maintenance Code, Tankentl&#252;ftungssystem&quot;" />
-    <CATEGORY index="0xC2" name="DISA: &quot;Differentielle Sauganlage (BMW)&quot;" />
-    <CATEGORY index="0xC3" name="DISTAB: &quot;&quot;" />
-    <CATEGORY index="0xC4" name="DKATSP: &quot;Katalysatordiagnose durch Gemischsprung&quot;" />
-    <CATEGORY index="0xC5" name="DKATSPEB: &quot;Einschaltbedingungen der Katalysatordiagnose&quot;" />
-    <CATEGORY index="0xC6" name="DKOSE: &quot;Diagnose Klimakompressor-Endstufe&quot;" />
-    <CATEGORY index="0xC7" name="DKRNT: &quot;Diagnose; Klopfregelung, Nulltest (OBDII)&quot;" />
-    <CATEGORY index="0xC8" name="DKRS: &quot;Diagnose; Klopfsensor (OBDII)&quot;" />
-    <CATEGORY index="0xC9" name="DKRTP: &quot;Diagnose; Klopfregelung, Testimpuls (OBDII)&quot;" />
-    <CATEGORY index="0xCA" name="DKUPPL: &quot;Diagnose Kupplungsschalter&quot;" />
-    <CATEGORY index="0xCB" name="DKVS: &quot;Diagnose; Plausibilit&#228;tspr&#252;fung Kraftstoffversorgungssysteme&quot;" />
-    <CATEGORY index="0xCC" name="DLLR: &quot;Diagnose: Leerlaufregelung Erkennung blockierter Steller&quot;" />
-    <CATEGORY index="0xCD" name="DLOCVVT: &quot;Diagnose LOCAN VVT&quot;" />
-    <CATEGORY index="0xCE" name="DLSAHK: &quot;Lambdasondenalterungs&#252;berwachung hinter KAT&quot;" />
-    <CATEGORY index="0xCF" name="DLSH: &quot;Diagnose; Sondenbetriebsbereitschaft hinter Kat&quot;" />
-    <CATEGORY index="0xD0" name="DLSSA: &quot;Signalausgabe Lambdasonden&quot;" />
-    <CATEGORY index="0xD1" name="DLSU: &quot;Diagnose stetige Lambdasonde LSU&quot;" />
-    <CATEGORY index="0xD2" name="DLSUV: &quot;Erkennung vertauschte Lambda-Sonden vor Kat&quot;" />
-    <CATEGORY index="0xD3" name="DMDFLU: &quot;DMDFLU.   Diagnose Misfire Detection Filterung der Laufunruhe&quot;" />
-    <CATEGORY index="0xD4" name="DMDFOF: &quot;DMDFOF.   Diagnosis Misfire Detection Fuel-off Adaptation&quot;" />
-    <CATEGORY index="0xD5" name="DMDFON: &quot;DMDFON.exportedDiagnosis Misfire Detection Fuel-on Adaptation&quot;" />
-    <CATEGORY index="0xD6" name="DMDLAD: &quot;DMDLAD.exportedLogic and Delay; Log. Verkn&#252;pfung versch. Bl&#246;cke zur Aussetzererkennung&quot;" />
-    <CATEGORY index="0xD7" name="DMDLFB: &quot;Diagnose Misfire Detection Berechnung Laufunruhe luts und gefilterte fluts&quot;" />
-    <CATEGORY index="0xD8" name="DMDLU: &quot;DMDLU.exportedDiagnose misfire detection; Laufunruhe&quot;" />
-    <CATEGORY index="0xD9" name="DMDLUA: &quot;DMDLUA.   Diagnose Misfire Detection Laufunruhe Abstandsmass&quot;" />
-    <CATEGORY index="0xDA" name="DMDMIL: &quot;DMDMIL.exportedFehlerbehandlung der Aussetzererkennung, Ansteuerung der MIL und Heilung&quot;" />
-    <CATEGORY index="0xDB" name="DMDSTP: &quot;DMDSTP.   Diagnose Misfire Detection; Stopbedingungen&quot;" />
-    <CATEGORY index="0xDC" name="DMDTSB: &quot;Diagnosis Misfire Detection Segmentzeitbildung&quot;" />
-    <CATEGORY index="0xDD" name="DMDZAG: &quot;DMDZAG.exportedDiagnose misfire detection: Aussetzergenerator&quot;" />
-    <CATEGORY index="0xDE" name="DMIL: &quot;OBDII; MIL-Ansteuerung&quot;" />
-    <CATEGORY index="0xDF" name="DMLSE: &quot;Diagnose; Endstufenpr&#252;fung elektrischer Motorl&#252;fter&quot;" />
-    <CATEGORY index="0xE0" name="DNVRBUP: &quot;Diagnose NVRAM Backup&quot;" />
-    <CATEGORY index="0xE1" name="DNWSAUS: &quot;DNWSAUS.exportedDiagnose Nockenwellensteuerung (Ausla&#223;seitig)&quot;" />
-    <CATEGORY index="0xE2" name="DNWSEAUS: &quot;DNWSEAUS.exportedDiagnose: Endstufe Nockenwellensteuerung (Ausla&#223;seitig)&quot;" />
-    <CATEGORY index="0xE3" name="DNWSEEIN: &quot;DNWSEEIN.exportedDiagnose der Nockenwellenendstufe (einla&#223;seitig)&quot;" />
-    <CATEGORY index="0xE4" name="DNWSEIN: &quot;DNWSEIN.exportedDiagnose Nockenwellensteuerung (Einla&#223;seitig)&quot;" />
-    <CATEGORY index="0xE5" name="DODSNL: &quot;Diagnose des &#214;ldruckschalters im Nachlauf&quot;" />
-    <CATEGORY index="0xE6" name="DPH: &quot;DPH.      Diagnose; Plausibilit&#228;tspr&#252;fung Phasensensor&quot;" />
-    <CATEGORY index="0xE7" name="DSLPE: &quot;Diagnose; Sekund&#228;rluftpumpe Endstufe&quot;" />
-    <CATEGORY index="0xE8" name="DSLSLRS: &quot;Diagnose Sekund&#228;rluftsystem mit stetiger Lambdaregelung&quot;" />
-    <CATEGORY index="0xE9" name="DSLVE: &quot;Diagnose; Plausibilit&#228;tspr&#252;fung Sekund&#228;rluftventil-Endstufe&quot;" />
-    <CATEGORY index="0xEA" name="DSTA: &quot;Diagnose; Startautomatik Ansteuerung&quot;" />
-    <CATEGORY index="0xEB" name="DSTS: &quot;Diagnose; Startautomatik Signaleingang&quot;" />
-    <CATEGORY index="0xEC" name="DSUE: &quot;Diagnose; Saugrohrumschaltung Endstufe&quot;" />
-    <CATEGORY index="0xED" name="DSWEC: &quot;Schlechtwegerk. aus Rad-Beschl.,-&gt; mittels CAN von ABS SG zu Motronic&quot;" />
-    <CATEGORY index="0xEE" name="DTEVE: &quot;Diagnose; Tankentl&#252;ftungsventil - Endstufe&quot;" />
-    <CATEGORY index="0xEF" name="DTEVN: &quot;Diagnose Tankentl&#252;ftungsventil (OBDII)&quot;" />
-    <CATEGORY index="0xF0" name="DTHS: &quot;DTHS.     Diagnose Thermostat&quot;" />
-    <CATEGORY index="0xF1" name="DUF: &quot;Diagnose aus der Funktions&#252;berwachung&quot;" />
-    <CATEGORY index="0xF2" name="DVANOS: &quot;Diagnose VANOS&quot;" />
-    <CATEGORY index="0xF3" name="DVAT: &quot;Diagnose Angezeigte Fahrzeuggeschwindigkeit im Tacho&quot;" />
-    <CATEGORY index="0xF4" name="DVFZ: &quot;Diagnose: Plausibilit&#228;tspr&#252;fung Fahrzeuggeschwindigkeit&quot;" />
-    <CATEGORY index="0xF5" name="DVVT: &quot;DVVT.     Diagnose VVT-Steuerger&#228;t&quot;" />
-    <CATEGORY index="0xF6" name="DVVTE: &quot;Diagnose VVT-Steuerger&#228;t-Endstufe&quot;" />
-    <CATEGORY index="0xF7" name="DWUC: &quot;OBDII; Erf&#252;llung Bedingung &apos;warm up cycle&apos;&quot;" />
-    <CATEGORY index="0xF8" name="DZKU: &quot;Diagnose: Z&#252;ndkreis&#252;berwachung&quot;" />
-    <CATEGORY index="0xF9" name="EAVANOS: &quot;Ein-/Auslassvanos (BMW)&quot;" />
-    <CATEGORY index="0xFA" name="ELS: &quot;E-Box L&#252;fter Steuerung&quot;" />
-    <CATEGORY index="0xFB" name="ESGRU: &quot;Grundeinspritzungen&quot;" />
-    <CATEGORY index="0xFC" name="ESNST: &quot;Einspritzung Nachstart&quot;" />
-    <CATEGORY index="0xFD" name="ESSTT: &quot;Einspritzzeit Start&quot;" />
-    <CATEGORY index="0xFE" name="ESUK: &quot;&quot;" />
-    <CATEGORY index="0xFF" name="ESUKDK: &quot;Einspritzung &#220;bergangskomp. DK-Anteil&quot;" />
-    <CATEGORY index="0x100" name="ESVW: &quot;ESVW.exportedEinspritzung: Berechnung der Vorlagerungswinkel&quot;" />
-    <CATEGORY index="0x101" name="ESWE: &quot;Einspritzung Schubabschalten Wiedereinsetzen&quot;" />
-    <CATEGORY index="0x102" name="ESWL: &quot;Einspritzung Warmlauf&quot;" />
-    <CATEGORY index="0x103" name="ETR: &quot;Elektrische Thermostatregelung&quot;" />
-    <CATEGORY index="0x104" name="FE: &quot;F&#252;llungseingriffe&quot;" />
-    <CATEGORY index="0x105" name="FE_UM: &quot;BMW Funktion&quot;" />
-    <CATEGORY index="0x106" name="FFZ: &quot;Folgefunkenz&#252;ndung&quot;" />
-    <CATEGORY index="0x107" name="FGRAUS: &quot;Abschaltung Fahrgeschwindigkeitsregler&quot;" />
-    <CATEGORY index="0x108" name="FGRMD: &quot;Funktionslogik und Regelalgorithmus Fahrgeschwindigkeitsregler&quot;" />
-    <CATEGORY index="0x109" name="FUEDK: &quot;F&#252;llungssteuerung (Berechnung DK-Sollwinkel)&quot;" />
-    <CATEGORY index="0x10A" name="FUEVVT: &quot;F&#252;llungsbeeinflussung &#252;ber VVT&quot;" />
-    <CATEGORY index="0x10B" name="GGDDSS: &quot;Gebergr&#246;&#223;e Differenzdrucksensor Saugrohr&quot;" />
-    <CATEGORY index="0x10C" name="GGDMTL: &quot;Gebergroesse DM-TL&quot;" />
-    <CATEGORY index="0x10D" name="GGDSAS: &quot;Gebergr&#246;&#223;e Drucksensoren au&#223;erhalb Saugrohr&quot;" />
-    <CATEGORY index="0x10E" name="GGDVE: &quot;Gebergr&#246;&#223;en Drosselklappensteller&quot;" />
-    <CATEGORY index="0x10F" name="GGEGAS: &quot;Gebergr&#246;&#223;e Brems- und Kupplungsschalter&quot;" />
-    <CATEGORY index="0x110" name="GGFSTT: &quot;Gebergroesse Fuellstandsgeber Tank&quot;" />
-    <CATEGORY index="0x111" name="GGHFM: &quot;Gebersignal HFM&quot;" />
-    <CATEGORY index="0x112" name="GGKS: &quot;Gebergr&#246;&#223;e Klopfsensor&quot;" />
-    <CATEGORY index="0x113" name="GGLSH: &quot;Gebergr&#246;&#223;e Lambdasondensignal (Nernst-Type) hinter Kat&quot;" />
-    <CATEGORY index="0x114" name="GGLSU: &quot;Gebersignal LSU&quot;" />
-    <CATEGORY index="0x115" name="GGMFL: &quot;Gebergr&#246;&#223;e Multifunktionslenkrad&quot;" />
-    <CATEGORY index="0x116" name="GGPED: &quot;Gebergr&#246;&#223;e Fahrpedal&quot;" />
-    <CATEGORY index="0x117" name="GGTFA: &quot;Gebergr&#246;&#223;e TFA Temperaturf&#252;hler Ansaugluft&quot;" />
-    <CATEGORY index="0x118" name="GGTFM: &quot;Gebergr&#246;&#223;e TFM Temperaturf&#252;hler Motor (/-K&#252;hlmittel)&quot;" />
-    <CATEGORY index="0x119" name="GGTFUMG: &quot;Gebergr&#246;&#223;e TFUMG Temperaturf&#252;hler Umgebung (/-sluft)&quot;" />
-    <CATEGORY index="0x11A" name="GGTKA: &quot;Gebergr&#246;&#223;e TKA Temperatur K&#252;hlerausgang&quot;" />
-    <CATEGORY index="0x11B" name="GGTSG: &quot;Gebergr&#246;&#223;e und Dokumentation Temperatur Steuerger&#228;t&quot;" />
-    <CATEGORY index="0x11C" name="GGUB: &quot;8.10      Gebergr&#246;&#223;e Batteriespannung, inkl.Diagnose&quot;" />
-    <CATEGORY index="0x11D" name="GGVFZG: &quot;Gebergr&#246;&#223;e Fahrzeuggeschwindigkeit&quot;" />
-    <CATEGORY index="0x11E" name="GK: &quot;Gemischkontrolle&quot;" />
-    <CATEGORY index="0x11F" name="HDMTL: &quot;Heizung DM-TL&quot;" />
-    <CATEGORY index="0x120" name="HLSHK: &quot;Sondenheizung hinter Kat&quot;" />
-    <CATEGORY index="0x121" name="HLSU: &quot;Heizung stetige Lambdasonde LSU&quot;" />
-    <CATEGORY index="0x122" name="HT2KTPH: &quot;Umsetzungsschicht Hardewaretreiber zu Komponententreiber Nockenwelle&quot;" />
-    <CATEGORY index="0x123" name="HT2KTWNE: &quot;Umsetzungsschicht Hardwaretreiber zu Komponententreiber Kurbelwelle&quot;" />
+    <CATEGORY index="0x1" name="ADVE: Control of the DV-E with the DLR;" />
+    <CATEGORY index="0x2" name="AEKP: Output EKP Control" />
+    <CATEGORY index="0x3" name="AEVAB: Issue Injection Ev Blanking" />
+    <CATEGORY index="0x4" name="AEVABU: Output EV shutdown by monitoring functions with EGAS" />
+    <CATEGORY index="0x5" name="AKR: Control exhaust flap (for resonator)" />
+    <CATEGORY index="0x6" name="ALE: ALE.exported spout detection" />
+    <CATEGORY index="0x7" name="AMUENE: Storage of engine overspeed events" />
+    <CATEGORY index="0x8" name="ARMD: Moments-based anti-glitch function" />
+    <CATEGORY index="0x9" name="ATBEG: Exhaust temperature limitation (BMW)" />
+    <CATEGORY index="0xA" name="ATEV: Control of tank vent valve (period duration)" />
+    <CATEGORY index="0xB" name="ATM: Exhaust gas temperature model" />
+    <CATEGORY index="0xC" name="BBACC: ON and OFF ACC (Adaptive Cruise Control)" />
+    <CATEGORY index="0xD" name="BBBO: Operating range Detecting gasoline in the oil" />
+    <CATEGORY index="0xE" name="BBFGR: On and off conditions Vehicle speed controller" />
+    <CATEGORY index="0xF" name="BBGANG: Operating area gear" />
+    <CATEGORY index="0x10" name="BBHWONOF: Operating range SG HW Startup and shutdown" />
+    <CATEGORY index="0x11" name="BBKD: Calculation of the kick-down information" />
+    <CATEGORY index="0x12" name="BBKHZ: Operating range of motor catalysing" />
+    <CATEGORY index="0x13" name="BBKURU: Operating range detection clutch slips" />
+    <CATEGORY index="0x14" name="BBPEDBR: Plausibility of accelerator pedal value / brake pedal; documentation" />
+    <CATEGORY index="0x15" name="BBSAWE: Operating range push-off / re-insert" />
+    <CATEGORY index="0x16" name="BBSTT: Operating range: Start" />
+    <CATEGORY index="0x17" name="BBTEGA: Phase control for tank ventilation and mixture adaptation" />
+    <CATEGORY index="0x18" name="BBVL: Operating range full load" />
+    <CATEGORY index="0x19" name="BBWAKEUP: Operating area SG in wake up state" />
+    <CATEGORY index="0x1A" name="BGANZNMX: Calculated size display Nmax" />
+    <CATEGORY index="0x1B" name="BGCCM: Calculated size Check Control message" />
+    <CATEGORY index="0x1C" name="BGCMSGGTS: Calculated size send CAN message Speed cruise control" />
+    <CATEGORY index="0x1D" name="BGCRENG: Calculated size power requirement motor" />
+    <CATEGORY index="0x1E" name="BGDETX: Customized. Error type extension byte (diagnostic function status)" />
+    <CATEGORY index="0x1F" name="BGDVE: Sizes for DV-E control from learning and test routines" />
+    <CATEGORY index="0x20" name="BGFDCAN: Calculated size Enable CAN diagnostics" />
+    <CATEGORY index="0x21" name="BGFKEZ: Calculated size of cylinder-individual factors for fuel correction" />
+    <CATEGORY index="0x22" name="BGKV: Calculated size consumed fuel" />
+    <CATEGORY index="0x23" name="BGMDLM: Calculated size of engine torque with torque interventions" />
+    <CATEGORY index="0x24" name="BGMIMK: Calculated size in ind. Moment in clutch torque" />
+    <CATEGORY index="0x25" name="BGMRACC: Calculated size relative ACC moment" />
+    <CATEGORY index="0x26" name="BGMSZS: Calculation variable mass flows to intake manifold" />
+    <CATEGORY index="0x27" name="BGMSZSNN: Calculation of air mass offset LL over temperature" />
+    <CATEGORY index="0x28" name="BGNG: Calculation of air mass offset LL over temperature..." />
+    <CATEGORY index="0x29" name="BGODS: Calculated size oil pressure switch" />
+    <CATEGORY index="0x2A" name="BGRBS: Calculated size wheel acceleration from wheel speed" />
+    <CATEGORY index="0x2B" name="BGRGM: Residual gas model" />
+    <CATEGORY index="0x2C" name="BGRLMAX: Maximum filling limit (BMW)" />
+    <CATEGORY index="0x2D" name="BGRML: Calculation size relative air mass according to SAE J1979 Mode $ 01 + $ 02 PID $ 04" />
+    <CATEGORY index="0x2E" name="BGSRM: Fill detection Suction tube model" />
+    <CATEGORY index="0x2F" name="BGSTDKAT: Calculated size Status Diagnosis Catalyst on tester call" />
+    <CATEGORY index="0x30" name="BGSTUT: Calculation variables of step control" />
+    <CATEGORY index="0x31" name="BGTABST: Calculated size stop time" />
+    <CATEGORY index="0x32" name="BGTEMPK: Fill detection Calculation Temperature compensation" />
+    <CATEGORY index="0x33" name="BGTEV: Calculation variable mass flow TEV" />
+    <CATEGORY index="0x34" name="BGTWSLP: Calculated values for SLP winding temperature" />
+    <CATEGORY index="0x35" name="BGVFGR: Calculated speed for cruise control" />
+    <CATEGORY index="0x36" name="BGVSEKP: Calculated size Nominal fuel flow rate for on-demand EKP" />
+    <CATEGORY index="0x37" name="BGWDKHF: Calculation angle throttle from signal d. Main charge sensor" />
+    <CATEGORY index="0x38" name="BGWDKM: Calculation Dk angle model" />
+    <CATEGORY index="0x39" name="BGWNE: Calculated basic quantities for angle and speed measurement" />
+    <CATEGORY index="0x3A" name="BNKABG: Bank balance" />
+    <CATEGORY index="0x3B" name="CANDME: DME CAN message and signal definitions" />
+    <CATEGORY index="0x3C" name="CANIHKA: IHKA CAN message and signal definition" />
+    <CATEGORY index="0x3D" name="CANPWML: Power management charging voltage" />
+    <CATEGORY index="0x3E" name="CCP: Transmission protocol for application tools" />
+    <CATEGORY index="0x3F" name="COSA: Software reconciliation" />
+    <CATEGORY index="0x40" name="DAKRE: Diagnosis; Exhaust flap power amplifier" />
+    <CATEGORY index="0x41" name="DCACC: Diagnosis; CAN timeout ACC interface" />
+    <CATEGORY index="0x42" name="DCANA: Diagnose CAN A" />
+    <CATEGORY index="0x43" name="DCANB: Diagnose CAN B" />
+    <CATEGORY index="0x44" name="DCARS: Diagnose CAN timeout ARS controller" />
+    <CATEGORY index="0x45" name="DCCAS: Diagnose CAN timeout CAS control unit" />
+    <CATEGORY index="0x46" name="DCDSC: Diagnose CAN timeout DSC-SG" />
+    <CATEGORY index="0x47" name="DCEGS: Diagnose CAN timeout gearbox control unit" />
+    <CATEGORY index="0x48" name="DCIHKA: Diagnose CAN timeout IHKA control unit" />
+    <CATEGORY index="0x49" name="DCINS: Diagnose; CAN Timeout Instrument (Kombi)" />
+    <CATEGORY index="0x4A" name="DCLA: OBDII; Klassentabelle" />
+    <CATEGORY index="0x4B" name="DCOD: Diagnostic function coding" />
+    <CATEGORY index="0x4C" name="DCPWML: Diagnosis CAN-Timeout PWML-ECU" />
+    <CATEGORY index="0x4D" name="DCSZL: Diagnosis CAN timeout SZL control unit" />
+    <CATEGORY index="0x4E" name="DDCY: OBDII; Fulfillment condition driving cycle" />
+    <CATEGORY index="0x4F" name="DDG: Diagnostic speed sensor" />
+    <CATEGORY index="0x50" name="DDISA: Diagnose DISA (BMW)" />
+    <CATEGORY index="0x51" name="DDMMVE: Diagnostic power amplifier DM-TL solenoid valve" />
+    <CATEGORY index="0x52" name="DDMPME: Diagnostic power amplifier DM-TL pump motor" />
+    <CATEGORY index="0x53" name="DDMTL: Tank leak diagnosis with DM-TL module" />
+    <CATEGORY index="0x54" name="DDMTLTC: DMTL Mode 8 und Schnittstelle Testerkommunikation" />
+    <CATEGORY index="0x55" name="DDPMEE: Diagnose; DM-TL Pumpenmotor Endstufe" />
+    <CATEGORY index="0x56" name="DDVE: Diagnosis: EGAS-Steller DV-E" />
+    <CATEGORY index="0x57" name="DEAVANOS: Diagnosis inlet / outlet VANOS" />
+    <CATEGORY index="0x58" name="DECJ: Diagnosis; Power amplifier CJ4x / 9x" />
+    <CATEGORY index="0x59" name="DEGFE: Diagnosis of the input variables Filling detection" />
+    <CATEGORY index="0x5A" name="DEKPE: Diagnosis; Electric fuel pump power amplifier" />
+    <CATEGORY index="0x5B" name="DELSE: Diagnosis; Power amplifier E-BOX Fan control" />
+    <CATEGORY index="0x5C" name="DEPCL: Diagnosis; Electronics Powertrain Control Lamp" />
+    <CATEGORY index="0x5D" name="DETS: Final stage diagnosis; electric thermostat control" />
+    <CATEGORY index="0x5E" name="DEVE: Diagnosis; Injection valve - power amplifier" />
+    <CATEGORY index="0x5F" name="DFFTCNV: Diagnosis; Freeze frame table, conversion to bytes" />
+    <CATEGORY index="0x60" name="DFPM: OBDII; Error path Manager" />
+    <CATEGORY index="0x61" name="DFPMNL: Diagnostics error path management in the wake" />
+    <CATEGORY index="0x62" name="DFPMOVF: Diagnostics Error Path Management, Memory Overflow" />
+    <CATEGORY index="0x63" name="DFPM_BGRBS: " />
+    <CATEGORY index="0x64" name="DFPM_DAKRE: " />
+    <CATEGORY index="0x65" name="DFPM_DCACC: " />
+    <CATEGORY index="0x66" name="DFPM_DCANA: " />
+    <CATEGORY index="0x67" name="DFPM_DCANB: " />
+    <CATEGORY index="0x68" name="DFPM_DCARS: " />
+    <CATEGORY index="0x69" name="DFPM_DCCAS: " />
+    <CATEGORY index="0x6A" name="DFPM_DCDSC: " />
+    <CATEGORY index="0x6B" name="DFPM_DCEGS: " />
+    <CATEGORY index="0x6C" name="DFPM_DCIHKA: " />
+    <CATEGORY index="0x6D" name="DFPM_DCINS: " />
+    <CATEGORY index="0x6E" name="DFPM_DCOD: " />
+    <CATEGORY index="0x6F" name="DFPM_DCPWML: " />
+    <CATEGORY index="0x70" name="DFPM_DCSZL: " />
+    <CATEGORY index="0x71" name="DFPM_DDG: " />
+    <CATEGORY index="0x72" name="DFPM_DDISA: " />
+    <CATEGORY index="0x73" name="DFPM_DDMMVE: DDMMVE." />
+    <CATEGORY index="0x74" name="DFPM_DDMPME: " />
+    <CATEGORY index="0x75" name="DFPM_DDMTL: " />
+    <CATEGORY index="0x76" name="DFPM_DDPMEE: " />
+    <CATEGORY index="0x77" name="DFPM_DDVE: " />
+    <CATEGORY index="0x78" name="DFPM_DEKPE: " />
+    <CATEGORY index="0x79" name="DFPM_DELSE: " />
+    <CATEGORY index="0x7A" name="DFPM_DETS: " />
+    <CATEGORY index="0x7B" name="DFPM_DEVE: " />
+    <CATEGORY index="0x7C" name="DFPM_DFPM: " />
+    <CATEGORY index="0x7D" name="DFPM_DFSTT: " />
+    <CATEGORY index="0x7E" name="DFPM_DHDMTE: 1.30" />
+    <CATEGORY index="0x7F" name="DFPM_DHFM: " />
+    <CATEGORY index="0x80" name="DFPM_DHLSHK: " />
+    <CATEGORY index="0x81" name="DFPM_DHLSU: " />
+    <CATEGORY index="0x82" name="DFPM_DKATSP: " />
+    <CATEGORY index="0x83" name="DFPM_DKOSE: " />
+    <CATEGORY index="0x84" name="DFPM_DKRNT: " />
+    <CATEGORY index="0x85" name="DFPM_DKRS: " />
+    <CATEGORY index="0x86" name="DFPM_DKRTP: " />
+    <CATEGORY index="0x87" name="DFPM_DKUPPL: " />
+    <CATEGORY index="0x88" name="DFPM_DKVS: " />
+    <CATEGORY index="0x89" name="DFPM_DLLR: " />
+    <CATEGORY index="0x8A" name="DFPM_DLOCVVT: " />
+    <CATEGORY index="0x8B" name="DFPM_DLSAHK: " />
+    <CATEGORY index="0x8C" name="DFPM_DLSH: " />
+    <CATEGORY index="0x8D" name="DFPM_DLSU: " />
+    <CATEGORY index="0x8E" name="DFPM_DMDMIL: DMDMIL.exported" />
+    <CATEGORY index="0x8F" name="DFPM_DMLSE: " />
+    <CATEGORY index="0x90" name="DFPM_DNVRBUP: " />
+    <CATEGORY index="0x91" name="DFPM_DNWSAUS: DNWSAUS.exported" />
+    <CATEGORY index="0x92" name="DFPM_DNWSEAUS: DNWSEAUS.exported" />
+    <CATEGORY index="0x93" name="DFPM_DNWSEEIN: DNWSEEIN.exported" />
+    <CATEGORY index="0x94" name="DFPM_DNWSEIN: DNWSEIN.exported" />
+    <CATEGORY index="0x95" name="DFPM_DODSNL: " />
+    <CATEGORY index="0x96" name="DFPM_DPH: DPH." />
+    <CATEGORY index="0x97" name="DFPM_DSLPE: " />
+    <CATEGORY index="0x98" name="DFPM_DSLSLRS: " />
+    <CATEGORY index="0x99" name="DFPM_DSLVE: " />
+    <CATEGORY index="0x9A" name="DFPM_DSTA: " />
+    <CATEGORY index="0x9B" name="DFPM_DSTS: " />
+    <CATEGORY index="0x9C" name="DFPM_DSUE: " />
+    <CATEGORY index="0x9D" name="DFPM_DTEVE: " />
+    <CATEGORY index="0x9E" name="DFPM_DTEVN: " />
+    <CATEGORY index="0x9F" name="DFPM_DTHS: DTHS." />
+    <CATEGORY index="0xA0" name="DFPM_DUF: " />
+    <CATEGORY index="0xA1" name="DFPM_DUR: " />
+    <CATEGORY index="0xA2" name="DFPM_DVAT: " />
+    <CATEGORY index="0xA3" name="DFPM_DVFZ: " />
+    <CATEGORY index="0xA4" name="DFPM_DVVT: DVVT." />
+    <CATEGORY index="0xA5" name="DFPM_DVVTE: " />
+    <CATEGORY index="0xA6" name="DFPM_DZKU: " />
+    <CATEGORY index="0xA7" name="DFPM_EGFE: " />
+    <CATEGORY index="0xA8" name="DFPM_FSPVDGEN: FSPVDGEN.exported" />
+    <CATEGORY index="0xA9" name="DFPM_GGDDSS: " />
+    <CATEGORY index="0xAA" name="DFPM_GGDSAS: " />
+    <CATEGORY index="0xAB" name="DFPM_GGEGAS: " />
+    <CATEGORY index="0xAC" name="DFPM_GGPED: " />
+    <CATEGORY index="0xAD" name="DFPM_GGTFA: " />
+    <CATEGORY index="0xAE" name="DFPM_GGTFM: " />
+    <CATEGORY index="0xAF" name="DFPM_GGTFUMG: " />
+    <CATEGORY index="0xB0" name="DFPM_GGTKA: " />
+    <CATEGORY index="0xB1" name="DFPM_GGUB: " />
+    <CATEGORY index="0xB2" name="DFPM_LSVV: " />
+    <CATEGORY index="0xB3" name="DFPM_MDKOG: " />
+    <CATEGORY index="0xB4" name="DFPM_MINHUB: " />
+    <CATEGORY index="0xB5" name="DFPM_MTOEL: " />
+    <CATEGORY index="0xB6" name="DFPM_NVRMON: " />
+    <CATEGORY index="0xB7" name="DFPM_OZGG: OZGG.exported" />
+    <CATEGORY index="0xB8" name="DFPM_SWADP: " />
+    <CATEGORY index="0xB9" name="DFPM_WFS: " />
+    <CATEGORY index="0xBA" name="DFSTT: Diagnostics Full-tank tank" />
+    <CATEGORY index="0xBB" name="DGEN: Diagnosis of BSD generator and KL61 formation" />
+    <CATEGORY index="0xBC" name="DHDMTE: Final stage diagnosis heating DM-TL" />
+    <CATEGORY index="0xBD" name="DHFM: Diagnosis; Plausibility check HFM" />
+    <CATEGORY index="0xBE" name="DHLSHK: Diagnosis probe heater behind cat" />
+    <CATEGORY index="0xBF" name="DHLSU: Diagnosis heating LSU" />
+    <CATEGORY index="0xC0" name="DIMC: OBDII; inspection/maintenance-ready" />
+    <CATEGORY index="0xC1" name="DIMCTES: Diagnose; Inspection-Maintenance Code, Tank ventilation system" />
+    <CATEGORY index="0xC2" name="DISA: differential suction (BMW)" />
+    <CATEGORY index="0xC3" name="DISTAB: " />
+    <CATEGORY index="0xC4" name="DKATSP: Catalyst diagnosis by mixture jump" />
+    <CATEGORY index="0xC5" name="DKATSPEB: Switch-on conditions of the catalyst diagnosis" />
+    <CATEGORY index="0xC6" name="DKOSE: Diagnosis of air conditioning compressor output stage" />
+    <CATEGORY index="0xC7" name="DKRNT: Diagnosis; Knock control, zero test (OBDII)" />
+    <CATEGORY index="0xC8" name="DKRS: Diagnosis; Knock sensor (OBDII)" />
+    <CATEGORY index="0xC9" name="DKRTP: Diagnose; Klopfregelung, Testimpuls (OBDII)" />
+    <CATEGORY index="0xCA" name="DKUPPL: Diagnose Kupplungsschalter" />
+    <CATEGORY index="0xCB" name="DKVS: Diagnose; Plausibilit&#228;tspr&#252;fung Kraftstoffversorgungssysteme" />
+    <CATEGORY index="0xCC" name="DLLR: Diagnose: Leerlaufregelung Erkennung blockierter Steller" />
+    <CATEGORY index="0xCD" name="DLOCVVT: Diagnose LOCAN VVT" />
+    <CATEGORY index="0xCE" name="DLSAHK: Lambdasondenalterungs&#252;berwachung hinter KAT" />
+    <CATEGORY index="0xCF" name="DLSH: Diagnose; Sondenbetriebsbereitschaft hinter Kat" />
+    <CATEGORY index="0xD0" name="DLSSA: Signalausgabe Lambdasonden" />
+    <CATEGORY index="0xD1" name="DLSU: Diagnose stetige Lambdasonde LSU" />
+    <CATEGORY index="0xD2" name="DLSUV: Erkennung vertauschte Lambda-Sonden vor Kat" />
+    <CATEGORY index="0xD3" name="DMDFLU: DMDFLU.   Diagnose Misfire Detection Filterung der Laufunruhe" />
+    <CATEGORY index="0xD4" name="DMDFOF: DMDFOF.   Diagnosis Misfire Detection Fuel-off Adaptation" />
+    <CATEGORY index="0xD5" name="DMDFON: DMDFON.exportedDiagnosis Misfire Detection Fuel-on Adaptation" />
+    <CATEGORY index="0xD6" name="DMDLAD: DMDLAD.exportedLogic and Delay; Log. Verkn&#252;pfung versch. Bl&#246;cke zur Aussetzererkennung" />
+    <CATEGORY index="0xD7" name="DMDLFB: Diagnose Misfire Detection Berechnung Laufunruhe luts und gefilterte fluts" />
+    <CATEGORY index="0xD8" name="DMDLU: DMDLU.exportedDiagnose misfire detection; Laufunruhe" />
+    <CATEGORY index="0xD9" name="DMDLUA: DMDLUA.   Diagnose Misfire Detection Laufunruhe Abstandsmass" />
+    <CATEGORY index="0xDA" name="DMDMIL: DMDMIL.exportedFehlerbehandlung der Aussetzererkennung, Ansteuerung der MIL und Heilung" />
+    <CATEGORY index="0xDB" name="DMDSTP: DMDSTP.   Diagnose Misfire Detection; Stopbedingungen" />
+    <CATEGORY index="0xDC" name="DMDTSB: Diagnosis Misfire Detection Segmentzeitbildung" />
+    <CATEGORY index="0xDD" name="DMDZAG: DMDZAG.exportedDiagnose misfire detection: Aussetzergenerator" />
+    <CATEGORY index="0xDE" name="DMIL: OBDII; MIL-Ansteuerung" />
+    <CATEGORY index="0xDF" name="DMLSE: Diagnose; Endstufenpr&#252;fung elektrischer Motorl&#252;fter" />
+    <CATEGORY index="0xE0" name="DNVRBUP: Diagnose NVRAM Backup" />
+    <CATEGORY index="0xE1" name="DNWSAUS: DNWSAUS.exportedDiagnose Nockenwellensteuerung (Ausla&#223;seitig)" />
+    <CATEGORY index="0xE2" name="DNWSEAUS: DNWSEAUS.exportedDiagnose: Endstufe Nockenwellensteuerung (Ausla&#223;seitig)" />
+    <CATEGORY index="0xE3" name="DNWSEEIN: DNWSEEIN.exportedDiagnose der Nockenwellenendstufe (einla&#223;seitig)" />
+    <CATEGORY index="0xE4" name="DNWSEIN: DNWSEIN.exportedDiagnose Nockenwellensteuerung (Einla&#223;seitig)" />
+    <CATEGORY index="0xE5" name="DODSNL: Diagnose des &#214;ldruckschalters im Nachlauf" />
+    <CATEGORY index="0xE6" name="DPH: DPH.      Diagnose; Plausibilit&#228;tspr&#252;fung Phasensensor" />
+    <CATEGORY index="0xE7" name="DSLPE: Diagnose; Sekund&#228;rluftpumpe Endstufe" />
+    <CATEGORY index="0xE8" name="DSLSLRS: Diagnose Sekund&#228;rluftsystem mit stetiger Lambdaregelung" />
+    <CATEGORY index="0xE9" name="DSLVE: Diagnose; Plausibilit&#228;tspr&#252;fung Sekund&#228;rluftventil-Endstufe" />
+    <CATEGORY index="0xEA" name="DSTA: Diagnose; Startautomatik Ansteuerung" />
+    <CATEGORY index="0xEB" name="DSTS: Diagnose; Startautomatik Signaleingang" />
+    <CATEGORY index="0xEC" name="DSUE: Diagnose; Saugrohrumschaltung Endstufe" />
+    <CATEGORY index="0xED" name="DSWEC: Schlechtwegerk. aus Rad-Beschl.,-&gt; mittels CAN von ABS SG zu Motronic" />
+    <CATEGORY index="0xEE" name="DTEVE: Diagnose; Tankentl&#252;ftungsventil - Endstufe" />
+    <CATEGORY index="0xEF" name="DTEVN: Diagnose Tankentl&#252;ftungsventil (OBDII)" />
+    <CATEGORY index="0xF0" name="DTHS: DTHS.     Diagnose Thermostat" />
+    <CATEGORY index="0xF1" name="DUF: Diagnose aus der Funktions&#252;berwachung" />
+    <CATEGORY index="0xF2" name="DVANOS: Diagnose VANOS" />
+    <CATEGORY index="0xF3" name="DVAT: Diagnose Angezeigte Fahrzeuggeschwindigkeit im Tacho" />
+    <CATEGORY index="0xF4" name="DVFZ: Diagnose: Plausibilit&#228;tspr&#252;fung Fahrzeuggeschwindigkeit" />
+    <CATEGORY index="0xF5" name="DVVT: DVVT.     Diagnose VVT-Steuerger&#228;t" />
+    <CATEGORY index="0xF6" name="DVVTE: Diagnose VVT-Steuerger&#228;t-Endstufe" />
+    <CATEGORY index="0xF7" name="DWUC: OBDII; Erf&#252;llung Bedingung &apos;warm up cycle&apos;" />
+    <CATEGORY index="0xF8" name="DZKU: Diagnose: Z&#252;ndkreis&#252;berwachung" />
+    <CATEGORY index="0xF9" name="EAVANOS: Ein-/Auslassvanos (BMW)" />
+    <CATEGORY index="0xFA" name="ELS: E-Box L&#252;fter Steuerung" />
+    <CATEGORY index="0xFB" name="ESGRU: Grundeinspritzungen" />
+    <CATEGORY index="0xFC" name="ESNST: Einspritzung Nachstart" />
+    <CATEGORY index="0xFD" name="ESSTT: Einspritzzeit Start" />
+    <CATEGORY index="0xFE" name="ESUK: " />
+    <CATEGORY index="0xFF" name="ESUKDK: Einspritzung &#220;bergangskomp. DK-Anteil" />
+    <CATEGORY index="0x100" name="ESVW: ESVW.exportedEinspritzung: Berechnung der Vorlagerungswinkel" />
+    <CATEGORY index="0x101" name="ESWE: Einspritzung Schubabschalten Wiedereinsetzen" />
+    <CATEGORY index="0x102" name="ESWL: Einspritzung Warmlauf" />
+    <CATEGORY index="0x103" name="ETR: Elektrische Thermostatregelung" />
+    <CATEGORY index="0x104" name="FE: F&#252;llungseingriffe" />
+    <CATEGORY index="0x105" name="FE_UM: BMW Funktion" />
+    <CATEGORY index="0x106" name="FFZ: Folgefunkenz&#252;ndung" />
+    <CATEGORY index="0x107" name="FGRAUS: Abschaltung Fahrgeschwindigkeitsregler" />
+    <CATEGORY index="0x108" name="FGRMD: Funktionslogik und Regelalgorithmus Fahrgeschwindigkeitsregler" />
+    <CATEGORY index="0x109" name="FUEDK: F&#252;llungssteuerung (Berechnung DK-Sollwinkel)" />
+    <CATEGORY index="0x10A" name="FUEVVT: F&#252;llungsbeeinflussung &#252;ber VVT" />
+    <CATEGORY index="0x10B" name="GGDDSS: Gebergr&#246;&#223;e Differenzdrucksensor Saugrohr" />
+    <CATEGORY index="0x10C" name="GGDMTL: Gebergroesse DM-TL" />
+    <CATEGORY index="0x10D" name="GGDSAS: Gebergr&#246;&#223;e Drucksensoren au&#223;erhalb Saugrohr" />
+    <CATEGORY index="0x10E" name="GGDVE: Gebergr&#246;&#223;en Drosselklappensteller" />
+    <CATEGORY index="0x10F" name="GGEGAS: Gebergr&#246;&#223;e Brems- und Kupplungsschalter" />
+    <CATEGORY index="0x110" name="GGFSTT: Gebergroesse Fuellstandsgeber Tank" />
+    <CATEGORY index="0x111" name="GGHFM: Gebersignal HFM" />
+    <CATEGORY index="0x112" name="GGKS: Gebergr&#246;&#223;e Klopfsensor" />
+    <CATEGORY index="0x113" name="GGLSH: Gebergr&#246;&#223;e Lambdasondensignal (Nernst-Type) hinter Kat" />
+    <CATEGORY index="0x114" name="GGLSU: Gebersignal LSU" />
+    <CATEGORY index="0x115" name="GGMFL: Gebergr&#246;&#223;e Multifunktionslenkrad" />
+    <CATEGORY index="0x116" name="GGPED: Gebergr&#246;&#223;e Fahrpedal" />
+    <CATEGORY index="0x117" name="GGTFA: Gebergr&#246;&#223;e TFA Temperaturf&#252;hler Ansaugluft" />
+    <CATEGORY index="0x118" name="GGTFM: Gebergr&#246;&#223;e TFM Temperaturf&#252;hler Motor (/-K&#252;hlmittel)" />
+    <CATEGORY index="0x119" name="GGTFUMG: Gebergr&#246;&#223;e TFUMG Temperaturf&#252;hler Umgebung (/-sluft)" />
+    <CATEGORY index="0x11A" name="GGTKA: Gebergr&#246;&#223;e TKA Temperatur K&#252;hlerausgang" />
+    <CATEGORY index="0x11B" name="GGTSG: Gebergr&#246;&#223;e und Dokumentation Temperatur Steuerger&#228;t" />
+    <CATEGORY index="0x11C" name="GGUB: 8.10      Gebergr&#246;&#223;e Batteriespannung, inkl.Diagnose" />
+    <CATEGORY index="0x11D" name="GGVFZG: Gebergr&#246;&#223;e Fahrzeuggeschwindigkeit" />
+    <CATEGORY index="0x11E" name="GK: Gemischkontrolle" />
+    <CATEGORY index="0x11F" name="HDMTL: Heizung DM-TL" />
+    <CATEGORY index="0x120" name="HLSHK: Sondenheizung hinter Kat" />
+    <CATEGORY index="0x121" name="HLSU: Heizung stetige Lambdasonde LSU" />
+    <CATEGORY index="0x122" name="HT2KTPH: Umsetzungsschicht Hardewaretreiber zu Komponententreiber Nockenwelle" />
+    <CATEGORY index="0x123" name="HT2KTWNE: Umsetzungsschicht Hardwaretreiber zu Komponententreiber Kurbelwelle" />
     <CATEGORY index="0x124" name="Hexdump" />
-    <CATEGORY index="0x125" name="IMDGEN: &quot;IMDGEN.   Berechnung des Generatorstromes und Generatormomentes&quot;" />
-    <CATEGORY index="0x126" name="IMMOFF: &quot;Immediate Off; Systemsteuerung SG-Abschaltverhalten&quot;" />
-    <CATEGORY index="0x127" name="INI_MAIN_2: &quot;&quot;" />
-    <CATEGORY index="0x128" name="KBK2SERVI: &quot;&quot;" />
-    <CATEGORY index="0x129" name="KHMD: &quot;Berechnung Reservemoment f&#252;r Katheizen&quot;" />
-    <CATEGORY index="0x12A" name="KOS: &quot;Klimakompressor - Steuerung&quot;" />
-    <CATEGORY index="0x12B" name="KRDY: &quot;Klopfregelung Dynamik&quot;" />
-    <CATEGORY index="0x12C" name="KRKE: &quot;Klopferkennung&quot;" />
-    <CATEGORY index="0x12D" name="KRRA: &quot;Klopfregelung mit Adaption der zylinderindividuellen Sp&#228;tverstellung&quot;" />
-    <CATEGORY index="0x12E" name="KTEEP: &quot;Komponententreiber EEPROM&quot;" />
-    <CATEGORY index="0x12F" name="KTM: &quot;KTM.      Kraftstofftemperaturmodell&quot;" />
-    <CATEGORY index="0x130" name="KT_DVE: &quot;&quot;" />
-    <CATEGORY index="0x131" name="KT_EAVNS: &quot;Komponententreiber EAVanos&quot;" />
-    <CATEGORY index="0x132" name="KT_FADC: &quot;&quot;" />
-    <CATEGORY index="0x133" name="KT_GEN: &quot;Komponententreiber f&#252;r den/die Generator/en an der BSD&quot;" />
-    <CATEGORY index="0x134" name="KT_INJEC: &quot;Komponententreiber Einspritzung ME 9&quot;" />
-    <CATEGORY index="0x135" name="KT_VFZG: &quot;&quot;" />
-    <CATEGORY index="0x136" name="KVA: &quot;Ausgangssignal: Kraftstoff-Verbrauchs-Anzeige&quot;" />
-    <CATEGORY index="0x137" name="LAKH: &quot;Lambda-Koordination bei Katheizen&quot;" />
-    <CATEGORY index="0x138" name="LAMFAW: &quot;Lambda Fahrerwunsch&quot;" />
-    <CATEGORY index="0x139" name="LAMKO: &quot;Lambdakoordination&quot;" />
-    <CATEGORY index="0x13A" name="LDSTGEN: &quot;LDSTGEN.  Berechnung Lastzustand Generator&quot;" />
-    <CATEGORY index="0x13B" name="LLRABG: &quot;Leerlaufregelung-Solldrehzahl Korrektur mit Tester&quot;" />
-    <CATEGORY index="0x13C" name="LLRANH: &quot;LLRANH.   Leerlauf-Anhebung&quot;" />
-    <CATEGORY index="0x13D" name="LLRBB: &quot;Leerlaufregelung Betriebsbedingungen&quot;" />
-    <CATEGORY index="0x13E" name="LLRMR: &quot;Momentenreserve Leerlaufregelung&quot;" />
-    <CATEGORY index="0x13F" name="LLRNS: &quot;Leerlaufregelung-Solldrehzahl&quot;" />
-    <CATEGORY index="0x140" name="LLRRM: &quot;Leerlaufregelung Reglereingriff Drehmoment&quot;" />
-    <CATEGORY index="0x141" name="LOADRESP: &quot;LOADRESP. BMW Funktion&quot;" />
-    <CATEGORY index="0x142" name="LOCANDME: &quot;Local-CAN Botschafts- und Signaldefinition DME&quot;" />
-    <CATEGORY index="0x143" name="LRA: &quot;Adaptive Vorsteuerung f&#252;r Lambdaregelung&quot;" />
-    <CATEGORY index="0x144" name="LRAEB: &quot;Einschaltbedingungen Gemischadaption&quot;" />
-    <CATEGORY index="0x145" name="LRS: &quot;Stetige Lambdaregelung&quot;" />
-    <CATEGORY index="0x146" name="LRSBSEL: &quot;LRSBSEL.exportedKoordination der durch die Y-Konfig. betroffenen Ein-/Ausg&#228;nge der LRS-Fktn.&quot;" />
-    <CATEGORY index="0x147" name="LRSEB: &quot;Einschaltbedingungen stetige Lambdaregelung&quot;" />
-    <CATEGORY index="0x148" name="LRSHKC: &quot;Lambdaregelung hinter Kat stetig , Version kontinuierlich&quot;" />
-    <CATEGORY index="0x149" name="LRSHKEB: &quot;Einschaltbedingungen Lambdaregelung (stetig) hinter Katalysator&quot;" />
-    <CATEGORY index="0x14A" name="LRSKA: &quot;Stetige Lambdaregelung Zusatzfunktion Katalysator-Ausr&#228;umen&quot;" />
-    <CATEGORY index="0x14B" name="MDBAS: &quot;Berechnung der Basisgr&#246;&#223;en f&#252;r Momentenschnittstelle&quot;" />
-    <CATEGORY index="0x14C" name="MDFAW: &quot;Fahrerwunschmoment&quot;" />
-    <CATEGORY index="0x14D" name="MDFUE: &quot;Sollwertvorgabe f&#252;r Luftmasse aus Sollmoment&quot;" />
-    <CATEGORY index="0x14E" name="MDIHGS: &quot;Momentenbegrenzung Gangabh&#228;ngig&quot;" />
-    <CATEGORY index="0x14F" name="MDIST: &quot;Motormomentenberechnung&quot;" />
-    <CATEGORY index="0x150" name="MDKOG: &quot;9.40      Drehmomentenkoordination f&#252;r Gesamteingriffe&quot;" />
-    <CATEGORY index="0x151" name="MDKOL: &quot;Momentenkoordination auf F&#252;llungsebene&quot;" />
-    <CATEGORY index="0x152" name="MDMAX: &quot;Berechnung maximales indiziertes Motormoment&quot;" />
-    <CATEGORY index="0x153" name="MDNSTAB: &quot;Drehmoment: Drehzahlstabilisierung&quot;" />
-    <CATEGORY index="0x154" name="MDRED: &quot;Berechnung Reduzierstufe aus Momentenanforderung&quot;" />
-    <CATEGORY index="0x155" name="MDVER: &quot;Motor-Verlustmoment&quot;" />
-    <CATEGORY index="0x156" name="MDVERAD: &quot;Adaption Verlustmoment&quot;" />
-    <CATEGORY index="0x157" name="MDVERB: &quot;Momentenbedarf der Nebenaggregate (z.B. Klimaanlage, sonst. Verbraucher)&quot;" />
-    <CATEGORY index="0x158" name="MDWAN: &quot;Drehmomentaufnahme des Wandlers&quot;" />
-    <CATEGORY index="0x159" name="MDZUL: &quot;Maximal zul&#228;ssiges Moment&quot;" />
-    <CATEGORY index="0x15A" name="MDZW: &quot;Berechnung Moment in Sollz&#252;ndwinkel&quot;" />
-    <CATEGORY index="0x15B" name="MINHUBAD: &quot;MINHUBAD. Adaption des minimalen VVT-Hubs aus den Laufunruhewerten&quot;" />
-    <CATEGORY index="0x15C" name="MLS: &quot;Motorl&#252;fter-Steuerung&quot;" />
-    <CATEGORY index="0x15D" name="MOTAUS: &quot;Motor-Abstellen&quot;" />
-    <CATEGORY index="0x15E" name="M_TOEL: &quot;&quot;" />
-    <CATEGORY index="0x15F" name="NMAXMD: &quot;Drehzahlbegrenzung&quot;" />
-    <CATEGORY index="0x160" name="NPLAUS: &quot;Plausibilisierung Motordrehzahl&quot;" />
-    <CATEGORY index="0x161" name="OZBG: &quot;OZBG.exportedAusgabe Fahrerinformation &#214;lzustandssensor&quot;" />
-    <CATEGORY index="0x162" name="OZGG: &quot;OZGG.exportedGebergr&#246;ssen &#214;lzustandssensor&quot;" />
-    <CATEGORY index="0x163" name="OZNIV: &quot;OZNIV.exportedAuswertung &#214;lniveau&quot;" />
-    <CATEGORY index="0x164" name="OZPERM: &quot;OZPERM.exportedAuswertung Permittivit&#228;t&quot;" />
-    <CATEGORY index="0x165" name="OZRESTKM: &quot;OZRESTKM.exportedBerechnung &#214;l-Restlaufstrecke&quot;" />
-    <CATEGORY index="0x166" name="OZTEMP: &quot;2_30.exportedAufbereitung &#214;ltemperatur&quot;" />
-    <CATEGORY index="0x167" name="PROKON: &quot;Projektkonfiguration&quot;" />
-    <CATEGORY index="0x168" name="RKTE: &quot;Berechnung effektive Einspritzdauer aus relativer Kraftstoffmasse rk&quot;" />
-    <CATEGORY index="0x169" name="RUNTIME: &quot;&quot;" />
-    <CATEGORY index="0x16A" name="SG_IDENT: &quot;&quot;" />
-    <CATEGORY index="0x16B" name="SLS: &quot;Sekund&#228;rluftsteuerung&quot;" />
-    <CATEGORY index="0x16C" name="SSTBER: &quot;&quot;" />
-    <CATEGORY index="0x16D" name="STA: &quot;Startautomatik&quot;" />
-    <CATEGORY index="0x16E" name="STMD: &quot;Startmoment&quot;" />
-    <CATEGORY index="0x16F" name="SWADP: &quot;Software-Adapter&quot;" />
-    <CATEGORY index="0x170" name="TEB: &quot;Tankentl&#252;ftung beladungsabh&#228;ngig&quot;" />
-    <CATEGORY index="0x171" name="TEBEB: &quot;Einschaltbedingungen Tankentl&#252;ftung&quot;" />
-    <CATEGORY index="0x172" name="TI_CB_ROSMR: &quot;&quot;" />
-    <CATEGORY index="0x173" name="TI_CB_RPTDD: &quot;&quot;" />
-    <CATEGORY index="0x174" name="TI_K2_IOCBLI_B: &quot;&quot;" />
-    <CATEGORY index="0x175" name="TI_K2_RDBCI_B: &quot;&quot;" />
-    <CATEGORY index="0x176" name="UCFGRC: &quot;&quot;" />
-    <CATEGORY index="0x177" name="UCMIST: &quot;&quot;" />
-    <CATEGORY index="0x178" name="UCMSRC: &quot;&quot;" />
-    <CATEGORY index="0x179" name="UCMVER: &quot;&quot;" />
-    <CATEGORY index="0x17A" name="UCMZF: &quot;&quot;" />
-    <CATEGORY index="0x17B" name="UCMZUL: &quot;&quot;" />
-    <CATEGORY index="0x17C" name="UCREAC: &quot;&quot;" />
-    <CATEGORY index="0x17D" name="UCSGSC: &quot;&quot;" />
-    <CATEGORY index="0x17E" name="UCURAM: &quot;&quot;" />
-    <CATEGORY index="0x17F" name="UETM: &quot;Motor&#252;bertemperatur-Anzeige&quot;" />
-    <CATEGORY index="0x180" name="UFACCC: &quot;EGAS &#220;berwachungskonzept: ACC Eingangssignal&#252;berwachung der Funktion&#252;berwachung&quot;" />
-    <CATEGORY index="0x181" name="UFFGRC: &quot;EGAS &#220;berwachungskonzept: FGR-&#220;berwachung der Funktions&#252;berwachung&quot;" />
-    <CATEGORY index="0x182" name="UFFGRE: &quot;EGAS &#220;berwachungskonzept: FGR-Eingangsinfos f&#252;r die Funktions&#252;berwachung&quot;" />
-    <CATEGORY index="0x183" name="UFMIST: &quot;EGAS &#220;berwachungskonzept: Ist-Moment der Funktions&#252;berwachung&quot;" />
-    <CATEGORY index="0x184" name="UFMSRC: &quot;EGAS &#220;berwachungskonzept: MSR-Eingriff-&#220;berwachung f&#252;r die Funktions&#252;berwachung&quot;" />
-    <CATEGORY index="0x185" name="UFMVER: &quot;EGAS &#220;berwachungskonzept: Momentenvergleich der Funktions&#252;berwachung&quot;" />
-    <CATEGORY index="0x186" name="UFMZF: &quot;EGAS &#220;berwachungskonzept: Momentenfilter f&#252;r die Funktions&#252;berwachung&quot;" />
-    <CATEGORY index="0x187" name="UFMZUL: &quot;EGAS &#220;berwachungskonzept: zul&#228;ssiges Moment der Funktions&#252;berwachung&quot;" />
-    <CATEGORY index="0x188" name="UFNC: &quot;EGAS &#220;berwachungskonzept: N-&#220;berwachung f&#252;r die Funktions&#252;berwachung&quot;" />
-    <CATEGORY index="0x189" name="UFNSC: &quot;EGAS &#220;berwachungskonzept: Nachstart&#252;berwachung f&#252;r die Funktions&#252;berwachung&quot;" />
-    <CATEGORY index="0x18A" name="UFREAC: &quot;EGAS &#220;berwachungskonzept: Fehlerreaktions&#252;berw.d.Funktions&#252;berwachung&quot;" />
-    <CATEGORY index="0x18B" name="UFRLC: &quot;EGAS &#220;berwachungskonzept: Lastsignal&#252;berw. f&#252;r Funktions&#252;berwachung&quot;" />
-    <CATEGORY index="0x18C" name="UFSGSC: &quot;EGAS &#220;berwachungskonzept: SGS-Eingriff-&#220;berwachung f&#252;r die Funktions&#252;bersicht&quot;" />
-    <CATEGORY index="0x18D" name="UFSPSC: &quot;EGAS &#220;berwachungskonzept: Pedal-Sollwert-&#220;. f&#252;r Funktions&#252;berwachung&quot;" />
-    <CATEGORY index="0x18E" name="UFURAM: &quot;&quot;" />
-    <CATEGORY index="0x18F" name="UFZWC: &quot;EGAS &#220;berwachungskonzept: ZW-&#220;berwachung f&#252;r Funktions&#252;berwachung&quot;" />
-    <CATEGORY index="0x190" name="UGENKOR: &quot;UGENKOR.  Generator- Spannungsanhebung&quot;" />
-    <CATEGORY index="0x191" name="UK2LNK_GTW: &quot;&quot;" />
-    <CATEGORY index="0x192" name="UMAUSC: &quot;EGAS &#220;berwachungskonzept: Abschaltpfadtest &#220;berwachungsmodul&quot;" />
-    <CATEGORY index="0x193" name="UMKOM: &quot;EGAS &#220;berwachungskonzept: Frage/Antwort-Kommunikation zw. UM und FR&quot;" />
-    <CATEGORY index="0x194" name="URADCC: &quot;EGAS &#220;berwachungskonzept: AD-Wandler-Test&quot;" />
-    <CATEGORY index="0x195" name="URMEM: &quot;EGAS &#220;berwachungskonzept: Zyklischer Speichertest&quot;" />
-    <CATEGORY index="0x196" name="URROM: &quot;EGAS &#220;berwachungskonzept: ROM-Test&quot;" />
-    <CATEGORY index="0x197" name="URTPU: &quot;EGAS &#220;berwachungskonzept: TPU-&#220;berwachung f&#252;r Funktions&#252;berwachung&quot;" />
-    <CATEGORY index="0x198" name="VMAXMD: &quot;Drehmomentanforderung von VMAX-Regelung&quot;" />
-    <CATEGORY index="0x199" name="VVTCHK: &quot;VVTCHK.   Anschlagadaption VVT-System&quot;" />
-    <CATEGORY index="0x19A" name="VVTNTPOS: &quot;VVTNTPOS. VVT Notlaufposition&quot;" />
-    <CATEGORY index="0x19B" name="WDKADP: &quot;Adaption (BMW)&quot;" />
-    <CATEGORY index="0x19C" name="WES: &quot;Winkel Einlass Schliesst (BMW-Funktion)&quot;" />
-    <CATEGORY index="0x19D" name="Watchpoint: &quot;&quot;" />
-    <CATEGORY index="0x19E" name="Watchpoint_Extended: &quot;&quot;" />
-    <CATEGORY index="0x19F" name="ZNDAUS: &quot;Z&#252;ndung: Anforderungen f&#252;r Ausblendung&quot;" />
-    <CATEGORY index="0x1A0" name="ZUE: &quot;Grundfunktion - Z&#252;ndung&quot;" />
-    <CATEGORY index="0x1A1" name="ZUESZ: &quot;Z&#252;ndung, Berechnung Schlie&#223;zeit&quot;" />
-    <CATEGORY index="0x1A2" name="ZWGRU: &quot;Grundz&#252;ndwinkel&quot;" />
-    <CATEGORY index="0x1A3" name="ZWKS: &quot;Z&#252;ndwinkel Klopfschutz&quot;" />
-    <CATEGORY index="0x1A4" name="ZWMIN: &quot;Berechnung des sp&#228;test erlaubten Z&#252;ndwinkels&quot;" />
-    <CATEGORY index="0x1A5" name="ZWSTT: &quot;Z&#252;ndung im Start&quot;" />
-    <CATEGORY index="0x1A6" name="ZWWL: &quot;Warmlauf Z&#252;ndwinkel&quot;" />
-    <CATEGORY index="0x1A7" name="dr_showerr: &quot;&quot;" />
-    <CATEGORY index="0x1A8" name="ggairb: &quot;Gebergr&#246;&#223;e Airbag&quot;" />
-    <CATEGORY index="0x1A9" name="restgas: &quot;restgas.exported&quot;" />
-    <CATEGORY index="0x1AA" name="ti_k2_rdbli_b: &quot;&quot;" />
+    <CATEGORY index="0x125" name="IMDGEN: IMDGEN.   Berechnung des Generatorstromes und Generatormomentes" />
+    <CATEGORY index="0x126" name="IMMOFF: Immediate Off; Systemsteuerung SG-Abschaltverhalten" />
+    <CATEGORY index="0x127" name="INI_MAIN_2: " />
+    <CATEGORY index="0x128" name="KBK2SERVI: " />
+    <CATEGORY index="0x129" name="KHMD: Berechnung Reservemoment f&#252;r Katheizen" />
+    <CATEGORY index="0x12A" name="KOS: Klimakompressor - Steuerung" />
+    <CATEGORY index="0x12B" name="KRDY: Klopfregelung Dynamik" />
+    <CATEGORY index="0x12C" name="KRKE: Klopferkennung" />
+    <CATEGORY index="0x12D" name="KRRA: Klopfregelung mit Adaption der zylinderindividuellen Sp&#228;tverstellung" />
+    <CATEGORY index="0x12E" name="KTEEP: Komponententreiber EEPROM" />
+    <CATEGORY index="0x12F" name="KTM: KTM.      Kraftstofftemperaturmodell" />
+    <CATEGORY index="0x130" name="KT_DVE: " />
+    <CATEGORY index="0x131" name="KT_EAVNS: Komponententreiber EAVanos" />
+    <CATEGORY index="0x132" name="KT_FADC: " />
+    <CATEGORY index="0x133" name="KT_GEN: Komponententreiber f&#252;r den/die Generator/en an der BSD" />
+    <CATEGORY index="0x134" name="KT_INJEC: Komponententreiber Einspritzung ME 9" />
+    <CATEGORY index="0x135" name="KT_VFZG: " />
+    <CATEGORY index="0x136" name="KVA: Ausgangssignal: Kraftstoff-Verbrauchs-Anzeige" />
+    <CATEGORY index="0x137" name="LAKH: Lambda-Koordination bei Katheizen" />
+    <CATEGORY index="0x138" name="LAMFAW: Lambda Fahrerwunsch" />
+    <CATEGORY index="0x139" name="LAMKO: Lambdakoordination" />
+    <CATEGORY index="0x13A" name="LDSTGEN: LDSTGEN.  Berechnung Lastzustand Generator" />
+    <CATEGORY index="0x13B" name="LLRABG: Leerlaufregelung-Solldrehzahl Korrektur mit Tester" />
+    <CATEGORY index="0x13C" name="LLRANH: LLRANH.   Leerlauf-Anhebung" />
+    <CATEGORY index="0x13D" name="LLRBB: Leerlaufregelung Betriebsbedingungen" />
+    <CATEGORY index="0x13E" name="LLRMR: Momentenreserve Leerlaufregelung" />
+    <CATEGORY index="0x13F" name="LLRNS: Leerlaufregelung-Solldrehzahl" />
+    <CATEGORY index="0x140" name="LLRRM: Leerlaufregelung Reglereingriff Drehmoment" />
+    <CATEGORY index="0x141" name="LOADRESP: LOADRESP. BMW Funktion" />
+    <CATEGORY index="0x142" name="LOCANDME: Local-CAN Botschafts- und Signaldefinition DME" />
+    <CATEGORY index="0x143" name="LRA: Adaptive Vorsteuerung f&#252;r Lambdaregelung" />
+    <CATEGORY index="0x144" name="LRAEB: Einschaltbedingungen Gemischadaption" />
+    <CATEGORY index="0x145" name="LRS: Stetige Lambdaregelung" />
+    <CATEGORY index="0x146" name="LRSBSEL: LRSBSEL.exportedKoordination der durch die Y-Konfig. betroffenen Ein-/Ausg&#228;nge der LRS-Fktn." />
+    <CATEGORY index="0x147" name="LRSEB: Einschaltbedingungen stetige Lambdaregelung" />
+    <CATEGORY index="0x148" name="LRSHKC: Lambdaregelung hinter Kat stetig , Version kontinuierlich" />
+    <CATEGORY index="0x149" name="LRSHKEB: Einschaltbedingungen Lambdaregelung (stetig) hinter Katalysator" />
+    <CATEGORY index="0x14A" name="LRSKA: Stetige Lambdaregelung Zusatzfunktion Katalysator-Ausr&#228;umen" />
+    <CATEGORY index="0x14B" name="MDBAS: Berechnung der Basisgr&#246;&#223;en f&#252;r Momentenschnittstelle" />
+    <CATEGORY index="0x14C" name="MDFAW: Fahrerwunschmoment" />
+    <CATEGORY index="0x14D" name="MDFUE: Sollwertvorgabe f&#252;r Luftmasse aus Sollmoment" />
+    <CATEGORY index="0x14E" name="MDIHGS: Momentenbegrenzung Gangabh&#228;ngig" />
+    <CATEGORY index="0x14F" name="MDIST: Motormomentenberechnung" />
+    <CATEGORY index="0x150" name="MDKOG: 9.40      Drehmomentenkoordination f&#252;r Gesamteingriffe" />
+    <CATEGORY index="0x151" name="MDKOL: Momentenkoordination auf F&#252;llungsebene" />
+    <CATEGORY index="0x152" name="MDMAX: Berechnung maximales indiziertes Motormoment" />
+    <CATEGORY index="0x153" name="MDNSTAB: Drehmoment: Drehzahlstabilisierung" />
+    <CATEGORY index="0x154" name="MDRED: Berechnung Reduzierstufe aus Momentenanforderung" />
+    <CATEGORY index="0x155" name="MDVER: Motor-Verlustmoment" />
+    <CATEGORY index="0x156" name="MDVERAD: Adaption Verlustmoment" />
+    <CATEGORY index="0x157" name="MDVERB: Momentenbedarf der Nebenaggregate (z.B. Klimaanlage, sonst. Verbraucher)" />
+    <CATEGORY index="0x158" name="MDWAN: Drehmomentaufnahme des Wandlers" />
+    <CATEGORY index="0x159" name="MDZUL: Maximal zul&#228;ssiges Moment" />
+    <CATEGORY index="0x15A" name="MDZW: Berechnung Moment in Sollz&#252;ndwinkel" />
+    <CATEGORY index="0x15B" name="MINHUBAD: MINHUBAD. Adaption des minimalen VVT-Hubs aus den Laufunruhewerten" />
+    <CATEGORY index="0x15C" name="MLS: Motorl&#252;fter-Steuerung" />
+    <CATEGORY index="0x15D" name="MOTAUS: Motor-Abstellen" />
+    <CATEGORY index="0x15E" name="M_TOEL: " />
+    <CATEGORY index="0x15F" name="NMAXMD: Drehzahlbegrenzung" />
+    <CATEGORY index="0x160" name="NPLAUS: Plausibilisierung Motordrehzahl" />
+    <CATEGORY index="0x161" name="OZBG: OZBG.exportedAusgabe Fahrerinformation &#214;lzustandssensor" />
+    <CATEGORY index="0x162" name="OZGG: OZGG.exportedGebergr&#246;ssen &#214;lzustandssensor" />
+    <CATEGORY index="0x163" name="OZNIV: OZNIV.exportedAuswertung &#214;lniveau" />
+    <CATEGORY index="0x164" name="OZPERM: OZPERM.exportedAuswertung Permittivit&#228;t" />
+    <CATEGORY index="0x165" name="OZRESTKM: OZRESTKM.exportedBerechnung &#214;l-Restlaufstrecke" />
+    <CATEGORY index="0x166" name="OZTEMP: 2_30.exportedAufbereitung &#214;ltemperatur" />
+    <CATEGORY index="0x167" name="PROKON: Projektkonfiguration" />
+    <CATEGORY index="0x168" name="RKTE: Berechnung effektive Einspritzdauer aus relativer Kraftstoffmasse rk" />
+    <CATEGORY index="0x169" name="RUNTIME: " />
+    <CATEGORY index="0x16A" name="SG_IDENT: " />
+    <CATEGORY index="0x16B" name="SLS: Sekund&#228;rluftsteuerung" />
+    <CATEGORY index="0x16C" name="SSTBER: " />
+    <CATEGORY index="0x16D" name="STA: Startautomatik" />
+    <CATEGORY index="0x16E" name="STMD: Startmoment" />
+    <CATEGORY index="0x16F" name="SWADP: Software-Adapter" />
+    <CATEGORY index="0x170" name="TEB: Tankentl&#252;ftung beladungsabh&#228;ngig" />
+    <CATEGORY index="0x171" name="TEBEB: Einschaltbedingungen Tankentl&#252;ftung" />
+    <CATEGORY index="0x172" name="TI_CB_ROSMR: " />
+    <CATEGORY index="0x173" name="TI_CB_RPTDD: " />
+    <CATEGORY index="0x174" name="TI_K2_IOCBLI_B: " />
+    <CATEGORY index="0x175" name="TI_K2_RDBCI_B: " />
+    <CATEGORY index="0x176" name="UCFGRC: " />
+    <CATEGORY index="0x177" name="UCMIST: " />
+    <CATEGORY index="0x178" name="UCMSRC: " />
+    <CATEGORY index="0x179" name="UCMVER: " />
+    <CATEGORY index="0x17A" name="UCMZF: " />
+    <CATEGORY index="0x17B" name="UCMZUL: " />
+    <CATEGORY index="0x17C" name="UCREAC: " />
+    <CATEGORY index="0x17D" name="UCSGSC: " />
+    <CATEGORY index="0x17E" name="UCURAM: " />
+    <CATEGORY index="0x17F" name="UETM: Motor&#252;bertemperatur-Anzeige" />
+    <CATEGORY index="0x180" name="UFACCC: EGAS &#220;berwachungskonzept: ACC Eingangssignal&#252;berwachung der Funktion&#252;berwachung" />
+    <CATEGORY index="0x181" name="UFFGRC: EGAS &#220;berwachungskonzept: FGR-&#220;berwachung der Funktions&#252;berwachung" />
+    <CATEGORY index="0x182" name="UFFGRE: EGAS &#220;berwachungskonzept: FGR-Eingangsinfos f&#252;r die Funktions&#252;berwachung" />
+    <CATEGORY index="0x183" name="UFMIST: EGAS &#220;berwachungskonzept: Ist-Moment der Funktions&#252;berwachung" />
+    <CATEGORY index="0x184" name="UFMSRC: EGAS &#220;berwachungskonzept: MSR-Eingriff-&#220;berwachung f&#252;r die Funktions&#252;berwachung" />
+    <CATEGORY index="0x185" name="UFMVER: EGAS &#220;berwachungskonzept: Momentenvergleich der Funktions&#252;berwachung" />
+    <CATEGORY index="0x186" name="UFMZF: EGAS &#220;berwachungskonzept: Momentenfilter f&#252;r die Funktions&#252;berwachung" />
+    <CATEGORY index="0x187" name="UFMZUL: EGAS &#220;berwachungskonzept: zul&#228;ssiges Moment der Funktions&#252;berwachung" />
+    <CATEGORY index="0x188" name="UFNC: EGAS &#220;berwachungskonzept: N-&#220;berwachung f&#252;r die Funktions&#252;berwachung" />
+    <CATEGORY index="0x189" name="UFNSC: EGAS &#220;berwachungskonzept: Nachstart&#252;berwachung f&#252;r die Funktions&#252;berwachung" />
+    <CATEGORY index="0x18A" name="UFREAC: EGAS &#220;berwachungskonzept: Fehlerreaktions&#252;berw.d.Funktions&#252;berwachung" />
+    <CATEGORY index="0x18B" name="UFRLC: EGAS &#220;berwachungskonzept: Lastsignal&#252;berw. f&#252;r Funktions&#252;berwachung" />
+    <CATEGORY index="0x18C" name="UFSGSC: EGAS &#220;berwachungskonzept: SGS-Eingriff-&#220;berwachung f&#252;r die Funktions&#252;bersicht" />
+    <CATEGORY index="0x18D" name="UFSPSC: EGAS &#220;berwachungskonzept: Pedal-Sollwert-&#220;. f&#252;r Funktions&#252;berwachung" />
+    <CATEGORY index="0x18E" name="UFURAM: " />
+    <CATEGORY index="0x18F" name="UFZWC: EGAS &#220;berwachungskonzept: ZW-&#220;berwachung f&#252;r Funktions&#252;berwachung" />
+    <CATEGORY index="0x190" name="UGENKOR: UGENKOR.  Generator- Spannungsanhebung" />
+    <CATEGORY index="0x191" name="UK2LNK_GTW: " />
+    <CATEGORY index="0x192" name="UMAUSC: EGAS &#220;berwachungskonzept: Abschaltpfadtest &#220;berwachungsmodul" />
+    <CATEGORY index="0x193" name="UMKOM: EGAS &#220;berwachungskonzept: Frage/Antwort-Kommunikation zw. UM und FR" />
+    <CATEGORY index="0x194" name="URADCC: EGAS &#220;berwachungskonzept: AD-Wandler-Test" />
+    <CATEGORY index="0x195" name="URMEM: EGAS &#220;berwachungskonzept: Zyklischer Speichertest" />
+    <CATEGORY index="0x196" name="URROM: EGAS &#220;berwachungskonzept: ROM-Test" />
+    <CATEGORY index="0x197" name="URTPU: EGAS &#220;berwachungskonzept: TPU-&#220;berwachung f&#252;r Funktions&#252;berwachung" />
+    <CATEGORY index="0x198" name="VMAXMD: Drehmomentanforderung von VMAX-Regelung" />
+    <CATEGORY index="0x199" name="VVTCHK: VVTCHK.   Anschlagadaption VVT-System" />
+    <CATEGORY index="0x19A" name="VVTNTPOS: VVTNTPOS. VVT Notlaufposition" />
+    <CATEGORY index="0x19B" name="WDKADP: Adaption (BMW)" />
+    <CATEGORY index="0x19C" name="WES: Winkel Einlass Schliesst (BMW-Funktion)" />
+    <CATEGORY index="0x19D" name="Watchpoint: " />
+    <CATEGORY index="0x19E" name="Watchpoint_Extended: " />
+    <CATEGORY index="0x19F" name="ZNDAUS: Z&#252;ndung: Anforderungen f&#252;r Ausblendung" />
+    <CATEGORY index="0x1A0" name="ZUE: Grundfunktion - Z&#252;ndung" />
+    <CATEGORY index="0x1A1" name="ZUESZ: Z&#252;ndung, Berechnung Schlie&#223;zeit" />
+    <CATEGORY index="0x1A2" name="ZWGRU: Grundz&#252;ndwinkel" />
+    <CATEGORY index="0x1A3" name="ZWKS: Z&#252;ndwinkel Klopfschutz" />
+    <CATEGORY index="0x1A4" name="ZWMIN: Berechnung des sp&#228;test erlaubten Z&#252;ndwinkels" />
+    <CATEGORY index="0x1A5" name="ZWSTT: Z&#252;ndung im Start" />
+    <CATEGORY index="0x1A6" name="ZWWL: Warmlauf Z&#252;ndwinkel" />
+    <CATEGORY index="0x1A7" name="dr_showerr: " />
+    <CATEGORY index="0x1A8" name="ggairb: Gebergr&#246;&#223;e Airbag" />
+    <CATEGORY index="0x1A9" name="restgas: restgas.exported" />
+    <CATEGORY index="0x1AA" name="ti_k2_rdbli_b: " />
   </XDFHEADER>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>dataID</title>
@@ -6349,7 +6349,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>TDCANA1</title>
-    <description>Zeit f&#252;r Fehlererkennung &quot;&quot;CAN_A Error passiv&quot;&quot;</description>
+    <description>Zeit f&#252;r Fehlererkennung CAN_A Error passiv</description>
     <CATEGORYMEM index="0" category="67" />
     <EMBEDDEDDATA mmedaddress="0x1159" mmedelementsizebits="8" />
     <units>s</units>
@@ -6363,7 +6363,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>TDCANA3</title>
-    <description>Zeit f&#252;r Fehlererkennung &quot;&quot;CAN_A BUS off&quot;&quot;</description>
+    <description>Zeit f&#252;r Fehlererkennung CAN_A BUS off</description>
     <CATEGORYMEM index="0" category="67" />
     <EMBEDDEDDATA mmedaddress="0x115A" mmedelementsizebits="8" />
     <units>s</units>
@@ -6391,7 +6391,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>TDCANB1</title>
-    <description>Zeit f&#252;r Fehlererkennung &quot;&quot;CAN_B Error passiv&quot;&quot;</description>
+    <description>Zeit f&#252;r Fehlererkennung CAN_B Error passiv</description>
     <CATEGORYMEM index="0" category="68" />
     <EMBEDDEDDATA mmedaddress="0x115C" mmedelementsizebits="8" />
     <units>s</units>
@@ -6405,7 +6405,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>TDCANB3</title>
-    <description>Zeit f&#252;r Fehlererkennung &quot;&quot;CAN_B BUS off&quot;&quot;</description>
+    <description>Zeit f&#252;r Fehlererkennung CAN_B BUS off</description>
     <CATEGORYMEM index="0" category="68" />
     <EMBEDDEDDATA mmedaddress="0x115D" mmedelementsizebits="8" />
     <units>s</units>
@@ -12098,7 +12098,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>TVLSUWU</title>
-    <description>maximale Zeit f&#252;r &quot;&quot;warm up&quot;&quot; stetige Lambdasonde LSU</description>
+    <description>maximale Zeit f&#252;r warm up stetige Lambdasonde LSU</description>
     <CATEGORYMEM index="0" category="290" />
     <EMBEDDEDDATA mmedaddress="0x1EA8" mmedelementsizebits="8" />
     <units>s</units>
@@ -17755,7 +17755,7 @@
   </XDFTABLE>
   <XDFCONSTANT uniqueid="0x0">
     <title>CWERRVVT</title>
-    <description>Codewort SW-Schalter f&#252;r Applikation VVT-Fehlerarten&quot;&quot;</description>
+    <description>Codewort SW-Schalter f&#252;r Applikation VVT-Fehlerarten</description>
     <CATEGORYMEM index="0" category="246" />
     <EMBEDDEDDATA mmedaddress="0x385E" mmedelementsizebits="16" />
     <decimalpl>1</decimalpl>
@@ -25126,7 +25126,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>ANZTIBMX</title>
-    <description>Begrenzung ti-Einspritzz&#228;hler &quot;&quot;anztib_w&quot;&quot;</description>
+    <description>Begrenzung ti-Einspritzz&#228;hler anztib_w</description>
     <CATEGORYMEM index="0" category="253" />
     <EMBEDDEDDATA mmedaddress="0x584A" mmedelementsizebits="16" />
     <decimalpl>1</decimalpl>
@@ -46659,7 +46659,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CWKMMILSCT</title>
-    <description>Ausgabe &quot;&quot;Km bei MIL on&quot;&quot;  f&#252;r Scan Tool abschalten (0 = keine Ausgabe in PID $21)</description>
+    <description>Ausgabe Km bei MIL on  f&#252;r Scan Tool abschalten (0 = keine Ausgabe in PID $21)</description>
     <CATEGORYMEM index="0" category="360" />
     <EMBEDDEDDATA mmedaddress="0x9340" mmedelementsizebits="8" />
     <datatype>0</datatype>
@@ -48475,7 +48475,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>TFNVRBUP</title>
-    <description>Timeout: Testeranforderung &quot;&quot;erzwungenes NVRAM-Backup&quot;&quot;</description>
+    <description>Timeout: Testeranforderung erzwungenes NVRAM-Backup</description>
     <CATEGORYMEM index="0" category="295" />
     <EMBEDDEDDATA mmedaddress="0x9940" mmedelementsizebits="16" />
     <units>s</units>
@@ -50243,7 +50243,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>KFWALLW</title>
-    <description>Leerlauf Auslasspreizung gedrosselt warm zum Katheizen&quot;&quot;</description>
+    <description>Leerlauf Auslasspreizung gedrosselt warm zum Katheizen</description>
     <CATEGORYMEM index="0" category="426" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0xA740" mmedelementsizebits="16" mmedmajorstridebits="16" />
@@ -51244,7 +51244,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>KLESPVZ</title>
-    <description>Einschaltverz&#246;gerung Einlass abh&#228;ngig von tmot&quot;&quot;</description>
+    <description>Einschaltverz&#246;gerung Einlass abh&#228;ngig von tmot</description>
     <CATEGORYMEM index="0" category="426" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0xA6E1" mmedelementsizebits="8" mmedmajorstridebits="8" />
@@ -57722,7 +57722,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>TMCCGBH</title>
-    <description>Motortemperatur Schwelle CC-Meldung Gelb &quot;&quot;Motortemperatur &#252;berhitzt&quot;&quot; High</description>
+    <description>Motortemperatur Schwelle CC-Meldung Gelb Motortemperatur &#252;berhitzt High</description>
     <CATEGORYMEM index="0" category="28" />
     <EMBEDDEDDATA mmedaddress="0xC29F" mmedelementsizebits="8" />
     <units>Grad C</units>
@@ -57735,7 +57735,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>TMCCGBL</title>
-    <description>Motortemperatur Schwelle CC-Meldung Gelb &quot;&quot;Motortemperatur &#252;berhitzt&quot;&quot; Low</description>
+    <description>Motortemperatur Schwelle CC-Meldung Gelb Motortemperatur &#252;berhitzt Low</description>
     <CATEGORYMEM index="0" category="28" />
     <EMBEDDEDDATA mmedaddress="0xC2A0" mmedelementsizebits="8" />
     <units>Grad C</units>
@@ -61653,7 +61653,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>TUSTALLASH</title>
-    <description>Verz&#246;g.zeit f&#252;r Erkennung B_maxlash nach &quot;&quot;Tank leer&quot;&quot; fahren f&#252;r Sonde h. KAT</description>
+    <description>Verz&#246;g.zeit f&#252;r Erkennung B_maxlash nach Tank leer fahren f&#252;r Sonde h. KAT</description>
     <CATEGORYMEM index="0" category="207" />
     <EMBEDDEDDATA mmedaddress="0xC9CC" mmedelementsizebits="16" />
     <units>s</units>
@@ -62036,7 +62036,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>TUSTAL</title>
-    <description>Verz&#246;g.zeit f&#252;r Erkennung Adernschlu&#223; nach &quot;&quot;Tank leer&quot;&quot; fahren f&#252;r Sonde h. KAT</description>
+    <description>Verz&#246;g.zeit f&#252;r Erkennung Adernschlu&#223; nach Tank leer fahren f&#252;r Sonde h. KAT</description>
     <CATEGORYMEM index="0" category="208" />
     <EMBEDDEDDATA mmedaddress="0xC9FE" mmedelementsizebits="16" />
     <units>s</units>
@@ -62658,7 +62658,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>DLAHPPLMN</title>
-    <description>minimale DLAHP-Schwelle zum Setzen des Plausfehlers &quot;&quot;B&quot;&quot;</description>
+    <description>minimale DLAHP-Schwelle zum Setzen des Plausfehlers B</description>
     <CATEGORYMEM index="0" category="210" />
     <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0xCA24" mmedelementsizebits="16" />
     <units>-</units>
@@ -62672,7 +62672,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>DLAHPPLMN2</title>
-    <description>minimale DLAHP-Schwelle zum Setzen des Plausfehlers &quot;&quot;B&quot;&quot;  (Bank2)</description>
+    <description>minimale DLAHP-Schwelle zum Setzen des Plausfehlers B  (Bank2)</description>
     <CATEGORYMEM index="0" category="210" />
     <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0xCA26" mmedelementsizebits="16" />
     <units>-</units>
@@ -63159,7 +63159,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>TVLSUOF</title>
-    <description>Verz&#246;gerungszeit f&#252;r Fehler stetige Lambdasonde LSU &quot;&quot;Offset&quot;&quot;</description>
+    <description>Verz&#246;gerungszeit f&#252;r Fehler stetige Lambdasonde LSU Offset</description>
     <CATEGORYMEM index="0" category="210" />
     <EMBEDDEDDATA mmedaddress="0xCA6C" mmedelementsizebits="16" />
     <units>s</units>
@@ -63185,7 +63185,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>USHKFT</title>
-    <description>Sondenspannungs-Schwelle f&#252;r Erkennung &quot;&quot;Abgas fett&quot;&quot; hinter Kat</description>
+    <description>Sondenspannungs-Schwelle f&#252;r Erkennung Abgas fett hinter Kat</description>
     <CATEGORYMEM index="0" category="210" />
     <EMBEDDEDDATA mmedaddress="0xCA70" mmedelementsizebits="16" />
     <units>V</units>
@@ -63199,7 +63199,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>USHKMR</title>
-    <description>Sondenspannungs-Schwelle f&#252;r Erkennung &quot;&quot;Abgas mager&quot;&quot; hinter Kat</description>
+    <description>Sondenspannungs-Schwelle f&#252;r Erkennung Abgas mager hinter Kat</description>
     <CATEGORYMEM index="0" category="210" />
     <EMBEDDEDDATA mmedaddress="0xCA72" mmedelementsizebits="16" />
     <units>V</units>
@@ -71132,7 +71132,7 @@
   </XDFTABLE>
   <XDFCONSTANT uniqueid="0x0">
     <title>LAMLGFKT</title>
-    <description>Laufgrenze &quot;&quot;fett&quot;&quot; im Kurz Test</description>
+    <description>Laufgrenze fett im Kurz Test</description>
     <CATEGORYMEM index="0" category="314" />
     <EMBEDDEDDATA mmedaddress="0xE0F5" mmedelementsizebits="8" />
     <units>-</units>
@@ -71188,7 +71188,7 @@
   </XDFTABLE>
   <XDFCONSTANT uniqueid="0x0">
     <title>LAMLGMKT</title>
-    <description>Laufgrenze &quot;&quot;mager&quot;&quot; im Kurz Test</description>
+    <description>Laufgrenze mager im Kurz Test</description>
     <CATEGORYMEM index="0" category="314" />
     <EMBEDDEDDATA mmedaddress="0xE104" mmedelementsizebits="8" />
     <units>-</units>
@@ -71202,7 +71202,7 @@
   </XDFCONSTANT>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>LAMLGMTM</title>
-    <description>Laufgrenze &quot;&quot;mager&quot;&quot;</description>
+    <description>Laufgrenze mager</description>
     <CATEGORYMEM index="0" category="314" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0xC375" mmedelementsizebits="8" mmedmajorstridebits="8" />
@@ -72404,7 +72404,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>FSTTAL</title>
-    <description>Tankfuellstand fuer &quot;&quot;Tank leer&quot;&quot; Erkennung</description>
+    <description>Tankfuellstand fuer Tank leer Erkennung</description>
     <CATEGORYMEM index="0" category="273" />
     <EMBEDDEDDATA mmedaddress="0xE1DC" mmedelementsizebits="16" />
     <units>l</units>
@@ -72417,7 +72417,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>FSTTAL1</title>
-    <description>Tankfuellstand fuer &quot;&quot;Tank leer&quot;&quot; Erkennung Tank1</description>
+    <description>Tankfuellstand fuer Tank leer Erkennung Tank1</description>
     <CATEGORYMEM index="0" category="273" />
     <EMBEDDEDDATA mmedaddress="0xE1DE" mmedelementsizebits="16" />
     <units>l</units>
@@ -72430,7 +72430,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>FSTTAV</title>
-    <description>Tankfuellstand fuer &quot;&quot;Tank voll&quot;&quot; Erkennung</description>
+    <description>Tankfuellstand fuer Tank voll Erkennung</description>
     <CATEGORYMEM index="0" category="273" />
     <EMBEDDEDDATA mmedaddress="0xE1E0" mmedelementsizebits="16" />
     <units>l</units>
@@ -85371,7 +85371,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>VFZTANKD</title>
-    <description>Fahrzeuggeschwindikeit f&#252;r Anzeige &quot;&quot;Check filler cap&quot;&quot;</description>
+    <description>Fahrzeuggeschwindikeit f&#252;r Anzeige Check filler cap</description>
     <CATEGORYMEM index="0" category="84" />
     <EMBEDDEDDATA mmedaddress="0xFD92" mmedelementsizebits="16" />
     <units>km/h</units>
@@ -85570,7 +85570,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>DFTEAHB</title>
-    <description>Schwelle Gemischanteil Tankentl&#252;ftung zum Setzen Bit &quot;&quot;Hohe Beladung&quot;&quot;</description>
+    <description>Schwelle Gemischanteil Tankentl&#252;ftung zum Setzen Bit Hohe Beladung</description>
     <CATEGORYMEM index="0" category="369" />
     <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0xFDAC" mmedelementsizebits="8" />
     <units>-</units>
@@ -85842,7 +85842,7 @@
   </XDFTABLE>
   <XDFCONSTANT uniqueid="0x0">
     <title>FRHB</title>
-    <description>fr-Schwelle f&#252;r m&#246;gliches R&#252;cksetzten Flip-Flop &quot;&quot;Hohe Beladung&quot;&quot;</description>
+    <description>fr-Schwelle f&#252;r m&#246;gliches R&#252;cksetzten Flip-Flop Hohe Beladung</description>
     <CATEGORYMEM index="0" category="369" />
     <EMBEDDEDDATA mmedaddress="0xFE01" mmedelementsizebits="8" />
     <units>-</units>
