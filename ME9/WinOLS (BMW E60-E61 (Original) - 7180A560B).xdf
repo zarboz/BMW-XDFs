@@ -209,27 +209,27 @@
     <CATEGORY index="0xC6" name="DKOSE: Diagnosis of air conditioning compressor output stage" />
     <CATEGORY index="0xC7" name="DKRNT: Diagnosis; Knock control, zero test (OBDII)" />
     <CATEGORY index="0xC8" name="DKRS: Diagnosis; Knock sensor (OBDII)" />
-    <CATEGORY index="0xC9" name="DKRTP: Diagnose; Klopfregelung, Testimpuls (OBDII)" />
-    <CATEGORY index="0xCA" name="DKUPPL: Diagnose Kupplungsschalter" />
-    <CATEGORY index="0xCB" name="DKVS: Diagnose; Plausibilit&#228;tspr&#252;fung Kraftstoffversorgungssysteme" />
-    <CATEGORY index="0xCC" name="DLLR: Diagnose: Leerlaufregelung Erkennung blockierter Steller" />
+    <CATEGORY index="0xC9" name="DKRTP: Diagnose; Knock control, test pulse (OBDII)" />
+    <CATEGORY index="0xCA" name="DKUPPL: Diagnose clutch switch" />
+    <CATEGORY index="0xCB" name="DKVS: Diagnose; Plausibility check fuel supply systems" />
+    <CATEGORY index="0xCC" name="DLLR: Diagnosis: Idle control Detection of blocked controllers" />
     <CATEGORY index="0xCD" name="DLOCVVT: Diagnose LOCAN VVT" />
-    <CATEGORY index="0xCE" name="DLSAHK: Lambdasondenalterungs&#252;berwachung hinter KAT" />
-    <CATEGORY index="0xCF" name="DLSH: Diagnose; Sondenbetriebsbereitschaft hinter Kat" />
-    <CATEGORY index="0xD0" name="DLSSA: Signalausgabe Lambdasonden" />
-    <CATEGORY index="0xD1" name="DLSU: Diagnose stetige Lambdasonde LSU" />
-    <CATEGORY index="0xD2" name="DLSUV: Erkennung vertauschte Lambda-Sonden vor Kat" />
-    <CATEGORY index="0xD3" name="DMDFLU: DMDFLU.   Diagnose Misfire Detection Filterung der Laufunruhe" />
-    <CATEGORY index="0xD4" name="DMDFOF: DMDFOF.   Diagnosis Misfire Detection Fuel-off Adaptation" />
-    <CATEGORY index="0xD5" name="DMDFON: DMDFON.exportedDiagnosis Misfire Detection Fuel-on Adaptation" />
-    <CATEGORY index="0xD6" name="DMDLAD: DMDLAD.exportedLogic and Delay; Log. Verkn&#252;pfung versch. Bl&#246;cke zur Aussetzererkennung" />
+    <CATEGORY index="0xCE" name="DLSAHK: Lambda probe aging monitoring behind CAT" />
+    <CATEGORY index="0xCF" name="DLSH: Diagnosis; Probe operational readiness behind Cat" />
+    <CATEGORY index="0xD0" name="DLSSA: Signal output lambda probes" />
+    <CATEGORY index="0xD1" name="DLSU: Diagnosis of continuous lambda probe LSU " />
+    <CATEGORY index="0xD2" name="DLSUV: Recognition of exchanged lambda probes before Cat" />
+    <CATEGORY index="0xD3" name="DMDFLU: Diagnose Misfire Detection Filterung der Laufunruhe" />
+    <CATEGORY index="0xD4" name="DMDFOF: Diagnosis Misfire Detection Fuel-off Adaptation" />
+    <CATEGORY index="0xD5" name="DMDFON: exportedDiagnosis Misfire Detection Fuel-on Adaptation" />
+    <CATEGORY index="0xD6" name="DMDLAD: exportedLogic and Delay; Log. Verkn&#252;pfung versch. Bl&#246;cke zur Aussetzererkennung" />
     <CATEGORY index="0xD7" name="DMDLFB: Diagnose Misfire Detection Berechnung Laufunruhe luts und gefilterte fluts" />
-    <CATEGORY index="0xD8" name="DMDLU: DMDLU.exportedDiagnose misfire detection; Laufunruhe" />
-    <CATEGORY index="0xD9" name="DMDLUA: DMDLUA.   Diagnose Misfire Detection Laufunruhe Abstandsmass" />
-    <CATEGORY index="0xDA" name="DMDMIL: DMDMIL.exportedFehlerbehandlung der Aussetzererkennung, Ansteuerung der MIL und Heilung" />
-    <CATEGORY index="0xDB" name="DMDSTP: DMDSTP.   Diagnose Misfire Detection; Stopbedingungen" />
+    <CATEGORY index="0xD8" name="DMDLU:  exportedDiagnose misfire detection; Laufunruhe" />
+    <CATEGORY index="0xD9" name="DMDLUA: Diagnose Misfire Detection Laufunruhe Abstandsmass" />
+    <CATEGORY index="0xDA" name="DMDMIL: exportedFehlerbehandlung der Aussetzererkennung, Ansteuerung der MIL und Heilung" />
+    <CATEGORY index="0xDB" name="DMDSTP: Diagnose Misfire Detection; Stopbedingungen" />
     <CATEGORY index="0xDC" name="DMDTSB: Diagnosis Misfire Detection Segmentzeitbildung" />
-    <CATEGORY index="0xDD" name="DMDZAG: DMDZAG.exportedDiagnose misfire detection: Aussetzergenerator" />
+    <CATEGORY index="0xDD" name="DMDZAG: exportedDiagnose misfire detection: Aussetzergenerator" />
     <CATEGORY index="0xDE" name="DMIL: OBDII; MIL-Ansteuerung" />
     <CATEGORY index="0xDF" name="DMLSE: Diagnose; Endstufenpr&#252;fung elektrischer Motorl&#252;fter" />
     <CATEGORY index="0xE0" name="DNVRBUP: Diagnose NVRAM Backup" />
