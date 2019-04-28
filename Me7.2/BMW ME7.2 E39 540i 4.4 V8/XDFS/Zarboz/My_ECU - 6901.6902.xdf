@@ -1,4 +1,4 @@
-<!-- Written 04/27/2019 21:09:25 -->
+<!-- Written 04/27/2019 21:11:37 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -5112,7 +5112,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFFUNCTION uniqueid="0x2E72" flags="0x0">
-    <title>TAMLAC Electric Fan PWM% vs AC 7532675/6</title>
+    <title>TAMLAC Electric Fan PWM% vs AC</title>
     <CATEGORYMEM index="0" category="12" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0xA54D" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
@@ -5140,7 +5140,7 @@
     </XDFAXIS>
   </XDFFUNCTION>
   <XDFFUNCTION uniqueid="0x609E" flags="0x0">
-    <title>TAMLSNH Electric Fan PWM% vs speed 7532675/6 *</title>
+    <title>TAMLSNH Electric Fan PWM% vs speed</title>
     <description>* data does not appear to be correct in these factory calibrations - 2 matching arrays</description>
     <CATEGORYMEM index="0" category="12" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -5168,37 +5168,8 @@
       </MATH>
     </XDFAXIS>
   </XDFFUNCTION>
-  <XDFFUNCTION uniqueid="0x2E9C" flags="0x0">
-    <title>TAMLTKA Electric Fan PWM% from rad exit temp 7532675 MY03?*</title>
-    <description>MY03 only 7 rows like MY99!? </description>
-    <CATEGORYMEM index="0" category="12" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0xA575" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>Coolant C</units>
-      <indexcount>7</indexcount>
-      <embedinfo type="1" />
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <MATH equation="(x*.75)-48">
-        <VAR id="x" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0xA57C" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>PWM %</units>
-      <indexcount>7</indexcount>
-      <embedinfo type="1" />
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <MATH equation="x/2.55">
-        <VAR id="x" />
-      </MATH>
-    </XDFAXIS>
-  </XDFFUNCTION>
   <XDFFUNCTION uniqueid="0x628F" flags="0x0">
-    <title>TAMLTKA Electric Fan PWM% from rad exit temp MY01 7532676 &amp; MY02 7532675</title>
+    <title>TAMLTKA Electric Fan PWM% from rad exit temp</title>
     <CATEGORYMEM index="0" category="12" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0xA575" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
