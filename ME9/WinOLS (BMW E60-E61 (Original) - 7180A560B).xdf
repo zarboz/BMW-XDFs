@@ -221,15 +221,15 @@
     <CATEGORY index="0xD2" name="DLSUV: Recognition of exchanged lambda probes before Cat" />
     <CATEGORY index="0xD3" name="DMDFLU: Diagnose Misfire Detection Filterung der Laufunruhe" />
     <CATEGORY index="0xD4" name="DMDFOF: Diagnosis Misfire Detection Fuel-off Adaptation" />
-    <CATEGORY index="0xD5" name="DMDFON: exportedDiagnosis Misfire Detection Fuel-on Adaptation" />
-    <CATEGORY index="0xD6" name="DMDLAD: exportedLogic and Delay; Log. Verkn&#252;pfung versch. Bl&#246;cke zur Aussetzererkennung" />
+    <CATEGORY index="0xD5" name="DMDFON: Diagnosis Misfire Detection Fuel-on Adaptation" />
+    <CATEGORY index="0xD6" name="DMDLAD: Logic and Delay; Log. Verkn&#252;pfung versch. Bl&#246;cke zur Aussetzererkennung" />
     <CATEGORY index="0xD7" name="DMDLFB: Diagnose Misfire Detection Berechnung Laufunruhe luts und gefilterte fluts" />
-    <CATEGORY index="0xD8" name="DMDLU:  exportedDiagnose misfire detection; Laufunruhe" />
+    <CATEGORY index="0xD8" name="DMDLU:  Diagnose misfire detection; Laufunruhe" />
     <CATEGORY index="0xD9" name="DMDLUA: Diagnose Misfire Detection Laufunruhe Abstandsmass" />
-    <CATEGORY index="0xDA" name="DMDMIL: exportedFehlerbehandlung der Aussetzererkennung, Ansteuerung der MIL und Heilung" />
+    <CATEGORY index="0xDA" name="DMDMIL: Fehlerbehandlung der Aussetzererkennung, Ansteuerung der MIL und Heilung" />
     <CATEGORY index="0xDB" name="DMDSTP: Diagnose Misfire Detection; Stopbedingungen" />
     <CATEGORY index="0xDC" name="DMDTSB: Diagnosis Misfire Detection Segmentzeitbildung" />
-    <CATEGORY index="0xDD" name="DMDZAG: exportedDiagnose misfire detection: Aussetzergenerator" />
+    <CATEGORY index="0xDD" name="DMDZAG: Diagnose misfire detection: Aussetzergenerator" />
     <CATEGORY index="0xDE" name="DMIL: OBDII; MIL-Ansteuerung" />
     <CATEGORY index="0xDF" name="DMLSE: Diagnose; Endstufenpr&#252;fung elektrischer Motorl&#252;fter" />
     <CATEGORY index="0xE0" name="DNVRBUP: Diagnose NVRAM Backup" />
