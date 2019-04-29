@@ -1,4 +1,4 @@
-<!-- Written 04/29/2019 10:26:40 -->
+<!-- Written 04/29/2019 14:45:26 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -5210,7 +5210,7 @@
   </XDFFUNCTION>
   <XDFCONSTANT uniqueid="0x4DA8" flags="0x4">
     <title>CWDMTL</title>
-    <description>Activate code word DMTL diagnosis (EURO coding), CD .. = 0 -&gt; no slide</description>
+    <description>Activate code word DMTL diagnosis (EURO coding), CD .. 0 = no DMTL &#013;&#010;50 = DMTL &#013;&#010;&#013;&#010;?? = DMTLH</description>
     <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x1F4A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
