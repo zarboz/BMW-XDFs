@@ -1,4 +1,4 @@
-<!-- Written 04/29/2019 10:22:05 -->
+<!-- Written 04/29/2019 10:26:40 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -5095,10 +5095,10 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFFUNCTION uniqueid="0x2E72" flags="0x0">
-    <title>TAMLAC Electric Fan PWM% vs AC 7532675/6</title>
+    <title>TAMLAC Electric Fan PWM% vs AC </title>
     <CATEGORYMEM index="0" category="12" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0xA54D" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xA53F" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>AC %</units>
       <indexcount>10</indexcount>
       <embedinfo type="1" />
@@ -5110,7 +5110,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0xA557" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xA549" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>PWM %</units>
       <indexcount>10</indexcount>
       <embedinfo type="1" />
