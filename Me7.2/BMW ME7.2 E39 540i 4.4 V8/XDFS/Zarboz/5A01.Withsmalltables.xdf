@@ -1,4 +1,4 @@
-<!-- Written 04/26/2019 15:08:03 -->
+<!-- Written 04/29/2019 09:08:42 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -7597,11 +7597,11 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-    <XDFCONSTANT uniqueid="0x0">
+  <XDFCONSTANT uniqueid="0x0">
     <title>LAMLGF</title>
-    <description>Laufgrenze &quot;fett&quot;</description>
+    <description>Running limit &quot;bold&quot;</description>
     <CATEGORYMEM index="0" category="190" />
-    <EMBEDDEDDATA mmedaddress="0x1C8F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1D57" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>-</units>
     <decimalpl>4</decimalpl>
     <datatype>0</datatype>
@@ -7613,9 +7613,9 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>LASOAB</title>
-    <description>Lambdasollwert bei Bankabschaltung</description>
+    <description>Lambda setpoint at bank shutdown</description>
     <CATEGORYMEM index="0" category="190" />
-    <EMBEDDEDDATA mmedaddress="0x1C90" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1D58" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>-</units>
     <decimalpl>4</decimalpl>
     <datatype>0</datatype>
