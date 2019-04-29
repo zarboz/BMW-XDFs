@@ -7597,4 +7597,32 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
+    <XDFCONSTANT uniqueid="0x0">
+    <title>LAMLGF</title>
+    <description>Laufgrenze &quot;fett&quot;</description>
+    <CATEGORYMEM index="0" category="190" />
+    <EMBEDDEDDATA mmedaddress="0x1C8F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>-</units>
+    <decimalpl>4</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.007813 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>LASOAB</title>
+    <description>Lambdasollwert bei Bankabschaltung</description>
+    <CATEGORYMEM index="0" category="190" />
+    <EMBEDDEDDATA mmedaddress="0x1C90" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>-</units>
+    <decimalpl>4</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.007813 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
 </XDFFORMAT>
