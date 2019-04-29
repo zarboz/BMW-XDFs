@@ -1,4 +1,4 @@
-<!-- Written 04/29/2019 09:08:42 -->
+<!-- Written 04/29/2019 09:24:34 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -7396,6 +7396,7 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>KFTVSA</title>
     <description>Delay time for fuel cutoff</description>
+    <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
@@ -7436,8 +7437,9 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>KFTVSAM</title>
     <description>Delay time for fuel cutoff manual car</description>
+    <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
       <indexcount>8</indexcount>
       <decimalpl>1</decimalpl>
@@ -7450,7 +7452,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x985A" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x985A" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Grad C</units>
       <indexcount>5</indexcount>
       <embedinfo type="1" />
@@ -7476,6 +7478,7 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>NWEM</title>
     <description>Resume engine speed</description>
+    <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x985A" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Grad C</units>
@@ -7517,6 +7520,7 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>NWENG</title>
     <description>Resume engine speed</description>
+    <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x4919" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Grad C</units>
@@ -7558,6 +7562,7 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>WPHN</title>
     <description>phase response</description>
+    <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
@@ -7600,7 +7605,7 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>LAMLGF</title>
     <description>Running limit &quot;bold&quot;</description>
-    <CATEGORYMEM index="0" category="190" />
+    <CATEGORYMEM index="0" category="3" />
     <EMBEDDEDDATA mmedaddress="0x1D57" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>-</units>
     <decimalpl>4</decimalpl>
@@ -7614,7 +7619,7 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>LASOAB</title>
     <description>Lambda setpoint at bank shutdown</description>
-    <CATEGORYMEM index="0" category="190" />
+    <CATEGORYMEM index="0" category="3" />
     <EMBEDDEDDATA mmedaddress="0x1D58" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>-</units>
     <decimalpl>4</decimalpl>
@@ -7622,6 +7627,18 @@
     <unittype>0</unittype>
     <DALINK index="0" />
     <MATH equation="0.007813 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWKHZ</title>
+    <description>The abort can optionally be&#013;&#010;stopped by B lpoff =1 by the setting of CWKHZ.6.&#013;&#010;CWKHZ: 0, no engine speed decrease after the time TKHLLMX, &#013;&#010;Bit 7 set only for application purposes&#013;&#010;Bit 7 sets B trkh hard -&gt; no decrease of the sensor heating performance -&gt; sensor may be endangered.</description>
+    <CATEGORYMEM index="0" category="23" />
+    <EMBEDDEDDATA mmedaddress="0xA241" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
