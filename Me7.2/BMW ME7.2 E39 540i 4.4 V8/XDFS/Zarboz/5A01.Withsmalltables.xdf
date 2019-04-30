@@ -1,4 +1,4 @@
-<!-- Written 04/29/2019 18:37:12 -->
+<!-- Written 04/30/2019 10:42:30 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2911,7 +2911,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>MDIMX</title>
-    <description>Maximal erreichbares indiziertes Motormoment</description>
+    <description>Maximum achievable indexed engine torque</description>
     <EMBEDDEDDATA mmedaddress="0x166" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>%</units>
     <decimalpl>3</decimalpl>
