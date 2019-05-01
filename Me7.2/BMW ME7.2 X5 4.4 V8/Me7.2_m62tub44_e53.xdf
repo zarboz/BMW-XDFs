@@ -1,4 +1,4 @@
-<!-- Written 02/07/2019 08:04:11 -->
+<!-- Written 04/30/2019 19:48:38 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -26465,7 +26465,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>AIMV</title>
-    <description>Anzahl Geschwindigkeitsimpulse pro km f&#252;r Normierung v-Signal</description>
+    <description>Number of speed pulses per km for normalization v signal</description>
     <CATEGORYMEM index="0" category="174" />
     <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x42F4" mmedelementsizebits="32" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>-</units>
@@ -26480,7 +26480,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>DVFZBEG</title>
-    <description>Delta-Geschwindigkeit f&#252;r &#196;nderungsbegrenzung</description>
+    <description>Delta speed for change limitation</description>
     <CATEGORYMEM index="0" category="174" />
     <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x42F8" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>km/h</units>

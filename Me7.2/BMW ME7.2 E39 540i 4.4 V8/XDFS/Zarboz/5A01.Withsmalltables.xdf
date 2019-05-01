@@ -1,4 +1,4 @@
-<!-- Written 04/30/2019 10:42:30 -->
+<!-- Written 04/30/2019 20:17:02 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -4687,8 +4687,7 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>CDKSLPE</title>
     <description>Codeword customer: secondary air pump (power amplifier)</description>
-    <CATEGORYMEM index="0" category="21" />
-    <CATEGORYMEM index="1" category="20" />
+    <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1FA9" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <decimalpl>1</decimalpl>
     <datatype>0</datatype>
@@ -7380,7 +7379,7 @@
     <description>Delay time for fuel cutoff</description>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
       <indexcount>8</indexcount>
       <decimalpl>1</decimalpl>
@@ -7393,7 +7392,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x985A" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x985A" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Grad C</units>
       <indexcount>5</indexcount>
       <embedinfo type="1" />
@@ -7488,7 +7487,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0x9063" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x905B" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>Upm</units>
       <decimalpl>1</decimalpl>
       <min>0.000000</min>
@@ -7530,7 +7529,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0x3232" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x322A" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>Upm</units>
       <decimalpl>1</decimalpl>
       <min>0.000000</min>
@@ -7846,7 +7845,7 @@
   </XDFTABLE>
   <XDFCONSTANT uniqueid="0x0">
     <title>FPRNMAX</title>
-    <description>Motordrehzahlschwelle f&#252;r DV-E-Federpr&#252;fung</description>
+    <description>Engine speed threshold for DV-E spring test</description>
     <CATEGORYMEM index="0" category="22" />
     <EMBEDDEDDATA mmedaddress="0x1A27" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>U/min</units>
@@ -7860,7 +7859,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>UANNMAX</title>
-    <description>Motordrehzahlschwelle f&#252;r Freigabe UMA-Lernen und Verst&#228;rkerabgleich</description>
+    <description>Engine speed threshold for enabling UMA learning and amplifier tuning</description>
     <CATEGORYMEM index="0" category="22" />
     <EMBEDDEDDATA mmedaddress="0x1A33" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>U/min</units>
