@@ -1,4 +1,4 @@
-<!-- Written 05/02/2019 00:18:50 -->
+<!-- Written 05/02/2019 16:22:35 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2657,9 +2657,9 @@
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x2C58" mmedelementsizebits="16" mmedrowcount="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>%</units>
-      <decimalpl>4</decimalpl>
+      <decimalpl>2</decimalpl>
       <min>0.000000</min>
-      <max>100.000000</max>
+      <max>99.609398</max>
       <outputtype>1</outputtype>
       <MATH equation="0.001526 * X">
         <VAR id="X" />
@@ -2914,7 +2914,7 @@
     <description>Maximum achievable indexed engine torque</description>
     <EMBEDDEDDATA mmedaddress="0x166" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>%</units>
-    <decimalpl>3</decimalpl>
+    <decimalpl>4</decimalpl>
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -7379,7 +7379,7 @@
     <description>Delay time for fuel cutoff</description>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x1998" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
       <indexcount>8</indexcount>
       <decimalpl>1</decimalpl>
@@ -7399,7 +7399,7 @@
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="0.750000 * X+ -48.000000">
+      <MATH equation="(0.750000 * X)+ -48.000000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -7420,7 +7420,7 @@
     <description>Delay time for fuel cutoff manual car</description>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x1998" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
       <indexcount>8</indexcount>
       <decimalpl>1</decimalpl>
@@ -7461,7 +7461,7 @@
     <description>Resume engine speed</description>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x985A" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x985A" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Grad C</units>
       <indexcount>5</indexcount>
       <embedinfo type="1" />
@@ -7503,7 +7503,7 @@
     <description>Resume engine speed</description>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x4919" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x4919" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Grad C</units>
       <indexcount>5</indexcount>
       <embedinfo type="1" />
@@ -7545,7 +7545,7 @@
     <description>phase response</description>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x18D9" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Upm</units>
       <indexcount>8</indexcount>
       <decimalpl>1</decimalpl>
