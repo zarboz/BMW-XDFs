@@ -1,0 +1,449 @@
+<!-- Written 03/27/2009 13:24:55 -->
+<XDFFORMAT version="0.50">
+  <XDFHEADER>
+    <flags>0x1</flags>
+    <deftitle>BMW DME 027</deftitle>
+    <description>This XDF is for the 1984 to 1986 BMW E30 it is for the 4K (2732) UV Prom chip  cars.</description>
+    <author>Raul the Aryan</author>
+    <baseoffset>0</baseoffset>
+    <DEFAULTS datasizeinbits="8" sigdigits="2" outputtype="1" signed="0" lsbfirst="0" float="0" />
+    <REGION type="0xFFFFFFFF" startaddress="0x0" size="0x1000" regionflags="0x0" name="Binary File" desc="This region describes the bin file edited by this XDF" />
+    <CATEGORY index="0x0" name="FuelMaps" />
+    <CATEGORY index="0x1" name="IgnitionMaps" />
+    <CATEGORY index="0x2" name="IdleMaps" />
+    <CATEGORY index="0x3" name="PartThrottleMaps" />
+    <CATEGORY index="0x4" name="WOTMaps" />
+    <CATEGORY index="0x5" name="AFMMaps" />
+    <CATEGORY index="0x6" name="RPMMaps" />
+  </XDFHEADER>
+  <XDFTABLE uniqueid="0x957" flags="0x10">
+    <title>Rev Limiter</title>
+    <description>Rev Limiter Value do not adjust more than 7000</description>
+    <CATEGORYMEM index="0" category="7" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <indexcount>1</indexcount>
+      <min>1000.000000</min>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="(null)" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <units>Rev Limit</units>
+      <indexcount>1</indexcount>
+      <min>1000.000000</min>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="(null)" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <address>0x847</address>
+      <indexsizebits>8</indexsizebits>
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>2</outputtype>
+      <MATH equation="X*50">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x6CC1" flags="0x30">
+    <title>Fuel Idle Trim Table</title>
+    <description>Idle Fuel Trim Map</description>
+    <CATEGORYMEM index="0" category="1" />
+    <CATEGORYMEM index="1" category="3" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <indexcount>1</indexcount>
+      <min>1000.000000</min>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="(null)" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <units>RPMs</units>
+      <indexcount>16</indexcount>
+      <min>1000.000000</min>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <LABEL index="1" value="" />
+      <LABEL index="2" value="" />
+      <LABEL index="3" value="" />
+      <LABEL index="4" value="" />
+      <LABEL index="5" value="" />
+      <LABEL index="6" value="" />
+      <LABEL index="7" value="" />
+      <LABEL index="8" value="" />
+      <LABEL index="9" value="" />
+      <LABEL index="10" value="" />
+      <LABEL index="11" value="" />
+      <LABEL index="12" value="" />
+      <LABEL index="13" value="" />
+      <LABEL index="14" value="" />
+      <LABEL index="15" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <units>3</units>
+      <address>0xCED</address>
+      <indexsizebits>8</indexsizebits>
+      <decimalpl>0</decimalpl>
+      <min>0.000000</min>
+      <max>140.000000</max>
+      <outputtype>2</outputtype>
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x70D2" flags="0x30">
+    <title>Fuel Enrichment Scale</title>
+    <description>under full load this map is used to add calculation for more fuel</description>
+    <CATEGORYMEM index="0" category="1" />
+    <CATEGORYMEM index="1" category="5" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <indexcount>1</indexcount>
+      <min>1000.000000</min>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="(null)" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <units>RPMs</units>
+      <indexcount>16</indexcount>
+      <min>1000.000000</min>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="600" />
+      <LABEL index="1" value="1000" />
+      <LABEL index="2" value="2000" />
+      <LABEL index="3" value="2480" />
+      <LABEL index="4" value="3000" />
+      <LABEL index="5" value="3480" />
+      <LABEL index="6" value="4000" />
+      <LABEL index="7" value="4200" />
+      <LABEL index="8" value="4480" />
+      <LABEL index="9" value="4800" />
+      <LABEL index="10" value="5000" />
+      <LABEL index="11" value="5200" />
+      <LABEL index="12" value="5480" />
+      <LABEL index="13" value="5800" />
+      <LABEL index="14" value="6000" />
+      <LABEL index="15" value="6200" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <units>3</units>
+      <address>0xC1E</address>
+      <indexsizebits>8</indexsizebits>
+      <decimalpl>0</decimalpl>
+      <min>0.000000</min>
+      <max>30.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x7320" flags="0x30">
+    <title>Ignition full load table</title>
+    <description>aditional values added when under full load</description>
+    <CATEGORYMEM index="0" category="2" />
+    <CATEGORYMEM index="1" category="5" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <units>Deg. Advance</units>
+      <indexcount>1</indexcount>
+      <min>1000.000000</min>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="(null)" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <units>RPMs</units>
+      <indexcount>16</indexcount>
+      <min>1000.000000</min>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="600" />
+      <LABEL index="1" value="1000" />
+      <LABEL index="2" value="1480" />
+      <LABEL index="3" value="2000" />
+      <LABEL index="4" value="2480" />
+      <LABEL index="5" value="3000" />
+      <LABEL index="6" value="3280" />
+      <LABEL index="7" value="3480" />
+      <LABEL index="8" value="3800" />
+      <LABEL index="9" value="4200" />
+      <LABEL index="10" value="4480" />
+      <LABEL index="11" value="4800" />
+      <LABEL index="12" value="5200" />
+      <LABEL index="13" value="5480" />
+      <LABEL index="14" value="5800" />
+      <LABEL index="15" value="6000" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <units>3</units>
+      <address>0xCB5</address>
+      <indexsizebits>8</indexsizebits>
+      <decimalpl>0</decimalpl>
+      <min>0.000000</min>
+      <max>50.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x66E9" flags="0x30">
+    <title>Main Fuel Map</title>
+    <description>raul the aryan</description>
+    <CATEGORYMEM index="0" category="1" />
+    <CATEGORYMEM index="1" category="4" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <units>RPMs</units>
+      <indexcount>16</indexcount>
+      <min>1000.000000</min>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="600" />
+      <LABEL index="1" value="1000" />
+      <LABEL index="2" value="1200" />
+      <LABEL index="3" value="1400" />
+      <LABEL index="4" value="1800" />
+      <LABEL index="5" value="2000" />
+      <LABEL index="6" value="2200" />
+      <LABEL index="7" value="2600" />
+      <LABEL index="8" value="3000" />
+      <LABEL index="9" value="3200" />
+      <LABEL index="10" value="3600" />
+      <LABEL index="11" value="4200" />
+      <LABEL index="12" value="4800" />
+      <LABEL index="13" value="5000" />
+      <LABEL index="14" value="5400" />
+      <LABEL index="15" value="6000" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <units>% Load</units>
+      <indexcount>8</indexcount>
+      <min>1000.000000</min>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="14" />
+      <LABEL index="1" value="18" />
+      <LABEL index="2" value="29" />
+      <LABEL index="3" value="32" />
+      <LABEL index="4" value="43" />
+      <LABEL index="5" value="48" />
+      <LABEL index="6" value="54" />
+      <LABEL index="7" value="70" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <units>3</units>
+      <address>0xB1C</address>
+      <indexsizebits>8</indexsizebits>
+      <decimalpl>0</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>2</outputtype>
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x66E9" flags="0x30">
+    <title>Main ignition map</title>
+    <CATEGORYMEM index="0" category="1" />
+    <CATEGORYMEM index="1" category="4" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <units>RPMs</units>
+      <indexcount>16</indexcount>
+      <min>1000.000000</min>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="680.00" />
+      <LABEL index="1" value="800.00" />
+      <LABEL index="2" value="1120.00" />
+      <LABEL index="3" value="1440.00" />
+      <LABEL index="4" value="1760.00" />
+      <LABEL index="5" value="2080.00" />
+      <LABEL index="6" value="2680.00" />
+      <LABEL index="7" value="2920.00" />
+      <LABEL index="8" value="3620.00" />
+      <LABEL index="9" value="4000.00" />
+      <LABEL index="10" value="4520.00" />
+      <LABEL index="11" value="4820.00" />
+      <LABEL index="12" value="5000.00" />
+      <LABEL index="13" value="5220.00" />
+      <LABEL index="14" value="5620.00" />
+      <LABEL index="15" value="6200.00" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <units>% Load</units>
+      <indexcount>8</indexcount>
+      <min>1000.000000</min>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="10%" />
+      <LABEL index="1" value="22%" />
+      <LABEL index="2" value="38%" />
+      <LABEL index="3" value="42%" />
+      <LABEL index="4" value="50%" />
+      <LABEL index="5" value="62%" />
+      <LABEL index="6" value="70%" />
+      <LABEL index="7" value="80%" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <units>3</units>
+      <address>0xB9C</address>
+      <indexsizebits>8</indexsizebits>
+      <decimalpl>0</decimalpl>
+      <min>0.000000</min>
+      <max>70.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x71EC" flags="0x30">
+    <title>AFM Transfer Map</title>
+    <description>Air flow meter table can be adjusted for different meter or for maf conversion, it can also be used to tune for different injectors</description>
+    <CATEGORYMEM index="0" category="6" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <indexcount>1</indexcount>
+      <min>1000.000000</min>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="(null)" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <units>AFM % Open</units>
+      <indexcount>32</indexcount>
+      <min>1000.000000</min>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="3" />
+      <LABEL index="1" value="6" />
+      <LABEL index="2" value="9" />
+      <LABEL index="3" value="12" />
+      <LABEL index="4" value="15" />
+      <LABEL index="5" value="18" />
+      <LABEL index="6" value="21" />
+      <LABEL index="7" value="24" />
+      <LABEL index="8" value="27" />
+      <LABEL index="9" value="30" />
+      <LABEL index="10" value="33" />
+      <LABEL index="11" value="36" />
+      <LABEL index="12" value="39" />
+      <LABEL index="13" value="42" />
+      <LABEL index="14" value="45" />
+      <LABEL index="15" value="48" />
+      <LABEL index="16" value="51" />
+      <LABEL index="17" value="54" />
+      <LABEL index="18" value="57" />
+      <LABEL index="19" value="60" />
+      <LABEL index="20" value="63" />
+      <LABEL index="21" value="66" />
+      <LABEL index="22" value="69" />
+      <LABEL index="23" value="72" />
+      <LABEL index="24" value="75" />
+      <LABEL index="25" value="78" />
+      <LABEL index="26" value="81" />
+      <LABEL index="27" value="84" />
+      <LABEL index="28" value="87" />
+      <LABEL index="29" value="90" />
+      <LABEL index="30" value="93" />
+      <LABEL index="31" value="96" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <units>3</units>
+      <address>0x40F</address>
+      <indexsizebits>8</indexsizebits>
+      <decimalpl>0</decimalpl>
+      <min>120.000000</min>
+      <max>255.000000</max>
+      <outputtype>2</outputtype>
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFCONSTANT uniqueid="0x74B2">
+    <title>Injector Constant</title>
+    <description>adjust the value down for bigger injectors</description>
+    <address>0x88B</address>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="x*(1/179)">
+      <VAR id="x" />
+    </MATH>
+  </XDFCONSTANT>
+</XDFFORMAT>

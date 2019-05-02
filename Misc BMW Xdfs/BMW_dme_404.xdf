@@ -1,0 +1,346 @@
+XDF
+1.110000
+
+DO NOT HAND EDIT!!!! (Trust me)
+
+%%HEADER%%
+	001000 FileVers         ="1"
+	001005 DefTitle         ="404  Bosch motronic ECU"
+	001007 DescSize         =0x1E
+	001006 Desc             ="XDF for 0 261 200 404 dme 540i"
+	001010 Author           ="raul the aryan"
+	001030 BinSize          =0xFFF0
+	001035 BaseOffset       =0
+	001200 ADSAssoc         =""
+	001225 ADSCheck         =0x0
+	001300 GenFlags         =0x0
+	001325 ModeFlags        =0x0
+	002000 Category0        ="Spark"
+	002001 Category1        ="Fuel"
+	002002 Category2        ="Rev"
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x7214
+	000100 Cat0ID           =0x1
+	040005 Title            ="Spark Part Throttle"
+	040011 DescSize         =0x6
+	040010 Desc             ="Spark"
+	040100 Address          =0xCA9E
+	040150 Flags            =0x30
+	040200 ZEq              =x,TH|0|0|0|0|
+	040203 XOutType         =0x2
+	040304 YOutType         =0x2
+	040205 OutType          =0x2
+	040230 RangeLow         =30.0000
+	040240 RangeHigh        =120.0000
+	040300 Rows             =0xA
+	040305 Cols             =0xC
+	040310 PopByCol         =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           ="degrees"
+	040350 XLabels          =12,18,24,31,39,47,56,64,73,80,90,100
+	040352 XLabelType       =0x2
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =800,1320,2200,2960,3200,3900,4100,4800,5400,6080
+	040362 YLabelType       =0x2
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x74
+	000100 Cat0ID           =0x1
+	040005 Title            ="Spark WOT  (load/ rpm)"
+	040011 DescSize         =0x6
+	040010 Desc             ="Spark"
+	040100 Address          =0xCA16
+	040150 Flags            =0x30
+	040200 ZEq              =x,TH|0|0|0|0|
+	040203 XOutType         =0x2
+	040304 YOutType         =0x2
+	040205 OutType          =0x2
+	040230 RangeLow         =30.0000
+	040240 RangeHigh        =90.0000
+	040300 Rows             =0x10
+	040305 Cols             =0x3
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           ="degrees"
+	040350 XLabels          =55,64,73
+	040352 XLabelType       =0x2
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =800,1000,1520,2040,2480,3000,3240,3760,4040,4400,4720,5080,5400,5760,6040,6480
+	040362 YLabelType       =0x2
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x19C2
+	000100 Cat0ID           =0x1
+	040005 Title            ="Spark idle 1  (load/ rpm)"
+	040011 DescSize         =0x6
+	040010 Desc             ="Spark"
+	040100 Address          =0xC9DD
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x2
+	040304 YOutType         =0x2
+	040205 OutType          =0x2
+	040230 RangeLow         =30.0000
+	040240 RangeHigh        =84.0000
+	040300 Rows             =0x8
+	040305 Cols             =0x3
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           ="degrees"
+	040350 XLabels          =01,02,03
+	040352 XLabelType       =0x2
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =520,640,840,960,1320,1600,2000,3000
+	040362 YLabelType       =0x2
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0xF9A
+	040005 Title            ="Ignition Dwell(battery voltage/RPM)"
+	040011 DescSize         =0x44
+	040010 Desc             ="when battery voltage is low, coil needs more dwell time to saturate"
+	040100 Address          =0xCC0B
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =5.0000
+	040240 RangeHigh        =152.0000
+	040300 Rows             =0xC
+	040305 Cols             =0x7
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =8v,9v,10v,11v,12v,13v,14v
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =40,160,320,440,640,880,1040,2200,3520,4760,5760,7000
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x7E95
+	000100 Cat0ID           =0x2
+	040005 Title            ="Injector table  (correction)"
+	040011 DescSize         =0x6
+	040010 Desc             ="Spark"
+	040100 Address          =0xC6EF
+	040150 Flags            =0x30
+	040200 ZEq              =x,TH|0|0|0|0|
+	040203 XOutType         =0x2
+	040304 YOutType         =0x2
+	040205 OutType          =0x2
+	040230 RangeLow         =115.0000
+	040240 RangeHigh        =146.0000
+	040300 Rows             =0x8
+	040305 Cols             =0x5
+	040310 PopByCol         =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           ="fuel"
+	040350 XLabels          =01,02,03,04,05
+	040352 XLabelType       =0x2
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =01,02,03,04,05,06,07,08
+	040362 YLabelType       =0x2
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x77CF
+	040005 Title            ="Maf Table (volts/ inj time)"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040050 SizeInBits       =0x10
+	040100 Address          =0xC2A8
+	040150 Flags            =0x32
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =18.0000
+	040240 RangeHigh        =2872.0000
+	040300 Rows             =0x10
+	040305 Cols             =0x10
+	040320 XUnits           =""
+	040325 YUnits           ="volts"
+	040330 ZUnits           =""
+	040350 XLabels          =(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null)
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =0.31,0.63,0.94,1.25,1.56,1.88,2.19,2.50,2.81,3.13,3.44,3.75,4.06,4.38,4.69,5.00
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x25D7
+	000100 Cat0ID           =0x2
+	040005 Title            ="Fuel Part Throttle"
+	040011 DescSize         =0x6
+	040010 Desc             ="Spark"
+	040100 Address          =0xC80D
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x2
+	040304 YOutType         =0x2
+	040205 OutType          =0x2
+	040230 RangeLow         =115.0000
+	040240 RangeHigh        =160.0000
+	040300 Rows             =0xA
+	040305 Cols             =0xC
+	040310 PopByCol         =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           ="fuel"
+	040350 XLabels          =12,18,24,31,39,47,56,64,73,80,90,100
+	040352 XLabelType       =0x2
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =800,1320,2200,2520,3000,3300,4000,4800,5400,6080
+	040362 YLabelType       =0x2
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x3FB8
+	000100 Cat0ID           =0x2
+	040005 Title            ="Fuel WOT "
+	040011 DescSize         =0x18
+	040010 Desc             ="Fuel wide open throttle"
+	040100 Address          =0xC7E3
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x2
+	040304 YOutType         =0x2
+	040205 OutType          =0x2
+	040230 RangeLow         =100.0000
+	040240 RangeHigh        =190.0000
+	040300 Rows             =0x10
+	040305 Cols             =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           ="fuel"
+	040350 XLabels          =00
+	040352 XLabelType       =0x2
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =800,1000,1320,1720,2200,2520,2960,3360,3760,4120,4520,5000,5400,5760,6000,6400
+	040362 YLabelType       =0x2
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x151B
+	000100 Cat0ID           =0x2
+	040005 Title            ="Fuel idle"
+	040011 DescSize         =0xD
+	040010 Desc             ="Fuel at idle"
+	040100 Address          =0xC7C5
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x2
+	040304 YOutType         =0x2
+	040205 OutType          =0x2
+	040230 RangeLow         =115.0000
+	040240 RangeHigh        =146.0000
+	040300 Rows             =0x3
+	040305 Cols             =0x3
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           ="fuel"
+	040350 XLabels          =01,02,03
+	040352 XLabelType       =0x2
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =500,1000,1800
+	040362 YLabelType       =0x2
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x2AFF
+	000100 Cat0ID           =0x3
+	020005 Title            ="Rev limit1?"
+	020011 DescSize         =0x21
+	020010 Desc             ="not shure of it test it yourself"
+	020020 Units            =""
+	020100 Address          =0xC007
+	020200 Equation         =X,TH|0|0|0|0|
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x6480
+	000100 Cat0ID           =0x3
+	020005 Title            ="Rev limit2?"
+	020011 DescSize         =0x21
+	020010 Desc             ="not shure of it test it yourself"
+	020020 Units            =""
+	020100 Address          =0xC035
+	020200 Equation         =X*64.35,TH|0|0|0|0|
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x6030
+	020005 Title            ="Injector constant?"
+	020011 DescSize         =0xA
+	020010 Desc             ="not shure"
+	020020 Units            =""
+	020050 SizeInBits       =0x10
+	020100 Address          =0xC043
+	020150 Flags            =0x2
+	020200 Equation         =X/43478,TH|0|0|0|0|
+%%END%%
+
+%%FLAG%%
+	000002 UniqueID         =0xF81
+	030005 Title            ="02 sensor adaptation?"
+	030011 DescSize         =0xA
+	030010 Desc             ="not shure"
+	030100 Address          =0xC009
+	030200 BitNumber        =0x2
+%%END%%
+

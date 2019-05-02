@@ -1,0 +1,744 @@
+XDF
+1.110000
+
+DO NOT HAND EDIT!!!! (Trust me)
+
+%%HEADER%%
+	001000 FileVers         ="1.0"
+	001005 DefTitle         ="Green label  DME 405 with chip number 1267357951"
+	001007 DescSize         =0x35
+	001006 Desc             ="for 1992- 1994 525i with DME ecu number 0 261 200 405"
+	001010 Author           ="Raul The Aryan"
+	001030 BinSize          =0x8000
+	001035 BaseOffset       =0
+	001200 ADSAssoc         =""
+	001225 ADSCheck         =0x0
+	001300 GenFlags         =0x0
+	001325 ModeFlags        =0x0
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x646E
+	040005 Title            ="------------------MAF------------------"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x0
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x1
+	040305 Cols             =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =(null)
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =(null)
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x5653
+	040005 Title            ="Mass Air Flow Sensor Table"
+	040011 DescSize         =0x38
+	040010 Desc             ="This is used when tuning for different air mass meter, "
+	040050 SizeInBits       =0x10
+	040100 Address          =0x6BFC
+	040150 Flags            =0x33
+	040200 ZEq              =x,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =5000.0000
+	040300 Rows             =0x10
+	040305 Cols             =0x10
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =0.5,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x630E
+	040005 Title            ="----------------IDLE-----------------"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x0
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x1
+	040305 Cols             =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0xC9F
+	040005 Title            ="Idle RPM speed vs. engine temp (base, A/T in P position)"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x7802
+	040200 ZEq              =x*(10),TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x1
+	040305 Cols             =0x4
+	040320 XUnits           ="Idle Speed"
+	040325 YUnits           ="Coolant Temp"
+	040330 ZUnits           =""
+	040350 XLabels          =-18.3c,-0.3c,+33.6c,+59.6c
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =RPM
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x34B3
+	040005 Title            ="Idle RPM speed vs. engine temp (A/C on)"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x780C
+	040200 ZEq              =x*(10),TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x1
+	040305 Cols             =0x4
+	040320 XUnits           ="Idle Speed"
+	040325 YUnits           ="Coolant Temp"
+	040330 ZUnits           =""
+	040350 XLabels          =-18.3c,-1.0c,+34.5c,+84.0c
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =RPM
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x52BA
+	040005 Title            ="Idle RPM speed vs. engine temp (A/T in D position)"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x7816
+	040200 ZEq              =x*(10),TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x1
+	040305 Cols             =0x4
+	040320 XUnits           ="Idle Speed"
+	040325 YUnits           ="Coolant Temp"
+	040330 ZUnits           =""
+	040350 XLabels          =-18.3c,-1.0c,+34.5c,+84.0c
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =RPM
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x367
+	040005 Title            ="-------------------FUEL-------------------"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x0
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x1
+	040305 Cols             =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x512D
+	040005 Title            ="Fuel wide open throttle(WOT) "
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x70EC
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =130.0000
+	040240 RangeHigh        =160.0000
+	040300 Rows             =0x10
+	040305 Cols             =0x1
+	040320 XUnits           ="Load"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           =""
+	040350 XLabels          =wot
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =680,880,1120,1320,1600,2000,2200,2480,2920,3280,3640,4000,4600,5320,6080,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x738C
+	040005 Title            ="Fuel Part Throttle map"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x711C
+	040150 Flags            =0x132
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =100.0000
+	040240 RangeHigh        =200.0000
+	040300 Rows             =0x10
+	040305 Cols             =0xC
+	040320 XUnits           ="Load"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           =""
+	040350 XLabels          =1,1.5,2,2.6,3.2,3.9,4.6,5.3,6,6.6,7.4,8.2
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =680,880,1120,1320,1600,2000,2200,2460,2920,3280,3640,4000,4600,5320,6060,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040600 XAddress         =0xD9E5
+	040610 XDataSize        =0x1
+	040620 XAddrStep        =-2
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x1C67
+	040005 Title            ="FUEL - pt - ret (afr)"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x711C
+	040150 Flags            =0x132
+	040200 ZEq              =1/(x/128)*14.7,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =13.0000
+	040240 RangeHigh        =17.0000
+	040300 Rows             =0x10
+	040305 Cols             =0xC
+	040320 XUnits           ="Load"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           =""
+	040350 XLabels          =1,1.5,2,2.6,3.2,3.9,4.6,5.3,6,6.6,7.4,8.2
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =680,880,1120,1320,1600,2000,2200,2460,2920,3280,3640,4000,4600,5320,6060,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040600 XAddress         =0xD9E5
+	040610 XDataSize        =0x1
+	040620 XAddrStep        =-2
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x593
+	040005 Title            ="Idle Fuel Map"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x70C8
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =100.0000
+	040240 RangeHigh        =170.0000
+	040300 Rows             =0x6
+	040305 Cols             =0x3
+	040320 XUnits           ="Load"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           =""
+	040350 XLabels          =1,2,3.2
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =4000,2000,1200,960,600,560
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x21E6
+	040005 Title            ="Idle Fuel (afr)"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x70C8
+	040150 Flags            =0x30
+	040200 ZEq              =1/(x/128)*14.7,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =10.0000
+	040240 RangeHigh        =18.0000
+	040300 Rows             =0x6
+	040305 Cols             =0x3
+	040320 XUnits           ="Load"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           =""
+	040350 XLabels          =1,2,3.2
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =4000,2000,1200,960,600,560
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x1295
+	040005 Title            ="Injector pulse time correction related"
+	040011 DescSize         =0x30
+	040010 Desc             ="128dec = no correction, injector limp mode map?"
+	040100 Address          =0x6FE5
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x8
+	040305 Cols             =0x5
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =2.4v,6.4v,10.4v,14.4v,18.4v
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =120,200,512,1000,2000,3000,4000,6000
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x1070
+	040005 Title            ="----------------IGNITION-----------------"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x0
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x1
+	040305 Cols             =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x1761
+	040005 Title            ="Ignition Dwell"
+	040011 DescSize         =0x2F
+	040010 Desc             ="may be useful when tuning for turbo aplication"
+	040100 Address          =0x75A6
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =160.0000
+	040300 Rows             =0xC
+	040305 Cols             =0x7
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =5.99v,7.97v,10.01v,11.99v,14.03v,16.00v,16.48v
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =40,160,320,440,640,880,1040,2200,3520,4760,5760,7000
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x466F
+	040005 Title            ="Part Throttle Ignition in BTDC"
+	040011 DescSize         =0xD
+	040010 Desc             ="in real BTDC"
+	040100 Address          =0x7445
+	040150 Flags            =0x33
+	040200 ZEq              =(X*0.75)-22.5,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =50.0000
+	040300 Rows             =0x10
+	040305 Cols             =0xC
+	040320 XUnits           ="Load"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           =""
+	040350 XLabels          =1.0,1.5,2.0,2.6,3.2,3.9,4.6,5.3,6.0,6.60,7.4,8.2
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =680,880,1120,1320,1600,2000,2200,2480,2920,3280,3640,4000,4600,5320,6080,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x486C
+	040005 Title            ="WOT Ignition map in BTDC"
+	040011 DescSize         =0x1B
+	040010 Desc             ="already translated to BTDC"
+	040100 Address          =0x73C5
+	040150 Flags            =0x33
+	040200 ZEq              =(X*0.75)-22.5,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =50.0000
+	040300 Rows             =0x10
+	040305 Cols             =0x6
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =4.6,5.3,6.0,6.6,7.4,8.2
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =680,880,1120,1320,1600,2000,2200,2480,2920,3280,3640,4000,4600,5320,6080,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x67FF
+	040005 Title            ="Idle ignition in BTDC"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x7399
+	040150 Flags            =0x30
+	040200 ZEq              =(X*0.75)-22.5,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =50.0000
+	040300 Rows             =0x1
+	040305 Cols             =0x8
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =520,600,640,960,1320,1600,2480,3640
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =degre
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x4AE0
+	040005 Title            ="----------------Coolant Temp Enrichment----------------"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x0
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x1
+	040305 Cols             =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =(null)
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =(null)
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x7AC9
+	040005 Title            ="Engine temperature enrichment (A/T in P or N)"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x7015
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =200.0000
+	040300 Rows             =0x1
+	040305 Cols             =0x6
+	040320 XUnits           =""
+	040325 YUnits           ="Coolant Temp"
+	040330 ZUnits           =""
+	040350 XLabels          =-1.0c,12.3c,23.7c,33.6c,59.6c,69.6c
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =enrich
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x640B
+	040005 Title            ="Engine temperature enrichment (A/T in D or R)"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x707F
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =100.0000
+	040300 Rows             =0x1
+	040305 Cols             =0x6
+	040320 XUnits           =""
+	040325 YUnits           ="Coolant Temp"
+	040330 ZUnits           =""
+	040350 XLabels          =-1.0c,12.3c,23.7c,33.6c,59.6c,69.6c
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =enrich
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x4F77
+	040005 Title            ="------------------ADVANCED------------------"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x0
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x1
+	040305 Cols             =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =(null)
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =(null)
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%CHECKSUM%%
+	000002 UniqueID         =0x4968
+	010005 Title            ="Main Checksum"
+	010010 DataStart        =0x69FE
+	010015 DataEnd          =0x799C
+	010025 StoreAddr        =0x799D
+	010030 CalcMethod       =0x0
+	010050 Flags            =0x0
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x886
+	020005 Title            ="Checksum Automatic(don't touch)"
+	020011 DescSize         =0x39
+	020010 Desc             ="Checkusm is automatic when using tunerpro so don't touch"
+	020020 Units            =""
+	020050 SizeInBits       =0x10
+	020100 Address          =0x799C
+	020200 Equation         =X,TH|0|0|0|0|
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x1100
+	020005 Title            ="Rev Limit "
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020050 SizeInBits       =0x10
+	020100 Address          =0x6A18
+	020200 Equation         =X-30000,TH|0|0|0|0|
+	020205 OutType          =0x2
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x487E
+	020005 Title            ="Injector Constant"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020050 SizeInBits       =0x10
+	020100 Address          =0x6A16
+	020200 Equation         =X,TH|0|0|0|0|
+	020205 OutType          =0x2
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x41DE
+	040005 Title            ="Engine Temp sensor transfer map"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x6F0D
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0xF
+	040305 Cols             =0x1
+	040320 XUnits           =""
+	040325 YUnits           ="temp"
+	040330 ZUnits           =""
+	040350 XLabels          =%open
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =cold,1,2,3,4,5,6,7,8,9,10,12,13,14,hot
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+

@@ -1,0 +1,316 @@
+XDF
+1.110000
+
+DO NOT HAND EDIT!!!! (Trust me)
+
+%%HEADER%%
+	001000 FileVers         ="01.48h"
+	001005 DefTitle         ="Daewoo SOHC"
+	001007 DescSize         =0x0
+	001006 Desc             =""
+	001010 Author           ="Juri Borodinov + add alex_kav"
+	001030 BinSize          =0x7FFF
+	001035 BaseOffset       =0
+	001200 ADSAssoc         =""
+	001225 ADSCheck         =0x0
+	001300 GenFlags         =0x0
+	001325 ModeFlags        =0x0
+%%END%%
+
+
+%%TABLE%%
+	000002 UniqueID         =0x1A29
+	040005 Title            ="Main Spark Advance table Octan 83"
+	040011 DescSize         =0x7A
+	040010 Desc             ="Main Spark Advance table. Edit slowly and carefully. This table greatly effects driveability, power, and economy.        "
+	040100 Address          =0x288
+	040200 ZEq              =X*45/256,TH|0|0|0|0|
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0xB
+	040320 XUnits           ="MAP"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           =""
+	040350 XLabels          =00,10,20,30,40,50,60,70,80,90,105
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =400,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x7911
+	040005 Title            ="Main Spark Advance table Octan 87"
+	040011 DescSize         =0x7C
+	040010 Desc             ="Main Spark Advance table. Edit slowly and carefully. This table greatly effects driveability, power, and economy.          "
+	040100 Address          =0x122
+	040200 ZEq              =X *45/256,TH|0|0|0|0|
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0xB
+	040320 XUnits           ="MAP"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           =""
+	040350 XLabels          =00,10,20,30,40,50,60,70,80,90,105
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =400,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0xAEB
+	020005 Title            ="PromID"
+	020011 DescSize         =0x5A
+	020010 Desc             ="This is a chip's ID. Use this for keeping track of chip versions.                        "
+	020020 Units            =""
+	020050 SizeInBits       =0x10
+	020100 Address          =0x0
+	020200 Equation         =X,TH|0|0|0|0|
+	020205 OutType          =0x2
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x4CF1
+	020005 Title            ="CheckSumm"
+	020011 DescSize         =0xE6
+	020010 Desc             ="Checksum is used to verify the contents of a bin/chip. If the checksum does not match the contents, the car may not run correctly (Limp Home Mode), unless the checksum is disabled (0xAA in the mask field).                        "
+	020020 Units            =""
+	020050 SizeInBits       =0x10
+	020100 Address          =0x2
+	020200 Equation         =X,TH|0|0|0|0|
+	020205 OutType          =0x3
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x4DC7
+	020005 Title            ="Mask ID (Set to AA to disable Checksum)"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0x4
+	020200 Equation         =X,TH|0|0|0|0|
+	020205 OutType          =0x3
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x7998
+	040005 Title            ="Main Spark Advance table Octan 91"
+	040011 DescSize         =0x75
+	040010 Desc             ="Main Spark Advance table. Edit slowly and carefully. This table greatly effects driveability, power, and economy.   "
+	040100 Address          =0x6F
+	040200 ZEq              =X*45/256,TH|0|0|0|0|
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0xB
+	040320 XUnits           ="MAP"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           =""
+	040350 XLabels          =00,10,20,30,40,50,60,70,80,90,105
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =400,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x4AB8
+	040005 Title            ="Main Spark Advance table Octan 95"
+	040011 DescSize         =0x7A
+	040010 Desc             ="Main Spark Advance table. Edit slowly and carefully. This table greatly effects driveability, power, and economy.        "
+	040100 Address          =0x1D5
+	040200 ZEq              =X*45/256,TH|0|0|0|0|
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0xB
+	040320 XUnits           ="MAP"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           =""
+	040350 XLabels          =00,10,20,30,40,50,60,70,80,90,105
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =400,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x3A4A
+	040005 Title            ="Toplivo Correction Vs. Load Vs. Temp."
+	040011 DescSize         =0x20
+	040010 Desc             ="Toplivo Correction Vs. Load Vs. Temp."
+	040100 Address          =0x33B
+	040200 ZEq              =(X-X)*45/256,AD|327|8|0|0|,TH|0|0|0|0|
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x9
+	040305 Cols             =0x9
+	040320 XUnits           ="COL"
+	040325 YUnits           ="ROW"
+	040330 ZUnits           =""
+	040350 XLabels          =1,2,3,4,5,6,7,8,9
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =1,2,3,4,5,6,7,8,9
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x47ED
+	040005 Title            ="Toplivo polniy drosel"
+	040011 DescSize         =0x7A
+	040010 Desc             ="Toplivo polniy drosel"
+	040100 Address          =0xC1B
+	040200 ZEq              =X,TH|0|0|0|0|
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x8
+	040305 Cols             =0x11
+	040320 XUnits           ="Col"
+	040325 YUnits           ="Row"
+	040330 ZUnits           =""
+	040350 XLabels          =0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =0,1,2,3,4,5,6,7
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x47ED
+	040005 Title            ="Toplivo chastichniy drosel"
+	040011 DescSize         =0x7A
+	040010 Desc             ="Toplivo chastichniy drosel"
+	040100 Address          =0x6CD
+	040200 ZEq              =X,TH|0|0|0|0|
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x11
+	040305 Cols             =0xB
+	040320 XUnits           ="Col"
+	040325 YUnits           ="Row"
+	040330 ZUnits           =""
+	040350 XLabels          =0,1,2,3,4,5,6,7,8,9,10
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x47ED
+	040005 Title            ="Toplivo na XX"
+	040011 DescSize         =0x7A
+	040010 Desc             ="Toplivo na XX"
+	040100 Address          =0x67D
+	040200 ZEq              =X,TH|0|0|0|0|
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x7
+	040305 Cols             =0xB
+	040320 XUnits           ="Col"
+	040325 YUnits           ="Row"
+	040330 ZUnits           =""
+	040350 XLabels          =0,1,2,3,4,5,6,7,8,9,10
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =0,1,2,3,4,5,6
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+
+%%TABLE%%
+	000002 UniqueID         =0x47ED
+	040005 Title            ="Sostav smesi na holodnom dvigatele"
+	040011 DescSize         =0x7A
+	040010 Desc             ="Sostav smesi na holodnom dvigatele"
+	040100 Address          =0x855
+	040200 ZEq              =X,TH|0|0|0|0|
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x5
+	040305 Cols             =0x5
+	040320 XUnits           ="Col"
+	040325 YUnits           ="Row"
+	040330 ZUnits           =""
+	040350 XLabels          =0,1,2,3,4
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =0,1,2,3,4
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x47ED
+	040005 Title            ="Sostav smesi na goryachem dvigatele"
+	040011 DescSize         =0x7A
+	040010 Desc             ="Sostav smesi na goryachem dvigatele"
+	040100 Address          =0x8B3
+	040200 ZEq              =X,TH|0|0|0|0|
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0x9
+	040320 XUnits           ="Col"
+	040325 YUnits           ="Row"
+	040330 ZUnits           =""
+	040350 XLabels          =0,1,2,3,4,5,6,7,8
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+

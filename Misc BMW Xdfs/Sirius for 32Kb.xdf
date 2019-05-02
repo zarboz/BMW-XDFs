@@ -1,0 +1,539 @@
+XDF
+1.110000
+
+DO NOT HAND EDIT!!!! (Trust me)
+
+%%HEADER%%
+	001000 FileVers         ="0.1"
+	001005 DefTitle         ="SiriusD42"
+	001007 DescSize         =0x0
+	001006 Desc             =""
+	001010 Author           =""
+	001030 BinSize          =0x8000
+	001035 BaseOffset       =0
+	001200 ADSAssoc         =""
+	001225 ADSCheck         =0x0
+	001300 GenFlags         =0x0
+	001325 ModeFlags        =0x0
+	002000 Category0        ="spark"
+	002001 Category1        ="Ignition"
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x6D0
+	000100 Cat0ID           =0x1
+	040005 Title            ="1"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x23F4
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x8
+	040305 Cols             =0x8
+	040320 XUnits           ="мг/такт"
+	040325 YUnits           ="мг/такт"
+	040330 ZUnits           ="град."
+	040350 XLabels          =47,87,127,167,207,247,287,327
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =600,900,1200,1500,1800,2100,2400,2700
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x7092
+	040005 Title            ="2"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x2434
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x8
+	040305 Cols             =0x8
+	040310 PopByCol         =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =1,2,3,4,5,6,7,8
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =1,2,3,4,5,6,7,8
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x65C2
+	040005 Title            ="3"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x2474
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x8
+	040305 Cols             =0x8
+	040310 PopByCol         =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =1,2,3,4,5,6,7,8
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =1,2,3,4,5,6,7,8
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0xD7
+	040005 Title            ="4"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x24B4
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x8
+	040305 Cols             =0x8
+	040310 PopByCol         =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =1,2,3,4,5,6,7,8
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =1,2,3,4,5,6,7,8
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x705E
+	040005 Title            ="5"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x24F4
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x8
+	040305 Cols             =0x8
+	040310 PopByCol         =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =1,2,3,4,5,6,7,8
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =1,2,3,4,5,6,7,8
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x4AFB
+	040005 Title            ="6"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x2534
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x8
+	040305 Cols             =0x8
+	040310 PopByCol         =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =1,2,3,4,5,6,7,8
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =1,2,3,4,5,6,7,8
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x6B85
+	000100 Cat0ID           =0x1
+	040005 Title            ="УОЗ_1"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x2DA0
+	040150 Flags            =0x30
+	040200 ZEq              =(X*0.375)-24,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =50.0000
+	040300 Rows             =0x14
+	040305 Cols             =0xC
+	040320 XUnits           ="мг/такт"
+	040325 YUnits           ="мг/такт"
+	040330 ZUnits           ="град."
+	040350 XLabels          =47,87,127,167,207,247,287,327,367,407,447,487
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =600,900,1200,1500,1800,2100,2400,2700,3000,3300,3600,3900,4200,4500,4800,5100,5400,5700,6000,6300
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x5A22
+	000100 Cat0ID           =0x1
+	040005 Title            ="УОЗ_2"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x2E90
+	040150 Flags            =0x30
+	040200 ZEq              =(X*0.375)-24,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =50.0000
+	040300 Rows             =0x14
+	040305 Cols             =0xC
+	040320 XUnits           ="мг/такт"
+	040325 YUnits           ="мг/такт"
+	040330 ZUnits           ="град."
+	040350 XLabels          =47,87,127,167,207,247,287,327,367,407,447,487
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =600,900,1200,1500,1800,2100,2400,2700,3000,3300,3600,3900,4200,4500,4800,5100,5400,5700,6000,6300
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x4E80
+	000100 Cat0ID           =0x1
+	040005 Title            ="УОЗ_3"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x2F80
+	040150 Flags            =0x30
+	040200 ZEq              =(X*0.375)-24,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =50.0000
+	040300 Rows             =0x14
+	040305 Cols             =0xC
+	040320 XUnits           ="мг/такт"
+	040325 YUnits           ="мг/такт"
+	040330 ZUnits           ="град."
+	040350 XLabels          =47,87,127,167,207,247,287,327,367,407,447,487
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =600,900,1200,1500,1800,2100,2400,2700,3000,3300,3600,3900,4200,4500,4800,5100,5400,5700,6000,6300
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x1537
+	000100 Cat0ID           =0x1
+	040005 Title            ="УОЗ_4"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x3070
+	040150 Flags            =0x30
+	040200 ZEq              =(X*0.375)-24,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =50.0000
+	040300 Rows             =0x14
+	040305 Cols             =0xC
+	040320 XUnits           ="мг/такт"
+	040325 YUnits           ="мг/такт"
+	040330 ZUnits           ="град."
+	040350 XLabels          =47,87,127,167,207,247,287,327,367,407,447,487
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =600,900,1200,1500,1800,2100,2400,2700,3000,3300,3600,3900,4200,4500,4800,5100,5400,5700,6000,6300
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x3FD0
+	040005 Title            ="Table3_1"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x34B6
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =50.0000
+	040300 Rows             =0x14
+	040305 Cols             =0xC
+	040320 XUnits           ="мг/такт"
+	040325 YUnits           ="мг/такт"
+	040330 ZUnits           ="град."
+	040350 XLabels          =47,87,127,167,207,247,287,327,367,407,447,487
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =600,900,1200,1500,1800,2100,2400,2700,3000,3300,3600,3900,4200,4500,4800,5100,5400,5700,6000,6300
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x6FF7
+	040005 Title            ="Table3_2"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x35A6
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =50.0000
+	040300 Rows             =0x14
+	040305 Cols             =0xC
+	040320 XUnits           ="мг/такт"
+	040325 YUnits           ="мг/такт"
+	040330 ZUnits           ="град."
+	040350 XLabels          =47,87,127,167,207,247,287,327,367,407,447,487
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =600,900,1200,1500,1800,2100,2400,2700,3000,3300,3600,3900,4200,4500,4800,5100,5400,5700,6000,6300
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x6BAA
+	040005 Title            ="Table3_3"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x3696
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =50.0000
+	040300 Rows             =0x14
+	040305 Cols             =0xC
+	040320 XUnits           ="мг/такт"
+	040325 YUnits           ="мг/такт"
+	040330 ZUnits           ="град."
+	040350 XLabels          =47,87,127,167,207,247,287,327,367,407,447,487
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =600,900,1200,1500,1800,2100,2400,2700,3000,3300,3600,3900,4200,4500,4800,5100,5400,5700,6000,6300
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x385B
+	040005 Title            ="Table1"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x39EB
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0x8
+	040320 XUnits           ="мг/такт"
+	040325 YUnits           ="мг/такт"
+	040330 ZUnits           ="град."
+	040350 XLabels          =47,87,127,167,207,247,287,327
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x5A12
+	040005 Title            ="Table2_1"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x4000
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0x8
+	040320 XUnits           ="мг/такт"
+	040325 YUnits           ="мг/такт"
+	040330 ZUnits           ="град."
+	040350 XLabels          =47,87,127,167,207,247,287,327
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0xCE9
+	040005 Title            ="Table2_2"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x4080
+	040150 Flags            =0x30
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0x8
+	040320 XUnits           ="мг/такт"
+	040325 YUnits           ="мг/такт"
+	040330 ZUnits           ="град."
+	040350 XLabels          =47,87,127,167,207,247,287,327
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x7102
+	000100 Cat0ID           =0x2
+	040005 Title            ="Впрыск"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040050 SizeInBits       =0x10
+	040100 Address          =0x6DDA
+	040150 Flags            =0x32
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040210 DecimalPl        =0x1
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =50.0000
+	040300 Rows             =0x14
+	040305 Cols             =0xC
+	040320 XUnits           ="мг/такт"
+	040325 YUnits           ="об/мин"
+	040330 ZUnits           ="mc"
+	040350 XLabels          =47,87,127,167,207,247,287,327,367,407,447,487
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =600,900,1200,1500,1800,2100,2400,2700,3000,3300,3600,3900,4200,4500,4800,5100,5400,5700,6000,6300
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%CHECKSUM%%
+	000002 UniqueID         =0x427F
+	010005 Title            ="Контрольная сумма"
+	010010 DataStart        =0xAA
+	010015 DataEnd          =0x7FE1
+	010022 DataSizeBits     =0x10
+	010025 StoreAddr        =0x7FE2
+	010030 CalcMethod       =0x1
+	010050 Flags            =0x0
+%%END%%
+

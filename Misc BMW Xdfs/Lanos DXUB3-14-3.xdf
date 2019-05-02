@@ -1,0 +1,965 @@
+XDF
+1.110000
+
+DO NOT HAND EDIT!!!! (Trust me)
+
+%%HEADER%%
+	001000 FileVers         ="02.01h"
+	001005 DefTitle         ="Daewoo Lanos Kdac/Dxub"
+	001007 DescSize         =0x1
+	001006 Desc             =""
+	001010 Author           ="Juri Borodinov + add alex_kav+Konstantin T"
+	001030 BinSize          =0x7FFF
+	001035 BaseOffset       =0
+	001200 ADSAssoc         =""
+	001225 ADSCheck         =0x0
+	001300 GenFlags         =0x0
+	001325 ModeFlags        =0x0
+%%END%%
+
+%%FLAG%%
+	000002 UniqueID         =0x7CFD
+	030005 Title            ="Коррекция Уоз и топливоподачи по относительному давлению"
+	030011 DescSize         =0x1
+	030010 Desc             =""
+	030100 Address          =0x541
+	030200 BitNumber        =0x4
+%%END%%
+
+%%FLAG%%
+	000002 UniqueID         =0x7933
+	030005 Title            ="Клапан рециркуляции газов"
+	030011 DescSize         =0x2
+	030010 Desc             =" "
+	030100 Address          =0x543
+	030200 BitNumber        =0x6
+%%END%%
+
+%%FLAG%%
+	000002 UniqueID         =0x213C
+	030005 Title            ="Выход тахометра (0-А5, 1-С2)"
+	030011 DescSize         =0x1
+	030010 Desc             =""
+	030100 Address          =0x541
+	030200 BitNumber        =0x6
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x1A29
+	040005 Title            ="Зажигание Octan 83"
+	040011 DescSize         =0x7A
+	040010 Desc             ="Main Spark Advance table. Edit slowly and carefully. This table greatly effects driveability, power, and economy.        "
+	040100 Address          =0x288
+	040200 ZEq              =(45*x)/127-20,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040210 DecimalPl        =0x1
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0xB
+	040320 XUnits           ="MAP"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           ="Angle"
+	040350 XLabels          =00,10,20,30,40,50,60,70,80,90,105
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =400,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x7911
+	040005 Title            ="Зажигание Octan 87"
+	040011 DescSize         =0x7C
+	040010 Desc             ="Main Spark Advance table. Edit slowly and carefully. This table greatly effects driveability, power, and economy.          "
+	040100 Address          =0x122
+	040200 ZEq              =(45*x)/127-20,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040210 DecimalPl        =0x1
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0xB
+	040320 XUnits           ="MAP"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           ="Angle"
+	040350 XLabels          =00,10,20,30,40,50,60,70,80,90,105
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =400,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x7998
+	040005 Title            ="Зажигание Octan 91"
+	040011 DescSize         =0x75
+	040010 Desc             ="Main Spark Advance table. Edit slowly and carefully. This table greatly effects driveability, power, and economy.   "
+	040100 Address          =0x6F
+	040200 ZEq              =(45*x)/127-20,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040210 DecimalPl        =0x1
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0xB
+	040320 XUnits           ="MAP"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           ="Angle"
+	040350 XLabels          =20,28,36,44,52,60,68,76,84,92,100
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =400,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0xAEB
+	020005 Title            ="PromID"
+	020011 DescSize         =0x5A
+	020010 Desc             ="This is a chip's ID. Use this for keeping track of chip versions.                        "
+	020020 Units            =""
+	020050 SizeInBits       =0x10
+	020100 Address          =0x0
+	020200 Equation         =X,TH|0|0|0|0|
+	020205 OutType          =0x2
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x4CF1
+	020005 Title            ="CheckSumm"
+	020011 DescSize         =0xE6
+	020010 Desc             ="Checksum is used to verify the contents of a bin/chip. If the checksum does not match the contents, the car may not run correctly (Limp Home Mode), unless the checksum is disabled (0xAA in the mask field).                        "
+	020020 Units            =""
+	020050 SizeInBits       =0x10
+	020100 Address          =0x2
+	020200 Equation         =X,TH|0|0|0|0|
+	020205 OutType          =0x3
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x4DC7
+	020005 Title            ="Mask ID (Set to AA to disable Checksum)"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0x4
+	020200 Equation         =X,TH|0|0|0|0|
+	020205 OutType          =0x3
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x4AB8
+	040005 Title            ="Зажигание Octan 95"
+	040011 DescSize         =0x7A
+	040010 Desc             ="Main Spark Advance table. Edit slowly and carefully. This table greatly effects driveability, power, and economy.        "
+	040100 Address          =0x1D5
+	040200 ZEq              =(45*x)/127-20,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040210 DecimalPl        =0x1
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0xB
+	040320 XUnits           ="MAP"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           ="Angle"
+	040350 XLabels          =20,28,36,44,52,60,68,76,84,92,100
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =400,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x414F
+	040005 Title            ="Зажигание-Коррекция Уоз по t ОЖ (38f-3de) "
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x38F
+	040200 ZEq              =(45*x)/128-20,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040210 DecimalPl        =0x1
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0x5
+	040320 XUnits           ="Intake underpressure kPa"
+	040325 YUnits           ="Coolant temperature"
+	040330 ZUnits           ="Angle"
+	040350 XLabels          =0,25,50,75,100
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =-40,-27,-14,-2,11,24,37,50,62,75,88,101,114,128,139,152
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x1942
+	040005 Title            ="Зажигание-Коррекция Уоз по t воздуха (3e2-431)"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x3E2
+	040200 ZEq              =(45*x)/128-20,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040210 DecimalPl        =0x1
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0x5
+	040320 XUnits           ="Intake underpressure kPa"
+	040325 YUnits           ="air temperature"
+	040330 ZUnits           ="Angle"
+	040350 XLabels          =0,25,50,75,100
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =-40,-27,-14,-2,11,24,37,50,62,75,88,101,114,126,139,152
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x795F
+	040005 Title            ="Зажигание-Коррекция УОЗ по относительному давлению"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x449
+	040200 ZEq              =(45*x)/128-20,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040210 DecimalPl        =0x1
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0xB
+	040305 Cols             =0x8
+	040320 XUnits           ="RPM"
+	040325 YUnits           ="relative pressure %"
+	040330 ZUnits           ="Angle"
+	040350 XLabels          =800,1600,2400,3200,4000,4800,5600,6400
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =0,10,20,30,40,50,60,70,80,90,100
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x3A4A
+	040005 Title            ="Зажигание-Уоз на ХХ и частичных нагрузках (33b-38b) 9x9"
+	040011 DescSize         =0x26
+	040010 Desc             ="Toplivo Correction Vs. Load Vs. Temp."
+	040100 Address          =0x33B
+	040200 ZEq              =(45*x)/128-20,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040210 DecimalPl        =0x1
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x9
+	040305 Cols             =0x9
+	040320 XUnits           ="underpressure kPa"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           =""
+	040350 XLabels          =0,6,12.5,18.5,25,30,35.5,40,50
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =600,925,1250,1575,1900,2225,2550,2875,3200
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x535A
+	040005 Title            ="Зажигание-Коррекция УОЗ по баро и относительному давлению"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x4A4
+	040200 ZEq              =(45*x)/128-20,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040210 DecimalPl        =0x1
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x6
+	040305 Cols             =0x4
+	040320 XUnits           ="barometric pressure"
+	040325 YUnits           ="relative pressure  %"
+	040330 ZUnits           =""
+	040350 XLabels          =1.00,2.00,3.00,4.00
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =0,20,40,60,80,100
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x47ED
+	040005 Title            ="Топливоподача-Топливо на ХХ (67d-6c9) 11x7"
+	040011 DescSize         =0xE
+	040010 Desc             ="Toplivo na XX"
+	040100 Address          =0x67D
+	040200 ZEq              =X/254,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x7
+	040305 Cols             =0xB
+	040320 XUnits           ="Map"
+	040325 YUnits           ="Rmp"
+	040330 ZUnits           =""
+	040350 XLabels          =20,28,36,44,52,60,68,76,84,92,100
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =150,300,450,600,750,900,1050
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x47ED
+	040005 Title            ="Топливоподача-Топливо частичный дроссель (6cd-787) 11x17"
+	040011 DescSize         =0x1B
+	040010 Desc             ="Toplivo chastichniy drosel"
+	040100 Address          =0x6CD
+	040200 ZEq              =X/254,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x11
+	040305 Cols             =0xB
+	040320 XUnits           ="Map"
+	040325 YUnits           ="Rmp"
+	040330 ZUnits           =""
+	040350 XLabels          =20,28,36,44,52,60,68,76,84,92,100
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =0,400,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x6182
+	040005 Title            ="Топливоподача-Коррекция состава на холодном двигателе (891-899) 9х1 "
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x891
+	040200 ZEq              =X/100*255,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x9
+	040305 Cols             =0x1
+	040320 XUnits           ="Correction %"
+	040325 YUnits           ="Drossel %"
+	040330 ZUnits           =""
+	040350 XLabels          =0
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =0,11,22,33,44,55,66,77,88
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x47ED
+	040005 Title            ="Топливоподача-Лямбда регулирование-Состав смеси на холодном двигателе (855-890)4х15"
+	040011 DescSize         =0x23
+	040010 Desc             ="Sostav smesi na holodnom dvigatele"
+	040100 Address          =0x855
+	040200 ZEq              =X/10,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0xF
+	040305 Cols             =0x4
+	040320 XUnits           ="Intake underpressure kPa"
+	040325 YUnits           ="Coolant temperature"
+	040330 ZUnits           ="Альфа"
+	040350 XLabels          =0,33,67,100
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =-40,-27,-14,-1,11,24,37,50,63,76,89,101,114,127,140
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x47ED
+	000100 Cat0ID           =0x1
+	040005 Title            ="Топливоподача-РСО-Соcтав смеси на горячем двигателе(8a2-931) 9х16"
+	040011 DescSize         =0x24
+	040010 Desc             ="Sostav smesi na goryachem dvigatele"
+	040100 Address          =0x8A2
+	040200 ZEq              =X/10,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0x9
+	040320 XUnits           ="Intake underpressure kPa"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           ="Alpha"
+	040350 XLabels          =20,28,36,44,52,68,84,92,100
+	040352 XLabelType       =0x4
+	040354 XEq              =(null)
+	040360 YLabels          =400,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =(null)
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x44AF
+	000004 VisLevel         =0x1
+	040005 Title            ="Топливоподача-Cостав смеси в мощностном режиме (альфа-обороты) (932-942) 17х1"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x932
+	040200 ZEq              =X/10,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x11
+	040305 Cols             =0x1
+	040320 XUnits           ="Alpha"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           =""
+	040350 XLabels          =0
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =0,400,800,1195,1594,1992,2390,2790,3187,3586,3984,4383,4781,5180,5578,6375,6375
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x5AC6
+	040005 Title            ="Топливоподача-Зона перехода на мощностной режим (943-953) 17x1"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x943
+	040200 ZEq              =X*50/127,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x11
+	040305 Cols             =0x1
+	040320 XUnits           ="Drossel %"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           ="%"
+	040350 XLabels          =(null)
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =0,400,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x68E8
+	040005 Title            ="Максимальные RPM (Менять обе ячейки)"
+	040011 DescSize         =0xC
+	040010 Desc             ="Limiter RMP"
+	040100 Address          =0x5BD
+	040200 ZEq              =X*40,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x1
+	040305 Cols             =0x2
+	040320 XUnits           =""
+	040325 YUnits           ="Max"
+	040330 ZUnits           =""
+	040350 XLabels          =Rmp,Rmp
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =Max
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x219
+	040005 Title            ="Эппх: Граница возобновления топливоподачи"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x89D
+	040200 ZEq              =X*25,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x1
+	040305 Cols             =0x2
+	040320 XUnits           ="temperature"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           =""
+	040350 XLabels          =35,92
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x1E1B
+	040005 Title            ="RPM ХХ от Температуры"
+	040011 DescSize         =0x38
+	040010 Desc             ="Оюороты двигателя на ХХ в зависимости от температуры ОЖ"
+	040100 Address          =0xA25
+	040200 ZEq              =X*6.25,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040210 DecimalPl        =0x1
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x1
+	040305 Cols             =0xD
+	040320 XUnits           ="Coolant temperature"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           =""
+	040350 XLabels          =-40,-24,-8,8,24,40,56,72,88,104,120,136,152
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =Rmp
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x4ADF
+	040005 Title            ="RPM XX при движении"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0xA32
+	040200 ZEq              =X*6.25,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040210 DecimalPl        =0x1
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x1
+	040305 Cols             =0xD
+	040320 XUnits           ="Coolant temperature"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           ="RPM"
+	040350 XLabels          =-40,-24,-8,8,24,40,56,72,88,104,120,136,152
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =Rmp
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x2860
+	040005 Title            ="Cмещение АЦП МАР для барокоррекции"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x19
+	040200 ZEq              =X/50,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x4
+	040305 Cols             =0x6
+	040320 XUnits           ="Load %"
+	040325 YUnits           ="RPM "
+	040330 ZUnits           ="Volt"
+	040350 XLabels          =37.5,50,62.5,75,8.5,100
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =0,2130,4260,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x5C06
+	040005 Title            ="Тарировка Датчика ОЖ 0"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0xB56
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x11
+	040305 Cols             =0x1
+	040320 XUnits           =""
+	040325 YUnits           ="Voltage"
+	040330 ZUnits           =""
+	040350 XLabels          =T
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =0,0.313,0.625,0.938,1.25,1.563,1.875,2.188,2.5,2.813,3.125,3.438,3.75,4.063,4.375,4.688,5
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040505 XLabelSource     =0x2
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x419C
+	040005 Title            ="Тарировка Датчика ОЖ 1"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0xB67
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x11
+	040305 Cols             =0x1
+	040320 XUnits           =""
+	040325 YUnits           ="Voltage"
+	040330 ZUnits           =""
+	040350 XLabels          =(null)
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =0,0.313,0.625,0.938,1.25,1.563,1.875,2.188,2.5,2.813,3.125,3.438,3.75,4.063,4.375,4.688,5
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x23A
+	040005 Title            ="Тарировка Датчика  Температуры Воздуха 0"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0xB79
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x11
+	040305 Cols             =0x1
+	040320 XUnits           =""
+	040325 YUnits           ="Voltage"
+	040330 ZUnits           =""
+	040350 XLabels          =(null)
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =0,0.313,0.625,0.938,1.25,1.563,1.875,2.188,2.5,2.813,3.125,3.438,3.75,4.063,4.375,4.688,5
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x1B94
+	040005 Title            ="Тарировка Датчика  Температуры Воздуха 1"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0xB8A
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040205 OutType          =0x2
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x11
+	040305 Cols             =0x1
+	040320 XUnits           =""
+	040325 YUnits           ="Voltage"
+	040330 ZUnits           =""
+	040350 XLabels          =(null)
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =0,0.313,0.625,0.938,1.25,1.563,1.875,2.188,2.5,2.813,3.125,3.438,3.75,4.063,4.375,4.688,5
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x70F6
+	020005 Title            ="Порог включения вентилятора 1 "
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0xA8F
+	020200 Equation         =X/2,TH|0|0|0|0|
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0xFA9
+	020005 Title            ="Порог отключения вентилятора 1"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0xA90
+	020200 Equation         =X/2,TH|0|0|0|0|
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x3674
+	020005 Title            ="New Constant 1 ???"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0x3E
+	020200 Equation         =X,TH|0|0|0|0|
+	020205 OutType          =0x2
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x580F
+	020005 Title            ="New Constant 2 ???"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0x40
+	020200 Equation         =X,TH|0|0|0|0|
+	020205 OutType          =0x2
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x1EE
+	020005 Title            ="ЭППХ 1 Твин 48"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0x89B
+	020200 Equation         =X,TH|0|0|0|0|
+	020205 OutType          =0x2
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x36FD
+	020005 Title            ="ЭППХ 2 Твин 160"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0x89C
+	020200 Equation         =X,TH|0|0|0|0|
+	020205 OutType          =0x2
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x5175
+	020005 Title            ="ЭППХ 3 Твин  16"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0x89F
+	020200 Equation         =X,TH|0|0|0|0|
+	020205 OutType          =0x2
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0xC49
+	020005 Title            ="RPM разрешения включения муфты кодея"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0xAB3
+	020200 Equation         =X*25,TH|0|0|0|0|
+	020205 OutType          =0x2
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x9EF
+	020005 Title            ="RPM  запрета включения муфты кодея"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0xAB2
+	020200 Equation         =X*25,TH|0|0|0|0|
+	020205 OutType          =0x2
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x724A
+	020005 Title            ="Дин Корр Уоз- Коэфф ДКУОЗ на низких нагрузках (2я разгон)"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0x5E
+	020200 Equation         =X/254,TH|0|0|0|0|
+	020210 DecimalPl        =0x4
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x1E80
+	020005 Title            ="Коэфф ДКУОЗ на передаче выше 3-й"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0x5F
+	020200 Equation         =X/254,TH|0|0|0|0|
+	020210 DecimalPl        =0x4
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x7B82
+	020005 Title            ="Дин Корр Уоз- Coolant temperature для включения DUOZ "
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0x52
+	020200 Equation         =(96*x)/128-40,TH|0|0|0|0|
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x1398
+	020005 Title            ="Топливоподача-РСО-temperature горячего двигателя"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0x5D2
+	020200 Equation         =(96*x)/128-40,TH|0|0|0|0|
+	020210 DecimalPl        =0x1
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x49D3
+	020005 Title            ="Топливоподача-Лямбда регулирование-temperature холодного двигателя 1"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0x591
+	020200 Equation         =(96*x)/128-40,TH|0|0|0|0|
+%%END%%
+
+%%CHECKSUM%%
+	000002 UniqueID         =0x271E
+	010005 Title            ="New Checksum"
+	010010 DataStart        =0x4
+	010015 DataEnd          =0x7FFF
+	010025 StoreAddr        =0x2
+	010030 CalcMethod       =0x0
+	010050 Flags            =0x0
+%%END%%
+

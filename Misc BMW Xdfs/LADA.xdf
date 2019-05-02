@@ -1,0 +1,330 @@
+XDF
+1.110000
+
+DO NOT HAND EDIT!!!! (Trust me)
+
+%%HEADER%%
+	001000 FileVers         ="1"
+	001005 DefTitle         ="LADA"
+	001007 DescSize         =0x0
+	001006 Desc             =""
+	001010 Author           ="delcowizzid"
+	001030 BinSize          =0x7FFF
+	001035 BaseOffset       =0
+	001200 ADSAssoc         =""
+	001225 ADSCheck         =0x0
+	001300 GenFlags         =0x0
+	001325 ModeFlags        =0x0
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x5F22
+	020005 Title            ="New Constant"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020050 SizeInBits       =0x10
+	020100 Address          =0x57F
+	020200 Equation         =X,TH|0|0|0|0|
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x6021
+	020005 Title            ="New Constant 2"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020050 SizeInBits       =0x10
+	020100 Address          =0x4B
+	020200 Equation         =X,TH|0|0|0|0|
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x5E9F
+	040005 Title            ="MAIN SPARK ADVANCE"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0xB5
+	040200 ZEq              =0.351563 * X + 0.000000,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0xB
+	040320 XUnits           ="KPA"
+	040325 YUnits           ="RPM"
+	040330 ZUnits           ="Degrees"
+	040350 XLabels          =20,30,40,50,60,70,80,85,90,95,100
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =400,600,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x7A35
+	040005 Title            ="IDLE SPARK ADVANCE ????"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x1D5
+	040200 ZEq              =0.351563 * X + 0.000000,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x11
+	040305 Cols             =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =(null)
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x3648
+	040005 Title            ="VE TABLE "
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x485
+	040200 ZEq              =0.390625 * X + 0.000000,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0x9
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =20,30,40,50,60,70,80,90,100
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =400,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000,6400
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x4FF7
+	040005 Title            ="COOLANT CORRECTION SPARK ???"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x518
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x5
+	040305 Cols             =0x9
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x3310
+	040005 Title            ="New Table"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x546
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x10
+	040305 Cols             =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x11EE
+	040005 Title            ="New Table 4"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x5FA
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x9
+	040305 Cols             =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =,,,,,,,,
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =0.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =0.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0x53D8
+	040005 Title            ="New Table 2"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x5D6
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0x9
+	040305 Cols             =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%TABLE%%
+	000002 UniqueID         =0xFF5
+	040005 Title            ="New Table 3"
+	040011 DescSize         =0x1
+	040010 Desc             =""
+	040100 Address          =0x574
+	040200 ZEq              =X,TH|0|0|0|0|
+	040203 XOutType         =0x4
+	040304 YOutType         =0x4
+	040230 RangeLow         =0.0000
+	040240 RangeHigh        =255.0000
+	040300 Rows             =0xB
+	040305 Cols             =0x1
+	040320 XUnits           =""
+	040325 YUnits           =""
+	040330 ZUnits           =""
+	040350 XLabels          =
+	040352 XLabelType       =0x4
+	040354 XEq              =X,TH|0|0|0|0|
+	040360 YLabels          =
+	040362 YLabelType       =0x4
+	040364 YEq              =X,TH|0|0|0|0|
+	040660 XAxisMin         =1000.000000
+	040670 XAxisMax         =1000.000000
+	040760 YAxisMin         =1000.000000
+	040770 YAxisMax         =1000.000000
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x6287
+	020005 Title            ="PROMIDA: EPROM ID number"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020050 SizeInBits       =0x10
+	020100 Address          =0x0
+	020200 Equation         =X,TH|0|0|0|0|
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0xF56
+	020005 Title            ="DATECODE: EPROM date code"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020050 SizeInBits       =0x10
+	020100 Address          =0x2
+	020200 Equation         =X,TH|0|0|0|0|
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x41B9
+	020005 Title            ="SEQNUMB: Production Sequence number"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020050 SizeInBits       =0x10
+	020100 Address          =0x4
+	020200 Equation         =X,TH|0|0|0|0|
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x6690
+	020005 Title            ="3"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0x590
+	020200 Equation         =X,TH|0|0|0|0|
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x1E17
+	020005 Title            ="KKPGMID: Check sum "
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020050 SizeInBits       =0x10
+	020100 Address          =0x6
+	020200 Equation         =X,TH|0|0|0|0|
+%%END%%
+
+%%CONSTANT%%
+	000002 UniqueID         =0x7CEE
+	020005 Title            ="Program ID word - $AA=bypass sumcheck"
+	020011 DescSize         =0x1
+	020010 Desc             =""
+	020020 Units            =""
+	020100 Address          =0x8
+	020200 Equation         =X,TH|0|0|0|0|
+	020205 OutType          =0x3
+%%END%%
+
