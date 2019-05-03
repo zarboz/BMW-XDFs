@@ -1,4 +1,4 @@
-<!-- Written 05/02/2019 16:22:35 -->
+<!-- Written 05/03/2019 10:04:28 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -4849,6 +4849,13 @@
     <title>RPM Limiter Patch - 6500</title>
     <CATEGORYMEM index="0" category="11" />
     <XDFPATCHENTRY name="NMAX" address="0x4302" datasize="0x2" patchdata="9065" />
+  </XDFPATCH>
+  <XDFPATCH uniqueid="0x3CA4">
+    <title>ESKONF SAP Delete</title>
+    <description>This changes the Eskonf bytes to indicate to the car that the SAP is not installed. You still need to 00 out MLSUS MLSUB and CWKONABG</description>
+    <CATEGORYMEM index="0" category="11" />
+    <XDFPATCHENTRY name="ESKONF" address="0x1B02" datasize="0x1" patchdata="33" />
+    <XDFPATCHENTRY name="ESKONF" address="0x1B00" datasize="0x1" patchdata="FF" />
   </XDFPATCH>
   <XDFTABLE uniqueid="0x5F42" flags="0x30">
     <title>KFETRD - Target Temp - Throttle x speed for MAP T-stat</title>
