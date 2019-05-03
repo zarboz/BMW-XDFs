@@ -1,4 +1,4 @@
-<!-- Written 05/03/2019 10:16:19 -->
+<!-- Written 05/03/2019 11:11:39 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -8026,4 +8026,14 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
+  <XDFCHECKSUM uniqueid="0x23C4">
+    <title>ME7 Checksum</title>
+    <REGION>
+      <pluginmoduleid>9b6fa911-da49-1953-b6c0-1c7d3a9cf006</pluginmoduleid>
+      <datastart>0xFC0E</datastart>
+      <dataend>0xFC11</dataend>
+      <storeaddress>0x0</storeaddress>
+      <calculationmethod>0x0</calculationmethod>
+    </REGION>
+  </XDFCHECKSUM>
 </XDFFORMAT>
