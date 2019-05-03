@@ -1,4 +1,4 @@
-<!-- Written 05/03/2019 10:04:28 -->
+<!-- Written 05/03/2019 10:16:19 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -35,6 +35,7 @@
     <CATEGORY index="0x17" name="MSR" />
     <CATEGORY index="0x18" name="Anti  Theft" />
     <CATEGORY index="0x19" name="Speed Calculation" />
+    <CATEGORY index="0x1A" name="NMAXD" />
     <CATEGORY index="0x60" name="Anti Theft" />
   </XDFHEADER>
   <XDFTABLE uniqueid="0x7BF5" flags="0x0">
@@ -2912,6 +2913,7 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>MDIMX</title>
     <description>Maximum achievable indexed engine torque</description>
+    <CATEGORYMEM index="0" category="27" />
     <EMBEDDEDDATA mmedaddress="0x166" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>%</units>
     <decimalpl>4</decimalpl>
@@ -7730,7 +7732,7 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>NMAXPG</title>
     <description>gear-dependent P element in NMAX control</description>
-    <CATEGORYMEM index="0" category="220" />
+    <CATEGORYMEM index="0" category="27" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x1934" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <indexcount>7</indexcount>
@@ -7771,7 +7773,7 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>TNMXPRG</title>
     <description>gear-dependent speed prediction horizon for NMAX control</description>
-    <CATEGORYMEM index="0" category="220" />
+    <CATEGORYMEM index="0" category="27" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x1934" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <indexcount>7</indexcount>
@@ -7812,7 +7814,7 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>ZINMAXG</title>
     <description>gear-dependent I-slope for NMAX control</description>
-    <CATEGORYMEM index="0" category="220" />
+    <CATEGORYMEM index="0" category="27" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x1934" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <indexcount>7</indexcount>
@@ -7881,7 +7883,7 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>NMAX</title>
     <description>Drehzahlbegrenzung</description>
-    <CATEGORYMEM index="0" category="57" />
+    <CATEGORYMEM index="0" category="27" />
     <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4302" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>U/min</units>
     <decimalpl>1</decimalpl>
@@ -7895,7 +7897,7 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>DNMAXHG</title>
     <description>Gear-dependent hysteresis for hard speed limitation</description>
-    <CATEGORYMEM index="0" category="220" />
+    <CATEGORYMEM index="0" category="27" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x1934" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <indexcount>7</indexcount>
@@ -7936,7 +7938,7 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>UKWNMAXG</title>
     <description>gear-dependent NW revolution counter for NMAX control</description>
-    <CATEGORYMEM index="0" category="220" />
+    <CATEGORYMEM index="0" category="27" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x1934" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <indexcount>7</indexcount>
@@ -7975,7 +7977,7 @@
   </XDFTABLE>
   <XDFCONSTANT uniqueid="0x0">
     <title>CDMINMAX</title>
-    <CATEGORYMEM index="0" category="28" />
+    <CATEGORYMEM index="0" category="27" />
     <EMBEDDEDDATA mmedaddress="0xA52E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -7987,7 +7989,7 @@
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>KFMIRED1</title>
     <description>Characteristic Abregelmoment for NMAX control</description>
-    <CATEGORYMEM index="0" category="220" />
+    <CATEGORYMEM index="0" category="27" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0xA71A" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <indexcount>6</indexcount>
