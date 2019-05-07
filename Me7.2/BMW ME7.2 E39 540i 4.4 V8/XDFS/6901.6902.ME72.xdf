@@ -1,4 +1,4 @@
-<!-- Written 04/28/2019 09:16:12 -->
+<!-- Written 05/07/2019 15:41:33 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -7595,4 +7595,30 @@
     <CATEGORYMEM index="0" category="11" />
     <XDFPATCHENTRY name="NVQUOT Gear recognition" address="0x57B4" datasize="0x17" patchdata="00468027722780186518FD10FC10800D720D600B5C0B80" />
   </XDFPATCH>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TMDMN</title>
+    <description>Motortemperatur min.</description>
+    <CATEGORYMEM index="0" category="13" />
+    <EMBEDDEDDATA mmedaddress="0xA1FE" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>Grad C</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.750000 * X+ -48.000000">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TMDMX</title>
+    <description>Motortemperatur max.</description>
+    <CATEGORYMEM index="0" category="13" />
+    <EMBEDDEDDATA mmedaddress="0xA1FF" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>Grad C</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.750000 * X+ -48.000000">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
 </XDFFORMAT>

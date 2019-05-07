@@ -1,4 +1,4 @@
-<!-- Written 05/03/2019 11:11:39 -->
+<!-- Written 05/07/2019 15:40:15 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -8026,6 +8026,32 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TMDMN</title>
+    <description>Motortemperatur min.</description>
+    <CATEGORYMEM index="0" category="13" />
+    <EMBEDDEDDATA mmedaddress="0xA1F3" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>Grad C</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.750000 * X+ -48.000000">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TMDMX</title>
+    <description>Motortemperatur max.</description>
+    <CATEGORYMEM index="0" category="13" />
+    <EMBEDDEDDATA mmedaddress="0xA1F4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>Grad C</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.750000 * X+ -48.000000">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
   <XDFCHECKSUM uniqueid="0x23C4">
     <title>ME7 Checksum</title>
     <REGION>
