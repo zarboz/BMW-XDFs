@@ -6,4 +6,1629 @@
     <BASEOFFSET offset="0" subtract="0" />
     <DEFAULTS datasizeinbits="8" sigdigits="2" outputtype="1" signed="0" lsbfirst="0" float="0" />
   </XDFHEADER>
+    <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>NWENG</title>
+    <description>Wiedereinsetzdrehzahl</description>
+    <CATEGORYMEM index="0" category="22" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x7375" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>5</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xC8756" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <decimalpl>1</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+   <XDFCONSTANT uniqueid="0x0">
+    <title>CDHSVSA</title>
+    <description>Codewort Heizerdiagnose vor Kat im Schub (CDHSVsa = 0  =&gt; keine Diagnose)</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC672" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDKATSP</title>
+    <description>Codewort Katalysator-Diagnose im OBDII-Mode (invers: Europa-Mode)</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC673" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDKATSPF</title>
+    <description>Katdiagnose, Freigabe</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC674" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDNWS</title>
+    <description>Codewort DNWS abschalten (EURO-Codierung), CD..=0 -&gt; keine Diagnose</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC675" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+   <XDFCONSTANT uniqueid="0x0">
+    <title>CWALE</title>
+    <description>Auslauferkennung aktiv</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC676" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+   <XDFCONSTANT uniqueid="0x0">
+    <title>CWDLSU</title>
+    <description>Codewort f&#252;r DLSU</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC677" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWERFIL</title>
+    <description>Codewort zur Auswahl Filtervar. f&#252;r die Ausgabe von AS.-Fehler an das Scan Tool</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC678" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWGEN</title>
+    <description>Codewort f&#252;r Generatorschnittstelle z.B. Unterst&#252;tzung von 2 Generatoren</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC679" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWGEN1</title>
+    <description>Codewort: kein Einfluss des Generatormomentes auf mdverl</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC67A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWGEN2</title>
+    <description>Codewort: kein Einfluss des Generatormomentes auf mimin</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC67B" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWGGMFL</title>
+    <description>Codewort f&#252;r %GGMFL ( Auswertung Multifunktionslenkrad)</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC67C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWKMMILSCT</title>
+    <description>Ausgabe Km bei MIL on  f&#252;r Scan Tool abschalten (0 = keine Ausgabe in PID $21)</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC67D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+   <XDFCONSTANT uniqueid="0x0">
+    <title>CWKONFLS</title>
+    <description>Beschreibung der Lambdasondenposition hinter Katalysator im Abgasstrang</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC67E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWKONFLS</title>
+    <description>Beschreibung der Lambdasondenposition hinter Katalysator im Abgasstrang</description>
+    <CATEGORYMEM index="0" category="116" />
+    <EMBEDDEDDATA mmedaddress="0x9341" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWKONLS</title>
+    <description>Codewort f&#252;r Konfiguration Lambda Sonden</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC67F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWLSHA</title>
+    <description>Codewort f&#252;r Lambdasonden hinter KAT Alterung in %DLSAHK</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC680" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWMDAPP</title>
+    <description>Codewort Applikation ohne Drehmomentfunktionen</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC681" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWPSGER</title>
+    <description>Codewort Umschaltung Saugrohrdruck von modelliertem auf gerechneten</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC682" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWPWF</title>
+    <description>Codewort Powerfail</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC683" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWSCTMDE</title>
+    <description>Codewort zum abschalten bestimmter Scan Tool Modes/Services (Bit=0 -&gt;  Mode aus)</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC684" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWTF</title>
+    <description>Codewort f&#252;r Konfiguration Temperaturf&#252;hler</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC685" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWUHR</title>
+    <description>Codewort f&#252;r Uhr</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC686" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWVL</title>
+    <description>Erkennung Vollast &#252;ber relativen Fahrerwunsch (CWVL=1)</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC687" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDAGR</title>
+    <description>Codewort DAGR abschalten (EURO-Codierung), CD..=0 -&gt; keine Diagnose</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC688" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDDMTL</title>
+    <description>Codewort DMTL-Diagnose einschalten (EURO-Codierung), CD..=0 -&gt; keine Dia</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC689" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDEFST</title>
+    <description>Codewort DFSTT abschalten (EURO-Codierung), CD..=0 -&gt; keine Diagnose</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC68A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDHSH</title>
+    <description>Codewort Heizerdiagnose hinter Kat (CDHSH = 0  =&gt; keine Diagnose)</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC68B" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDHSV</title>
+    <description>Codewort Heizerdiagnose vor Kat im (CDHSV = 0  =&gt; keine Diagnose)</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC68C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDKAT</title>
+    <description>Codewort Katalysator-Diagnose im OBDII-Mode (invers: Europa-Mode)</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC68D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDKVS</title>
+    <description>Codeword DKVS aktiv/inaktiv, CD..=0 -&gt; keine Diagnose</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC68E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDLASH</title>
+    <description>Codewort Lambdasondenalterungsdiagnose (SHK) im OBDII-Mode (invers: Europa-Mode)</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC68F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDLATP</title>
+    <description>Codewort Lambdasondenalterungsdiagnose (TP) im OBDII-Mode (invers: Europa-Mode)</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC690" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDLATV</title>
+    <description>Codewort Lambdasondenalterungsdiagnose (tv) im OBDII-Mode (invers: Europa-Mode)</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC691" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDLDP</title>
+    <description>Codewort LDP-Diagnose im OBDII-Modus (invers: Europa-Modus), CD..=0 -&gt; keine Dia</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC692" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDLLR</title>
+    <description>Codewort DLLR abschalten (EURO-Codierung), CD..=0 -&gt; keine Diagnose</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC693" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDLSH</title>
+    <description>Codewort Sondendiagnose hinter Kat im OBDII-Mode (invers: Europa-Mode)</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC694" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDLSV</title>
+    <description>Codewort Sondendiagnose vor KAT im OBDII-Mode</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC695" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDLSVV</title>
+    <description>Codewort Diagnose vertauschte Sonden vor Kat im OBDII-Mode (invers: Europa-Mode)</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC696" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDMD</title>
+    <description>Codewort DMD abschalten (EURO-Codierung), CD..=0 -&gt; keine Diagnose</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC697" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDSLS</title>
+    <description>Euro-Byte f&#252;r Diagnose Sekund&#228;rluft-System</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC698" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDSWE</title>
+    <description>Codewort DSWE abschalten (EURO-Codierung), CD..=0 -&gt; keine Diagnose</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC699" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDTANKL</title>
+    <description>Codewort DTANKL abschalten (EURO-Codierung), CD..=0 -&gt; keine Diagnose</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC69A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CDTES</title>
+    <description>Codewort Tankentl&#252;ftungsdiagnose abschalten (EURO-Codierung), CD..=0 -&gt;keine Dia</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC69B" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWOBD</title>
+    <description>Codewort f&#252;r Konfiguration OBD Zertifikationsnachweis</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC69C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+   <XDFCONSTANT uniqueid="0x0">
+    <title>CWSLS</title>
+    <description>Codewort f&#252;r Sekund&#228;rluftsystem</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC69D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+	</xdfconstant>
+	<XDFCONSTANT uniqueid="0x0">
+    <title>CWSLS2</title>
+    <description>zweites Codewort f&#252;r Sekund&#228;rluftsystem</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC69E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+   <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFZW1</title>
+    <description>Z&#252;ndwinkelkennfeld Variante 1</description>
+    <CATEGORYMEM index="0" category="163" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xCDFE5" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>%</units>
+      <indexcount>16</indexcount>
+      <decimalpl>3</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.750000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xCDC79" mmedelementsizebits="8" mmedcolcount="24" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>24</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0xCDFE5" mmedelementsizebits="8" mmedrowcount="24" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>Grad KW</units>
+      <decimalpl>3</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.750000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFZW2</title>
+    <description>Z&#252;ndwinkelkennfeld Variante 2</description>
+    <CATEGORYMEM index="0" category="163" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xCDFE5" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>%</units>
+      <indexcount>16</indexcount>
+      <decimalpl>3</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.750000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xCDC79" mmedelementsizebits="8" mmedcolcount="24" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>24</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0xCE18F" mmedelementsizebits="8" mmedrowcount="24" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>Grad KW</units>
+      <decimalpl>3</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.750000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+   <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFZW1</title>
+    <description>Z&#252;ndwinkelkennfeld Variante 1</description>
+    <CATEGORYMEM index="0" category="163" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xCDFE5" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>%</units>
+      <indexcount>16</indexcount>
+      <decimalpl>3</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.750000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xCDC79" mmedelementsizebits="8" mmedcolcount="24" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>24</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0xCDFE5" mmedelementsizebits="8" mmedrowcount="24" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>Grad KW</units>
+      <decimalpl>3</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.750000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFZW2</title>
+    <description>Z&#252;ndwinkelkennfeld Variante 2</description>
+    <CATEGORYMEM index="0" category="163" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xCDFE5" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>%</units>
+      <indexcount>16</indexcount>
+      <decimalpl>3</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.750000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xCDC79" mmedelementsizebits="8" mmedcolcount="24" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>24</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0xCE18F" mmedelementsizebits="8" mmedrowcount="24" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>Grad KW</units>
+      <decimalpl>3</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.750000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x30">
+    <title>KFLF</title>
+    <description>Lambdakennfeld bei Teillast</description>
+    <CATEGORYMEM index="0" category="252" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xD1E67" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>%</units>
+      <indexcount>16</indexcount>
+      <decimalpl>3</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.750000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xC5BF8" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>12</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xD1E77" mmedelementsizebits="8" mmedrowcount="12" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>-</units>
+      <decimalpl>4</decimalpl>
+      <min>0.000000</min>
+      <max>2.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.007813 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+   <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFTVSA</title>
+    <description>Verz&#246;gerungszeit f&#252;r Schubabschalten</description>
+    <CATEGORYMEM index="0" category="22" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x1241" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>8</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xC331" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>Grad C</units>
+      <indexcount>5</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.750000 * X+ -48.000000">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xD33DC" mmedelementsizebits="8" mmedrowcount="5" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>s</units>
+      <decimalpl>4</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.020000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFTVSAM</title>
+    <description>Verz&#246;gerungszeit f&#252;r Schubabschalten</description>
+    <CATEGORYMEM index="0" category="22" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x1241" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>8</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xC331" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>Grad C</units>
+      <indexcount>5</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.750000 * X+ -48.000000">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xD3404" mmedelementsizebits="8" mmedrowcount="5" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>s</units>
+      <decimalpl>4</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.020000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>NWEM</title>
+    <description>Wiedereinsetzdrehzahl</description>
+    <CATEGORYMEM index="0" category="22" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xC331" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>Grad C</units>
+      <indexcount>5</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.750000 * X+ -48.000000">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xD342C" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <decimalpl>1</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>NWEMT</title>
+    <description>Wiedereinsetzdrehzahl gedrosselt</description>
+    <CATEGORYMEM index="0" category="22" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xC331" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>Grad C</units>
+      <indexcount>5</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.750000 * X+ -48.000000">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xD3434" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <decimalpl>1</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+    <XDFCONSTANT uniqueid="0x0">
+    <title>CWKONABG</title>
+    <description>Codewort f&#252;r Konfiguration Abgasbehandlung</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC69F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWNSABG</title>
+    <description>Codewort Einstellen Leerlauf-Solldrehzahl mit Diagnosetester</description>
+    <CATEGORYMEM index="0" category="104" />
+    <EMBEDDEDDATA mmedaddress="0xCC700" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+   <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFAKR_GANG</title>
+    <description>Flue gas flap control Activation in Dep. From gangi and emergency</description>
+    <CATEGORYMEM index="0" category="6" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x10655" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>12</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x1064E" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <indexcount>7</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xD5701" mmedelementsizebits="8" mmedrowcount="7" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>%</units>
+      <decimalpl>3</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.390625 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+   <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KLDKVVTU</title>
+    <description>Characteristic VVT plausibility check lower limit offset</description>
+    <CATEGORYMEM index="0" category="6" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0xC4A21" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>kg/h</units>
+      <indexcount>8</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.100000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xC4A30" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>kg/h</units>
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.025000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+   <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFWEE</title>
+    <description>Map angle injection end</description>
+    <CATEGORYMEM index="0" category="1" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x11F1" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>%</units>
+      <indexcount>8</indexcount>
+      <decimalpl>3</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.750000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x11E5" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>8</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xC71D8" mmedelementsizebits="8" mmedrowcount="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>Grad KW</units>
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="3.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+   <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFWEEGD</title>
+    <description>Characteristic angle injection end for throttled operation</description>
+    <CATEGORYMEM index="0" category="1" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x11F1" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>%</units>
+      <indexcount>8</indexcount>
+      <decimalpl>3</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.750000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x11E5" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>8</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xC7218" mmedelementsizebits="8" mmedrowcount="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>Grad KW</units>
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="3.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>MRFAVW</title>
+    <description>Threshold for switching the advance angle at max. driver&apos;s wish</description>
+    <CATEGORYMEM index="0" category="1" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x11E5" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>8</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xC7258" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>%</units>
+      <decimalpl>3</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.003052 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>WEAN</title>
+    <description>Angle injection termination</description>
+    <CATEGORYMEM index="0" category="1" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x11E5" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>8</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xC7268" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>Grad KW</units>
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="3.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>WEEMRFAN</title>
+    <description>Angle injection end at maximum driver&apos;s request</description>
+    <CATEGORYMEM index="0" category="1" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x11E5" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>8</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xC7270" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>Grad KW</units>
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="3.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>WEEM</title>
+    <description>Preloading angle - correction</description>
+    <CATEGORYMEM index="0" category="1" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x5FA9" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>Grad C</units>
+      <indexcount>8</indexcount>
+      <decimalpl>4</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.015625 * X+ -48.000000">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0xC7281" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>Grad KW</units>
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="3.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>WEEMGD</title>
+    <description>Preloading angle - correction throttled</description>
+    <CATEGORYMEM index="0" category="1" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x5FBA" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>8</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X+ -48.000000">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0xC7292" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>Grad KW</units>
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="3.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+   <XDFCONSTANT uniqueid="0x0">
+    <title>CWESVW</title>
+    <description>Codeword: Injection Preloading angle</description>
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x6009" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DWEEMX</title>
+    <description>maximum permissible increase angle injection end per syncro</description>
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x600A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>Grad KW</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="3.000000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>FIMHU</title>
+    <description>Factor impulse hard</description>
+    <CATEGORYMEM index="0" category="2" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>16</indexcount>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <LABEL index="1" value="1.00" />
+      <LABEL index="2" value="2.00" />
+      <LABEL index="3" value="3.00" />
+      <LABEL index="4" value="4.00" />
+      <LABEL index="5" value="5.00" />
+      <LABEL index="6" value="6.00" />
+      <LABEL index="7" value="7.00" />
+      <LABEL index="8" value="8.00" />
+      <LABEL index="9" value="9.00" />
+      <LABEL index="10" value="10.00" />
+      <LABEL index="11" value="11.00" />
+      <LABEL index="12" value="12.00" />
+      <LABEL index="13" value="13.00" />
+      <LABEL index="14" value="14.00" />
+      <LABEL index="15" value="15.00" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xC7354" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>-</units>
+      <decimalpl>4</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.007813 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>FIMWU</title>
+    <description>Factor impulse soft</description>
+    <CATEGORYMEM index="0" category="2" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>16</indexcount>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <LABEL index="1" value="1.00" />
+      <LABEL index="2" value="2.00" />
+      <LABEL index="3" value="3.00" />
+      <LABEL index="4" value="4.00" />
+      <LABEL index="5" value="5.00" />
+      <LABEL index="6" value="6.00" />
+      <LABEL index="7" value="7.00" />
+      <LABEL index="8" value="8.00" />
+      <LABEL index="9" value="9.00" />
+      <LABEL index="10" value="10.00" />
+      <LABEL index="11" value="11.00" />
+      <LABEL index="12" value="12.00" />
+      <LABEL index="13" value="13.00" />
+      <LABEL index="14" value="14.00" />
+      <LABEL index="15" value="15.00" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xC7364" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>-</units>
+      <decimalpl>4</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.007813 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DLAMNSWL</title>
+    <description>Max. Deviation for lamnswl_w = 1.0</description>
+    <CATEGORYMEM index="0" category="3" />
+    <EMBEDDEDDATA mmedaddress="0xC7374" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>-</units>
+    <decimalpl>4</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.003906 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFFWLW</title>
+    <description>Chart weighting warm-up factor</description>
+    <CATEGORYMEM index="0" category="3" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x12D1" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>%</units>
+      <indexcount>12</indexcount>
+      <decimalpl>3</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.750000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x1259" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>12</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xC7378" mmedelementsizebits="8" mmedrowcount="12" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>-</units>
+      <decimalpl>4</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.003906 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFFWLWVT</title>
+    <description>Chart weighting warm-up factor in unthrottled operation</description>
+    <CATEGORYMEM index="0" category="3" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x12D1" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>%</units>
+      <indexcount>12</indexcount>
+      <decimalpl>3</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.750000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x1259" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>12</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xC7400" mmedelementsizebits="8" mmedrowcount="12" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>-</units>
+      <decimalpl>4</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.003906 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>ZKLANSWL</title>
+    <description>Time constant filtering lamnswl_w</description>
+    <CATEGORYMEM index="0" category="3" />
+    <EMBEDDEDDATA mmedaddress="0xC7496" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>s</units>
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
 </XDFFORMAT>
