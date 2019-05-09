@@ -1,4 +1,4 @@
-<!-- Written 05/09/2019 01:05:13 -->
+<!-- Written 05/09/2019 18:55:43 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -7622,21 +7622,27 @@
     </MATH>
   </XDFCONSTANT>
   <XDFPATCH uniqueid="0x106C">
-    <title>Patch ESKONF DMTL(h) &gt; LDP (01 &gt;&gt; 99/00)</title>
+    <title>Patch ESKONF for LDP (99/00)</title>
     <description>This patch is in testing for BlackKnight </description>
     <CATEGORYMEM index="0" category="11" />
     <XDFPATCHENTRY name="ESKONF" address="0x1B2C" datasize="0x8" patchdata="00C323F33030F3FF" />
   </XDFPATCH>
   <XDFPATCH uniqueid="0x269F">
-    <title>Patch ESKONF DMTLH &gt; DMTL ( 02/03 &gt;01)</title>
+    <title>Patch ESKONF for DMTL ( 01)</title>
     <description>This patch is in testing for BlackKnight</description>
     <CATEGORYMEM index="0" category="11" />
     <XDFPATCHENTRY name="ESKONF" address="0x1B2C" datasize="0x8" patchdata="00C323F33030F3FC" />
   </XDFPATCH>
   <XDFPATCH uniqueid="0x4B8A">
-    <title>Patch ESKONF DMTL &gt; DMTLH (01 &gt; 02/03)</title>
+    <title>Patch ESKONF for  DMTLH (02/03)</title>
     <description>This patch is in testing for BlackKnight</description>
     <CATEGORYMEM index="0" category="11" />
     <XDFPATCHENTRY name="ESKONF" address="0x1B2C" datasize="0x8" patchdata="00C323F30030F3FC" />
+  </XDFPATCH>
+  <XDFPATCH uniqueid="0x7529">
+    <title>88C Thermostat Patch</title>
+    <description>This is to disable the electric thermostat via ESKONF</description>
+    <CATEGORYMEM index="0" category="11" />
+    <XDFPATCHENTRY name="ESKONF disable electric therm" address="0x1B2D" datasize="0x1" patchdata="F3" />
   </XDFPATCH>
 </XDFFORMAT>
