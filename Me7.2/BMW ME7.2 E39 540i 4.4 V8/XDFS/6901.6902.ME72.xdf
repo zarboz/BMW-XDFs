@@ -1,4 +1,4 @@
-<!-- Written 05/09/2019 00:44:52 -->
+<!-- Written 05/09/2019 01:05:13 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -5201,7 +5201,7 @@
     <title>CWDMTL</title>
     <description>This is reported broken by BlackKnight in bimmerforums Do not use until description is updated  Activate code word DMTL diagnosis (EURO coding), CD .. = 0 -&gt; no slide </description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1F4A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1FC8" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />

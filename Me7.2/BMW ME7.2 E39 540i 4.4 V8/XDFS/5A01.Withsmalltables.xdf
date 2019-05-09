@@ -5219,7 +5219,7 @@
     <title>CWDMTL</title>
     <description>Activate code word DMTL diagnosis (EURO coding), CD .. 0 = no DMTL &#013;&#010;50 = DMTL &#013;&#010;&#013;&#010;?? = DMTLH</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1F4A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1F97" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
