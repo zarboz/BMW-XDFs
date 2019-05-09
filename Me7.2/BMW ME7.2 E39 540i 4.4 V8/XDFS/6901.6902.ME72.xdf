@@ -5199,7 +5199,7 @@
   </XDFFUNCTION>
   <XDFCONSTANT uniqueid="0x4DA8" flags="0x4">
     <title>CWDMTL</title>
-    <description>Activate code word DMTL diagnosis (EURO coding), CD .. = 0 -&gt; no slide</description>
+    <description>This is reported broken by BlackKnight in bimmerforums Do not use until description is updated  Activate code word DMTL diagnosis (EURO coding), CD .. = 0 -&gt; no slide </description>
     <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x1F4A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
