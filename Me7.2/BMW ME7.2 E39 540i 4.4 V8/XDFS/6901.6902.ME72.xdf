@@ -1,4 +1,4 @@
-<!-- Written 05/09/2019 18:55:43 -->
+<!-- Written 05/10/2019 12:11:20 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2588,13 +2588,13 @@
     <title>DSLOFS - MAP pressure sensor offset</title>
     <description>Offset pressure sensor boost pressure</description>
     <CATEGORYMEM index="0" category="2" />
-    <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x59C9" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x59C6" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>hPa</units>
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
-    <MATH equation="0.039063 * X">
-      <VAR id="X" />
+    <MATH equation="x / 25.6">
+      <VAR id="x" />
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
@@ -7645,4 +7645,112 @@
     <CATEGORYMEM index="0" category="11" />
     <XDFPATCHENTRY name="ESKONF disable electric therm" address="0x1B2D" datasize="0x1" patchdata="F3" />
   </XDFPATCH>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFFWTBR</title>
+    <description> Weighting factor Tans / Tmot for combustion chamber temperature model&#013;&#010;turbocharged=0 </description>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x9C35" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>Upm</units>
+      <indexcount>8</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x9C2B" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>%</units>
+      <indexcount>10</indexcount>
+      <decimalpl>3</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.750000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0x9C3D" mmedelementsizebits="8" mmedrowcount="10" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>-</units>
+      <decimalpl>4</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.003906 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>PUE</title>
+    <description>Substitute for ambient pressure 700hpa turbo 1000hpa n/a </description>
+    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xB66C" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>hPa</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.039063 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFTATX</title>
+    <description>Kennfeld f&#252;r maximales Tastverh&#228;ltnis</description>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x9583" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>6</indexcount>
+      <decimalpl>4</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.007813 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x9579" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>Upm</units>
+      <indexcount>10</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0x9589" mmedelementsizebits="8" mmedrowcount="10" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>%</units>
+      <decimalpl>3</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.390625 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DMXRDL</title>
+    <description>Begrenzung bei max. Laufunruhe-Referenzwert-&#196;nderung von dlurs</description>
+    <CATEGORYMEM index="0" category="125" />
+    <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0x1254" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>(Umdr./sec)^2</units>
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.710545 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
 </XDFFORMAT>
