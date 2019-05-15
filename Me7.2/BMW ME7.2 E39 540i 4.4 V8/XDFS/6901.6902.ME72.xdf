@@ -5215,9 +5215,9 @@
     <title>TAMLTKA Electric Fan PWM% from rad exit temp</title>
     <CATEGORYMEM index="0" category="12" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0xA575" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xA575" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Coolant C</units>
-      <indexcount>10</indexcount>
+      <indexcount>7</indexcount>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -5227,9 +5227,9 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0xA57F" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xA57C" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>PWM %</units>
-      <indexcount>10</indexcount>
+      <indexcount>7</indexcount>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
