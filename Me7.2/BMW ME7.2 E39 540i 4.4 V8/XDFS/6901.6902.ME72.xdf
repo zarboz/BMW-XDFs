@@ -1,4 +1,4 @@
-<!-- Written 05/14/2019 19:52:37 -->
+<!-- Written 05/14/2019 20:07:34 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -7834,7 +7834,7 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-    <XDFCONSTANT uniqueid="0x0">
+  <XDFCONSTANT uniqueid="0x0">
     <title>CWKHZ</title>
     <description>The abort can optionally be&#013;&#010;stopped by B lpoff =1 by the setting of CWKHZ.6.&#013;&#010;CWKHZ: 0, no engine speed decrease after the time TKHLLMX, &#013;&#010;Bit 7 set only for application purposes&#013;&#010;Bit 7 sets B trkh hard -&gt; no decrease of the sensor heating performance -&gt; sensor may be endangered.</description>
     <CATEGORYMEM index="0" category="23" />
@@ -7847,48 +7847,6 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
-  <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>MLSUS</title>
-    <description>Setpoint air mass integral for engine catalysing 5 kg in the desired engine temperature range at start, =0 kg to switch off the catalyst heating</description>
-    <CATEGORYMEM index="0" category="20" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0xA2AB" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>Grad C</units>
-      <indexcount>12</indexcount>
-      <embedinfo type="1" />
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <MATH equation="0.750000 * X+ -48.000000">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>-</units>
-      <indexcount>1</indexcount>
-      <decimalpl>0</decimalpl>
-      <outputtype>2</outputtype>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="" />
-      <MATH equation="X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0xA2B7" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>kg</units>
-      <decimalpl>4</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="0.022756 * X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>BTRKHTMS</title>
     <description>0, -&gt; decreased sensor heating performance with minor catalyst heating measures,&#013;&#010;&gt; 0 -&gt; maximum sensor heating performance only in conjunction with major catalyst heating measures (thermal reactor)</description>
@@ -7943,7 +7901,7 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
-    <XDFTABLE uniqueid="0x0" flags="0x0">
+  <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>NMAXPG</title>
     <description>gear-dependent P element in NMAX control</description>
     <CATEGORYMEM index="0" category="27" />
