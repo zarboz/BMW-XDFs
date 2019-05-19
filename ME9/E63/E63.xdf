@@ -1,10 +1,12 @@
-<!-- Written 05/10/2019 17:40:39 -->
+<!-- Written 05/19/2019 10:53:34 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
     <description></description>
     <BASEOFFSET offset="0" subtract="0" />
     <DEFAULTS datasizeinbits="8" sigdigits="2" outputtype="1" signed="0" lsbfirst="0" float="0" />
+    <REGION type="0xFFFFFFFF" startaddress="0x0" size="0xFFFFFFFF" regionflags="0x0" name="Binary File" desc="This region describes the bin file edited by this XDF" />
+    <CATEGORY index="0x0" name="Ignition Preloading Angle" />
   </XDFHEADER>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>NWENG</title>
@@ -601,7 +603,7 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
-  <XDFTABLE uniqueid="0x0" flags="0x0">
+  <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>KFZW1</title>
     <description>Z&#252;ndwinkelkennfeld Variante 1</description>
     <CATEGORYMEM index="0" category="163" />
@@ -635,8 +637,8 @@
       <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0xCDFE5" mmedelementsizebits="8" mmedrowcount="24" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>Grad KW</units>
       <decimalpl>3</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
+      <min>-100.000000</min>
+      <max>50.000000</max>
       <outputtype>1</outputtype>
       <MATH equation="0.750000 * X">
         <VAR id="X" />
@@ -1718,7 +1720,7 @@
     <description>Vollast - Z&#252;ndkennfeld</description>
     <CATEGORYMEM index="0" category="163" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x12B1" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x12B1" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>%</units>
       <indexcount>6</indexcount>
       <decimalpl>3</decimalpl>
@@ -1731,7 +1733,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x128D" mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x128D" mmedelementsizebits="8" mmedcolcount="24" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>1/min</units>
       <indexcount>24</indexcount>
       <decimalpl>1</decimalpl>
@@ -1879,7 +1881,7 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x0" flags="0x0">
+  <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>KFMIRL</title>
     <description>Kennfeld f&#252;r Berechnung Sollf&#252;llung</description>
     <CATEGORYMEM index="0" category="78" />
