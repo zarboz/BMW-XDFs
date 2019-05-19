@@ -7682,10 +7682,11 @@
     <XDFPATCHENTRY name="ESKONF" address="0x1B2C" datasize="0x8" patchdata="00C323F30030F3FC" />
   </XDFPATCH>
   <XDFPATCH uniqueid="0x7529">
-    <title>88C Thermostat Patch</title>
-    <description>This is to disable the electric thermostat via ESKONF</description>
+    <title>88C Thermostat Fix P0128</title>
+    <description>This patch updates the coolant temperature tables to be compatible with the lower operating temperature.</description>
     <CATEGORYMEM index="0" category="11" />
-    <XDFPATCHENTRY name="ESKONF disable electric therm" address="0x1B2D" datasize="0x1" patchdata="F3" />
+    <XDFPATCHENTRY name="KFETRD" address="0x9B8D" datasize="0x1E" patchdata="B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4" />
+    <XDFPATCHENTRY name="KFETRT" address="0x9BBF" datasize="0x2A" patchdata="B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4" />
   </XDFPATCH>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>KFFWTBR</title>
