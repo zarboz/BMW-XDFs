@@ -1,4 +1,4 @@
-<!-- Written 05/22/2019 14:15:22 -->
+<!-- Written 05/22/2019 14:24:55 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2506,7 +2506,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x324E" mmedelementsizebits="16" mmedrowcount="512" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x3256" mmedelementsizebits="16" mmedrowcount="512" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>kg/h</units>
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
@@ -2521,7 +2521,7 @@
     <title>DSLOFS - MAP pressure sensor offset</title>
     <description>Offset pressure sensor boost pressure</description>
     <CATEGORYMEM index="0" category="2" />
-    <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x592D" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x5923" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>hPa</units>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -2714,48 +2714,6 @@
       <max>7000.000000</max>
       <outputtype>1</outputtype>
       <MATH equation="0.250000 * X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
-  <XDFTABLE uniqueid="0x0" flags="0x30">
-    <title>KFMLDMX -  HFM threshhold for B_maxflr diagnosis</title>
-    <description>ML threshold for B_maxflr diagnosis HFM / HLM</description>
-    <CATEGORYMEM index="0" category="2" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xB216" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>U/min</units>
-      <indexcount>8</indexcount>
-      <decimalpl>1</decimalpl>
-      <embedinfo type="1" />
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <MATH equation="0.250000 * X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0xB194" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>% DK</units>
-      <indexcount>8</indexcount>
-      <decimalpl>3</decimalpl>
-      <embedinfo type="1" />
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <MATH equation="0.024414 * X">
-        <VAR id="X" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xAFE0" mmedelementsizebits="16" mmedrowcount="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>kg/h</units>
-      <decimalpl>2</decimalpl>
-      <min>0.000000</min>
-      <max>1000.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="0.100000 * X">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -3436,7 +3394,7 @@
     <title>MLMAX - maximum airflow</title>
     <description>Maximum air flow for load calculation according to SAE J1979</description>
     <CATEGORYMEM index="0" category="2" />
-    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xAF5A" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xAF0C" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>kg/h</units>
     <datatype>0</datatype>
     <unittype>0</unittype>
@@ -3828,7 +3786,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x324E" mmedelementsizebits="16" mmedrowcount="32" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x3256" mmedelementsizebits="16" mmedrowcount="32" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>1</decimalpl>
       <min>0.000000</min>
       <max>6553.500000</max>
@@ -3880,7 +3838,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xAF60" mmedelementsizebits="16" mmedrowcount="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xAF12" mmedelementsizebits="16" mmedrowcount="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>1</decimalpl>
       <min>0.000000</min>
       <max>6553.500000</max>
@@ -3932,7 +3890,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xAFE0" mmedelementsizebits="16" mmedrowcount="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xAF92" mmedelementsizebits="16" mmedrowcount="8" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>6553.500000</max>
@@ -3997,7 +3955,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x2F3C" mmedelementsizebits="16" mmedrowcount="13" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x2EDE" mmedelementsizebits="16" mmedrowcount="13" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>1536.010010</max>
