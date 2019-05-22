@@ -1,4 +1,4 @@
-<!-- Written 05/22/2019 13:58:26 -->
+<!-- Written 05/22/2019 13:59:54 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -4435,7 +4435,7 @@
     <title>CWDAGR</title>
     <description>System constant for EGR present&#013;&#010;SY AGR PROKON AUS system constant EGR present&#013;&#010;Deactivate code word DAGR (EURO coding), CD .. = 0 -&gt; no diagnostics</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x1F98" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1F6E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <rangehigh>1.000000</rangehigh>
     <datatype>0</datatype>
     <unittype>0</unittype>
