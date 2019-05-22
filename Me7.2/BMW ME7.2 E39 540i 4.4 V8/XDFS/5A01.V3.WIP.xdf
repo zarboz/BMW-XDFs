@@ -1,4 +1,4 @@
-<!-- Written 05/22/2019 14:24:55 -->
+<!-- Written 05/22/2019 14:41:15 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -494,7 +494,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0x9E54" mmedelementsizebits="8" mmedrowcount="12" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x9D42" mmedelementsizebits="8" mmedrowcount="12" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>1.990000</max>
@@ -541,7 +541,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0xA084" mmedelementsizebits="8" mmedrowcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x9F73" mmedelementsizebits="8" mmedrowcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
@@ -624,7 +624,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0xA0A9" mmedelementsizebits="8" mmedrowcount="12" mmedcolcount="11" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x9FA7" mmedelementsizebits="8" mmedrowcount="12" mmedcolcount="11" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>1.990000</max>
@@ -671,7 +671,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0x9E38" mmedelementsizebits="8" mmedrowcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x9D27" mmedelementsizebits="8" mmedrowcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
@@ -712,7 +712,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0xA171" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xA05C" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
@@ -759,7 +759,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0xA161" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x19AD" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>6500.000000</max>
@@ -3308,7 +3308,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xA8B8" mmedelementsizebits="16" mmedrowcount="10" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0xA8C0" mmedelementsizebits="16" mmedrowcount="10" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>-</units>
       <decimalpl>5</decimalpl>
       <min>0.000000</min>
@@ -3380,7 +3380,7 @@
     <title>TLAFA - </title>
     <description>Delay time until lambda driver request active&#013;&#010;time delay before driver requested lambda active. Already set to 0 on many files. On others, you may have to reduce it to get LAMFA to take effect in a timely manner</description>
     <CATEGORYMEM index="0" category="3" />
-    <EMBEDDEDDATA mmedaddress="0xA172" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0xA05D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>s</units>
     <decimalpl>3</decimalpl>
     <datatype>0</datatype>
@@ -5403,7 +5403,7 @@
     <description>KRKTE</description>
     <CATEGORYMEM index="0" category="3" />
     <CATEGORYMEM index="1" category="17" />
-    <EMBEDDEDDATA mmedaddress="0x9CD5" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x9BC4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>ms/%</units>
     <decimalpl>4</decimalpl>
     <datatype>0</datatype>
@@ -5446,7 +5446,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x59CA" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5924" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>ms</units>
       <decimalpl>3</decimalpl>
       <min>0.000000</min>
@@ -7554,7 +7554,7 @@
     <title>LAMLGF</title>
     <description>Running limit &quot;bold&quot;</description>
     <CATEGORYMEM index="0" category="3" />
-    <EMBEDDEDDATA mmedaddress="0x1D57" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1D2D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>-</units>
     <decimalpl>4</decimalpl>
     <datatype>0</datatype>
@@ -7568,7 +7568,7 @@
     <title>LASOAB</title>
     <description>Lambda setpoint at bank shutdown</description>
     <CATEGORYMEM index="0" category="3" />
-    <EMBEDDEDDATA mmedaddress="0x1D58" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x1D2E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>-</units>
     <decimalpl>4</decimalpl>
     <datatype>0</datatype>
