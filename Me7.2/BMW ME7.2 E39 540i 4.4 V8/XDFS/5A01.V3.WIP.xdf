@@ -1,4 +1,4 @@
-<!-- Written 05/22/2019 13:55:43 -->
+<!-- Written 05/22/2019 13:58:26 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -3269,7 +3269,7 @@
     <title>NOLRA</title>
     <description>Codeword for adoption release set to 5 to disable LTFTS</description>
     <CATEGORYMEM index="0" category="1" />
-    <EMBEDDEDDATA mmedaddress="0x9509" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0x93F1" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
