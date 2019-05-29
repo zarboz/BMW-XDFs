@@ -1,0 +1,1 @@
+The binary file in this folder is the binary the xdf was generated against.

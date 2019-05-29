@@ -1,4 +1,4 @@
-<!-- Written 05/14/2019 18:30:03 -->
+<!-- Written 05/24/2019 23:21:19 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -8210,12 +8210,23 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-    <XDFCONSTANT uniqueid="0x0">
+  <XDFCONSTANT uniqueid="0x0">
     <title>CWKHZ</title>
     <description>The abort can optionally be&#013;&#010;stopped by B lpoff =1 by the setting of CWKHZ.6.&#013;&#010;CWKHZ: 0, no engine speed decrease after the time TKHLLMX, &#013;&#010;Bit 7 set only for application purposes&#013;&#010;Bit 7 sets B trkh hard -&gt; no decrease of the sensor heating performance -&gt; sensor may be endangered.</description>
     <CATEGORYMEM index="0" category="23" />
     <CATEGORYMEM index="1" category="20" />
     <EMBEDDEDDATA mmedaddress="0xA241" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x31D7">
+    <title>CWSTA</title>
+    <description>Codeword automatic start&#013;&#010;01=on&#013;&#010;00=off</description>
+    <EMBEDDEDDATA mmedaddress="0x23EB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />

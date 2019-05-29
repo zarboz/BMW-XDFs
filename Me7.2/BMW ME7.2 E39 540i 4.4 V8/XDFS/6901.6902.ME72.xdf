@@ -1,4 +1,4 @@
-<!-- Written 05/14/2019 20:17:32 -->
+<!-- Written 05/24/2019 09:50:02 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -4479,6 +4479,18 @@
     <CATEGORYMEM index="0" category="1" />
     <EMBEDDEDDATA mmedaddress="0x1FCA" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <rangehigh>1.000000</rangehigh>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x760D">
+    <title>CWOBD</title>
+    <description>CWOBD in dec: Certification according to:&#013;&#010;01 OBDII-CARB&#013;&#010;02 OBD-EPA&#013;&#010;03 OBDII-CARB + OBD-EPA&#013;&#010;04 OBDI&#013;&#010;05 no OBD-requirements&#013;&#010;06 EOBD&#013;&#010;Data are entered into CWOBD after an investigation of the project-specifically-used certification.</description>
+    <CATEGORYMEM index="0" category="1" />
+    <EMBEDDEDDATA mmedaddress="0x1FDB" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
