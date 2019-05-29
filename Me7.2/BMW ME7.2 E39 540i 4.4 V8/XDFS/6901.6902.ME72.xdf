@@ -1,4 +1,4 @@
-<!-- Written 05/24/2019 09:50:02 -->
+<!-- Written 05/29/2019 01:20:53 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2667,6 +2667,53 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
+  <XDFTABLE uniqueid="0xB86" flags="0x0">
+    <title>ESKONF</title>
+    <description>ESKONF bytes, values shown in hex.&#013;&#010;&#013;&#010;Do not touch these unless you know what you are doing, ESKONF bits go deep into the DME code and tweaking them can have unintended results.</description>
+    <CATEGORYMEM index="0" category="1" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>9</indexcount>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="[0]" />
+      <LABEL index="1" value="[1]" />
+      <LABEL index="2" value="[2]" />
+      <LABEL index="3" value="[3]" />
+      <LABEL index="4" value="[4]" />
+      <LABEL index="5" value="[5]" />
+      <LABEL index="6" value="[6]" />
+      <LABEL index="7" value="[7]" />
+      <LABEL index="8" value="[8]" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>1</indexcount>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0x1B2C" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="9" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>3</outputtype>
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
   <XDFCONSTANT uniqueid="0x0">
     <title>TMNSMN</title>
     <description>Motor temperature threshold for post-start widening</description>
@@ -4589,10 +4636,11 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
-    <title>Euro-byte for diagnosis secondary air system</title>
-    <description>CDSLS</description>
+    <title>CDSLS - SAP function diagnosis</title>
+    <description>This disables the SAP function diagnosis in OBD2 mode, it also removes the secondary air status from the emissions test readout.&#013;&#010;&#013;&#010;0x00: SAP function diagnosis disabled&#013;&#010;0x01: SAP function diagnosis enabled</description>
     <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x1FD2" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <outputtype>3</outputtype>
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4704,10 +4752,10 @@
     </MATH>
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
-    <title>Codeword for secondary air system</title>
-    <description>CWSLS</description>
+    <title>CWSLS - Codeword for secondary air system</title>
     <CATEGORYMEM index="0" category="20" />
     <EMBEDDEDDATA mmedaddress="0x1FD8" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <outputtype>3</outputtype>
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -4921,8 +4969,9 @@
   </XDFCONSTANT>
   <XDFPATCH uniqueid="0x630A">
     <title>RPM Limiter Patch - 6500</title>
+    <description>Raises rev limiter fuel cut to 6500rpm.</description>
     <CATEGORYMEM index="0" category="11" />
-    <XDFPATCHENTRY name="NMAX" address="0x4302" datasize="0x2" patchdata="9065" />
+    <XDFPATCHENTRY name="NMAX" address="0x4302" datasize="0x2" patchdata="9065" basedata="505F" />
   </XDFPATCH>
   <XDFTABLE uniqueid="0x5F42" flags="0x30">
     <title>KFETRD - Target Temp - Throttle x speed for MAP T-stat</title>
@@ -7697,8 +7746,8 @@
     <title>88C Thermostat Fix P0128</title>
     <description>This patch updates the coolant temperature tables to be compatible with the lower operating temperature.</description>
     <CATEGORYMEM index="0" category="11" />
-    <XDFPATCHENTRY name="KFETRD" address="0x9B8D" datasize="0x1E" patchdata="B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4" />
-    <XDFPATCHENTRY name="KFETRT" address="0x9BBF" datasize="0x2A" patchdata="B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4" />
+    <XDFPATCHENTRY name="KFETRD" address="0x9B8D" datasize="0x1E" patchdata="B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4" basedata="D8B1B1B1B1B1D8D8B1B1B1B1D8D8D8B1B1B1D8D8D8D8B1B1D8D8D8D8D8B1" />
+    <XDFPATCHENTRY name="KFETRT" address="0x9BBF" datasize="0x2A" patchdata="B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4" basedata="D8D8D8D8D8B1D8D8D8B1B1B1D8D8D8B1B1B1D8D8B1B1B1B1D8B1B1B1B1B1D8D8D8B1B1B1B1D8D8CEC5B1" />
   </XDFPATCH>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>KFFWTBR</title>
@@ -8248,4 +8297,23 @@
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
+  <XDFPATCH uniqueid="0x4A62">
+    <title>88C Thermostat Aux Fan Tweaks</title>
+    <description>This patch tweaks the auxilliary fan tables so that the fan comes on earlier and tries to keep the radiator output temperature under 90C.  The fan starts up around 60C and reaches max duty cycle at 90C.&#013;&#010;&#013;&#010;WARNING: This patch will run the auxilliary fan more often and faster, which could theoretically cause the fan to fail sooner.  Do this at your own risk.</description>
+    <CATEGORYMEM index="0" category="11" />
+    <XDFPATCHENTRY name="Coolant temperature" address="0xA575" datasize="0x7" patchdata="90919BA4AFB1B8" basedata="AAABB8BFC5C9CB" />
+    <XDFPATCHENTRY name="Fan duty cycle" address="0xA57C" datasize="0x7" patchdata="001A5487BFCBFA" basedata="001A5487BFC7E5" />
+  </XDFPATCH>
+  <XDFPATCH uniqueid="0x1CB3">
+    <title>SAP Delete (OBD2 mode only)</title>
+    <description>FOR OFF ROAD USE ONLY&#013;&#010;&#013;&#010;FOR USE IN OBD2 MODE CARS ONLY EUROPE NOT SUPPORTED&#013;&#010;&#013;&#010;PATCH HAS BEEN TESTED SUCCESSFULLY IN ONE CAR BUT MORE TESTING IS NEEDED TO CONFIRM FUNCTIONALITY&#013;&#010;&#013;&#010;This patch allows you to completely unplug and remove all SAP hardware. (make sure to plug the vacuum port)  No error codes will be present, no SES light will come on, and if you were to theoretically have an emissions test done on your car, the DME would report the secondary air status as, &quot;not supported&quot; like the car never had it installed at all.&#013;&#010;&#013;&#010;Changes to MSLUB, MLSUS, and MSLBAS are likely not needed since SAP is disabled via CWKONABG but zeroing them out won&apos;t hurt anything.</description>
+    <CATEGORYMEM index="0" category="11" />
+    <XDFPATCHENTRY name="CDSLS" address="0x1FD2" datasize="0x1" patchdata="00" basedata="01" />
+    <XDFPATCHENTRY name="CWKONABG" address="0xA5E9" datasize="0x1" patchdata="01" basedata="05" />
+    <XDFPATCHENTRY name="ESKONF SLP" address="0x1B2F" datasize="0x1" patchdata="F7" basedata="F3" />
+    <XDFPATCHENTRY name="ESKONF SLV" address="0x1B31" datasize="0x1" patchdata="31" basedata="30" />
+    <XDFPATCHENTRY name="MSLUB" address="0x96B2" datasize="0x8" patchdata="0000000000000000" basedata="0F1F2C373E434647" />
+    <XDFPATCHENTRY name="MLSUS" address="0xA2C0" datasize="0x8" patchdata="0000000000000000" basedata="00161646462E2E00" />
+    <XDFPATCHENTRY name="MSLBAS" address="0x9612" datasize="0x1" patchdata="00" basedata="1D" />
+  </XDFPATCH>
 </XDFFORMAT>
