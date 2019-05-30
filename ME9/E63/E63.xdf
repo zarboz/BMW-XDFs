@@ -1,4 +1,4 @@
-<!-- Written 05/19/2019 22:12:26 -->
+<!-- Written 05/29/2019 23:16:30 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -137,7 +137,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CWGEN</title>
-    <description>Codewort f&#252;r Generatorschnittstelle z.B. Unterst&#252;tzung von 2 Generatoren</description>
+    <description>Codeword for generator interface e.g. Support of 2 generators</description>
     <CATEGORYMEM index="0" category="104" />
     <EMBEDDEDDATA mmedaddress="0xCC679" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -185,7 +185,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CWKMMILSCT</title>
-    <description>Ausgabe Km bei MIL on  f&#252;r Scan Tool abschalten (0 = keine Ausgabe in PID $21)</description>
+    <description>Disable output Km at MIL on for Scan Tool (0 = no output in PID $ 21)</description>
     <CATEGORYMEM index="0" category="104" />
     <EMBEDDEDDATA mmedaddress="0xCC67D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -197,7 +197,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CWKONFLS</title>
-    <description>Beschreibung der Lambdasondenposition hinter Katalysator im Abgasstrang</description>
+    <description>Description of the lambda probe position behind catalytic converter in the exhaust gas system</description>
     <CATEGORYMEM index="0" category="104" />
     <EMBEDDEDDATA mmedaddress="0xCC67E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -437,7 +437,7 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x0">
     <title>CDLATV</title>
-    <description>Codewort Lambdasondenalterungsdiagnose (tv) im OBDII-Mode (invers: Europa-Mode)</description>
+    <description>Codeword lambda sensor aging diagnostics (tv) in OBDII mode (inverse: Europe-Mode)</description>
     <CATEGORYMEM index="0" category="104" />
     <EMBEDDEDDATA mmedaddress="0xCC691" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
@@ -2066,7 +2066,7 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>ENASAG</title>
     <description>enabling fuel cut off dependent on gear</description>
-    <EMBEDDEDDATA mmedaddress="0x736C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0xCC3E8" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
