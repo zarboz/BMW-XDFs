@@ -1,11 +1,11 @@
-<!-- Written 06/05/2019 13:29:47 -->
+<!-- Written 06/05/2019 13:46:46 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
     <fileversion>5</fileversion>
     <deftitle>XDF For ME7.2 BMW 540i</deftitle>
     <description>This XDF is for the following years/models:&#013;&#010;MY01 540i6&#013;&#010;MY02 540i6&#013;&#010;MY03 540i6</description>
-    <author>Bob78989,TerraPhantom,Zarboz</author>
+    <author>Bob78989,TerraPhantom,Zarboz, MotorMouth93</author>
     <BASEOFFSET offset="0" subtract="0" />
     <DEFAULTS datasizeinbits="8" sigdigits="2" outputtype="1" signed="0" lsbfirst="0" float="0" />
     <REGION type="0xFFFFFFFF" startaddress="0x0" size="0xFFFF" regionflags="0x0" name="Binary File" desc="This region describes the bin file edited by this XDF" />
@@ -37,7 +37,7 @@
     <CATEGORY index="0x19" name="Speed Calculation" />
     <CATEGORY index="0x1A" name="NMAXD" />
     <CATEGORY index="0x60" name="Anti Theft" />
-    <CATEGORY index="0x61" name="OBDII/EMISSIONSCRAP" />
+    <CATEGORY index="0x61" name="OBD Readiness stuffs" />
   </XDFHEADER>
   <XDFTABLE uniqueid="0x7BF5" flags="0x0">
     <title>Software Version Entries</title>
