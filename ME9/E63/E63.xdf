@@ -1,4 +1,4 @@
-<!-- Written 06/05/2019 13:29:56 -->
+<!-- Written 06/07/2019 09:07:36 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -1662,7 +1662,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0xB26C" mmedelementsizebits="8" mmedrowcount="24" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0xCEA98" mmedelementsizebits="8" mmedrowcount="24" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>Grad KW</units>
       <decimalpl>3</decimalpl>
       <min>0.000000</min>
@@ -1675,7 +1675,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>KFWNWLL</title>
-    <description>Wichtungsfaktor zur Ausw. der LL KF im Normalbetr. oder zum Katheizen</description>
+    <description>Weighting factor for the selection of LL KF in normal operation or for catalysis</description>
     <CATEGORYMEM index="0" category="170" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0xA5B4" mmedelementsizebits="16" mmedcolcount="6" mmedmajorstridebits="16" mmedminorstridebits="0" />
@@ -1704,7 +1704,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0xA5C0" mmedelementsizebits="16" mmedrowcount="4" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xCD612" mmedelementsizebits="16" mmedrowcount="4" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>3</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
@@ -1716,7 +1716,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>KFWNWLLKH</title>
-    <description>Wichtungsfaktor zur Ausw. der LL Kennfelder zum Katheizen kalt/warm</description>
+    <description>Weighting factor to select the LL maps for cold / hot catalyzing</description>
     <CATEGORYMEM index="0" category="170" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0xCD652" mmedelementsizebits="16" mmedcolcount="6" mmedmajorstridebits="16" mmedminorstridebits="0" />
@@ -1745,7 +1745,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0xCD655" mmedelementsizebits="16" mmedrowcount="6" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xCD65E" mmedelementsizebits="16" mmedrowcount="6" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>3</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
@@ -1870,7 +1870,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0xE0B2" mmedelementsizebits="8" mmedrowcount="4" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xD24C4" mmedelementsizebits="8" mmedrowcount="4" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>-</units>
       <decimalpl>4</decimalpl>
       <min>0.000000</min>
@@ -1913,7 +1913,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0xE0D5" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xD24E5" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>-</units>
       <decimalpl>4</decimalpl>
       <min>0.000000</min>
@@ -1928,7 +1928,7 @@
     <title>NMAX</title>
     <description>Drehzahlbegrenzung</description>
     <CATEGORYMEM index="0" category="96" />
-    <EMBEDDEDDATA mmedaddress="0x8A16" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0xCA23A" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <units>1/min</units>
     <decimalpl>1</decimalpl>
     <datatype>0</datatype>
@@ -1982,7 +1982,7 @@
   <XDFCONSTANT uniqueid="0x0">
     <title>ENASAG</title>
     <description>enabling fuel cut off dependent on gear</description>
-    <EMBEDDEDDATA mmedaddress="0xCC3E8" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <EMBEDDEDDATA mmedaddress="0xC8572" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <datatype>0</datatype>
     <unittype>0</unittype>
     <DALINK index="0" />
@@ -2136,6 +2136,892 @@
     <unittype>0</unittype>
     <DALINK index="0" />
     <MATH equation="40.000000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0" flags="0x8">
+    <title>TDCNPVVT</title>
+    <description>Zeit f&#252;r Fehlerrechnung (Aktiv.- oder Plaus.-fehler) VVT</description>
+    <CATEGORYMEM index="0" category="206" />
+    <EMBEDDEDDATA mmedaddress="0xC419A" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>s</units>
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.010000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TDCVD</title>
+    <description>Zeit f&#252;r Timeouterkennung LOCAN-Schnittstelle VVT-SG Botschaft im 100ms Raster</description>
+    <CATEGORYMEM index="0" category="206" />
+    <EMBEDDEDDATA mmedaddress="0xC4198" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>s</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TDCVVT</title>
+    <description>Zeit f&#252;r Timeouterkennung LOCAN-Schnittstelle VVT-SG</description>
+    <CATEGORYMEM index="0" category="206" />
+    <EMBEDDEDDATA mmedaddress="0x1164" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>s</units>
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.010000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TDCVVTH</title>
+    <description>Zeit f&#252;r Heilung der LOCAN-Schnittstelle VVT-SG</description>
+    <CATEGORYMEM index="0" category="206" />
+    <EMBEDDEDDATA mmedaddress="0x1166" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>s</units>
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.010000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>KVLAD</title>
+    <description>Constant for conversion of boost pressure into air mass</description>
+    <CATEGORYMEM index="0" category="39" />
+    <EMBEDDEDDATA mmedaddress="0xC2AA2" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>%</units>
+    <decimalpl>4</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.007813 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>LADFIL</title>
+    <description>Boost pressure filtering</description>
+    <CATEGORYMEM index="0" category="39" />
+    <EMBEDDEDDATA mmedaddress="0xC2AA3" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>-</units>
+    <decimalpl>4</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.003906 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>MSALLMN</title>
+    <description>Minimum idle air mass adaptation for e-gas</description>
+    <CATEGORYMEM index="0" category="39" />
+    <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0xC2AA4" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>kg/h</units>
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>MSALLMX</title>
+    <description>Maximale Leerlaufluftmassenadaption f&#252;r E-Gas</description>
+    <CATEGORYMEM index="0" category="39" />
+    <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0xC2AA5" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>kg/h</units>
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>MSLG</title>
+    <description>Massenstrom Leckluft gesamt</description>
+    <CATEGORYMEM index="0" category="39" />
+    <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0xC2AA6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>kg/h</units>
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>NMSNDKO</title>
+    <description>Drehzahlschwelle f&#252;r Integratorfreigabe zur Adaption der Leckluft</description>
+    <CATEGORYMEM index="0" category="39" />
+    <EMBEDDEDDATA mmedaddress="0xC2AA7" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>1/min</units>
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="40.000000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>NMSNVTO</title>
+    <description>Drehzahlschwelle f&#252;r Integratorfreigabe zur Adaption der Leckluft VVT</description>
+    <CATEGORYMEM index="0" category="39" />
+    <EMBEDDEDDATA mmedaddress="0xC2AA8" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>1/min</units>
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="40.000000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>RLNOT</title>
+    <description>Notlauf rl bei E_DK und E_LM</description>
+    <CATEGORYMEM index="0" category="39" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x280D" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>6</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="40.000000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xC2AAC" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>%</units>
+      <decimalpl>3</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.750000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>S_HUBINST</title>
+    <description>Umschaltung evhubs_w / evhubin_w f&#252;r KFMSNVVT</description>
+    <CATEGORYMEM index="0" category="39" />
+    <EMBEDDEDDATA mmedaddress="0xC2AB6" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>S_MSDKIST</title>
+    <description>Umschaltung Nebenlastsignal unabh&#228;ngig von B_stend</description>
+    <CATEGORYMEM index="0" category="39" />
+    <EMBEDDEDDATA mmedaddress="0xC2AB7" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>S_NNADAP</title>
+    <description>Einschalten multilineare Regression im LL (1)</description>
+    <CATEGORYMEM index="0" category="39" />
+    <EMBEDDEDDATA mmedaddress="0xC2AB8" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KFDVEXWO</title>
+    <description>KFDVEXWO</description>
+    <CATEGORYMEM index="0" category="246" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x379C" mmedelementsizebits="16" mmedcolcount="4" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>4</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.250000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x3794" mmedelementsizebits="16" mmedcolcount="4" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>Grad</units>
+      <indexcount>4</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.100000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xC40C2" mmedelementsizebits="16" mmedrowcount="4" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>Grad</units>
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.100000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KLDVFLUBGR</title>
+    <description>max. zulaessige Abweichung zwischen flub-Werte</description>
+    <CATEGORYMEM index="0" category="246" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x37C6" mmedelementsizebits="16" mmedcolcount="4" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>%</units>
+      <indexcount>4</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.023438 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0x37CE" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>-</units>
+      <decimalpl>5</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.000244 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KLDVMXMLDI</title>
+    <description>Kennlinie fuer max. zulaessige ml-Abweichung</description>
+    <CATEGORYMEM index="0" category="246" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x37D8" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>8</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.250000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0x37E8" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>kg/h</units>
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.100000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KLDVVTRLMX</title>
+    <description>Kennlinie relative Luftmassenbegrenzung durch VVT Fehler</description>
+    <CATEGORYMEM index="0" category="246" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x37FA" mmedelementsizebits="16" mmedcolcount="4" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>4</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.250000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0x3802" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>%</units>
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.023438 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KLDVWDKOF</title>
+    <description>Kennlinie Offset DK-Winkel beim ml-Check</description>
+    <CATEGORYMEM index="0" category="246" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x380C" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>1/min</units>
+      <indexcount>8</indexcount>
+      <decimalpl>1</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.250000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x01" mmedaddress="0x381C" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>%</units>
+      <decimalpl>3</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.024414 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x0">
+    <title>KLHUBEXINV</title>
+    <description>Kennlinie Exzenterwinkel -&gt; Hubverstellung</description>
+    <CATEGORYMEM index="0" category="246" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x382E" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>Grad</units>
+      <indexcount>12</indexcount>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.100000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>0</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0x3846" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>mm</units>
+      <decimalpl>4</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.001000 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>CWERRVVT</title>
+    <description>Codewort SW-Schalter f&#252;r Applikation VVT-Fehlerarten</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x385E" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DVVTDEXWK</title>
+    <description>zul&#228;ssige Differenz zwischen Soll- und Istwertwinkel f&#252;r Laufunruhecheck</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x3860" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>Grad</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DVVTEEDEL</title>
+    <description>DVVTEEDEL</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x3862" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DVVTEENA</title>
+    <description>Applikationsschalter um verschiedene Fehler miteinflie&#223;en zu lassen</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x3864" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DVVTEXMXAN</title>
+    <description>Max. Ex-Winkel Notlauf aus Anschlaglernen VVTCHK</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x3866" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>Grad</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DVVTEXPMN</title>
+    <description>minimialer Exwinkel im NL f&#252;r E-Gaslampenansteuerung</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x3868" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>Grad</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DVVTEXWIOF</title>
+    <description>OFFSET zum Hochfahren des Exzenterwinkels</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x386A" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>Grad</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DVVTNLUMN</title>
+    <description>Minimale Drehzahl fuer Laufunruhecheck</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x386C" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>1/min</units>
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.250000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DVVTNMXV</title>
+    <description>Wert fuer Drehzahlbegrenzung durch VVT Fehler</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x386E" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>1/min</units>
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.250000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DVVTPVGR</title>
+    <description>Grenze Druckverhaeltnis ml-ChecK</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x3870" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>-</units>
+    <decimalpl>5</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.000031 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DVVTRLMDGR</title>
+    <description>rl-Offset bei Plausibilisierung ml-Check bei Vollast</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x3872" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>%</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.023438 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DVVTRLMXFA</title>
+    <description>Faktor zur Begrenzung releative Luftmasse bei VVT Fehler</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x3874" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>-</units>
+    <decimalpl>4</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.001000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DVVTSWITCH</title>
+    <description>Schalter zum Testen verschiedener Notlaufstrategieen</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x3876" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DVVTWKMXV</title>
+    <description>Wert fuer Exzenterwinkel durch VVT Fehler Bank 1</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x3878" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>Grad</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DVWKMINV</title>
+    <description>DVWKMINV</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x387A" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>Grad</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TDVTEST</title>
+    <description>TDVTEST</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x387C" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>s</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.020000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TDVVTFIKO</title>
+    <description>TDVVTFIKO</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x387E" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>s</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.020000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TKDVVTGR</title>
+    <description>TKDVVTGR</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x3880" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>s</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.020000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TKDVVTKL</title>
+    <description>TKDVVTKL</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x3882" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>s</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.020000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TVVTOVRL</title>
+    <description>TVVTOVRL</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x3884" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>s</units>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>VVTOVLCAD</title>
+    <description>VVTOVLCAD</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x3886" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>VVTOVLCMX</title>
+    <description>VVTOVLCMX</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x3888" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <decimalpl>1</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>DVVTFLUBT</title>
+    <description>Entprellzeit Laufunruheabweichung</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x388A" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>s</units>
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>LURVVTSTAP</title>
+    <description>LURVVTSTAP</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x388B" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TDVERR</title>
+    <description>Entprellzeit fuer Fehlerstatus VVT SG</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x388C" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>s</units>
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TDVVTNLCHK</title>
+    <description>TDVVTNLCHK</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x388D" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>s</units>
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TDVVTNLIO</title>
+    <description>Zeitdelay f&#252;r NL Check</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x388E" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>s</units>
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TDVVTPV</title>
+    <description>Entprellzeit f&#252;r ml-Check ueber DK-Winkel und Druck</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x388F" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>s</units>
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TVVTPMN</title>
+    <description>Entprellzeit bis Aktivierung Leistungsfehler</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x3890" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>s</units>
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x0">
+    <title>TVVTTVON</title>
+    <description>Entprellzeit bis Aktivierung Tastverhaeltnisausgabe</description>
+    <CATEGORYMEM index="0" category="246" />
+    <EMBEDDEDDATA mmedaddress="0x3891" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>s</units>
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.100000 * X">
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
