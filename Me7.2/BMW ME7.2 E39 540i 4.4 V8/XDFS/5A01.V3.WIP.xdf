@@ -1,4 +1,4 @@
-<!-- Written 06/24/2019 11:12:16 -->
+<!-- Written 06/24/2019 14:10:52 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -8156,9 +8156,9 @@
     <description>Faktor Kaltstart</description>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x1B12" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x1BAF" mmedelementsizebits="8" mmedcolcount="11" mmedmajorstridebits="8" mmedminorstridebits="0" />
       <units>Grad C</units>
-      <indexcount>12</indexcount>
+      <indexcount>11</indexcount>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -8182,7 +8182,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0x1BB2" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x1BBA" mmedelementsizebits="8" mmedrowcount="1" mmedcolcount="11" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>-</units>
       <decimalpl>3</decimalpl>
       <min>0.000000</min>
