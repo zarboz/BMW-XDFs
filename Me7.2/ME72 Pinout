@@ -1,0 +1,81 @@
+Module 1 (8 Amp Max JPT)
+
+1 o S KL15 circt.  IGNITION SW(426) 			4 o M EL gnd. electronics 			7 o U UBD perm. plus E 0.75
+2 o U PROG (428) 				 	5 o M EV gnd. injection 	 		8 o U UBR switched UB
+3 o D DIAK K-lead (206/432) I/O	 		    	6 o M ES gnd. end stages 		 	9 o -------?
+
+Module 2 (2 Amp Max MQS)
+
+1 * LSHHK2 O2 heating post cat 				      7 *  LSHHK1  O2 heating post cat
+2 * ------- 						                    8 *  M-LSHK2 O2 gnd. Post cat.
+3 * CAN-L (437) I/O					                9 *  M-LSVK1 O2 gnd. pre cat.
+4 * CAN-H (436) I/O 	 				              10 * M-LSVK2 O2 gnd. pre cat.
+5 * M-CAN CAN shield (435) 				          11 * M-LSHK1 O2 gnd. post cat.
+6 * DIAGK K lead (103,432) I/O 				      12 * E ZSR ign. current (ign.)
+
+13 * LSHVK2 O2 heat. pre cat				        19 * LSHVK1 O2 heat. pre cat
+14 * LSHK2 signal O2 after cat. 	 		      20 * -------?
+15 * LSVK1 signal O2 before cat. 		 	      21 * -------?
+16 * LSVK2 signal O2 before cat.			      22 * -------?
+17 * LSHK1 signal O2 after cat. 			      23 * HR Main relay
+18 * RL/KKU fuel circ. Changeover valve?		24 * -------?
+
+Module 3 (2 Amp Max MQS)
+
+1 * Injector 8 						                  14 * Injector 7
+2 * Injector 6 						                  15 * Injector 5
+3 * TEV tank venting valve 		 		          16 * NWE2 starter NW2 ??
+4 * EGW control, thermal budget A 0.50 			17 * EL gnd. electronics3
+5 * -------- ?						                  18 * --------?
+6 *  M-EL gnd. electronics2				          19 * NWGE2 signal CAMSHAFT sensor
+7 *  5VHFM 5V reference (MAF 5v)			      20 * NWGE1 signal CAMSHAFT sensor
+8 *  DKG2 (IP2S) TPS 2					            21 * TMOT GND Engine temp sensor
+9 *  M-HFM gnd. (MAF signal GND) 			      22 * TMOT engine temp sensor
+10 * 5VDKG 5V TPS/DKG (1,2)				          23 * HFM signal (MAF Signal)
+11 * SLV Sec Air Vent			 		              24 * DKG1 (IP1S) TPS 1
+12 * S KL30H (402) ?? 					            25 * M DKG gnd. (TPS 1+2 GND)
+13 * S KL61 (401) 					                26 * Oil Press. Sensor. Jumper 411
+
+27 * Injector 4 					                  40 * Injector 3
+28 * Injector 2	cyl 3 					            41 * Injector 1
+29 * NWE1 starter NW1 ??			            	42 * DCP DC-engine control unit (+)
+30 * SSP relay suction ??		 		            43 * DCM DC-engine control unit (-)
+31 * KFK el.thermostat control	 	      		44 * -------?
+32 * KWDG-A Crankshaft speed transm.	  		45 * KWDG gnd./shield
+33 * EL gnd. electronics4			            	46 * KWDG-B Crankshaft speed transm.
+34 * TANS Intake temperature sensor		     	47 * TANS gnd. Intake Temp Sensor
+35 * Knock Sensor 2 gnd./shield 			      48 * Knock Sensor 1 gnd./shield
+36 * Knock Sensor 2 		 			              49 * Knock Sensor 1
+37 * Knock Sensor 4					                50 * Knock Senso
+38 * Knock Sensor 4 gnd./shield			      	51 * Knock Sensor 3 gnd./shield
+39 * Oil Level Sensor		 		               	52 * SLPV2 Secondary air valve SLP (431)
+
+Module 4 (2 Amp Max MQS)
+
+1 * jumper to 313 KL61 ?? 			          	11 * jumper to 326 oil press. B
+2 * jumper to 312 KL30H ?? 			           	12 * FW2 gnd. PWG2 (Pedal sen. 2)
+3 * SLPV1 sec. air pump(311)		 	        	13 * FW2 Signal PWG2 (Pedal sen. 2)
+4 * ELUE relay el. fan 		 			            14 * FW2 5V-Vers. PWG2 (Pedal sen. 2)
+5 * E.A.FST (Morgan only) 			          	15 * EL5 gnd. electronics
+6 * start ign. key circuit 			          	16 * -------?
+7 * FW1 gnd. PWG1 (Pedal sen. 1) 		      	17 * DMTD tN-signal A 0.35
+8 * FW1 signal PWG1	(Pedal sen. 1)		     	18 * A.S.DMTLH/Exhaust flap A
+9 * FW1 5V supply PWG1 (Pedal sen. 1)		  	19 * -------?
+10 * EKP FUEL PUMP relay		 		            20 * A.S.DMTLP
+
+21 * jumper to 339 oil level B 				      31 * SLPV2 sec. air pump(352)
+22 * VFZ Vehicle Speed Signal (From ABS) 		32 * DIAGK I/O
+23 * KUP clutch switch		 			            33 * EWS immobilizer I/O
+24 * BLS braking light switch 		      		34 * LDPR feedback LDP (leak diag pump)
+25 * FGRMAIN (Cruise con.)main switch		   	35 * M CAN gnd. CAN (205)
+26 * KL.15 - signal (101) 		 		          36 * CAN-H (204) I/O
+27 * MFL multi-funct. steer. wheel (Cruise)	37 * CAN-L (203) I/O
+28 * UPROG (102)		 		                  	38 * TKA gnd. Coolant Temp Sensor (Radiator outlet)
+29 * KOREL A/C compressor relay 		      	39 * TKA Coolant Temp Sensor (Radiator outlet)
+30 * LDP / A.S.DMTLV (leak diag pump) 			40 * START relay start release
+
+Module 5 (8 Amp Max JPT)
+
+1 o ZUE7 ignition cylinder 7 				4 o ZUE6 ignition cylinder 3 		 	7 o ZUE3 ignition cylinder 4 
+2 o ZUE4 ignition cylinder 8 				5 o M ZUE gnd. ignition 	 		    8 o ZUE2 ignition cylinder 5 
+3 o ZUE8 ignition cylinder 2 		 		6 o ZUE1 ignition cylinder 1	 	 	9 o ZUE5 ignition cylinder 6 
