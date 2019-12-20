@@ -7,3 +7,6 @@
 [submodule "bmw-coding"]
 	path = bmw-coding
 	url = https://github.com/gigijoe/bmw-coding.git
+[submodule "MSS52-XDF"]
+	path = MSS52-XDF
+	url = https://github.com/kmalinich/MSS52-XDF.git
