@@ -1,0 +1,87 @@
+<!-- Written 04/22/2020 17:59:53 -->
+<XDFFORMAT version="1.60">
+  <XDFHEADER>
+    <flags>0x1</flags>
+    <description></description>
+    <BASEOFFSET offset="0" subtract="0" />
+    <DEFAULTS datasizeinbits="8" sigdigits="2" outputtype="1" signed="0" lsbfirst="0" float="0" />
+  </XDFHEADER>
+  <XDFCONSTANT uniqueid="0x42D5">
+    <title>KRKTE - Airmass to fuel injector on time conversion based on injector size and fuel pressure (primary fueling)</title>
+    <description>This value changes with the injector CC.&#013;&#010;change value in small increments to fine tune fueling.&#013;&#010;Raise value to increase fuel&#013;&#010;Lower value to decrease fuel&#013;&#010;</description>
+    <EMBEDDEDDATA mmedaddress="0x9CD5" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>ms/%</units>
+    <decimalpl>6</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.002133 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x505E">
+    <title>INJECTOR CC</title>
+    <description>INJECTOR SPECIFIC&#013;&#010;Insert the closest CC value of your injectors here&#013;&#010;(spec sheet value preferred), then see KRKTE to fine tune fueling.&#013;&#010;Due to the nature of the data, </description>
+    <EMBEDDEDDATA mmedaddress="0x9CD5" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>CC</units>
+    <decimalpl>6</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="((50.2624 * 0.5058275478289934) / (0.002133 * X)) / 0.7489">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFCONSTANT uniqueid="0x2561">
+    <title>TEMIN - Minimum injector on time</title>
+    <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x4260" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <units>ms</units>
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="0.003200 * X">
+      <VAR id="X" />
+    </MATH>
+  </XDFCONSTANT>
+  <XDFTABLE uniqueid="0x7494" flags="0x0">
+    <title>TVUB - Injector Voltage offset (deadtime voltage)</title>
+    <description>These values are injector specific. &#013;&#010;Use linear interpolation if you are missing any values.</description>
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <indexcount>1</indexcount>
+      <decimalpl>3</decimalpl>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.000" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x5929" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="8" mmedminorstridebits="0" />
+      <units>V</units>
+      <indexcount>5</indexcount>
+      <decimalpl>3</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="0.094200 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x592E" mmedelementsizebits="16" mmedrowcount="5" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>ms</units>
+      <decimalpl>3</decimalpl>
+      <min>0.000000</min>
+      <max>255.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="0.003200 * X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+</XDFFORMAT>
