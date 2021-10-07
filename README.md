@@ -3,4 +3,5 @@
 Check the Wiki for more
 
 
-This is still in developement if you don't want to share don't contribute 
+Please join the ms4x discord for more information about the me7 tuning endeavours.
+https://discord.gg/vdVsypF
